@@ -1,0 +1,30 @@
+[submodule "knowledge"]
+	path = knowledge
+	url = https://github.com/alejoacelas/knowledge.git
+[submodule "tools"]
+	path = tools
+	url = https://github.com/alejoacelas/tools.git
+[submodule "art"]
+	path = art
+	url = https://github.com/alejoacelas/art.git
+[submodule "body"]
+	path = body
+	url = https://github.com/alejoacelas/body.git
+[submodule "meals"]
+	path = meals
+	url = https://github.com/alejoacelas/meals.git
+[submodule "principles"]
+	path = principles
+	url = https://github.com/alejoacelas/principles.git
+[submodule "writing"]
+	path = writing
+	url = https://github.com/alejoacelas/writing.git
+[submodule "mind"]
+	path = mind
+	url = https://github.com/alejoacelas/mind.git
+[submodule "friends"]
+	path = friends
+	url = https://github.com/alejoacelas/friends.git
+[submodule "travel"]
+	path = travel
+	url = https://github.com/alejoacelas/travel.git
