@@ -1,26 +1,17 @@
 # best
 
-My life-optimization workspace. Each top-level folder is its own git repo, mounted
-here as a submodule — so this repo is mostly pointers plus shared instructions.
+My life-optimization workspace. Each leaf folder is its own git repo, mounted here
+as a submodule; the folders grouping them are plain directories. So this repo is
+mostly pointers plus shared instructions.
 
-## Submodules
-Work inside the submodule, commit and push it there first, then commit the updated
-pointer here. (A pre-push hook blocks pushing a pointer that isn't on its remote yet.)
+## Working in a submodule
+Commit and push inside the submodule first, then commit the updated pointer here.
+A pre-push hook blocks pushing a pointer that isn't on its remote yet.
 
-| path | repo | visibility |
-|------|------|------------|
-| `art` | `alejoacelas/art` | public |
-| `body` | `alejoacelas/body` | public |
-| `knowledge` | `alejoacelas/knowledge` | public |
-| `meals` | `alejoacelas/meals` | public |
-| `principles` | `alejoacelas/principles` | public |
-| `travel` | `alejoacelas/travel` | public |
-| `writing` | `alejoacelas/writing` | public |
-| `tools` | `alejoacelas/tools` | private |
-| `mind` | `alejoacelas/mind` | private |
-| `friends` | `alejoacelas/friends` | private |
-
-Nested: `tools` → `calls`, `voice` (public); `travel` → `visa` (private).
+## Visibility
+Public by default — making something private is deliberate. Private so far:
+`make/tools`, `life/mind`, `friends/people`, `friends/partner`, `friends/advice`,
+and `friends/places/visa`.
 
 ## Committing
 Global rules apply (`~/.claude/CLAUDE.md`): commit found work after checking nothing

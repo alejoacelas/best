@@ -1,30 +1,42 @@
 [submodule "knowledge"]
-	path = knowledge
+	path = make/study
 	url = https://github.com/alejoacelas/knowledge.git
 [submodule "tools"]
-	path = tools
+	path = make/tools
 	url = https://github.com/alejoacelas/tools.git
 [submodule "art"]
-	path = art
+	path = make/art
 	url = https://github.com/alejoacelas/art.git
 [submodule "body"]
-	path = body
+	path = life/body
 	url = https://github.com/alejoacelas/body.git
 [submodule "meals"]
-	path = meals
+	path = life/meals
 	url = https://github.com/alejoacelas/meals.git
 [submodule "principles"]
-	path = principles
+	path = becoming/principles
 	url = https://github.com/alejoacelas/principles.git
 [submodule "writing"]
-	path = writing
+	path = make/writing
 	url = https://github.com/alejoacelas/writing.git
 [submodule "mind"]
-	path = mind
+	path = life/mind
 	url = https://github.com/alejoacelas/mind.git
 [submodule "friends"]
-	path = friends
+	path = friends/people
 	url = https://github.com/alejoacelas/friends.git
 [submodule "travel"]
-	path = travel
+	path = friends/places
 	url = https://github.com/alejoacelas/travel.git
+[submodule "life/stuff"]
+	path = life/stuff
+	url = https://github.com/alejoacelas/stuff.git
+[submodule "plans/priorities"]
+	path = plans/priorities
+	url = https://github.com/alejoacelas/priorities.git
+[submodule "partner"]
+	path = friends/partner
+	url = https://github.com/alejoacelas/partner.git
+[submodule "advice"]
+	path = friends/advice
+	url = https://github.com/alejoacelas/advice.git
