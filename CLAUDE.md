@@ -10,7 +10,7 @@ A pre-push hook blocks pushing a pointer that isn't on its remote yet.
 
 ## Visibility
 Public by default — making something private is deliberate. Private so far:
-`make/tools`, `life/mind`, `friends/people`, `friends/partner`, `friends/advice`,
+`make/tools`, `self/mind`, `friends/people`, `friends/partner`, `friends/advice`,
 and `friends/places/visa`.
 
 ## Committing

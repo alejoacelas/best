@@ -8,11 +8,8 @@
 	path = make/art
 	url = https://github.com/alejoacelas/art.git
 [submodule "body"]
-	path = life/body
+	path = self/body
 	url = https://github.com/alejoacelas/body.git
-[submodule "meals"]
-	path = life/meals
-	url = https://github.com/alejoacelas/meals.git
 [submodule "principles"]
 	path = becoming/principles
 	url = https://github.com/alejoacelas/principles.git
@@ -20,7 +17,7 @@
 	path = make/writing
 	url = https://github.com/alejoacelas/writing.git
 [submodule "mind"]
-	path = life/mind
+	path = self/mind
 	url = https://github.com/alejoacelas/mind.git
 [submodule "friends"]
 	path = friends/people
@@ -29,10 +26,10 @@
 	path = friends/places
 	url = https://github.com/alejoacelas/places.git
 [submodule "life/stuff"]
-	path = life/stuff
+	path = self/stuff
 	url = https://github.com/alejoacelas/stuff.git
 [submodule "plans/priorities"]
-	path = plans/priorities
+	path = becoming/plans/priorities
 	url = https://github.com/alejoacelas/priorities.git
 [submodule "partner"]
 	path = friends/partner
