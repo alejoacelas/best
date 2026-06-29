@@ -22,8 +22,24 @@ Tips:
   low-friction way to capture friction the moment I feel it, and a path from that
   feedback to a concrete change.
 
-## Working in a submodule
-Commit and push inside the submodule first, then commit the updated pointer here.
+## Working in submodules
+After cloning, moving, or reorganizing this workspace, run:
+
+`git submodule update --init --recursive`
+
+Then run:
+
+`git submodule status --recursive`
+
+A leading `-` means the submodule exists in git but its files are not checked out.
+A leading `+` means the folder is checked out at a different commit than the parent
+records.
+
+When editing a submodule, commit and push inside the submodule first, then commit
+the updated pointer in its parent, and repeat upward if needed. If a submodule opens
+detached, switch it to its normal branch when that branch points at the recorded
+commit.
+
 A pre-push hook blocks pushing a pointer that isn't on its remote yet.
 
 ## Visibility
@@ -34,4 +50,5 @@ and `friends/places/visa`.
 ## Committing
 Global rules apply (`~/.claude/CLAUDE.md`): commit found work after checking nothing
 private goes in; keep credentials and confided content out of public repos; for nested
-repos, prefer submodule pointers over copied files.
+repos, prefer submodule pointers over copied files. Do not copy submodule contents
+into the parent repo to make them visible; initialize the submodule instead.
