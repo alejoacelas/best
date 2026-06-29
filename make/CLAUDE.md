@@ -1,1 +1,1 @@
-Things I make — and the studying that feeds them.
+Things I make — and the learning that feeds them.

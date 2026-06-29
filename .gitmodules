@@ -1,5 +1,5 @@
 [submodule "knowledge"]
-	path = make/study
+	path = make/learn
 	url = https://github.com/alejoacelas/study.git
 [submodule "tools"]
 	path = make/tools
