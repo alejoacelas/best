@@ -3,9 +3,9 @@
 ## What the checkup is
 A periodic sweep of the whole setup that catches what silently rots between commits:
 loose ends, instructions that fight each other, things worth promoting to global, and
-anything sketchy that's running or leaking. It **fixes what's safely reversible**
-(commits/pushes found work, repairs symlinks, closes Brewfile drift) and **files the
-rest as findings** you decide on. It's the `machine-checkup` skill; run it by hand with
+anything sketchy that's running or leaking. It is **report-only**: it changes nothing,
+just files findings (each with a proposed action) into a dated report and the backlog,
+for you to act on. It's the `machine-checkup` skill; run it by hand with
 `/machine-checkup`, or on a schedule (below).
 
 The point of making it recurring: the first pass of this workspace already turned up a

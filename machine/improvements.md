@@ -6,13 +6,8 @@ done, move it to the Done log with a note on what changed and why.
 ## Open
 
 ### From the 2026-07-02 checkup
-- **Fix the submodule contradiction in `../CLAUDE.md`.** Opening line says leaf folders
-  are "mounted here as a submodule"; the rest of the file and the tooling say normal
-  nested repos. One-line reword (proposed in `checkups/2026-07-02.md`).
-- **Re-auth the Google Calendar connector** — flagged in Claude's MCP cache, failing
-  silently until reconnected.
-- **Decide on `make/tools/email` + `make/tools/slack` remotes** — no remote today
-  (local-only, unbacked). Publish, or confirm intentional.
+- **Re-auth the Google Calendar connector** (your action): run `/mcp` and select
+  "claude.ai Google Calendar". Flagged in Claude's MCP cache; fails silently until then.
 
 ### Decide (conscious choice, not a default)
 - **`cleanupPeriodDays: 36500`** keeps Claude transcripts ~forever. Left as-is: the
@@ -44,6 +39,14 @@ done, move it to the Done log with a note on what changed and why.
   instruction files to generating principles.
 
 ## Done — 2026-07-02
+- **Submodule contradiction in `../CLAUDE.md` → fixed.** Reworded the opening line to
+  "its own nested git repo (not a submodule)", matching the rest of the file and the
+  tooling.
+- **`make/tools/email` + `make/tools/slack` → published.** Created public GitHub repos
+  and pushed (planning docs only; no secrets or personal data). Now backed up; manifest
+  updated.
+- **Machine-checkup skill → set to report-only.** Per preference: it now files findings
+  only, changes nothing.
 - **Fresh-Mac clone was subtly broken → fixed.** Committed + pushed the pending
   dotfiles: `gh` credential helpers (git auth), the distilled `CLAUDE.md`, pending
   settings, and the previously-untracked `vercel-deploy-domain` skill. Secret-scan

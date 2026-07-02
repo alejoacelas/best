@@ -1,8 +1,8 @@
 # best
 
-My life-optimization workspace. Each leaf folder is its own git repo, mounted here
-as a submodule; the folders grouping them are plain directories. So this repo is
-mostly pointers plus shared instructions.
+My life-optimization workspace. Each leaf folder is its own nested git repo (not a
+submodule); the folders grouping them are plain directories. So this repo is mostly
+pointers plus shared instructions.
 
 ## Iterate forward
 Nothing here is finished; each thing is its current-best version, and the standing

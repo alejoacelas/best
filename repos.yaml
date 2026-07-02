@@ -55,11 +55,11 @@ repos:
     branch: "main"
   - path: "make/tools/email"
     parent: "make/tools"
-    remote: null
+    remote: "https://github.com/alejoacelas/email.git"
     branch: "main"
   - path: "make/tools/slack"
     parent: "make/tools"
-    remote: null
+    remote: "https://github.com/alejoacelas/slack.git"
     branch: "main"
   - path: "make/tools/voice"
     parent: "make/tools"
