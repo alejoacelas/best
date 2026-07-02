@@ -3,17 +3,19 @@
 A map of what's set up on this Mac, so I own it rather than inherit it. Written
 2026-07-02. Update it when the wiring changes.
 
-## The spine: ~/.dotfiles is the source of truth
+## The spine: machine/dotfiles is the source of truth
 
-`~/.dotfiles` is a git repo (`github.com/alejoacelas/dotfiles`) where **the tracked
+The dotfiles repo (`github.com/alejoacelas/dotfiles`) lives here at
+`~/best/machine/dotfiles` — a nested repo inside this folder — where **the tracked
 file *is* the live file**. `bin/install.sh` symlinks each tracked file into the path
-its tool reads. So editing in `.dotfiles` edits the running config.
+its tool reads. So editing in `dotfiles/` edits the running config.
 
-A fresh Mac is: `git clone` → `bin/install.sh` → `brew bundle --file ~/.dotfiles/Brewfile`.
+A fresh Mac: clone `best`, clone `dotfiles` into `machine/dotfiles`, run
+`bin/install.sh`, then `brew bundle --file ~/best/machine/dotfiles/Brewfile`.
 
-Live symlinks (all point back into `.dotfiles`):
+Live symlinks (all point back into `machine/dotfiles`):
 
-| Live path | Source in .dotfiles |
+| Live path | Source in machine/dotfiles/ |
 |---|---|
 | `~/.claude/CLAUDE.md` | `claude/CLAUDE.md` |
 | `~/.claude/settings.json` | `claude/settings.json` |
@@ -65,7 +67,7 @@ real git repo (not submodules). `.workspace/sync-repos.py` is the enforcer:
 regenerates `repos.yaml` + the managed `.gitignore` blocks, and `--check` (run by
 `.workspace/hooks/` pre-commit/pre-push) fails if anything drifted or if submodule
 metadata reappears. Domains: `becoming` (values), `make` (things I make + learning),
-`self`, `friends`, `upcoming` (parking lot), `setup` (this — the setup itself).
+`self`, `friends`, `upcoming` (parking lot), `machine` (this — the machine itself).
 
 ## What runs in the background
 

@@ -1,11 +1,11 @@
-# setup
+# machine
 
-How my machine and my AI tooling are set up — and the standing work of making them
+My machine and my AI tooling — how it's set up, and the standing work of making it
 do more. Everything else here is the work; this is the work *on the tools that do
 the work*.
 
 The test for what belongs: it's meta. Not a thing I make, a person I know, or who
-I'm becoming — it's about the setup itself. My agent instructions, dotfiles, skills,
+I'm becoming — it's about the machine itself. My agent instructions, dotfiles, skills,
 hooks, the infrastructure map, the "here's a better way to run this" ideas.
 
 ## What lives here
