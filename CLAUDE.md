@@ -27,15 +27,15 @@ Nested Git repos are normal repos, not submodules. A parent repo tracks its own
 files and ignores child repo folders; each child repo owns its own commits, remotes,
 privacy, and collaborators.
 
-Run `scripts/sync-repos.py` after adding or removing a nested repo. It discovers
+Run `.workspace/sync-repos.py` after adding or removing a nested repo. It discovers
 repo folders, rewrites `repos.yaml`, and refreshes the managed blocks in each
 parent `.gitignore`.
 
 Before finishing work in this workspace, run:
 
-`scripts/sync-repos.py --check`
+`.workspace/sync-repos.py --check`
 
-If the check fails, run `scripts/sync-repos.py`, review the manifest and ignore
+If the check fails, run `.workspace/sync-repos.py`, review the manifest and ignore
 changes, then commit the affected parent repos.
 
 ## Visibility
