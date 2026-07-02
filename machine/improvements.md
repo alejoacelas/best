@@ -5,6 +5,15 @@ done, move it to the Done log with a note on what changed and why.
 
 ## Open
 
+### From the 2026-07-02 checkup
+- **Fix the submodule contradiction in `../CLAUDE.md`.** Opening line says leaf folders
+  are "mounted here as a submodule"; the rest of the file and the tooling say normal
+  nested repos. One-line reword (proposed in `checkups/2026-07-02.md`).
+- **Re-auth the Google Calendar connector** — flagged in Claude's MCP cache, failing
+  silently until reconnected.
+- **Decide on `make/tools/email` + `make/tools/slack` remotes** — no remote today
+  (local-only, unbacked). Publish, or confirm intentional.
+
 ### Decide (conscious choice, not a default)
 - **`cleanupPeriodDays: 36500`** keeps Claude transcripts ~forever. Left as-is: the
   history/memory value is worth more than the disk. Make it a decision, not a drift —
