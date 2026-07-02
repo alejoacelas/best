@@ -6,8 +6,8 @@ pointers plus shared instructions.
 
 ## Iterate forward
 Nothing here is finished; each thing is its current-best version, and the standing
-job is to keep making it better — everything, not just code. Global's *Preserve
-considered choices* governs how: build on the judgment already there rather than
+job is to keep making it better — everything, not just code. Global's *Finish, don't ask*
+governs how: build on the judgment already there rather than
 churn past it. What's specific here is the feedback loop — anything I'll use
 repeatedly should have a low-friction way to capture friction the moment I feel it,
 and a path from that friction to a concrete change.
