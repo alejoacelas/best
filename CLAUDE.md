@@ -22,25 +22,21 @@ Tips:
   low-friction way to capture friction the moment I feel it, and a path from that
   feedback to a concrete change.
 
-## Working in submodules
-After cloning, moving, or reorganizing this workspace, run:
+## Working in repo folders
+Nested Git repos are normal repos, not submodules. A parent repo tracks its own
+files and ignores child repo folders; each child repo owns its own commits, remotes,
+privacy, and collaborators.
 
-`git submodule update --init --recursive`
+Run `scripts/sync-repos.py` after adding or removing a nested repo. It discovers
+repo folders, rewrites `repos.yaml`, and refreshes the managed blocks in each
+parent `.gitignore`.
 
-Then run:
+Before finishing work in this workspace, run:
 
-`git submodule status --recursive`
+`scripts/sync-repos.py --check`
 
-A leading `-` means the submodule exists in git but its files are not checked out.
-A leading `+` means the folder is checked out at a different commit than the parent
-records.
-
-When editing a submodule, commit and push inside the submodule first, then commit
-the updated pointer in its parent, and repeat upward if needed. If a submodule opens
-detached, switch it to its normal branch when that branch points at the recorded
-commit.
-
-A pre-push hook blocks pushing a pointer that isn't on its remote yet.
+If the check fails, run `scripts/sync-repos.py`, review the manifest and ignore
+changes, then commit the affected parent repos.
 
 ## Visibility
 Public by default — making something private is deliberate. Private so far:
@@ -49,6 +45,6 @@ and `friends/places/visa`.
 
 ## Committing
 Global rules apply (`~/.claude/CLAUDE.md`): commit found work after checking nothing
-private goes in; keep credentials and confided content out of public repos; for nested
-repos, prefer submodule pointers over copied files. Do not copy submodule contents
-into the parent repo to make them visible; initialize the submodule instead.
+private goes in; keep credentials and confided content out of public repos. For
+nested repos, do not copy child contents into a parent repo; let the child repo own
+those files and keep the parent ignore rules generated.

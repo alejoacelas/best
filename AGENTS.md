@@ -1,5 +1,5 @@
 See CLAUDE.md.
 
-Before finishing work in this repo, run `git submodule status --recursive`.
-If any line starts with `-`, initialize it unless the user explicitly said to skip it.
-If any line starts with `+`, explain the pointer mismatch before changing it.
+Before finishing work in this repo, run `scripts/sync-repos.py --check`.
+If it fails, run `scripts/sync-repos.py`, review the generated manifest and ignore
+changes, then commit the affected parent repos.
