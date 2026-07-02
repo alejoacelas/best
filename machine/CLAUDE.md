@@ -18,7 +18,7 @@ hooks, the infrastructure map, the "here's a better way to run this" ideas.
 
 ## How to work here
 - Understand before you change: the setup embeds decisions, so recover *why* before
-  replacing a considered one (global's *Preserve considered choices*).
-- Edit the source of truth (`~/.dotfiles`), not the live symlink — same file, but
-  committing from the repo keeps the fresh-Mac path working.
+  replacing a considered one (global's *Finish, don't ask* — inspect before you run over it).
+- Edit the source of truth (`~/best/machine/dotfiles`), not the live symlink — same file,
+  but committing from the repo keeps the fresh-Mac path working.
 - Leave the reasoning behind, not just the diff.
