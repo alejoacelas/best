@@ -22,3 +22,7 @@ hooks, the infrastructure map, the "here's a better way to run this" ideas.
 - Edit the source of truth (`~/best/machine/dotfiles`), not the live symlink — same file,
   but committing from the repo keeps the fresh-Mac path working.
 - Leave the reasoning behind, not just the diff.
+- Config is shared with Codex (`AGENTS.md`, `codex/rules`, skills). Run
+  `dotfiles/bin/check-agent-config` when you touch instructions or skills: it fails on
+  dangling links (fix those) and reminds you where `CLAUDE.md`/`AGENTS.md` or
+  Claude/Codex skills have drifted (reconcile only if you want — divergence is allowed).
