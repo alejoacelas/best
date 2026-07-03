@@ -29,9 +29,12 @@ If the check fails, run `.workspace/sync-repos.py`, review the manifest and igno
 changes, then commit the affected parent repos.
 
 ## Visibility
-Public by default — making something private is deliberate. Private so far:
-`make/tools`, `self/mind`, `friends/people`, `friends/partner`, `friends/advice`,
-and `friends/places/visa`.
+The rule: **everything about me is public; things about others are private.**
+Making something private is a deliberate call that it's really about someone
+else, holds their confided content, or carries credentials. Private so far:
+`make/tools` (credentials), `friends/people`, `friends/partner`,
+`friends/advice`, and `friends/places/visa` (identity documents). `self/mind`
+is public — it's about me.
 
 ## Committing
 Global rules apply (`~/.claude/CLAUDE.md`): commit found work after checking nothing
