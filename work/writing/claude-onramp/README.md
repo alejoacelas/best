@@ -1,71 +1,31 @@
 <!--ai-->
-# Claude On-Ramp
-<!--/ai-->
+How do we write an introduction to delegating work to Claude that people actually feel?
 
-<!--ai-->
-A guide that takes a smart, non-technical person from *using Claude in a
-browser* to *delegating real work to Claude Cowork and Claude Code.*
-<!--/ai-->
+# Claude on-ramp
 
-<!--ai-->
-## Read it
-<!--/ai-->
+The first guide (numbered lessons, decision pages, site, assistant) is deleted as of
+2026-07-04; Alejo wasn't satisfied with the writing. Recover any of it from git
+history. The rebuild runs through numbered stage folders, each holding the
+intermediate outputs of one stage:
 
-<!--ai-->
-Start at **[00-start-here.md](00-start-here.md)** and follow the links. Reading
-order:
-<!--/ai-->
+- `00-voice/` — writing samples Alejo drafted himself, plus the style criteria and
+  guide goals extracted from them. Only files in `samples/` are his own words;
+  every other file in the pipeline is provisional Claude output.
+- `01-inventory/` — everything the guide could plausibly teach: a ~10-word title
+  plus one sentence per lesson, clustered (core AI use, Cowork, Claude Code,
+  Claude Tag). Sources: Alejo's material, Anthropic courses, tutorials, research.
+- `02-core/` — the aggressive cut: which messages are most valuable or the best
+  starting points, each with a nailed short formulation. Alejo gives heavy input
+  at this stage.
+- `03-lessons/` — grouping, ordering, dependency mapping (what must be installed,
+  what tends to fail), and lesson skeletons.
+- `04-drafts/` — full lesson drafts. The most important messages get the most
+  flair; attention drawn should match importance.
+- `05-polish/` — Fable subagents write alternatives to each passage; other
+  subagents compare and accept only alternatives that Pareto-dominate the
+  original across the criteria in `00-voice/style-criteria.md`.
 
-<!--ai-->
-1. [Start here](00-start-here.md)
-2. [Part 1 — Claude Cowork](01-cowork.md)
-3. [Part 2 — Claude Code](02-claude-code.md)
-4. [Part 3 — Power-ups](03-power-ups.md) *(optional)*
-5. [Now what — actually delegating](04-now-what.md)
-<!--/ai-->
-
-<!--ai-->
-Or open **[`site/index.html`](site/index.html)** for the rendered version, with
-a working sidebar and collapsible help.
-<!--/ai-->
-
-<!--ai-->
-## How it's built
-<!--/ai-->
-
-<!--ai-->
-Three kinds of page, kept strictly separate so the main path stays short while
-still catching everyone who gets stuck:
-<!--/ai-->
-
-<!--ai-->
-- **Mainline** (the numbered parts) — one opinionated path. A reader who never
-  hesitates reads only this.
-- **Decision pages** ([`decisions/`](decisions/)) — the reasoning behind each
-  default the mainline asserts. Linked, never inlined.
-- **Stuck-modules** — collapsible `<details>` blocks at each likely snag point.
-  Invisible unless you open them.
-<!--/ai-->
-
-<!--ai-->
-Plus a **sidebar assistant** with the whole guide in context — spec in
-[`assistant/`](assistant/), implementation in [`site/api/`](site/). It streams
-Claude Opus with the guide as system prompt and web search allowlisted to
-official docs. Every page's "this step didn't work" button and every question
-the assistant has to search for land in a private Vercel Blob log — read it
-with [`site/read-feedback.py`](site/read-feedback.py); that queue drives new
-stuck-modules.
-<!--/ai-->
-
-<!--ai-->
-## Status
-<!--/ai-->
-
-<!--ai-->
-First full draft 2026-07-02; site, assistant, and feedback log built and
-deployed 2026-07-04 (Vercel project `claude-onramp`; the assistant route waits
-on `ANTHROPIC_API_KEY`). Content is accurate to research done at draft time;
-**prices, plan names, and install commands drift — verify against official
-sources before publishing.** See [`plan.md`](plan.md) for the design rationale,
-open decisions, and the dogfooding process still to run.
+`assistant-spec.md` describes the sidebar assistant and feedback-loop app that
+shipped with the old guide. The Vercel project `claude-onramp` still exists in
+the cloud; the local site code is deleted.
 <!--/ai-->
