@@ -5,8 +5,8 @@ directly on your computer, so it can use any tool your machine can, reach the
 whole internet, log into services, and work on its own for long stretches. This
 is the tool you'll reach for once you're delegating anything that matters.
 
-The cost is about thirty minutes of setup and a little time in the terminal.
-This part walks you through all of it.
+The cost is about thirty minutes of setup, split into small pieces below. Each
+one stands on its own and ends with something worth trying.
 
 > **Coming straight here?** Claude Code assumes four things you'd have picked up
 > in Part 1: an agent works in a **folder** you give it; you use the **best
@@ -15,12 +15,27 @@ This part walks you through all of it.
 > **context** fills up. If those are already second nature, read on. If not,
 > [Part 1](01-cowork.md) teaches them with nothing to install.
 
-## 1. Meet the terminal
+**The seven things you'll do here:**
 
-The terminal is a text window where you type commands to your computer and it
-types back. That's the whole thing. You'll mostly use it to launch Claude and
-then watch *Claude* type into it. You don't need to learn terminal commands —
-Claude runs them.
+- [ ] **1** · Get Claude Code running
+- [ ] **2** · Give Claude a memory of your changes (git)
+- [ ] **3** · Do a task Cowork couldn't
+- [ ] **4** · Let it run — auto mode
+- [ ] **5** · Teach it how you work — CLAUDE.md
+- [ ] **6** · Build a skill you can share
+- [ ] **7** · (Mac) Run several at once
+
+---
+
+## 1 · Get Claude Code running
+
+**Goal:** Claude Code installed and started, signed into your account, waiting
+for a task. **~10 min.**
+
+**First, the terminal.** It's a text window where you type commands to your
+computer and it types back. You'll mostly use it to
+launch Claude and then watch *Claude* type into it — you don't need to learn
+terminal commands.
 
 Open it: **Mac** — press ⌘Space, type "Terminal," hit Return. **Windows** —
 press Start, type "PowerShell," hit Return.
@@ -39,9 +54,8 @@ copied it from a narrow window that wrapped it. Paste it into a plain note
 first, join it back into one line, then paste it in.
 </details>
 
-## 2. Install Claude Code
-
-Copy the line for your system, paste it into the terminal, and press Return.
+**Now install.** Copy the line for your system, paste it into the terminal, and
+press Return.
 
 **Mac:**
 ```
@@ -53,10 +67,10 @@ curl -fsSL https://claude.ai/install.sh | bash
 irm https://claude.ai/install.ps1 | iex
 ```
 
-That's the whole install — no other software required. When it finishes, type
+That's the whole install. When it finishes, type
 `claude` and press Return to start it. The first time, it opens your browser to
 sign in; choose your Claude account (the Team or Max account from
-[Part 0](00-start-here.md)) and you're in.
+[Start here](00-start-here.md)) and you're in.
 
 <details>
 <summary>It says "command not found" when I type claude →</summary>
@@ -67,7 +81,18 @@ it still isn't found, tell the assistant which system you're on and paste the
 last few lines the installer printed.
 </details>
 
-## 3. Give Claude a memory of your changes: Git and GitHub
+**✓ Done when** you've typed `claude`, signed in, and see it waiting for your
+first message.
+
+**Now try →** *"What folder are you in, and what's in it?"* You're now talking
+to Claude directly on your own machine — no sandbox in between.
+
+---
+
+## 2 · Give Claude a memory of your changes
+
+**Goal:** git set up so every change Claude makes is a reversible save-point.
+**~5 min.**
 
 Before you let Claude work freely, set up **git**. Git takes a snapshot of your
 files every time something changes, so any edit Claude makes can be undone —
@@ -102,13 +127,24 @@ your device offers it (Face ID / Touch ID / Windows Hello), or install an
 authenticator app when prompted and scan the code. Do this once; it's quick.
 </details>
 
-## 4. Do a task — feel the difference
+**✓ Done when** Claude has made its first commit and told you it'll commit each
+change from now on.
+
+**Now try →** *"Show me the last thing you committed, then change one small thing
+and commit that too."* Now you can see the save-points stacking up — every one a
+point you could roll back to.
+
+---
+
+## 3 · Do a task Cowork couldn't
+
+**Goal:** feel the fence come off — a task that reaches past the sandbox.
+**~5 min.**
 
 Point Claude Code at the same messy folder you gave Cowork, and give it the same
 request. It'll feel familiar — that's on purpose.
 
-Then give it something Cowork *couldn't* do, to feel the fence come off. For
-example:
+Then give it something Cowork *couldn't* do. For example:
 
 > *"Find every PDF in this folder, pull out the total on each invoice, and build
 > a spreadsheet summarizing them."*
@@ -116,11 +152,23 @@ example:
 Claude can install whatever tool it needs, read the files, and produce the
 result — no sandbox in the way.
 
-## 5. Turn on auto mode
+**✓ Done when** Claude has done something that needed a tool it installed itself,
+or reached beyond a single folder.
+
+**Now try →** *"Now find the three biggest invoices and chart them, and open the
+chart when you're done."* It fetches what it needs and opens the result on your
+actual screen.
+
+---
+
+## 4 · Let it run — auto mode
+
+**Goal:** Claude working without stopping to ask on every reversible step.
+**~2 min.**
 
 By default, Claude Code asks permission before each action, which gets tiring
 fast. Press **Shift+Tab** to cycle its mode; land on **auto-accept edits**. Now
-Claude makes and applies changes without stopping to ask — and because git is
+Claude makes changes without stopping to ask — and because git is
 recording save-points, every one of those changes is reversible.
 
 That's the whole trade: with your work under git, approving each edit guards
@@ -136,7 +184,19 @@ machine it removes the guardrails that make mistakes cheap. Stick with
 auto-accept edits plus git.
 </details>
 
-## 6. Teach Claude how you work: CLAUDE.md
+**✓ Done when** you're in auto-accept edits and Claude has run a multi-step task
+without stopping to ask on each step.
+
+**Now try →** hand it something with a few moving parts — *"rename these files to
+a consistent scheme, then generate an index of what's here"* — and just watch it
+work the whole thing through.
+
+---
+
+## 5 · Teach it how you work — CLAUDE.md
+
+**Goal:** a `CLAUDE.md` file Claude reads at the start of every session. **~5
+min.**
 
 Remember the reusable-instructions idea from Part 1? In Claude Code it has a
 home: a file named **`CLAUDE.md`**. Anything you put there, Claude reads at the
@@ -149,7 +209,17 @@ files."* Add to it whenever you catch yourself explaining the same thing twice.
 This one file is most of what separates a generic assistant from one that works
 the way you do.
 
-## 7. Build a skill you can reuse and share
+**✓ Done when** a `CLAUDE.md` exists with at least one instruction in it.
+
+**Now try →** *"Read my CLAUDE.md back to me, then guess three more preferences I
+probably have and propose adding them."*
+
+---
+
+## 6 · Build a skill you can share
+
+**Goal:** a recurring task turned into a `/skill` you (or a teammate) run by
+name. **~5–10 min.**
 
 A **skill** turns a task you do repeatedly into something Claude runs by name.
 It's a folder with a `SKILL.md` file (in `~/.claude/skills/`) describing the
@@ -163,21 +233,38 @@ instead of re-explaining. This is the payoff of the reuse-then-share thread:
 **you teach the work once, and it's done forever after — by you or anyone you
 share it with.**
 
-## 8. Mac: run several at once with Superconductor
+**✓ Done when** you've built a skill and triggered it once with `/name`.
+
+**Now try →** run your new skill, then say *"that worked — now make it ask me for
+the one input that changes each time, and save the improvement."* You just
+edited a capability instead of redoing a task.
+
+---
+
+## 7 · (Mac) Run several at once — Superconductor
+
+**Goal:** more than one Claude Code session working in parallel. **~10 min.**
 
 Agents are slow, and you shouldn't sit watching one. The real unlock is running
 **several Claude Code sessions in parallel**, each on a different task. You can
 do this in plain terminal windows, but on a Mac there's a much nicer way:
-**[Superconductor](https://super.engineering)** (from super.engineering).
+**[Superconductor](https://super.engineering)**.
 
 It's a native Mac app that runs many agents side by side, keeps each one's work
 isolated so they don't collide, and gives you a clean view to review and ship
-their changes — no terminal juggling. It's free while in alpha; you'll want
+their changes — no terminal juggling. It's free while it's still an early release; you'll want
 Claude Code installed first (it drives Claude Code under the hood, using your
 own account).
 
 → [Superconductor vs. plain terminal vs. an editor — and what Windows users
 should do →](decisions/interface.md)
+
+**✓ Done when** you've got two agents running at once and have flipped between
+them.
+
+**Now try →** set one agent on real work, then in a second one ask: *"Review
+what the other session just did and tell me if you'd have done it differently."*
+Two agents, one checking the other.
 
 ---
 

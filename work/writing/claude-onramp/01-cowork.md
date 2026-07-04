@@ -3,12 +3,29 @@
 Cowork is Claude with hands. You describe an outcome; it plans, works across
 your files and connected apps for several steps, and hands back finished work.
 It lives inside the Claude desktop app, and it's the fastest way to feel what
-delegating to an agent is actually like.
+delegating to an agent is like.
 
-By the end of this part you'll have delegated a few real tasks and picked up the
-four ideas the rest of the guide relies on.
+This part is a series of small, self-contained things to do — most take about
+five minutes, each ends with something worth trying, and by the last one you'll
+have delegated real work and picked up the four ideas the rest of the guide
+relies on.
 
-## 1. Install the desktop app
+**The seven things you'll do here:**
+
+- [ ] **1** · Get Cowork running
+- [ ] **2** · Your first hand-off
+- [ ] **3** · Talk, don't type
+- [ ] **4** · Know what you're approving
+- [ ] **5** · Give it your accounts
+- [ ] **6** · Make it remember you
+- [ ] **7** · Teach it a skill
+
+---
+
+## 1 · Get Cowork running
+
+**Goal:** the Claude desktop app installed, the Cowork tab open, its sandbox
+ready to work. **~5 min** (plus a one-time download).
 
 Download the Claude desktop app from **[claude.com/download](https://claude.com/download)**
 and sign in. Open the **Cowork** tab. The first time you do, Claude downloads a
@@ -22,7 +39,7 @@ sure?" check.
 
 - **Mac:** if it says the app "can't be opened because Apple cannot check it,"
   open **System Settings → Privacy & Security**, scroll down, and click **Open
-  Anyway**. This is expected for a fresh download.
+  Anyway**.
 - **Windows:** if you see a blue "Windows protected your PC" box, click **More
   info → Run anyway**.
 
@@ -54,23 +71,50 @@ the Claude desktop app (and, for connectors, Claude in the Google Admin
 console). The assistant can draft that message for you — just ask.
 </details>
 
-## 2. Delegate your first task
+**✓ Done when** the Cowork tab is open and past its "getting ready" download.
 
-Point Cowork at a folder and give it something concrete. A good first task: pick
-a messy folder — a downloads pile, an unsorted project — and say:
+**Now try →** *"Say hi, and tell me what you can and can't reach on my computer
+right now."* Its answer is a quick tour of the sandbox it lives in — the fence
+that Part 2 removes.
+
+---
+
+## 2 · Your first hand-off
+
+**Goal:** one real task delegated start to finish, so you feel the handoff
+instead of reading about it. **~5 min.**
+
+**First, pick the best model.** Somewhere in the interface is a model picker
+(Claude's models, fast to most-capable, are Haiku, Sonnet, Opus). Set it to the
+best one and leave it there. The reasons you'd pick a weaker model — speed, cost
+— both have better answers than "use a weaker model." → [Why: just use the best
+model →](decisions/which-model.md)
+
+Now point Cowork at a folder and give it something concrete. A good first task:
+pick a messy folder — a downloads pile, an unsorted project — and say:
 
 > *"Look through this folder, tell me what's in it, and propose a way to
 > organize it. Don't move anything yet — just show me the plan."*
 
-Watch what happens. Cowork reads the files, thinks, and comes back with a
-proposal. That's the whole model in miniature: **you hand it a folder and an
+Cowork reads the files, thinks, and comes back with a proposal. That's the whole model in miniature: **you hand it a folder and an
 outcome; it works; it shows you.** You stay in the loop by reacting, not by
 doing the steps yourself.
 
-Pick something where a wrong answer costs you nothing. The point right now is to
-feel the handoff, not to get a perfect result.
+Pick something where a wrong answer costs you nothing. The point is to feel the
+handoff, not to get a perfect result.
 
-## 3. Stop typing — talk to it
+**✓ Done when** you've read back a plan Cowork produced from a request you gave
+it.
+
+**Now try →** *"Good — now actually do it, and move the files the way you
+proposed."* Watch it carry out its own plan.
+
+---
+
+## 3 · Talk, don't type
+
+**Goal:** a dictation tool installed, and your first request given by voice.
+**~5–10 min.**
 
 The habit that most improves what you get back: **say your request out loud
 instead of typing it.** When you type, you tidy up and leave out context. When
@@ -80,14 +124,16 @@ what you're unsure of) is exactly what makes the answer fit.
 Install a dictation tool and use it for anything longer than a sentence. Our
 pick is Wispr Flow. → [Which dictation tool, and why talking beats typing →](decisions/dictation.md)
 
-## 4. Use the best model
+**✓ Done when** you've dictated one request to Cowork instead of typing it.
 
-Somewhere in the interface is a model picker (Claude's models, fast to most-
-capable, are Haiku, Sonnet, Opus). Set it to the best one and leave it there.
-The reasons you'd pick a weaker model — speed, cost — both have better answers
-than "use a weaker model." → [Why: just use the best model →](decisions/which-model.md)
+**Now try →** ramble at it: *"Here's this thing I keep meaning to sort out…"* —
+and let the mess in your voice become a better brief than you'd have typed.
 
-## 5. Permissions: what you're really approving
+---
+
+## 4 · Know what you're approving
+
+**Goal:** the one rule for permission prompts, felt on a real prompt. **~3 min.**
 
 Before Cowork does anything with consequences — sending, deleting, sharing — it
 asks. The right instinct is simple: **you're not judging whether Claude is
@@ -98,9 +144,20 @@ capable; you're judging whether you could undo it.**
   actually read.
 
 Cowork is built to make this safe — it runs in a sandbox and asks before the
-scary stuff. → [How much to trust the agent (and why prompt injection shouldn't stop you) →](decisions/trust-and-permissions.md)
+scary stuff. → [How much to trust the agent (and why hidden instructions in what it reads shouldn't stop you) →](decisions/trust-and-permissions.md)
 
-## 6. Connect your apps
+**✓ Done when** you've seen both kinds of prompt and know which one to actually
+read.
+
+**Now try →** *"Draft me a short email to myself, then send it."* Drafting won't
+stop for you; sending will. That pause is the whole rule in one gesture.
+
+---
+
+## 5 · Give it your accounts
+
+**Goal:** Gmail, Calendar, and Drive connected, and one task answered from them.
+**~5 min.**
 
 Cowork gets far more useful once it can reach your email, calendar, and files.
 In the desktop app, open the menu → **Connectors → Manage connectors**, and
@@ -132,9 +189,23 @@ The built-in Google connectors mostly *read* (search your mail, read a doc). To
 have Claude *write* — send mail, edit docs — you'll want the deeper setup in
 [Part 3](03-power-ups.md), or Claude Code. → [Which connectors are worth it →](decisions/connectors.md)
 
-## 7. Save everything — ask for a running file
+**✓ Done when** at least one Google connector shows connected and Cowork has
+answered a question using it.
 
-Get in the habit of asking Cowork to **keep a markdown file as it works** — a
+**Now try →** *"What's on my calendar tomorrow, and is anything double-booked or
+back-to-back with no gap?"*
+
+---
+
+## 6 · Make it remember you
+
+**Goal:** a running file it keeps as it works, plus a first note it reuses across
+chats. **~5 min.**
+
+Two habits that turn Cowork from a one-shot answerer into something that
+accumulates.
+
+**Keep a running file.** Ask Cowork to hold a markdown file as it works — a
 running plan, notes, the output so far:
 
 > *"Keep a file called `plan.md` as you go, and update it at each step."*
@@ -147,38 +218,51 @@ This isn't housekeeping. It does four things at once:
 - **Reuse** — a good file is something you can hand back tomorrow to pick up
   where you left off.
 
-That last one is the seed of the next idea.
+**Teach it once.** That last one is the seed of the next idea. Once you've
+written the same context into three different chats — how you like things
+formatted, what your project is, who the audience is — stop retyping it. Put it
+in a file (or Cowork's instructions/memory) and point Claude at it. You've just
+gone from *re-explaining every time* to *teaching once*. In Claude Code this
+becomes a file called `CLAUDE.md`, read automatically every session (Part 2);
+the habit starts here.
 
-## 8. Teach it once: reusable instructions
+**✓ Done when** Cowork is keeping a markdown file for a task, and you've saved
+one instruction it'll reuse.
 
-Once you've written the same context into three different chats — how you like
-things formatted, what your project is, who the audience is — stop retyping it.
-Put it in a file (or Cowork's instructions/memory) and point Claude at it. You've
-just gone from *re-explaining every time* to *teaching once*. In Claude Code
-this becomes a file called `CLAUDE.md` that's read automatically every session
-(Part 2); the habit starts here.
+**Now try →** *"Here are three things about how I like work delivered: [say
+them]. Save them and use them from now on."* Then open a fresh chat and watch it
+already know.
 
-## 9. Reuse becomes sharing: skills
+---
 
-A **skill** is a saved capability Claude can reuse by name. Cowork already ships
-with some (it knows how to make PDFs, Word docs, slide decks, spreadsheets). You
-can add your own: a folder with a `SKILL.md` file describing a task you do often
-— "draft the weekly update from these sources," "turn a transcript into a
-summary." Cowork discovers it and runs it when it fits.
+## 7 · Teach it a skill
 
-The pairing to hold onto: **a reusable file is reuse for you; a skill is how
-that reuse becomes something you can share** — with your future self, or with a
-teammate who just runs it by name. We'll build a real one in Part 2.
+**Goal:** one repeatable task turned into a **skill** Cowork runs by name.
+**~5–10 min.**
 
-## 10. Context windows: start fresh often
+A reusable file is reuse for *you*. A **skill** is how that reuse becomes
+something you can **share**. It's a saved capability Claude can run by name.
+Cowork already ships with some (it knows how to make PDFs, Word docs, slide
+decks, spreadsheets). You can add your own: a folder with a `SKILL.md` file
+describing a task you do often — "draft the weekly update from these sources,"
+"turn a transcript into a summary." Cowork discovers it and runs it when it
+fits. You don't write it by hand — ask Cowork to build it from a task you
+describe. We'll build a more powerful one in Part 2.
 
-Claude reads your whole conversation every time it replies. Long chats get
-slower, foggier, and more likely to lose the thread. So **start a new chat for
-each new task.** Don't worry about "losing" what mattered — the memory that
-counts lives in your files and your reusable instructions, not in the chat
-history.
+**One habit before you move on: start fresh often.** Claude reads your whole
+conversation every time it replies, so long chats get slower, foggier, and more
+likely to lose the thread. Start a new chat for each new task. You're not
+"losing" anything — the memory that counts now lives in your files and your
+skills, not in the chat history.
 
-## 11. What Cowork can't do — and why that's fine
+**✓ Done when** you've made a skill and run it by name.
+
+**Now try →** take a chore you did last week, say *"turn this into a skill,"*
+then run it by name and watch it go — the work done once, done forever after.
+
+---
+
+## What Cowork can't do — and why that's fine
 
 Cowork is deliberately fenced so it's safe the moment you install it. The fence
 has real edges:

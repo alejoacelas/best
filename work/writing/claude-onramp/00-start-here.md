@@ -1,8 +1,8 @@
 # Start here
 
 This guide gives Claude your files, your apps, and — by the end — your whole
-computer, so you can hand off work. Not asking a chatbot a question and copying
-the answer out: handing over a task and getting back finished work.
+computer. Not asking a chatbot a question and copying the answer out: handing
+over a task and getting back finished work.
 
 It changes which tasks you take on at all. The ones you skip today because
 they're too technical, too fiddly, too slow, or too vague to start — those
@@ -20,8 +20,8 @@ about thirty minutes of setup. It's where you'll end up for anything serious.
 ## Which to read
 
 **Start with Cowork** (Part 1). It teaches the four ideas Claude Code takes for
-granted — working in a folder, choosing a model, granting permissions, and
-managing context (how much one conversation can hold). Then Part 2 graduates
+granted — working in a folder, choosing a model (which version of Claude), granting
+permissions, and managing context (how much one conversation can hold). Then Part 2 graduates
 you to Claude Code.
 
 **Already fluent** with all four? Skip straight to
