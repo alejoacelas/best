@@ -1,19 +1,32 @@
+<!--ai-->
 What's the best way to keep this mind? — mood, cognition, mental health.
+<!--/ai-->
 
+<!--ai-->
 Context for the mind — mood, cognition, mental health. Companion to `body/`.
+<!--/ai-->
 
+<!--ai-->
 ## What's here
+<!--/ai-->
 
+<!--ai-->
 - `bipolar-medication/` — local clone of the private **bipolar-ii-source** repo:
   Alejo's research and decision-support workspace on Bipolar II medications.
   Gitignored in `best` (it's a separate repo, not committed here). If missing,
   re-clone with `gh repo clone alejoacelas/bipolar-ii-source mind/bipolar-medication`.
+<!--/ai-->
 
+<!--ai-->
 ## Working in bipolar-medication
+<!--/ai-->
 
+<!--ai-->
 Read its `AGENTS.md` first — that's the canonical brief (case facts, goal,
 working rules). The framing worth carrying into any mind-level work:
+<!--/ai-->
 
+<!--ai-->
 - **It's preparation for a psychiatrist conversation, not a substitute.** The
   research exists so Alejo can walk in informed with concrete options — drug
   names, doses, side-effect numbers, the questions worth asking. Not medical
@@ -29,3 +42,18 @@ working rules). The framing worth carrying into any mind-level work:
   context, not verified evidence.
 - **Save the audit trail.** Formal research runs go in `investigations/<slug>/`;
   ad-hoc synthesis in `notes/YYYY-MM-DD-<slug>.md`.
+<!--/ai-->
+
+<!--ai-->
+## Neighbors
+- `me/body` — the explicit companion folder; the physical half of the same "look after myself" question, where sleep and light tie back to mood.
+- `questions/now/base-rates/bipolar-ii` — the reference-class and base-rate work that should feed the medication decision-support here.
+- `me/mind/Light/` — the seasonal-light notes (winter light, Lumenate); the applied, day-to-day side of the same mind question.
+<!--/ai-->
+
+<!--ai-->
+## Live questions
+- Pull the conclusions from `questions/now/base-rates/bipolar-ii` back into the psychiatrist-prep brief — the base-rate work isn't linked here yet. *(gap)*
+- Distill `bipolar-medication` (separate clone) into a one-screen current-best summary readable at a glance without opening the repo. *(gap)*
+- Turn the `Light/` notes into a concrete seasonal protocol I actually follow, not just research. *(continuation)*
+<!--/ai-->

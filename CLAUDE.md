@@ -1,8 +1,13 @@
+<!--ai-->
 # best
+<!--/ai-->
 
+<!--ai-->
 See [README.md](README.md) for what this workspace is — the identity and the live
 **Questions** map. This file is the standing instructions for working in it.
+<!--/ai-->
 
+<!--ai-->
 ## Iterate forward
 Nothing here is finished; each thing is its current-best version, and the standing job
 is to keep making it better — everything, not just code. Global's *Do the work
@@ -10,7 +15,9 @@ before asking* governs how: build on the judgment already there rather than chur
 specific here is the feedback loop — anything I'll use repeatedly should have a
 low-friction way to capture friction the moment I feel it, and a path from that friction
 to a concrete change.
+<!--/ai-->
 
+<!--ai-->
 ## Folders are questions
 Every folder states its standing question as the first line of its `README.md`; its
 `CLAUDE.md`, where present, just points there. The root **Questions** map is generated
@@ -18,7 +25,9 @@ from those first lines. Add a folder → give it a one-line-question `README.md`
 sync-repos and it appears in the map. Nesting groups things on my mind; it is not strict
 containment — a sub-folder needn't be a sub-category of its parent, and siblings may
 reference each other.
+<!--/ai-->
 
+<!--ai-->
 ## One mega-repo, a few nested repos
 `best` is one Git repository of mostly plain folders. Only a few folders are their own
 nested Git repos — the private ones, and a few standalone/deployed public ones (see the
@@ -27,7 +36,9 @@ change inside one belongs to *that* repo: `cd` in and commit there, and don't co
 child contents into a parent repo — the child owns its files, and the parent's ignore
 rules stay generated. The symlinked global instructions in `ai/dotfiles/` are one
 such nested repo — editing them commits to dotfiles, not here.
+<!--/ai-->
 
+<!--ai-->
 Run `ai/sync-repos.py` after adding or removing a nested repo, or after adding a folder's
 `README.md` question. It discovers the nested repos directly (no checked-in manifest) and
 rewrites the managed `.gitignore` blocks, the per-parent **Sub-repositories** tables, and
@@ -36,10 +47,13 @@ that repo *ignores*, so a one-off's scratch clones stay off the map. Which neste
 are private is the one thing it can't derive — hand-listed in `ai/private-paths`. A
 tracked git hook (`ai/githooks/pre-commit`, activated by `ai/dotfiles/bin/install.sh`)
 runs `--check` on commit and blocks if anything drifted.
+<!--/ai-->
 
+<!--ai-->
 ## Visibility
 The rule: **everything about me is public; things about others are private.** Making
 something private is a deliberate call that it's really about someone else, holds their
 confided content, or carries credentials. Private so far: `work/tools` (credentials),
 `people/friend`, `people/partner`, `other/advice`, and `other/places/visa` (identity
 documents). `me/mind` is public — it's about me.
+<!--/ai-->

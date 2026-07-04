@@ -250,7 +250,7 @@ def folder_question(folder: Path) -> str | None:
     if not readme.exists():
         return None
     for line in readme.read_text().splitlines():
-        line = line.strip()
+        line = line.replace("<!--ai-->", "").replace("<!--/ai-->", "").strip()
         if line:
             return line.lstrip("#").strip()
     return None
