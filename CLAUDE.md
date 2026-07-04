@@ -18,8 +18,15 @@ files and ignores child repo folders; each child repo owns its own commits, remo
 privacy, and collaborators.
 
 Run `.workspace/sync-repos.py` after adding or removing a nested repo. It discovers
-repo folders, rewrites `repos.yaml`, and refreshes the managed blocks in each
-parent `.gitignore`.
+repo folders, rewrites `repos.yaml`, refreshes the managed blocks in each parent
+`.gitignore`, and regenerates the repo map in the root `README.md`. Git won't reach
+across a nested `.git`, so child files can't show in the parent and its folder can't
+appear without becoming a submodule — the generated map is how the structure stays
+visible on GitHub, one link per child repo.
+
+Editing a file inside a child repo (including the symlinked global instructions in
+`machine/dotfiles/`) commits to *that* repo, not this one — see global's *Commit where
+the change lives*.
 
 Before finishing work in this workspace, run:
 
