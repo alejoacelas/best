@@ -5,8 +5,8 @@ See [README.md](README.md) for what this workspace is — the identity and the l
 
 ## Iterate forward
 Nothing here is finished; each thing is its current-best version, and the standing job
-is to keep making it better — everything, not just code. Global's *Finish, don't ask*
-governs how: build on the judgment already there rather than churn past it. What's
+is to keep making it better — everything, not just code. Global's *Do the work
+before asking* governs how: build on the judgment already there rather than churn past it. What's
 specific here is the feedback loop — anything I'll use repeatedly should have a
 low-friction way to capture friction the moment I feel it, and a path from that friction
 to a concrete change.
@@ -23,8 +23,9 @@ reference each other.
 `best` is one Git repository of mostly plain folders. Only a few folders are their own
 nested Git repos — the private ones, and a few standalone/deployed public ones (see the
 **Sub-repositories** table in `README.md`). Git can't reach across a nested `.git`, so a
-change inside one belongs to *that* repo: `cd` in and commit there (global's *Commit
-where the change lives*). The symlinked global instructions in `ai/dotfiles/` are one
+change inside one belongs to *that* repo: `cd` in and commit there, and don't copy
+child contents into a parent repo — the child owns its files, and the parent's ignore
+rules stay generated. The symlinked global instructions in `ai/dotfiles/` are one
 such nested repo — editing them commits to dotfiles, not here.
 
 Run `ai/sync-repos.py` after adding or removing a nested repo, or after adding a folder's
@@ -42,9 +43,3 @@ something private is a deliberate call that it's really about someone else, hold
 confided content, or carries credentials. Private so far: `work/tools` (credentials),
 `people/friend`, `people/partner`, `other/advice`, and `other/places/visa` (identity
 documents). `me/mind` is public — it's about me.
-
-## Committing
-Global rules apply (`~/.claude/CLAUDE.md`): commit found work after checking nothing
-private goes in; keep credentials and confided content out of public repos. For nested
-repos, don't copy child contents into a parent repo; let the child repo own those files
-and keep the parent ignore rules generated.

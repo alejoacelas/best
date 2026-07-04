@@ -15,6 +15,12 @@ Two moves I keep making, usable inside any folder:
 - **`later/`** — what's worth returning to, but not now. A question I'm choosing to
   defer, not a parking lot.
 
+**Describe the criterion, not the members.** Every folder — and every instruction file —
+states the *test for what belongs* instead of listing what's inside, so I (or an agent)
+can re-derive where a new thing goes. It's what lets the structure extend itself and stay
+legible to both of us: give a folder a one-line question and a line on what it's for, and
+its contents, its neighbors, and its next moves follow.
+
 The groupings are tentative — a current-best cut, not a taxonomy. Nesting marks what's
 near what in my head; I re-cut it as sharper questions surface.
 
