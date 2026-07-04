@@ -23,7 +23,10 @@ intermediate outputs of one stage:
   flair; attention drawn should match importance.
 - `05-polish/` — Fable subagents write alternatives to each passage; other
   subagents compare and accept only alternatives that Pareto-dominate the
-  original across the criteria in `00-voice/style-criteria.md`.
+  original across the criteria in `00-voice/style-criteria.md`; alternated with
+  a Paul Graham compression pass.
+- `06-checks/` — every checkable claim flagged, verified online, corrections
+  applied. All flags block publishing until resolved.
 
 `assistant-spec.md` describes the sidebar assistant and feedback-loop app that
 shipped with the old guide. The Vercel project `claude-onramp` still exists in
