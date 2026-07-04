@@ -69,6 +69,6 @@ These folders are separate Git repos, not tracked here — git can't reach acros
 | `people/friend/` | 🔒 private | [alejoacelas/people](https://github.com/alejoacelas/people) |
 | `people/partner/` | 🔒 private | [alejoacelas/partner](https://github.com/alejoacelas/partner) |
 | `work/once/` | public | [alejoacelas/one-off](https://github.com/alejoacelas/one-off) |
-| `work/tools/` | public | [alejoacelas/tools](https://github.com/alejoacelas/tools) |
+| `work/tools/` | 🔒 private | [alejoacelas/tools](https://github.com/alejoacelas/tools) |
 | `work/writing/blog/` | public | [alejoacelas/myea-blog](https://github.com/alejoacelas/myea-blog) |
 <!-- END managed repo map -->
