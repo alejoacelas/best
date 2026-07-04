@@ -22,10 +22,6 @@ done, move it to the Done log with a note on what changed and why.
   reproducible on paper; actually test it in a throwaway VM/container before trusting
   it for a real migration. Codex config won't carry over (by design) — seed it from
   `~/.dotfiles/codex/config.reference.toml`.
-- **`best` hooks aren't auto-activated on a fresh clone.** `.workspace/hooks` only
-  run because `core.hooksPath` is set in `best`'s *local* config (untracked). A fresh
-  `git clone` of `best` wouldn't enable them. Add a one-line bootstrap (or an
-  `install.sh` step) that runs `git config core.hooksPath .workspace/hooks`.
 - **Brewfile audit.** Added `doppler`; sweep the rest of `brew leaves` for other
   installed-but-undeclared tools.
 

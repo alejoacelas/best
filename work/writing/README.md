@@ -1,1 +1,1 @@
-What's the best thing to write?
+What's the best writing?

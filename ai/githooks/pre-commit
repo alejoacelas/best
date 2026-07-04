@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Best workspace: block a commit if the generated blocks (ignores, sub-repo tables,
+# question map) have drifted from the live worktree. Override with: git commit --no-verify
+set -euo pipefail
+repo=$(git rev-parse --show-toplevel)
+exec "$repo/ai/sync-repos.py" --check

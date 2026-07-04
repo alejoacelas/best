@@ -1,5 +1,5 @@
 See CLAUDE.md.
 
-Before finishing work in this repo, run `.workspace/sync-repos.py --check`.
-If it fails, run `.workspace/sync-repos.py`, review the generated manifest and ignore
-changes, then commit the affected parent repos.
+A tracked pre-commit hook (`ai/githooks/`) runs `ai/sync-repos.py --check` and blocks a
+commit if the generated maps have drifted. If it fires, run `ai/sync-repos.py`, review,
+and commit the affected repos.

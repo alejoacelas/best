@@ -27,12 +27,14 @@ change inside one belongs to *that* repo: `cd` in and commit there (global's *Co
 where the change lives*). The symlinked global instructions in `ai/dotfiles/` are one
 such nested repo — editing them commits to dotfiles, not here.
 
-Run `.workspace/sync-repos.py` after adding or removing a nested repo, or after adding a
-folder's `README.md` question. It rewrites `repos.yaml`, the managed `.gitignore` blocks,
-the per-parent **Sub-repositories** tables, and the root **Questions** map. Which nested
-repos are private is hand-listed in `.workspace/private-paths`. Before finishing work
-here, run `.workspace/sync-repos.py --check`; if it fails, run it, review the changes,
-and commit.
+Run `ai/sync-repos.py` after adding or removing a nested repo, or after adding a folder's
+`README.md` question. It discovers the nested repos directly (no checked-in manifest) and
+rewrites the managed `.gitignore` blocks, the per-parent **Sub-repositories** tables, and
+the root **Questions** map. It records a nested repo but won't descend into a directory
+that repo *ignores*, so a one-off's scratch clones stay off the map. Which nested repos
+are private is the one thing it can't derive — hand-listed in `ai/private-paths`. A
+tracked git hook (`ai/githooks/pre-commit`, activated by `ai/dotfiles/bin/install.sh`)
+runs `--check` on commit and blocks if anything drifted.
 
 ## Visibility
 The rule: **everything about me is public; things about others are private.** Making

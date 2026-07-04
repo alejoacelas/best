@@ -1,1 +1,4 @@
-Everything that is me — looking after it, day to day.
+What's the best way to keep what's good in me?
+
+Body, mind, past, and the stuff around me — all *me to look after*. A tentative
+grouping, kept together until a sharper cut appears.

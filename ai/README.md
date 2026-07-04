@@ -1,4 +1,4 @@
-What's the best way to set up my machine and agents?
+What's the way to engage with AI?
 
 My machine and my AI tooling — how it's set up, and the standing work of making it do more. Everything else here is the work; this is the work *on the tools that do the work*.
 

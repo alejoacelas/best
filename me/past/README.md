@@ -1,3 +1,3 @@
-What's the best of my past to collect — to understand myself?
+What are the most relevant parts of my past?
 
 New — about me, so public by default.

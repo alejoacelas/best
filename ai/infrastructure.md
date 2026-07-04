@@ -62,12 +62,17 @@ migrates it into the repo; tracked file in the way → backs it up as
 
 ## The `best` workspace
 
-Life-optimization workspace. Parent folders are plain directories; each leaf is a
-real git repo (not submodules). `.workspace/sync-repos.py` is the enforcer:
-regenerates `repos.yaml` + the managed `.gitignore` blocks, and `--check` (run by
-`.workspace/hooks/` pre-commit/pre-push) fails if anything drifted or if submodule
-metadata reappears. Domains: `becoming` (values), `make` (things I make + learning),
-`self`, `friends`, `upcoming` (parking lot), `machine` (this — the machine itself).
+Life-optimization workspace: one git repo of mostly plain folders, with a few nested
+repos (private ones, plus deployed/shared public ones). `ai/sync-repos.py` (a
+self-contained `uv run` script) is the enforcer: it discovers the nested repos directly
+— no checked-in manifest — and regenerates the managed `.gitignore` blocks, per-parent
+**Sub-repositories** tables, and the root **Questions** map. It records a nested repo but
+won't descend into a directory that repo ignores, so a one-off's scratch clones stay off
+the map. `--check` (run by the tracked `ai/githooks/pre-commit`, activated in
+`ai/dotfiles/bin/install.sh`) fails if anything drifted or if submodule metadata
+reappears. Privacy is the one thing it can't derive: hand-listed in `ai/private-paths`.
+Domains (each a folder's standing question): `utilitarian`, `questions`, `me`, `people`,
+`work` (incl. `work/once` one-offs), `other`, `ai` (this — the machine + agents).
 
 ## What runs in the background
 
