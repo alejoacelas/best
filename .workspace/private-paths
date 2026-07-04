@@ -3,8 +3,8 @@
 # every other repo (including a public/third-party one nested inside a private repo)
 # renders public. Privacy is human judgment (about others, or credentials), so it
 # lives here by hand rather than being auto-discovered.
-friends/advice
-friends/partner
-friends/people
-friends/places/visa
-make/tools
+other/advice
+people/partner
+people/friend
+other/places/visa
+work/tools
