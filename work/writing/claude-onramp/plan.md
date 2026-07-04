@@ -9,8 +9,10 @@ experience.
 > the rendered version (rebuild with `python3 site/build.py`). Research flags
 > below were resolved via web search before drafting — see
 > [`RESEARCH.md`](RESEARCH.md) for the sourced facts and their freshness
-> caveats. Still to do: dogfood on a clean machine, watch real users, build the
-> live assistant. This plan is retained as the design rationale.
+> caveats. **Update 2026-07-04:** the live assistant and feedback log are built
+> and deployed (see `site/`); the assistant route needs `ANTHROPIC_API_KEY` set
+> on the Vercel project. Still to do: dogfood on a clean machine, watch real
+> users. This plan is retained as the design rationale.
 
 ---
 

@@ -46,7 +46,7 @@ otherwise.
 - **Windows:** Ctrl+Shift+V, or right-click.
 
 **Taking a screenshot:**
-- **Mac:** �cmd-Shift-4, then drag over the area; it saves to the desktop, or
+- **Mac:** Cmd-Shift-4, then drag over the area; it saves to the desktop, or
   hold Control while dragging to copy it. Then paste or upload it to me here.
 - **Windows:** Win+Shift+S, drag over the area; it copies to the clipboard.
   Then paste it to me here.

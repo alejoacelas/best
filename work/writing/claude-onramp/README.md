@@ -49,7 +49,12 @@ still catching everyone who gets stuck:
 
 <!--ai-->
 Plus a **sidebar assistant** with the whole guide in context — spec in
-[`assistant/`](assistant/).
+[`assistant/`](assistant/), implementation in [`site/api/`](site/). It streams
+Claude Opus with the guide as system prompt and web search allowlisted to
+official docs. Every page's "this step didn't work" button and every question
+the assistant has to search for land in a private Vercel Blob log — read it
+with [`site/read-feedback.py`](site/read-feedback.py); that queue drives new
+stuck-modules.
 <!--/ai-->
 
 <!--ai-->
@@ -57,8 +62,10 @@ Plus a **sidebar assistant** with the whole guide in context — spec in
 <!--/ai-->
 
 <!--ai-->
-First full draft, 2026-07-02. Content is written and accurate to research done at
-draft time; **prices, plan names, and install commands drift — verify against
-official sources before publishing.** See [`plan.md`](plan.md) for the design
-rationale, open decisions, and the dogfooding process still to run.
+First full draft 2026-07-02; site, assistant, and feedback log built and
+deployed 2026-07-04 (Vercel project `claude-onramp`; the assistant route waits
+on `ANTHROPIC_API_KEY`). Content is accurate to research done at draft time;
+**prices, plan names, and install commands drift — verify against official
+sources before publishing.** See [`plan.md`](plan.md) for the design rationale,
+open decisions, and the dogfooding process still to run.
 <!--/ai-->
