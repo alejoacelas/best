@@ -1,0 +1,47 @@
+---
+layout: ../layouts/Wiki.astro
+title: "Memory"
+subtitle: "The scoping matrix, the governance surface, and the undisclosed store."
+---
+
+import Term from '../components/Term.astro';
+import Callout from '../components/Callout.astro';
+import Src from '../components/Src.astro';
+
+Persistent, server-side, accumulating context per channel/workspace — retained, not discarded after each task <Src src="support"/>. It records who owns what, active projects, terminology, decisions. The only hard question is **scope**, and it has an exact answer.
+
+## Scoping matrix <Src src="memoryDoc"/>
+
+<div class="table-wrap">
+
+| Channel type | Can read | Writes to | Surfaces out to workspace? |
+|---|---|---|---|
+| **Public** | its own + all public-channel memory in the <Term id="workspace">workspace</Term> | the shared workspace store | **Yes — automatically.** A decision in `#data-eng` is available when you ask in `#analytics`, no grant needed |
+| **Private** | its own + workspace memory (read-in) | **its own store only** | **Never** |
+| **Other Claude identity** (e.g. sales vs eng) | only its own scope | its own scope | **No** — cross-identity needs an explicit admin grant **and you must name the channel**; there is no free-text search across sessions |
+| **DM** | your personal-account context | not pooled into channel memory | n/a — DMs run under your personal account, separate from Slack-web history |
+
+</div>
+
+So "sharing across channels" is **automatic within a workspace/identity for public channels**, read-only-inbound for private, and **walled between admin-drawn identities**. The flat claim you'll see — *"no memory across channels"* — describes only the identity/DM walls; it coexists with automatic public-channel sharing.
+
+**"Shared enterprise memory" is headline language, not Anthropic's.** There is no org-wide pooled brain: scoping statements ("a model set up for sales work won't pass on memories to one set up for engineering" <Src src="announcement"/>) rule it out. "Shared" is true only as (a) <Term id="multiplayer">multiplayer</Term> and (b) workspace-wide-for-public.
+
+## Governance surface <Src src="support"/>
+
+- Admins **view / edit / delete** memory — **Organization settings → Claude Tag → Audit**.
+- Every **memory write** is logged in the audit console, user-attributed.
+- **Retention:** underlying Slack conversations follow org Slack policy and auto-delete ~30 days on disconnect. Whether the *accumulated memory layer* decays, summarizes, or only changes via manual admin edit is **undocumented**.
+
+## The scope axis, via the open-source analogs
+
+The two inspectable self-hosted agents bracket the design space, and both store memory as **curated human-readable text**, not opaque vectors:
+
+- **[Hermes Agent](https://github.com/nousresearch/hermes-agent)** (Nous) — memory is per-user and **global across all channels** (token-capped `MEMORY.md`/`USER.md` injected at session start + SQLite/FTS5 recall). The unified end.
+- **[OpenClaw](https://github.com/openclaw/openclaw)** — session key `workspace:channel:userId` **specifically to prevent cross-context leaks**. The hard-isolation end.
+
+Tag sits **between them**: unified within a workspace/identity (Hermes-like for public), hard-walled across identities (OpenClaw-like) — the extra governance layer an enterprise product bolts onto unified identity.
+
+<Callout type="unknown">
+**The store itself is undisclosed.** No schema, index type, or retrieval method is public — vector DB, knowledge graph, and "per-thread sandbox memory" are all speculation ([WindowsForum](https://windowsforum.com/threads/claude-tag-beta-persistent-slack-ai-agent-enterprise-memory-and-governance.429887/) <Src src="windowsforum"/>: internals "remain unknown"). Whether cross-channel access **copies** memory or **retrieves on demand** is explicitly unspecified ([TechCrunch](https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/) <Src src="techcrunch"/>). The Hermes/OpenClaw prior — curated text injected into context — is a reasonable bet, **not** confirmation.
+</Callout>

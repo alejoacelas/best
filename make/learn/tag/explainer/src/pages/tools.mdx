@@ -1,0 +1,35 @@
+---
+layout: ../layouts/Wiki.astro
+title: "Tools, connectors & Slack surface"
+subtitle: "Deliverable types, the connector model, and exactly what it reads/writes in Slack."
+---
+
+import Term from '../components/Term.astro';
+import Callout from '../components/Callout.astro';
+import Src from '../components/Src.astro';
+
+## Deliverables <Src src="howItWorks"/>
+
+The <Term id="sandbox">sandbox</Term> is a real computer, so output is real artifacts:
+
+- **Replies / summaries** — the trivial case.
+- **Files & charts** — e.g. a rendered chart from a CSV posted in-channel.
+- **<Term id="living-page">Living pages</Term>** — a doc edited **in place** for recurring digests / standing reports.
+- **Draft <Term id="pr">PRs</Term>** — code tasks clone the repo into the sandbox and open a draft PR via the Claude GitHub App; the link is posted in-thread. The unit of code delivery is a **reviewable change**, not a chat snippet.
+
+## Connectors
+
+A <Term id="connector">connector</Term> is attached **per channel by an admin** (not per user), and **each carries its own memory and its own <Term id="spend-cap">spend cap</Term>** — authority and budget are bounded per channel <Src src="howItWorks"/>.
+
+- **Primary-doc named** <Src src="howItWorks"/>**:** Google Drive, Git repos (cloned into the sandbox), GitHub, Slack.
+- **Reported (Composio integration write-up, not primary docs):** Vercel, Datadog, Stripe, Sentry, GitLab, Notion, Linear, Gmail, Gong, HubSpot.
+
+## Slack read/write surface
+
+- **Reads:** thread history (**reported ~50-message cap** from thread start <Src src="agentconn"/>), channel history, pinned items, workspace search.
+- **Writes:** replies, file attachments, in-place checklist / progress updates.
+- Emoji reactions and Slack Canvas support are **unconfirmed** by primary docs.
+
+<Callout type="unknown">
+**MCP status is unresolved.** Anthropic's broader Connectors ecosystem is <Term id="mcp">MCP</Term>-based, and Composio reaches Tag through an **HTTP MCP gateway with a per-channel account** — but whether MCP is a *first-class native surface inside Tag* or only reachable via such third-party gateways is not stated. Treat "native MCP in Tag" as unverified. (The Composio connector list and MCP-gateway detail are third-party reporting, without a captured primary URL.)
+</Callout>

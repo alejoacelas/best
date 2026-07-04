@@ -1,0 +1,101 @@
+---
+layout: ../layouts/Wiki.astro
+title: "Build your own connector"
+subtitle: "Porting a credentialed CLI (gog) to Claude Tag as a custom MCP — and the one decision that actually matters."
+---
+
+import Term from '../components/Term.astro';
+import Callout from '../components/Callout.astro';
+import Src from '../components/Src.astro';
+
+The default Google Drive connector is fine until you want affordances it doesn't have — the kind a CLI like `gog` gives you (search, tree, sharing audits, exports). You can't run the CLI *in* Tag (the <Term id="sandbox">sandbox</Term> is disposable and isn't you), so you expose its capabilities as a **custom <Term id="mcp">MCP</Term> connector** instead. The mechanics are easy; the one real decision is about identity.
+
+## The one decision: what the agent's identity can see
+
+Tag runs under **two different identities**, and that — not any code — is your real access control:
+
+<div class="table-wrap">
+
+| Where | Runs as | Sees |
+|---|---|---|
+| **DM** | **you** (your account) | everything *you* can see in Drive |
+| **Channel** | the org's <Term id="agent-identity">Agent Identity</Term> — a <Term id="service-account">service account</Term> | **only what's shared with that service account** |
+
+</div>
+
+So "deciding what to share with the agent" is concrete and familiar: you **share specific Drive folders with the service account's email**, exactly like sharing with a coworker, and you grant it only the OAuth scopes it needs (`drive.readonly` to start). Nothing else is reachable. That shared set *is* the blast radius — for both accidents and <Term id="prompt-injection">prompt injection</Term>. Use a **dedicated service account** per connector so its footprint is legible; use domain-wide delegation only if the agent genuinely must act *as* users.
+
+<Callout type="key">
+Don't hand the agent your credentials — give it its own identity and *share into it*. The connector's power is bounded by what that service account can see, which you control from Drive's share dialog.
+</Callout>
+
+## Two ways to expose the tools
+
+- **`gog mcp` (native, fastest).** `gog` already ships a typed MCP server — read-only by default, with `--allow-tool` filtering and `--allow-write` gating. Over **stdio**, ideal for a local client:
+  ```bash
+  gog --account drive-agent@… mcp --allow-tool 'drive_search,drive_get,drive_ls'
+  ```
+- **A custom MCP wrapper (this guide).** Build your own when you need an **HTTP** transport (what a *remote* Tag connector expects) and a hand-picked tool surface. It shells out to `gog` for the actual work, so you reuse all of its auth and logic.
+
+## What the wrapper looks like
+
+One locked-down exec helper — every call is read-only and scoped to `drive`, so a coerced tool can't reach Gmail or admin:
+
+```ts
+function baseArgs(json: boolean): string[] {
+  const a: string[] = [];
+  if (GOG_ACCOUNT) a.push('--account', GOG_ACCOUNT); // the service account
+  if (READONLY)    a.push('--readonly');             // layer 1: no mutations
+  a.push('--enable-commands', 'drive', '--no-input'); // layer 2: drive only
+  if (json) a.push('--json');
+  return a;
+}
+```
+
+Then each MCP tool maps to exactly **one** `gog` subcommand — no generic command runner:
+
+```ts
+server.tool(
+  'drive_search',
+  'Full-text search across Drive (only what the service account can see).',
+  { query: z.string(), max: z.number().int().max(100).optional() },
+  async ({ query, max }) => {
+    const args = ['drive', 'search', query];
+    if (max) args.push('--max', String(max));
+    return asText(await runGog(args, { json: true })); // -> gog drive search … --json
+  },
+);
+```
+
+Serve it over stateless Streamable HTTP (also serverless-friendly), building a fresh server per request:
+
+```ts
+app.post('/mcp', async (req, res) => {
+  const server = buildServer();
+  const transport = new StreamableHTTPServerTransport({
+    sessionIdGenerator: undefined, enableJsonResponse: true,
+  });
+  await server.connect(transport);
+  await transport.handleRequest(req, res, req.body);
+});
+```
+
+A working five-tool version (`drive_search / drive_ls / drive_get / drive_tree / drive_export`) lives in `make/tools/gws/drive-mcp/` — `npm run smoke` lists the tools; `npm run start` serves `/mcp`.
+
+## Wiring it to Claude Tag
+
+1. **Deploy** the HTTP server where Anthropic's connector infrastructure can reach it (a container, or Vercel). A **remote** MCP connector is called from Anthropic's cloud, so it sidesteps both the sandbox's ephemerality and its <Term id="egress">egress</Term> allowlist.
+2. **Hold the credential server-side** — the service-account key is an env var on *your* server; it never enters the Tag sandbox, mirroring the <Term id="agent-proxy">Agent Proxy</Term> principle.
+3. **Register** it as a custom MCP <Term id="connector">connector</Term> and attach it to the channel (admin). Recall connectors are per-channel, each with their own memory and <Term id="spend-cap">spend cap</Term>.
+4. **Scope** by sharing only the intended folders with the service account.
+
+## Safety layers, stacked
+
+- **Share-scoping** (the service account only sees granted folders) — the primary control.
+- **`--readonly`** + **`--enable-commands drive`** in the wrapper — defense in depth.
+- **One tool per subcommand**, no generic runner; **write tools off** until deliberately enabled.
+- **Default-deny egress** on the sandbox still applies to anything the agent does *outside* your connector.
+
+<Callout type="unknown">
+Whether Tag's admin console exposes **arbitrary custom MCP connector registration** in the current beta — vs. a curated connector list — is [not confirmed](/open-threads/). The server side here is standard MCP and works with any MCP client today (test it with `gog mcp` or the MCP Inspector); the only Tag-specific unknown is the exact admin step to attach a self-hosted connector.
+</Callout>

@@ -1,0 +1,40 @@
+---
+layout: ../layouts/Wiki.astro
+title: "Open threads"
+subtitle: "Everything load-bearing that Anthropic hasn't disclosed — track these."
+---
+
+import Term from '../components/Term.astro';
+import Callout from '../components/Callout.astro';
+import Src from '../components/Src.astro';
+
+What's *not* public, ranked by how much it changes the model. Each is speculation or single-source until it isn't.
+
+## Memory internals (the big one)
+
+- **Storage tech** — vector DB vs summarized text notes vs knowledge graph: **undisclosed**. No schema, index, or retrieval method stated. Every specific claim is speculation; WindowsForum says internals "remain unknown" <Src src="windowsforum"/>. My prior (from Hermes/OpenClaw): curated text injected into context — inference only.
+- **Cross-channel access: copy vs retrieve** — whether permissioned cross-channel fact-gathering **persists a copy** or **fetches on demand** is *explicitly* unspecified <Src src="techcrunch"/>. Changes the data-residency and staleness story entirely.
+- **Memory-layer retention/decay** — conversations follow Slack policy (~30-day auto-delete on disconnect) <Src src="support"/>, but whether the **accumulated memory** ages out / summarizes / only changes via manual admin edit is undocumented.
+
+## Execution & harness
+
+- **Sandbox internals** — isolation boundary, max session lifetime, how a sandbox is re-hydrated on the next reply: undocumented.
+- **Scheduler durability** — retry/resume semantics for <Term id="routine">routines</Term>, and how in-progress state survives across ephemeral sandbox rebuilds: inferred, not documented.
+- **"Same harness as Claude Code"** — the cloud-Claude-Code-as-execution-surface framing is inference from Anthropic's "evolution of Claude Code" line <Src src="announcement"/> + reporting, not an architecture disclosure.
+- **Model** — Opus 4.8 backing is **reported/single-source** <Src src="agentconn"/>, not officially confirmed.
+
+## Surface & integration
+
+- **Native <Term id="mcp">MCP</Term>** — first-class in Tag, or only via third-party HTTP gateways? Unverified.
+- **Connector catalog** — the broad list (Vercel, Datadog, Stripe, …) is Composio reporting, not primary docs.
+- **Slack surface details** — the ~50-message thread cap is reported <Src src="agentconn"/>; emoji reactions / Canvas support are unconfirmed.
+
+## Governance & rollout
+
+- **Team vs Enterprise** — no official enumeration of Tag-specific tier differences; inferred from general plan tiering.
+- **Injection specifics** — the Mitiga Slack-MCP demo is reported, not independently verified; no confirmed public CVE / advisory specific to Tag.
+- **The date discrepancy** — legacy retirement "~3 Aug 2026" is press-reported <Src src="techtimes"/>; the announcement states only a **30-day opt-in** window <Src src="announcement"/> (≈ Jul 23 from a Jun 23 launch). The two don't reconcile cleanly; the exact retirement date isn't on Anthropic's page.
+
+<Callout>
+Sourcing convention used across this wiki — **(official)** Anthropic docs/announcement · **(reported)** press or single-source reverse-engineering · **(inferred)** my synthesis · **(unconfirmed)** stated nowhere. When these conflict, official wins and the disagreement is noted rather than smoothed over. Every colored tag links to the underlying source.
+</Callout>

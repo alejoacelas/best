@@ -1,0 +1,19 @@
+---
+import { glossary } from '../data/glossary';
+import { sources } from '../data/sources';
+
+interface Props {
+  id: keyof typeof glossary | string;
+}
+const { id } = Astro.props;
+const entry = glossary[id as string];
+if (!entry) {
+  throw new Error(`<Term id="${id}"> has no entry in glossary.ts`);
+}
+const src = entry.source ? sources[entry.source] : null;
+if (entry.source && !src) {
+  throw new Error(`<Term id="${id}"> references unknown source "${entry.source}"`);
+}
+---
+{/* Slot and tooltip kept adjacent (no whitespace) so following punctuation sits tight. */}
+<span class="term" tabindex="0"><slot>{entry.term}</slot><span class="tooltip" role="tooltip"><span class="tooltip-term">{entry.term}</span><span class="tooltip-def">{entry.def}</span><span class="tooltip-foot">{src && (<a class={`tooltip-src src-${src.kind}`} href={src.url} target="_blank" rel="noopener noreferrer">{src.kind} · {src.short} &nearr;</a>)}<a class="tooltip-more" href={`/glossary/#${entry.id}`}>glossary &rsaquo;</a></span></span></span>

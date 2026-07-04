@@ -1,0 +1,23 @@
+---
+layout: ../layouts/Wiki.astro
+title: "Design principles"
+subtitle: "The bets, and the tensions each one buys."
+---
+
+import Term from '../components/Term.astro';
+import Callout from '../components/Callout.astro';
+
+Each principle is paired with the tension it creates — that's where the design actually lives.
+
+- **Multiplayer over private sessions** → one visible Claude per channel makes AI work a shared team artifact. *Tension:* everyone in the channel shares one authority surface.
+- **Accumulated context is the moat, not raw capability** → everyone gets the same model; compounding memory is the differentiator and the stickiness bet. *Tension:* context lock-in, and sensitive org knowledge concentrated in a vendor-held store.
+- **Initiative makes it a teammate** → <Term id="ambient">ambient</Term> monitoring is what separates a teammate from a tool. *Tension:* it inverts the consent model from *reads-on-request* to *reads-continuously*, and every read is a candidate instruction.
+- **Scoped identity as the containment primitive** → deliberately no omniscient org brain; partition into department-scoped <Term id="agent-identity">identities</Term> whose memory/tools don't cross drawn lines, mirroring need-to-know walls. *Tension:* governance quality now depends on admin discipline (over-broad grants, config drift).
+- **Oversight by observability, not approval** → <Term id="spend-cap">spend caps</Term> + attributed audit instead of gating each action. *Tension:* the [detection gap](/governance-and-security/) — an injected session looks legitimate in the log.
+- **Identity-based access over impersonation** → <Term id="agent-proxy">Agent Proxy</Term> injection + <Term id="egress">default-deny egress</Term>; the model never holds secrets. *Tension:* preventive controls bound blast radius but can't detect a hijack in progress.
+
+<Callout type="key">
+Where Cowork contained the **environment** (a VM) so non-devs wouldn't have to judge shell commands, Tag contains **information** along admin-drawn channel-identity lines — because it can't sandbox its real "computer" (a live, human-shared Slack) and can't gate every ambient action. Containment moves from *the machine* to *the identity graph.*
+</Callout>
+
+Grounded in Anthropic's scoping language, but a synthesis — not a slogan they use. Primary source for all of this: the [reading packet](https://github.com/alejoacelas/learn/blob/main/tag/claude-tag-readings.md); residual unknowns are on [Open threads](/open-threads/).

@@ -1,0 +1,10 @@
+# Repo paths (best-relative) that are private on GitHub. One exact path per line.
+# A repo listed here renders as private in the generated README sub-repo tables;
+# every other repo (including a public/third-party one nested inside a private repo)
+# renders public. Privacy is human judgment (about others, or credentials), so it
+# lives here by hand rather than being auto-discovered.
+friends/advice
+friends/partner
+friends/people
+friends/places/visa
+make/tools

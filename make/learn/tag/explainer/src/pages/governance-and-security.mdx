@@ -1,0 +1,35 @@
+---
+layout: ../layouts/Wiki.astro
+title: "Governance & security"
+subtitle: "The control planes, the injection surface, and the detection gap."
+---
+
+import Term from '../components/Term.astro';
+import Callout from '../components/Callout.astro';
+import Src from '../components/Src.astro';
+
+## Control planes
+
+Enforcement is at the **identity/channel boundary**, not post-hoc content filtering <Src src="identityBlog"/>:
+
+- **Scoped identities** per function (eng / sales / legal / HR), each with isolated tools, memory, budget.
+- **<Term id="agent-proxy">Agent Proxy</Term>** credential model + **<Term id="egress">default-deny egress</Term>** allowlist.
+- **Deny-by-default private channels** — read/pulled only on explicit grant; private content never surfaces to the workspace <Src src="restrictAccess"/>.
+- **Dual-level <Term id="spend-cap">spend caps</Term>** (org + channel) with throttling; over-budget work declined <Src src="support"/>.
+- **Audit console** — every task, memory write, and network call, each **tagged with the requesting user**; plus dual-sided logging in each connected system.
+- **Owner / Primary-Owner-only** configuration; migration is itself an admin opt-in.
+
+**Tier split (inferred from general plan tiering):** Enterprise adds <Term id="scim">SCIM</Term>, custom roles, Compliance API, custom retention, IP allowlisting, HIPAA options. No official doc enumerates Tag-specific Team-vs-Enterprise differences.
+
+The philosophy is **oversight by observability**: bound actions (caps) + make them traceable (audit) rather than gate each one behind a human click.
+
+## The injection surface (the one hard problem)
+
+Claude reads channel content and can act on it, so **any message is a candidate instruction** — a member, or an outside message quoted into a channel, can attempt redirection. <Term id="ambient">Ambient mode</Term> maximizes this: everything it reads is a potential command; the "always-on, reads-everything" posture is exactly what critics flag <Src src="theregister"/>.
+
+- **Demonstrated class:** indirect <Term id="prompt-injection">prompt injection</Term> → <Term id="exfiltration">exfiltration</Term> is well-established across Claude products (Oasis "Claudy Day"; Code Interpreter exfil research). A Slack-MCP injection demo is attributed to **Mitiga** — reported, not independently verified, and without a captured primary URL. **No confirmed CVE or Anthropic advisory specific to Tag** was found.
+- **Preventive controls:** default-deny egress + disposable sandbox bound *what a hijacked session can do*, not whether it's hijacked.
+
+<Callout type="unknown">
+**The structural gap:** a session executing an injected instruction can be **byte-identical in the audit log** to a legitimate one — the deviation is semantic (what it was told to do), not mechanical. So audit alone won't reliably surface a successful injection, and the primary control on proactive actions is **post-hoc audit, not pre-action approval**. That asymmetry is the real reason ambient ships off.
+</Callout>

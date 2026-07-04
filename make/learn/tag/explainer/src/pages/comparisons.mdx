@@ -1,0 +1,32 @@
+---
+layout: ../layouts/Wiki.astro
+title: "Tag vs Code vs Cowork"
+subtitle: "Same model + agent loop; different body, memory, and containment primitive."
+---
+
+import Term from '../components/Term.astro';
+import Callout from '../components/Callout.astro';
+import Src from '../components/Src.astro';
+
+All three run the same model (reported: Opus 4.8 <Src src="agentconn"/>) and the same <Term id="react">ReAct</Term> loop in a harness. The differences are architectural.
+
+<div class="table-wrap">
+
+| | Claude Code | Claude Cowork | Claude Tag |
+|---|---|---|---|
+| **Surface** | Terminal / IDE | Desktop app | Slack channel |
+| **Execution locus** | Local **process** on your machine | Local **VM** (Apple Virtualization / Hyper-V) | **Cloud** ephemeral per-thread <Term id="sandbox">sandbox</Term> |
+| **Isolation primitive** | None by default (your shell) | Hypervisor boundary + mounted folders | Cloud sandbox + <Term id="agent-identity">Agent Identity</Term> + <Term id="egress">egress</Term> allowlist |
+| **Persistent memory** | None — hand-kept `CLAUDE.md`, single-user | The VM's environment | **Accumulating, channel/workspace-scoped, admin-governed** |
+| **Auth** | Your local creds / shell | Host keychain, kept on host | Service accounts + <Term id="agent-proxy">Agent Proxy</Term> injection |
+| **Users** | One developer | One person | A whole team (<Term id="multiplayer">multiplayer</Term>) |
+| **Oversight** | You approve at the terminal | You supervise the VM | Async; steer in-thread; **audit after the fact** |
+| **Containment bet** | Human reads the commands | Contain the *environment* | Contain *information* along identity lines |
+
+</div>
+
+## The persistent-state answer, precisely
+
+**Claude Code has no persistent install/session state.** Each run starts cold; "memory" is a `CLAUDE.md` file you maintain by hand, for yourself, per repo. Nothing you install survives, nothing accumulates automatically.
+
+**Claude Tag inverts every axis of that:** memory is persistent, **server-side**, **shared across a team**, and **admin-governed** <Src src="support"/>, and its organizing unit is **the channel** — not a repo, not a person. That single inversion is why Tag needs an entire governance/identity layer that Code never required: durable shared state that reads untrusted input is a fundamentally larger blast radius than an ephemeral single-user terminal.

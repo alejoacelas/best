@@ -1,0 +1,36 @@
+---
+layout: ../layouts/Wiki.astro
+title: "The working loop"
+subtitle: "Three triggers, routines as the durability primitive, steering mid-task."
+---
+
+import Term from '../components/Term.astro';
+import Callout from '../components/Callout.astro';
+import Src from '../components/Src.astro';
+
+## Triggers <Src src="howItWorks"/>
+
+| Trigger | Mechanism |
+|---|---|
+| **@-mention** | Default. Decomposes the request into steps, runs each with connected tools, posts back. Baseline mode. |
+| **Routine** | Fires without a live turn: on a **schedule**, on a **repository event** (e.g. new PR), or as **multi-turn** work continuing across one thread. |
+| **Ambient** | Admin-gated, off by default. Proactively surfaces relevant info across its channels/tools and chases stalled threads, **unprompted**. |
+
+Teammates **steer mid-task by replying in-thread** — no restart, the running loop absorbs the new instruction. Config changes don't, though: the thread's tools/connectors are locked at step 2 of its lifecycle.
+
+## "Autonomously over hours or days" — decoded
+
+Anthropic's phrase <Src src="announcement"/> is real but it is **not one long-lived process**. It's:
+
+- **self-scheduled <Term id="routine">routines</Term>** (the persistent trigger), plus
+- **durable external state** — branches, PRs, docs — that survives each <Term id="sandbox">sandbox</Term> teardown.
+
+The routine persists and resumes; the compute is rebuilt per reply. So the correct model is *a scheduler over ephemeral executions writing to durable stores*, not *a daemon running for days*. Budget behavior: over-cap work is **declined, not silently truncated** <Src src="support"/>.
+
+<Callout type="unknown">
+The scheduler's internals — retry/resume semantics, how routine state and in-progress context survive across sandbox rebuilds, any max duration — are undisclosed.
+</Callout>
+
+## Why ambient is the pivotal setting
+
+A reactive tool only ingests what you hand it. An <Term id="ambient">ambient</Term> one ingests **everything in its channels as candidate instructions** — which is exactly the <Term id="prompt-injection">prompt-injection</Term> surface. That's why it ships off and Anthropic recommends starting there <Src src="techtimes"/>; the security consequences are on [Governance & security](/governance-and-security/).

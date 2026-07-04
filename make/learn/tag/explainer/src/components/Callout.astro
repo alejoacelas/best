@@ -1,0 +1,13 @@
+---
+interface Props {
+  type?: 'note' | 'unknown' | 'key';
+  label?: string;
+}
+const { type = 'note', label } = Astro.props;
+const defaultLabel =
+  type === 'unknown' ? "What's not public" : type === 'key' ? 'The one-line model' : 'Note';
+---
+<aside class={`callout callout-${type}`}>
+  <span class="callout-label">{label ?? defaultLabel}</span>
+  <div class="callout-body"><slot /></div>
+</aside>

@@ -1,0 +1,29 @@
+---
+layout: ../layouts/Wiki.astro
+title: "Architecture & execution"
+subtitle: "Slack triggers, cloud executes, the sandbox is disposable."
+---
+
+import Term from '../components/Term.astro';
+import Callout from '../components/Callout.astro';
+import Src from '../components/Src.astro';
+
+## The five-step lifecycle
+
+Per the [how-it-works doc](https://claude.com/docs/claude-tag/concepts/how-it-works) <Src src="howItWorks"/>, one task runs as:
+
+1. **Initiation** — an `@Claude` mention, a <Term id="routine">routine</Term> firing, or ambient trigger opens a working session **bound to that Slack thread**.
+2. **Sandbox build** — Anthropic provisions a fresh isolated <Term id="sandbox">sandbox</Term> for the thread. At this moment the thread **locks its configuration**: the tools, connectors, and skills it may use are fixed. Later config changes do **not** reach an already-running thread.
+3. **Working loop** — the <Term id="agent-loop">ReAct loop</Term> runs inside the sandbox: reads files, executes code, clones repos, writes docs.
+4. **Post results** — deliverables go back into the thread (reply, file/chart, <Term id="living-page">living page</Term>, or draft <Term id="pr">PR</Term>).
+5. **Idle release** — the sandbox is torn down. **Anything living only inside it is gone**; it's recreated on the next reply.
+
+The load-bearing split: **thread + memory are durable; the sandbox is disposable.** So durable output is pushed to external systems that outlive the sandbox — a Git branch, a PR, a doc. Long-horizon work is *stateful in Slack/Git, stateless in compute*.
+
+## Where the boundary sits
+
+Execution is **entirely Anthropic-cloud**; nothing is installed in your network, and your systems only receive authenticated requests carrying credentials the <Term id="agent-proxy">Agent Proxy</Term> attached <Src src="agentIdentityDoc"/>. This is the exact inversion of Claude Code (a local process on your box) — and it's why Tag needs a containment story Code never did: the operator isn't watching a terminal.
+
+<Callout type="unknown">
+**Sandbox internals are undocumented.** Anthropic states the lifecycle, not the machinery: no public detail on the isolation boundary, max session lifetime, scheduler durability, or how a sandbox is re-hydrated on the next reply. The one independent reverse-engineering pass, [AgentConn](https://medium.com/@computeleap/claude-tag-how-the-per-thread-sandbox-works-agentconn-blog-fd4edc8db0c8) <Src src="agentconn"/>, reports **<Term id="react">ReAct</Term> on Opus 4.8**, an org→workspace→channel <Term id="access-bundle">Access Bundle</Term>, and a "Slack-as-trigger / cloud-Claude-Code-as-execution" model — but its evidence only demonstrates **channel-level** isolation, and its "per-thread sandbox memory" claim is unproven. Treat the mental model as useful, the specifics as single-source.
+</Callout>

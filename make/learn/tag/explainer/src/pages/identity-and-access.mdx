@@ -1,0 +1,33 @@
+---
+layout: ../layouts/Wiki.astro
+title: "Identity & access"
+subtitle: "Service accounts, credential injection at the edge, default-deny egress."
+---
+
+import Term from '../components/Term.astro';
+import Callout from '../components/Callout.astro';
+import Src from '../components/Src.astro';
+
+The containment boundary is the **identity and the network edge**, not a human reviewing commands. Three mechanisms carry it — all detailed in the [agent-identity doc](https://claude.com/docs/claude-tag/concepts/agent-identity) <Src src="agentIdentityDoc"/> and the [access-model blog](https://claude.com/blog/agent-identity-access-model) <Src src="identityBlog"/>.
+
+## 1. Acts as itself, not as you
+
+In-channel, Claude runs under the org's <Term id="agent-identity">Agent Identity</Term> — its own <Term id="service-account">service accounts</Term>: a Claude Slack app, a Claude GitHub App, per-tool accounts. Every action is attributable to Claude and bounded by that identity's grants, not smeared into an employee's activity.
+
+- **One shared identity per public channel**; **separate identities per private channel** (deny-by-default).
+- **DMs are the exception** — they run under **your personal account**, and that context is not pooled into channel memory.
+- Capability is **channel-scoped, not user-scoped**: what Claude can do never changes based on who asked.
+
+## 2. Never holds the credential
+
+The <Term id="agent-proxy">Agent Proxy</Term> keeps secrets in a separate store and **injects them only at the network boundary**, at request time, under Claude's service accounts. Neither the model nor the <Term id="sandbox">sandbox</Term> ever sees the token — so a leaked prompt can't leak a key the model was never given. This is the structural answer to "an agent that reads untrusted input also holds your GitHub token."
+
+## 3. Closed network by default
+
+Outbound <Term id="egress">egress</Term> from the sandbox is **default-deny against an admin <Term id="allowlist">allowlist</Term>**: a host is unreachable until a connection rule names it. Combined with the disposable sandbox, this is the primary technical control on <Term id="exfiltration">exfiltration</Term> — it bounds *where* a hijacked session could send data, even if it can't prevent the hijack.
+
+**Auditability is dual-sided:** actions land in the Tag audit console **and** in each connected system's own logs <Src src="identityBlog"/>. Anthropic has signalled **just-in-time credential grants** and **identity-aware overlays** as planned, not shipped.
+
+<Callout>
+Read this page against [Governance & security](/governance-and-security/): identity + proxy + egress are the *preventive* half; the audit console is the *detective* half. The gap between them is where <Term id="prompt-injection">prompt injection</Term> lives.
+</Callout>

@@ -1,0 +1,40 @@
+---
+layout: ../layouts/Wiki.astro
+title: "Claude Tag — spec sheet"
+subtitle: "The gears, not the pitch. Confidence tags are links to the source: (official) Anthropic docs/announcement · (reported) press or single-source reverse-engineering. (inferred) and (unconfirmed) are unlinked."
+---
+
+import Term from '../components/Term.astro';
+import Callout from '../components/Callout.astro';
+import Src from '../components/Src.astro';
+
+<div class="table-wrap">
+
+| Fact | Value |
+|---|---|
+| Launched | 23 Jun 2026, beta, **Enterprise + Team only** <Src src="announcement"/> |
+| Replaces | "Claude in Slack" (legacy, stateless, per-user). Legacy app retires **~3 Aug 2026** <Src src="techtimes"/> — the announcement only states a **30-day admin opt-in** <Src src="announcement"/>, and Jun 23 + 30 ≈ Jul 23, so the two dates are loosely inconsistent |
+| Framing | Anthropic calls it "an evolution of Claude Code" <Src src="announcement"/> |
+| Model | Opus 4.8 <Src src="agentconn"/> — single-source, not officially confirmed |
+| Execution | Anthropic-hosted **ephemeral per-thread cloud <Term id="sandbox">sandbox</Term>** — "nothing installed in your network" <Src src="howItWorks"/> |
+| Auth | Claude acts as its own <Term id="service-account">service accounts</Term> under an <Term id="agent-identity">Agent Identity</Term>; secrets brokered by the <Term id="agent-proxy">Agent Proxy</Term> <Src src="agentIdentityDoc"/> |
+| Network | <Term id="egress">Default-deny egress</Term> against an admin <Term id="allowlist">allowlist</Term> <Src src="agentIdentityDoc"/> |
+| Config access | Owner / Primary Owner only <Src src="support"/> |
+| Dogfood stat | ~65% of Anthropic's **product team's** code comes from an internal Tag <Src src="announcement"/> — self-reported, no methodology; **not** "writes 65% of its own code" (press distortion) |
+
+</div>
+
+## The whole thing in six substrates
+
+- **Trigger surface** — Slack. An `@Claude` mention, a <Term id="routine">routine</Term>, or <Term id="ambient">ambient</Term> monitoring opens a task bound to the thread.
+- **Execution surface** — a cloud Claude Code-style harness running the <Term id="agent-loop">agent loop</Term> inside the sandbox _(inferred; from the "evolution of Claude Code" framing + reporting)_.
+- **Body** — the ephemeral per-thread sandbox: real code execution, discarded on idle, rebuilt on next reply.
+- **Memory** — a persistent, admin-governed store scoped **per channel / per workspace** <Src src="memoryDoc"/>. Storage mechanism undisclosed — see [Open threads](/open-threads/).
+- **Auth** — Agent Identity service accounts + Agent Proxy credential injection + default-deny egress.
+- **Governance** — dual-level <Term id="spend-cap">spend caps</Term>, an audit console (every task, memory write, network call, user-attributed), scoped identities per function.
+
+<Callout type="key">
+A persistent, multiplayer principal whose body is a disposable cloud sandbox and whose state is a channel-scoped governed store. Everything downstream — the security model, the memory scoping, the governance surface — falls out of *state lives in the channel, compute is throwaway, and it reads untrusted input.*
+</Callout>
+
+Each page takes one substrate to the level of its documented mechanics and flags where the docs stop. **Dotted terms** carry a hover definition **and** a link to the primary passage describing that thing; **colored tags** like <Src src="announcement" label="official"/> link the claim to its source. [Open threads](/open-threads/) collects everything still unconfirmed.

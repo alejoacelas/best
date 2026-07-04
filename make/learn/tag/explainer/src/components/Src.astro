@@ -1,0 +1,20 @@
+---
+import { sources } from '../data/sources';
+
+interface Props {
+  src: keyof typeof sources | string;
+  // Optional label override; defaults to the source's kind (official/reported).
+  label?: string;
+}
+const { src, label } = Astro.props;
+const s = sources[src as string];
+if (!s) {
+  throw new Error(`<Src src="${src}"> has no entry in sources.ts`);
+}
+---
+<a
+  class={`src src-${s.kind}`}
+  href={s.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  title={s.title}>({label ?? s.kind}<span class="src-ext" aria-hidden="true"> &nearr;</span>)</a>

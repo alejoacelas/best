@@ -1,0 +1,35 @@
+---
+import Wiki from '../layouts/Wiki.astro';
+import { glossary } from '../data/glossary';
+import { sources } from '../data/sources';
+
+const entries = Object.values(glossary).sort((a, b) =>
+  a.term.toLowerCase().localeCompare(b.term.toLowerCase()),
+);
+---
+
+<Wiki title="Glossary" subtitle="Precise definitions for the terms used throughout. Where a term has a primary source describing it in Claude Tag, it links out.">
+  <dl class="glossary">
+    {
+      entries.map((e) => {
+        const s = e.source ? sources[e.source] : null;
+        return (
+          <>
+            <dt id={e.id}>{e.term}</dt>
+            <dd>
+              {e.def}
+              {s && (
+                <>
+                  {' '}
+                  <a class={`src src-${s.kind}`} href={s.url} target="_blank" rel="noopener noreferrer">
+                    ({s.kind}: {s.short} &nearr;)
+                  </a>
+                </>
+              )}
+            </dd>
+          </>
+        );
+      })
+    }
+  </dl>
+</Wiki>
