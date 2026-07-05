@@ -1,9 +1,16 @@
 <!--ai-->
 # Meal replacements: what fraction of my diet?
 
+> Claims are tagged by evidence tier: **gold** (≥2 RCTs on the outcome) › **RCT (surrogate)** › **cohort** › **patchwork**. See [how to read the evidence](evidence.md).
+
 ## Verdict
 
-Long-term ceiling: **about 25-50% of daily calories** (1-2 of 3-4 eating occasions) from a complete formula, keeping a whole-food base indefinitely. Near-total replacement is fine only as a defined short phase (up to ~12 weeks) and, at very low calories, under medical supervision. The reason: 25-50% is the only dose with year-plus RCT support; above ~50% the evidence thins and the satiety, fiber-diversity, and diet-skill concerns compound. This is an evidence-bounded default, not a tested threshold — no trial has ever randomized long-term users to 50% vs 75%, so "above ~50% the evidence thins" is the honest claim, not "above 50% is unsafe."
+Long-term ceiling: **about 25-50% of daily calories** (1-2 of 3-4 eating occasions) from a complete formula, keeping a whole-food base indefinitely. Near-total replacement is fine only as a defined short phase (up to ~12 weeks) and, at very low calories, under medical supervision.
+
+Be clear what backs this number, because two different-strength claims get conflated:
+
+- **That partial meal replacement works for *weight loss* is `gold`** — 23 RCTs, 7,884 adults. But that's an RCT on the weight outcome, not on long-term health, energy, or lifespan.
+- **That 25-50% is the right long-term *health* ceiling is `patchwork`.** No trial has randomized healthy people to different long-term MR fractions and tracked what actually matters. The number is triangulated: year-plus data exist only at 1-2 meals/day, near-total safety data stop at 12 weeks, and above ~50% the satiety, fiber-diversity, and diet-skill concerns compound. It is an evidence-bounded default, not a safety line — "above ~50% the evidence thins," not "above 50% is unsafe."
 
 ## Why that number
 
@@ -30,7 +37,7 @@ The real long-term limiters:
 
 **Short term (days to weeks):** expect transient GI symptoms — bloating, flatulence, altered stools — as the gut meets isolated fibers (inulin/FOS give mild symptoms at 7.5-20 g/day, worse above 30 g; [tolerance review](https://pmc.ncbi.nlm.nih.gov/articles/PMC9776669/)). Largely self-limiting, though evidence for true adaptation is inconsistent. Purpose-formulated high-protein, low-GI formulas blunt post-meal glucose from the first serving — but that is a protein/carb-composition effect against a high-GI comparator, shown in a manufacturer-authored acute crossover ([PMC11188454](https://pmc.ncbi.nlm.nih.gov/articles/PMC11188454/); 3 of 4 authors Abbott-affiliated). A macronutrient-matched formula shows *no* glucose advantage. "More energy/focus" in early weeks is mechanistic inference (flatter glucose swings), not a measured cognitive outcome.
 
-**Long term (months to a year):** partial replacement holds up. Replacing 1-2 meals/day produces about **1.44 kg more loss at 1 year** than an isocaloric food diet ([meta-analysis, 23 RCTs, 7,884 adults](https://pmc.ncbi.nlm.nih.gov/articles/PMC6849863/)), rising to 2-6 kg with structured support; Heymsfield's pooling found +2.4-2.6 kg sustained to 1 year with lower dropout ([Int J Obes 2003](https://pubmed.ncbi.nlm.nih.gov/12704397/)). The effect is portion/calorie control and adherence, not metabolic magic. Adverse events showed no signal of harm where measured — but only 2 of 23 trials reported adverse-event data, so this is under-reporting, not demonstrated safety, and the literature is heavily industry-funded.
+**Long term (months to a year):** partial replacement holds up *for weight* (`gold`; the endpoint is weight, not health). Replacing 1-2 meals/day produces about **1.44 kg more loss at 1 year** than an isocaloric food diet ([meta-analysis, 23 RCTs, 7,884 adults](https://pmc.ncbi.nlm.nih.gov/articles/PMC6849863/)), rising to 2-6 kg with structured support; Heymsfield's pooling found +2.4-2.6 kg sustained to 1 year with lower dropout ([Int J Obes 2003](https://pubmed.ncbi.nlm.nih.gov/12704397/)). The effect is portion/calorie control and adherence, not metabolic magic. Adverse events showed no signal of harm where measured — but only 2 of 23 trials reported adverse-event data, so this is under-reporting, not demonstrated safety, and the literature is heavily industry-funded.
 
 **Near-total, long term:** unstudied. EFSA states there are [no data backing total-diet-replacement safety past three months](https://www.efsa.europa.eu/en/efsajournal/pub/3957). Even the aggressive protocols treat it as a phase: DiRECT ran 825-853 kcal/day formula for 12-20 weeks, *then* staged food reintroduction, achieving [46% type-2 diabetes remission vs 4%](https://pubmed.ncbi.nlm.nih.gov/29221645/). Very-low-calorie regimens add real risks — ~11% develop gallstones within 6 months ([matched cohort](https://pmc.ncbi.nlm.nih.gov/articles/PMC3921672/)), plus cold intolerance, hair loss, fatigue — driven by the deficit and rapid loss, not the formula itself.
 
