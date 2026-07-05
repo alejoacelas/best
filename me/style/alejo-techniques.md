@@ -3,9 +3,10 @@
 The [charisma note](charisma.md) lists techniques — Antonakis's twelve tactics, Cabane's
 presence/warmth/power, the pratfall move. This maps them onto what Alejo *already does*,
 quoted from [the blog](https://myea.blog). It's a mirror, not a drill: where he runs a
-tactic without trying, where he over-runs it, and the one he skips by default. The point
-isn't to start practicing — it's to recognize the ones already his so he leans on them on
-purpose, and to catch the two or three he overfits.
+tactic without trying, where he over-runs it, and where a tactic (presence) is run
+structurally rather than in the moment. The point isn't to start practicing — it's to
+recognize the ones already his so he leans on them on purpose, and to catch the two or
+three he overfits.
 
 ## At a glance
 
@@ -25,7 +26,7 @@ purpose, and to catch the two or three he overfits.
 | State / emotional contagion | Heavily, in both directions |
 | Animated voice, facial expression | Can't read from text |
 | Gesture | The solo high-five is a real one |
-| Presence (full, undivided attention) | **Not by default — the gap** |
+| Presence (full, undivided attention) | Yes — protected structurally, by keeping time unscheduled |
 
 ## The verbal tactics he runs without trying
 
@@ -139,18 +140,25 @@ thumbs-aloft — an unguarded, slightly silly, self-delighted move, the same *fa
 McCartney's. "I often say hi to people on the street" (same post) is the warmth-first
 reflex in physical form.
 
-## The one he doesn't do by default: presence
+## Presence — run structurally, by protecting the time for it
 
-Every other component is already his. **Presence — full, undivided attention on one
-person — is the exception, and he's said so:** "I'll shape my cognition to whatever shape
+Presence, too, is already his — but he gets to it a particular way. Rather than
+white-knuckling attention in the moment, he **protects unscheduled, uninterrupted time**
+so he can drop into something and just be there. "I keep no defined working hours... being
+extremely flexible to hop on invitations from friends, even if they come at the last
+minute" ([unusual-habits](https://myea.blog/unusual-habits)). "You should let friends
+invite you to stuff. You should let people interrupt you. You should let people who are
+near to you possess your now" ([do-it-now](https://myea.blog/do-it-now)). Living with the
+people he likes ([unusual-habits](https://myea.blog/unusual-habits)) is the same move — put
+himself where being fully present is the only thing to do. At a social gathering the
+strategy is to have nothing else queued, so there's nothing to fragment toward. When care
+fires the attention is total: "In one-on-ones it leads me to ask questions, be curious
+about what they hope for, what they're trying to do" ([caring](https://myea.blog/caring)).
+
+The one real tension: the same person also says "I'll shape my cognition to whatever shape
 is most conducive to getting output from AIs... a lot of attention fragmentation"
-([identity-barrier](https://myea.blog/identity-barrier)).
-
-It's not absent — it's not his *default*. When care fires, he gives total attention: "In
-one-on-ones it leads me to ask questions, be curious about what they hope for, what
-they're trying to do" ([caring](https://myea.blog/caring)). So the raw capacity is there;
-it's gated on caring and off by default. Since the note calls presence the most learnable,
-highest-leverage component, and it's the only one he *doesn't* already run, it's the
-single thing worth noticing — not a new skill to drill, just declining to fragment the
-moments he's already in. This is the same conclusion [alejo-style](alejo-style.md) reached
-from the other direction.
+([identity-barrier](https://myea.blog/identity-barrier)). So the fragmentation is aimed at
+*work with AI*, not at people — and the open-calendar habit is the wall that keeps the two
+apart. The thing to protect, then, isn't a new skill; it's the structure that already
+works: keep enough unscheduled, un-queued time that presence stays cheap. This is the same
+conclusion [alejo-style](alejo-style.md) reaches from the other direction.

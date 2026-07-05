@@ -132,6 +132,9 @@ recognizable voice.
 - Which of these is actually load-bearing for the good Alejo wants to do, versus just
   *him*? Candor and sharp care feel core; the provocation might be optional.
 - The [charisma note](charisma.md) says presence is the most learnable, highest-leverage
-  component. Alejo has warmth and power; **presence** (full, undivided attention on one
-  person) is the piece his speed-and-fragmentation habit actively erodes. Likely the best
-  single thing to train.
+  component. Alejo has all three — including **presence**, which he protects structurally:
+  unscheduled, uninterrupted time so he can drop into something and just be there with
+  people ([do-it-now](https://myea.blog/do-it-now), [unusual-habits](https://myea.blog/unusual-habits)).
+  His attention only fragments toward *work with AI*; the open calendar is the wall that
+  keeps that away from people. The thing to guard is that structure, not a new skill. See
+  [alejo-techniques](alejo-techniques.md#presence--run-structurally-by-protecting-the-time-for-it).
