@@ -188,7 +188,11 @@ can be *staged* as tiny example exchanges instead of asserted.
 **What it is:** Immediately after the wildest image, a flat mundane coda one register
 below it — the voice of someone who finds the horror unremarkable.
 **Verbatim:**
-> "...and then a tank ate her. Good night. Night night."
+> "There was a little girl, lost many many miles from home, walking through the woods
+> late late at night, with the creatures all hooting and howling, and the bushes around
+> her… and you could see the lights at home, and she began to walk towards home — and
+> then a tank ate her. Good night. Night night." (the whole fairy tale, told straight,
+> then the coda)
 >
 > "Say what you like about Nazi Germany — those hats! Everywhere those stormtroopers
 > went: 'check him out' — before he killed us. That happened a lot."

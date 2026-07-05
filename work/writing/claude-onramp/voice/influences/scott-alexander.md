@@ -53,17 +53,29 @@ matched one-liners split the blow, the fragment that both ends one movement and 
 the next ("But let's talk about toxoplasma."), and in fiction the punchline reply —
 the shorter God's answer, the bigger the horror it casually contains.
 **Verbatim:**
-> "And it worked." (Categories — three words, its own paragraph, after two paragraphs
-> of failed treatments)
+> "She'd seen countless psychiatrists, psychologists, and counselors, she'd done all
+> sorts of therapy, she'd taken every medication in the book, and none of them had
+> helped. / So she came to my hospital and was seen by a colleague of mine, who told her
+> 'Hey, have you thought about just bringing the hair dryer with you?' / And it worked."
+> (Categories — "/" marks paragraph breaks; three words as their own paragraph)
 >
-> "Yes, maybe these things happened in each of the twenty studies that disagree with
+> "'Well, maybe the medical community wasn't investigating it the right way! Maybe the
+> investigators were biased! Maybe they didn't randomize right! Maybe they used a
+> population unusually susceptible to cancer-getting! Ninety percent of medical studies
+> are wrong! Those twenty experiments showing a lack of effect could be total bunk!' /
+> Yes, maybe these things happened in each of the twenty studies that disagree with
 > you. / Or maybe they happened in the one contrarian study you are getting so excited
-> about." (Isolated Rigor — the paired landing)
+> about." (Isolated Rigor — the paired landing after the ventriloquized rant)
 >
-> "It's mostly the screams." (Who By Very Slow Decay)
+> "Am I calling hospitals hellish? Sure am. It has nothing to do with the decor, which
+> has actually gotten much nicer in your newer hospitals until it's hard to tell them
+> apart from a stylish office building. It's nothing to do with the staff, either –
+> most doctors and some nurses seem pretty happy and trade banter around the water
+> coolers like everyone else. It's mostly the screams." (Who By Very Slow Decay)
 >
-> "'OH, DON'T WORRY,' said God. 'THERE'S A VERSION OF YOU IN THAT UNIVERSE TOO. HE SAYS
-> HI.'" (Answer to Job)
+> "'Yes,' said Job, 'but all else being equal, I'd rather be in the perfectly just and
+> happy universe.' / 'OH, DON'T WORRY,' said God. 'THERE'S A VERSION OF YOU IN THAT
+> UNIVERSE TOO. HE SAYS HI.'" (Answer to Job)
 **Formula:** Highly codifiable: after the buildup, one short declarative in its own
 paragraph, refusing to match the buildup's energy; strip every qualifier from it. Same
 core mechanic as Paul Graham's snap and Moran's under-reaction — the one pattern all
@@ -140,9 +152,15 @@ what keeps the main text's register stable. Variants: the whole-paragraph parent
 paragraphs (a running bit conducted entirely in asides), the closing parenthesis as the
 essay's final punch, and the bare "(!)".
 **Verbatim:**
-> "(Slate Star Codex: Your source for macabre whale metaphors since June 2014)" (Moloch)
+> "Eventually more animals discover the carcass, the faster-breeding animals in the
+> carcass multiply, the whale is gradually consumed, and everyone sighs and goes back to
+> living in a Malthusian death-trap. / (Slate Star Codex: Your source for macabre whale
+> metaphors since June 2014)" (Moloch)
 >
-> "(also, bats)" (Categories — a whole paragraph: the fish argument's payoff in two words)
+> "So this is the second reason why this particular objection to the Bible is silly. If
+> God wants to call a whale a big fish, stop telling God what to do. / (also, bats)"
+> (Categories — the parenthetical is a whole paragraph: the fish argument's payoff in
+> two words)
 >
 > "(you thought I was joking about the hate for kitten picture bloggers. I never
 > joke.)" (Toxoplasma)

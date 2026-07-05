@@ -48,18 +48,32 @@ two-word rebuttal, the "Which…"/"Except…" fragment as afterthought, the one-
 ("Huh."), and the display case — an aphorism given its own paragraph so white space does
 the italicizing.
 **Verbatim:**
-> "One argument says that this would be impossible, that the smart kids are unpopular
-> because the other kids envy them for being smart, and nothing they could do could make
-> them popular. I wish." (Why Nerds Are Unpopular)
+> "Why don't smart kids make themselves popular? If they're so smart, why don't they
+> figure out how popularity works and beat the system, just as they do for standardized
+> tests? One argument says that this would be impossible, that the smart kids are
+> unpopular because the other kids envy them for being smart, and nothing they could do
+> could make them popular. I wish." (Why Nerds Are Unpopular)
 >
 > "One reason programmers dislike meetings so much is that they're on a different type of
-> schedule from other people. Meetings cost them more." (Maker's Schedule)
+> schedule from other people. Meetings cost them more." (Maker's Schedule — the essay's
+> opening: the snap works as line two)
 >
-> "She died on January 15, 2014. We knew this was coming, but it was still hard when it
-> did." (What I Worked On)
+> "There are a lot of forces that will lead you astray when you're trying to figure out
+> what to work on. Pretentiousness, fashion, fear, money, politics, other people's
+> wishes, eminent frauds. But if you stick to what you find genuinely interesting,
+> you'll be proof against all of them. If you're interested, you're not astray." (How to
+> Do Great Work)
 >
-> "Informal language is the athletic clothing of ideas." (Write Like You Talk — a
-> display case: the sentence is alone in its paragraph)
+> "…partly because I was focused on my mother, whose cancer had returned. / She died on
+> January 15, 2014. We knew this was coming, but it was still hard when it did." (What I
+> Worked On — "/" marks the paragraph break; the landing is its own two-sentence
+> paragraph)
+>
+> "And in my experience, the harder the subject, the more informally experts speak.
+> Partly, I think, because they have less to prove, and partly because the harder the
+> ideas you're talking about, the less you can afford to let language get in the way. /
+> Informal language is the athletic clothing of ideas. / I'm not saying spoken language
+> always works best." (Write Like You Talk — the display case: alone in its paragraph)
 **Formula:** Highly codifiable, and the single most transferable PG move: after two or
 more long sentences, one short flat sentence — no trailing qualifier, restating nothing,
 flipping or compressing. The memoir shows it works for grief as well as jokes: the
