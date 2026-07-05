@@ -25,11 +25,15 @@ near what in my head; I re-cut it as sharper questions surface.
 
 - What's the way to engage with AI? — `ai`
   - dotfiles — `ai/dotfiles`
+- Who should I become to do the most good? — `consequential-list`
+  - What are the best motives to act from? — `consequential-list/motives`
+  - What are the best lasting character traits to have? — `consequential-list/virtues`
 - What's the best way to keep what's good in me? — `me`
   - What's the best way to keep this body? — `me/body`
   - What's the best way to keep this mind? — mood, cognition, mental health. — `me/mind`
   - What are the most relevant parts of my past? — `me/past`
   - What are the best things to own? — `me/stuff`
+  - What is my best style — and how do I cultivate it? — `me/style`
 - What else is there? — `other`
   - What's the best art to engage with — and to make? — `other/art`
   - Where do I go? — places I travel and the visas to get there. — `other/places`
@@ -39,9 +43,6 @@ near what in my head; I re-cut it as sharper questions surface.
 - What are the best questions to ask? — `questions`
   - What questions do I most want to resolve now? — `questions/now`
   - What are the best open questions to explore? — `questions/open`
-- Who should I become to do the most good? — `utilitarian`
-  - What are the best motives to act from? — `utilitarian/motives`
-  - What are the best lasting character traits to have? — `utilitarian/virtues`
 - What's the best work to do? — for me, for others, for the world. — `work`
   - What's worth spinning up as a quick one-off? — dated, disposable projects. — `work/once`
   - What's the best thing to focus on now? — `work/plans`

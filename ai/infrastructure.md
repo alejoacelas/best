@@ -71,7 +71,7 @@ won't descend into a directory that repo ignores, so a one-off's scratch clones 
 the map. `--check` (run by the tracked `ai/githooks/pre-commit`, activated in
 `ai/dotfiles/bin/install.sh`) fails if anything drifted or if submodule metadata
 reappears. Privacy is the one thing it can't derive: hand-listed in `ai/private-paths`.
-Domains (each a folder's standing question): `utilitarian`, `questions`, `me`, `people`,
+Domains (each a folder's standing question): `consequential-list`, `questions`, `me`, `people`,
 `work` (incl. `work/once` one-offs), `other`, `ai` (this — the machine + agents).
 
 ## What runs in the background
