@@ -7,8 +7,10 @@ funnier and more engaging — engaging with meaning, not cheaply — ways of del
 the reader.<!--/me--> The Paul Graham cut (no sentence or word removable without
 losing meaning) is the floor; a bit of fluff purely for entertainment is allowed.
 
-- `samples/` — Alejo's own writing (the blog, better-start, love-agents, the
-  rant-tips call transcript). The voice reference; not to be edited.
+- `samples/` — Alejo's own writing (the blog, love-agents, the rant-tips call
+  transcript). The voice reference; not to be edited. better-start moved to
+  [`lessons/better-start/draft.md`](../lessons/better-start/draft.md), where it's
+  a live draft.
 - `influences/` — qualified patterns from writers he admires: per-writer style
   guides with a handle table up top (ordered by likelihood of application, verbatim
   quote each), cross-piece counts, and per-pattern verbatim excerpts, formula, and
