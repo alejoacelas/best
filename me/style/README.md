@@ -21,6 +21,9 @@ built, so watching how these four build theirs should transfer.
 - [`my-style.md`](my-style.md) — the same lens turned on me: what my own presence is,
   read from the blog, what it's for, its costs, and how to develop it. McCartney is the
   closest match; Thiel the deliberate contrast.
+- [`my-techniques.md`](my-techniques.md) — the charisma note's techniques mapped onto
+  what I already do, quoted from the blog: which are already mine, which I overfit, and
+  the one I skip (presence). A mirror, not a drill.
 - [`people/`](people) — one profile each, focused on the *moves* that make their
   presence distinctive and what's transferable:
   - [Paul Graham](people/paul-graham.md) — clarity and compression as presence, in text.

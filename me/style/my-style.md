@@ -2,7 +2,8 @@
 
 A read of Alejo's own presence, in the same terms as the four profiles next door.
 Sourced from [myea.blog](https://myea.blog). Read the [charisma note](charisma.md) first;
-this applies its map to me.
+this applies its map to me. For the technique-by-technique version — which charisma
+tactics I already run, quoted from the blog — see [`my-techniques.md`](my-techniques.md).
 
 ## Thesis
 
