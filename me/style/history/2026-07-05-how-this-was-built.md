@@ -18,7 +18,7 @@ prefer primary sources (their own words) over commentary.
 | `charisma.md` | Concept note. Starts from Alejo's own theory, sharpens against Weber / Antonakis / Cabane / Fiske. Anchor of the folder. |
 | `reading/` | Reading list + freely-available fragments downloaded to `reading/sources/`. No pirated books — excerpts + links only for anything copyrighted. |
 
-`my-style.md` was written separately, from a full read of [myea.blog](https://myea.blog)'s
+`alejo-style.md` (and later `alejo-techniques.md`) was written separately, from a full read of [myea.blog](https://myea.blog)'s
 `all.txt` — every move grounded in a quote from an actual post, mapped back to the four
 exemplars and to `charisma.md`.
 
