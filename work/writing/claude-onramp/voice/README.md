@@ -34,4 +34,10 @@ know the facts. Then agents (in `best/.claude/agents/`) run passes:
 
 The older `pg-compressor` (applies every cut in place, silently) remains for
 non-lesson text; for lessons prefer `pg-cut`.
+
+Before the pipeline, for inspiration while drafting: the `stylist-passes` skill
+(`best/.claude/skills/`) appends one ~300-word pastiche of the draft per
+influence writer below a divider — full voice commitment, hallucinated details,
+nothing meant to survive verbatim. Rerun after editing the draft and it diffs
+against the commit the passes were written from, updating each pass in-voice.
 <!--/ai-->
