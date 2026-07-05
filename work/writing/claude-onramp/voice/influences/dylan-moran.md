@@ -7,6 +7,18 @@ punctuation added and obvious caption errors fixed, since the captions have neit
 He's in the library for surprise: sentences where you don't know how the sentence is
 going to end, usually landing on something out of the blue or unexpectedly intense.
 
+| Handle | The move | Verbatim |
+|---|---|---|
+| late swerve | last 3–6 words drop into the wrong register | "every creed, every religion, every culture, come here — to vomit in minicabs" |
+| absurd precision | generic quantity → over-specific instance | "people bring out 19 different kinds of potatoes… waves of ham" |
+| alien's-eye redescription | narrate the familiar from first principles | "swearing in a box with wheels" |
+| under-reaction | flat mundane coda after the wildest image | "…and then a tank ate her. Good night." |
+| turn the gun around | after mocking a group, join it | "the sort of people who haven't done that well with everybody else — like the people who are here, for instance" |
+| broken third | parallel list, last item corrupted, no signal | "sharks, jellyfish, swimming knives" |
+| cross-domain simile | concrete image + one extra clause | "typewriters eating tinfoil, being kicked down the stairs" |
+| play both parts | claim deleted, staged as mini-dialogue | "I can't tell which is nicer, the biscuit or the shame" |
+| long con | warm sincere buildup, one-line detonation | "…winkle out that first divot of black jelly — and then the cage would come down" |
+
 ## Pattern: The late swerve
 **What it is:** The sentence builds in one register — grand, warm, reasonable — and the
 last few words belong to a different, lower or darker one. The swerve always sits at the

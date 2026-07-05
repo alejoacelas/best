@@ -1,12 +1,24 @@
 <!--ai-->
 Which moves from writers Alejo admires codify into tweaks for his drafts?
 
-One file per writer. Each file documents repeated patterns — never whole-style
-imitation — with, per pattern: what the repeated move is, verbatim excerpts from the
-source, how far it codifies into a formula, and whether it transfers to
-instructional prose. Sources live in `sources/`.
+One style guide per writer — never whole-style imitation. Each opens with a handle
+table (patterns ordered by likelihood of application, one shortened-but-verbatim
+quote each), then per pattern: what the repeated move is, how many pieces it
+appears in, verbatim excerpts from several, how far it codifies into a formula, and
+whether it transfers to instructional prose. Each ends with what resists
+extraction. Per-piece extraction notes with the full quote evidence live in
+[`history/2026-07-05-corpus/`](history/2026-07-05-corpus/); transcripts and raw
+sources in `sources/`.
 
 - [dylan-moran.md](dylan-moran.md) — surprise mechanics from *Like, Totally* (2006).
-- [scott-alexander.md](scott-alexander.md) — prose mechanics from his most popular
-  Slate Star Codex post.
+- [scott-alexander.md](scott-alexander.md) — 20 SSC posts across argument, comedy,
+  fiction, and sincere registers.
+- [paul-graham.md](paul-graham.md) — 20 essays, long classics to shorts; opens with
+  a characterization of what the voice is.
+
+Cross-writer convergences worth knowing: all three share the flat landing /
+under-reaction (build, then land one register down), the coinage hammered verbatim,
+and self-implication before mockery (turn the gun around / weapon on himself /
+unflattering anecdote). Where all three agree, the pattern is probably load-bearing
+for any voice.
 <!--/ai-->
