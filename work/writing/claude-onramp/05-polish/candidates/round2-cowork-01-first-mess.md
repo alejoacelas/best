@@ -32,18 +32,17 @@ Three things go wrong often enough to name:
 - **Windows mentions "Virtual Machine Platform."** Turn it on: search "Turn
   Windows features on or off," check the box, restart.
 - **The first run just sits there.** It's downloading about 2 GB: a virtual
-  machine, which is a computer inside your computer, a padded room where Claude
-  runs the code it writes so that a slip there can't reach the rest of your
-  machine. The
+  machine, which is a computer inside your computer, where Claude runs the code
+  it writes so that a slip there can't reach the rest of your machine. The
   padding is around the code, not the hands — those still touch the folder you
   hand it. Let it finish.
 
 Something not on that list will go wrong for somebody. When it's you, watch
 what you reach for — Google, a techie friend, the quiet decision to try again
-next weekend — and ask Claude instead. That's the move for install problems and
-for everything else in this guide. Stuck mid-install? Screenshot the error and
-paste it into the Chat tab, which works before Cowork does. A bad answer costs
-you thirty seconds, and most answers aren't bad.
+next weekend — and ask Claude instead. Stuck mid-install? Screenshot the error
+and paste it into the chat tab, which works before Cowork does. A bad answer
+costs you thirty seconds, and most answers aren't bad. That's the move for
+install problems and for everything else in this guide.
 
 ## Hand it over
 
@@ -70,7 +69,7 @@ Come back and read the plan. This is your actual job now, the one the front
 door named: spot the bullshit fast. A grouping that makes no sense? Say so. Tax
 documents in the junk pile? Say so. Nothing has moved yet; a wrong plan costs
 you nothing but the minute you spent reading it. When the plan is right, say
-"go ahead."
+"go ahead" and watch the mess file itself.
 
 And that's the win: a folder you dreaded for months, mapped and reorganized in
 the time it took your coffee to cool. You didn't clean a folder — you got a

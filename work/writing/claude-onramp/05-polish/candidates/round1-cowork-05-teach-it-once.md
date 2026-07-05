@@ -20,21 +20,20 @@ Rung one you've done since lesson 1: the plan saved as a file any session can
 reread. Rung two, standing instructions, live in two places:
 
 - **Settings** for how you work everywhere. Settings > Cowork holds
-  instructions every session reads.
+  instructions every session reads, whatever folder it's in.
 - **A context file in the folder** for how this project works — a small text
   file saying what the project is and what good output looks like. Claude
   reads it at the start of every session there.
 
 Rung three is a skill: a document teaching Claude one whole procedure — your
-invoice format, your weekly report, how you like interviews summarized.
-Closer to a recipe card than a program. You already run one of these every
-week — you've just stopped noticing it's a procedure. Claude applies a skill
-when a task matches, or you type "/" and pick it by name. To install one
-somebody else made, upload it as a ZIP file or browse the built-in directory —
-that's the whole install surface. So when a Code-flavored tutorial says to
-install from GitHub, the site where programmers share these things, ask for
-the ZIP instead. And skills aren't edited in a settings page: say "add this to
-my report skill as a non-negotiable rule" mid-conversation and it updates.
+invoice format, your weekly report, how you like interviews summarized. Closer
+to a recipe card than a program. Claude applies it when a task matches, or you
+type "/" and pick it by name. To install one somebody else made, upload it
+as a ZIP file or browse the built-in directory — that's the whole install
+surface, so when a Code-flavored tutorial says to install from GitHub, the
+site where programmers share these things, ask for the ZIP instead. And
+skills aren't edited in a settings page: say "add this to my report skill as a
+non-negotiable rule" mid-conversation and it updates.
 
 ## The fence
 
@@ -43,7 +42,8 @@ reach some website, run some program, keep working after you closed the
 laptop. That's the fence, not a flaw. Cowork ships with Anthropic's defaults —
 what the padded room can reach, which programs run — and a default has to be
 safe for the minimum common denominator of all humanity. Reasonable calls,
-most of them.
+most of them. But you might want different trade-offs than the ones all
+humanity shares.
 
 Same Claude, different fences — the front door told you, and now you've lived
 inside one. Code is the other door: nothing sealed off, your real computer,

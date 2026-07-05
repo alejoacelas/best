@@ -15,7 +15,7 @@ Your task today is to pick a valuable task you wouldn't do on your own and get i
 
 You already have the list. Everyone carries one underneath the to-do list: the analysis you never ran because you're "not a data person," the event program you keep not designing because it's too vague to start, the process document nobody has the stamina to write — no, the one *you* don't have the stamina to write. You've been reading those verdicts as facts about yourself. They were facts about the price of labor, and the price just collapsed.
 
-Some examples in the shape I mean — notice every one trails off into uncertainty:
+Some examples in the shape I mean — every one trails off into uncertainty:
 
 - "Help me figure out what the program for our team offsite should be. Here's the sessions I've seen work best at other offsites... but I'm still unclear on whether..."
 - "Here's a folder of last quarter's customer feedback forms. Help me spot patterns in the free-text answers that predict which accounts are about to leave. What I'm looking for is..."
@@ -23,9 +23,9 @@ Some examples in the shape I mean — notice every one trails off into uncertain
 
 ## Brief it out loud
 
-Talk, don't type. Turn on dictation in the app's settings — look for dictation or quick entry; on a Mac you then hold Caps Lock — or use your computer's own dictation. Then ramble at it the way you'd brief a smart colleague in a hallway: state the problem, say what you want. Hedge on purpose — "I suspect the real issue is X but I might be wrong," "we tried something like this in March and it half-worked" — because your hedges are data. A tidy, confident brief is a polite lie: it hides exactly the thing Claude most needs to know, which is where you stop knowing. Dictation keeps the hedges in; typing edits them out.
+Talk, don't type. Turn on dictation in the app's settings (look for dictation or quick entry; on a Mac you then hold Caps Lock), or use your computer's own dictation. Then ramble at it the way you'd brief a smart colleague in a hallway: state the problem, say what you want, and be clear about your uncertainties. Hedge on purpose — "I suspect the real issue is X but I might be wrong," "we tried something like this in March and it half-worked" — because your hedges are data. A tidy, confident brief hides exactly the thing Claude most needs to know: where you stop knowing. Dictation keeps the hedges in; typing edits them out.
 
-Then drop the actual files into the folder you're working in — the PDFs, the screenshots of the whiteboard, last year's budget. For a Google Doc, use File > Download to get a text copy and drop that in; screenshots you can paste straight into the chat. Anything sitting in the folder, Claude can open and read. Two habits worth stealing: end your ramble with "ask me lots of questions," and when a file format fights you, export it as text — a CSV, not an XLSX.
+Then feed it the real material. Drop the actual files into the folder you're working in — the PDFs, the screenshots of the whiteboard, last year's budget. For a Google Doc, use File > Download to get a text copy and drop that in; screenshots you can paste straight into the chat. Anything sitting in the folder, Claude can open and read, PDFs included. Two habits worth stealing: end your ramble with "ask me lots of questions," and when a file format fights you, export it as text — a CSV, not an XLSX.
 
 ## Now do it
 

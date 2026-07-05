@@ -1,4 +1,4 @@
-# Power-ups
+# K6 — Power-ups
 
 *Code track, power-ups. Optional — each section stands alone.*
 
@@ -15,11 +15,11 @@ The win: pick a real Google Doc of yours, keep it open on screen, and say "add o
 
 ## Superconductor
 
-If you took the run-many lesson seriously, you now have a new problem: three Claudes and a desktop app built to show you one. Superconductor is an interface built for running many — it has a lot of shortcuts for moving across projects, it makes it easy to keep different versions of the same thing, it makes it easier to see the files you created, and it notifies you when an agent finishes, so parked work doesn't rot while you forget it exists. If I were using the Claude desktop app, I wouldn't have started this many projects.
+If you took the run-many lesson seriously, you now have a new problem: three Claudes and a desktop app built to show you one. Superconductor is an interface built for running many: shortcuts for moving across projects, different versions of the same thing kept without ceremony, the files you created where you can actually see them, and a notification when an agent finishes, so parked work doesn't rot while you forget it exists. If I were using the Claude desktop app, I wouldn't have started this many projects at all.
 
 Mac and Linux now, plus an iOS app; Windows still coming. Free while it's in alpha. Download it at [super.engineering](https://super.engineering/) — it runs your own Claude Code underneath, on your own subscription.
 
-The win: two of your projects open side by side, each with its own Claude working.
+The win: two of your projects open side by side, each with its own Claude working — and neither one waiting on you.
 
 ## Claude in the cloud, steered from your phone
 

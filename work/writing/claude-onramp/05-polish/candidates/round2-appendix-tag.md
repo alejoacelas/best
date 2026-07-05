@@ -39,8 +39,9 @@ apart? Yes: admins can create separate Claude identities — sales,
 engineering — whose memories and permissions never cross. And where's the
 record? Every task, who requested it, and every call it made out to other tools
 lands in an audit log in the org settings. One more habit, yours rather than
-your admin's: ask Claude what it can see from the channel before you blame it
-for missing data nobody ever wired up.
+your admin's: don't assume a connection exists because it ought to. Ask Claude
+what it can see from the channel before you blame it for missing data nobody
+ever wired up.
 
 The win, today: pick one task your team actually repeats — the report someone
 rewrites every Friday, the question answered weekly in three separate DMs — and

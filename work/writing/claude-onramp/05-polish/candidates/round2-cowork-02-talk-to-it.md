@@ -24,7 +24,8 @@ at all. State the problem the way you'd state it to a competent person you
 trust: ramble, hedge, double back, say "I'm not sure this part is even
 possible." Every hedge is information — it tells Claude where to double-check,
 what to ask you before acting, which parts of the request are load-bearing and
-which are guesses.
+which are guesses. A tidy prompt hides your uncertainty. A ramble hands it
+over.
 
 And since your mouth is faster than your hands, dictating makes the good habit
 the lazy one. That's the whole trick of this lesson.

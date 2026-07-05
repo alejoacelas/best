@@ -33,18 +33,19 @@ stuff; turn it on. Deletion still waits for your yes either way.
 
 ## Name the fear, then fence it
 
-What do you actually picture happening? Your files deleted? An account wrecked?
-The machine itself? Most of what can happen is like lending your
+The fear underneath is losing something that matters — files, accounts, your
+machine. Most of what can happen is like lending your
 computer to an over-enthusiastic friend. The friend won't rob you; he might, in
 his eagerness to please, do something crazy with an instruction as broad as
 "reorganize my whole Drive, don't check with me" — so don't give that instruction
 to anyone, human or Claude. And the padded room from lesson 1 wraps the code
 Claude runs, not its hands — those still reach the folder you picked and the
-accounts you've connected.
+accounts you've connected, which is exactly why the prompts you do read are
+the delete-send-publish ones.
 
 For the one thing you'd genuinely grieve, don't manage the fear — retire it. Ask
 Claude: "How could you damage this, and what passive, zero-maintenance protection
-would make that impossible?" Set it up once. You
+would make that impossible?" Set it up once and stop paying attention to it. You
 may have read about prompt injection, a malicious webpage hijacking the agent:
 it's real and it's growing, your odds of being the one hit are still low, and
 the defense is the protocol you're already running — read the irreversible

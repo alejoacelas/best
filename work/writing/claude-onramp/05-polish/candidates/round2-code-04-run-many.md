@@ -15,7 +15,7 @@ There is no new mechanic to learn: Cmd/Ctrl + N opens a fresh session — point 
 
 ## Save everything
 
-The rule: everything an agent touches becomes a file — the plan before it starts, the intermediate outputs, the results. Not because you're tidy. Because you can't verify what you don't see, and because if something is good, you'll want to reuse it.
+The rule: everything an agent touches becomes a file — the plan before it starts, the intermediate outputs, the results. Not because you're tidy. Because you can't verify what you don't see, and because if something is good, you'll want to reuse it. A chat scrolls away and takes the evidence with it; a file sits in your folder, openable, arguable, reusable.
 
 Three sessions running means three chats you will never re-read — quick, what did your second agent decide an hour ago? So make the agents report in formats you can skim: "save the plan as a file before you start"; "give me the results as a table"; "write a one-page summary and put the full detail underneath." Specify the summary or receive a book.
 

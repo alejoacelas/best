@@ -26,15 +26,14 @@ waiting for your yes.
 
 Three things go wrong often enough to name:
 
-- **No Cowork tab.** Cowork needs a paid plan — Pro or up. What each plan gets
-  drifts, so
+- **No Cowork tab.** Cowork needs a paid plan — Pro or up. The free plan doesn't
+  show it. What each plan gets drifts, so
   [claude.com/pricing](https://claude.com/pricing) has the current answer.
 - **Windows mentions "Virtual Machine Platform."** Turn it on: search "Turn
   Windows features on or off," check the box, restart.
 - **The first run just sits there.** It's downloading about 2 GB: a virtual
-  machine, which is a computer inside your computer, a padded room where Claude
-  runs the code it writes so that a slip there can't reach the rest of your
-  machine. The
+  machine, which is a computer inside your computer, where Claude runs the code
+  it writes so that a slip there can't reach the rest of your machine. The
   padding is around the code, not the hands — those still touch the folder you
   hand it. Let it finish.
 
@@ -42,7 +41,7 @@ Something not on that list will go wrong for somebody. When it's you, watch
 what you reach for — Google, a techie friend, the quiet decision to try again
 next weekend — and ask Claude instead. That's the move for install problems and
 for everything else in this guide. Stuck mid-install? Screenshot the error and
-paste it into the Chat tab, which works before Cowork does. A bad answer costs
+paste it into the chat tab, which works before Cowork does. A bad answer costs
 you thirty seconds, and most answers aren't bad.
 
 ## Hand it over

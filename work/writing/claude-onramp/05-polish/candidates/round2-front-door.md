@@ -40,8 +40,8 @@ Cowork and Code are the two doors into this guide. Same Claude behind both, diff
 
 Cowork works out of the box. Your Claudes get their own computer, padded where they run
 code: a crash in there stays in there. The padding stops at their hands, though — they reach
-every folder and account you connect, which is why the track drills the permissions habit.
-Fifteen minutes after the install finishes, you'll be delegating real work.
+every folder and account you connect, so the track drills the permissions habit until it's
+reflex. Fifteen minutes after the install finishes, you'll be delegating real work.
 
 Code is what the Anthropic engineers use for their own jobs. Nothing is sealed off: it works
 on your real computer, with your real files. The price is the first day — expect Linux, not

@@ -9,7 +9,7 @@ For every piece of work, you must verify it, trust the AI to do it well, or don'
 
 It will lie to you. Not out of malice — it's an eager-to-please employee that says "done" when it means "attempted." So never let it report on whether it did the thing; find the small test for whether it did the thing. "Open the file at the end so I can see you got the data right." "Link the original source next to each number; I'll click two." "Show me the first row of the spreadsheet before you process the rest." You design the test before the work starts, the same way you'd say it to a person, and the test is small on purpose: one opened file catches the failure that a page of self-reporting hides.
 
-And the trust bin? You may trust it where you've seen it do well on something similar before. There's no general rule: trust here means what it means with people.
+And the trust bin? You may trust it where you've seen it do well on something similar before. There's no general rule: trust here means what it means with people — extended where it's been earned, and not an inch further.
 
 ## Set one protection, once
 
@@ -21,7 +21,7 @@ With the protection set, worry less about security. Most of what can happen is l
 
 ## Read only the irreversible ones
 
-Auto mode already waves routine actions through and stops you only for the risky ones. (No Auto on your account yet? "Accept edits" runs the same drill; you do the waving.) When it stops you, ask one question: can this be undone? An edit inside your save-pointed folder — undoable, wave it through without reading. Deleting, sending, publishing — those don't rewind, and those are the prompts you actually read. Permissions gate consequences, not competence.
+Auto mode already waves routine actions through and stops you only for the risky ones. (No Auto on your account yet? "Accept edits" runs the same drill; you do the waving.) When it stops you, ask one question: can this be undone? An edit inside your save-pointed folder — undoable, wave it through without reading. Deleting, sending, publishing — those don't rewind, and those are the prompts you actually read. Permissions gate consequences, not competence: Claude isn't asking because it doubts it can do the thing; it's asking because you couldn't take it back.
 
 ## The win
 

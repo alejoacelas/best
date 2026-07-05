@@ -47,7 +47,8 @@ Code is what the Anthropic engineers use for their own jobs. Nothing is sealed o
 on your real computer, with your real files. The price is the first day — expect Linux, not
 Windows. You set things up once, sometimes swearing, and after that it works for you.
 
-Either door needs a paid plan. Pro (~$20/month) unlocks both; check
+Either door needs a paid plan — Free opens neither. Pro (~$20/month) unlocks both; check
 [claude.com/pricing](https://claude.com/pricing), this drifts.
 
-Pick one now. Don't agonize — you can graduate later, and graduation gets its own lesson.
+Pick one now. Cowork if you want the win today; Code if you'd trade one rough day for no walls.
+Don't agonize — you can graduate later, and graduation gets its own lesson.

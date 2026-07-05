@@ -4,7 +4,7 @@
 *Cowork track, lesson 3.*
 
 For every piece of work, you must verify it, trust the AI to do it well, or don't
-care if the output is wrong. That's the whole protocol: three doors,
+care if the output is wrong. That's the whole protocol: one sentence, three doors,
 and every task you hand Claude walks through exactly one.
 
 - **Don't care.** Brainstorms, throwaway drafts, a first pass you'll rewrite
@@ -42,7 +42,8 @@ a brainstorm gets a glance; anything that leaves your computer gets a real read.
 
 You can't verify what you don't see. Also, if something is good, you want to reuse
 it. So ask for files, not chat answers: the chat scrolls away; a file in your
-folder stays where you, and every future session, can find it. Say where to put them.
+folder stays where you, and every future session, can find it. Say where to put
+them — Cowork sometimes tucks files inside its virtual machine otherwise.
 
 Then ask for a running log: "keep a markdown file in this folder — markdown is
 just a text file with a bit of formatting — and update it as you work: what you've
