@@ -39,13 +39,15 @@ search-box reflex:
 
 > plan for organizing the old projects subfolder
 
-Round two, dictated. Open a new session, click the microphone icon in the chat
-input bar ⚑, and talk for two minutes straight. Say what you want and
+Round two, dictated. Turn on the desktop app's dictation — look in Settings
+for dictation or quick entry; on my Mac it's under General, and I hold Caps
+Lock to talk. Can't find it? Your computer's own dictation does the same job.
+Open a new session and talk for two minutes straight. Say what you want and
 everything you're unsure about: which folders you actually still open, which
 you're scared to delete because something in there might matter for taxes,
 that you don't know whether it should sort by project or by year, that half of
 it might belong to your old job and you're not sure what that implies. Watch
-your words land as text ⚑ — resist cleaning them up — and end with: "ask me
+your words land as text — resist cleaning them up — and end with: "ask me
 lots of questions."
 
 Now read the two answers side by side. I won't promise which details Claude
@@ -55,10 +57,10 @@ alone, it flags the tax folder, and it comes back with questions you're glad
 someone finally asked.
 
 Two housekeeping lines. Before you start, glance at the model picker by the
-input bar and make sure it's on the best Claude offered ⚑ — same rule as the
+input bar and make sure it's on the best Claude offered — same rule as the
 front door, no haggling, ever. And when you're ready to dictate everywhere on
-your computer instead of only inside Claude, [Wispr Flow](https://wisprflow.ai/) ⚑
-is the upgrade; today the built-in mic is plenty.
+your computer instead of only inside Claude, [Wispr Flow](https://wisprflow.ai/)
+is the upgrade; today the built-in dictation is plenty.
 
 From here on, the keyboard is for editing what Claude wrote. Briefing happens
 out loud.

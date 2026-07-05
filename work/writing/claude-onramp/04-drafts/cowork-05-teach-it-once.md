@@ -20,36 +20,36 @@ Rung one you've done since lesson 1: the plan saved as a file any session can
 reread. Rung two, standing instructions, live in two places:
 
 - **Settings** for how you work everywhere. Settings > Cowork holds
-  instructions every session reads, whatever folder it's in. ⚑
+  instructions every session reads, whatever folder it's in.
 - **A context file in the folder** for how this project works — a small text
   file saying what the project is and what good output looks like. Claude
-  reads it at the start of every session there. ⚑
+  reads it at the start of every session there.
 
 Rung three is a skill: a document teaching Claude one whole procedure — your
 invoice format, your weekly report, how you like interviews summarized. Closer
 to a recipe card than a program. Claude applies it when a task matches, or you
-type "/" and pick it by name. ⚑ To install one somebody else made, upload it
-as a ZIP file or browse the built-in directory ⚑ — Claude's padded room can't
-reach GitHub, the site where programmers share these things, so the
-install-from-GitHub steps in Code-flavored tutorials won't work here. ⚑ And
+type "/" and pick it by name. To install one somebody else made, upload it
+as a ZIP file or browse the built-in directory — that's the whole install
+surface, so when a Code-flavored tutorial says to install from GitHub, the
+site where programmers share these things, ask for the ZIP instead. And
 skills aren't edited in a settings page: say "add this to my report skill as a
-non-negotiable rule" mid-conversation and it updates. ⚑
+non-negotiable rule" mid-conversation and it updates.
 
 ## The fence
 
 Somewhere in these five lessons you probably hit something Cowork wouldn't do:
 reach some website, run some program, keep working after you closed the
-laptop. ⚑ That's the fence, not a flaw. Cowork is centrally managed —
-Anthropic decides which services connect and which programs run, and decides
-once for everyone, so the defaults have to be safe for the minimum common
-denominator of all humanity. Reasonable calls, most of them. But you might
-want different trade-offs than the ones all humanity shares.
+laptop. That's the fence, not a flaw. Cowork ships with Anthropic's defaults —
+what the padded room can reach, which programs run — and a default has to be
+safe for the minimum common denominator of all humanity. Reasonable calls,
+most of them. But you might want different trade-offs than the ones all
+humanity shares.
 
 Same Claude, different fences — the front door told you, and now you've lived
 inside one. Code is the other door: nothing sealed off, your real computer,
 your real files, and the fence sits wherever you put it. Everything these
 lessons built transfers whole — folders, dictation, the trust protocol,
-running many, this same reuse arc under different names. ⚑ The price is the
+running many, this same reuse arc under different names. The price is the
 one the front door quoted: a first day that's Linux, not Windows. So the
 graduation rule. Never bumped the fence? Stay — Cowork is not the lesser
 Claude, it's the fenced one. Bumped it twice? Go take the first day:
@@ -61,7 +61,7 @@ use for their own jobs.
 Before you choose, collect the win. Write one standing instruction about how
 you work — a real one, something you've said to Claude twice this week. You
 have one ready: "Save your outputs as files in my folder, never inside your
-own machine." You've been typing it since lesson 1. Put it in Settings ⚑ and
+own machine." You've been typing it since lesson 1. Put it in Settings and
 close the session.
 
 Now open a fresh session and hand it any small task. No briefing. The output

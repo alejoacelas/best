@@ -23,13 +23,13 @@ Some examples in the shape I mean — notice every one trails off into uncertain
 
 ## Brief it out loud
 
-Talk, don't type. Tap the microphone icon in the chat bar ⚑ and ramble at it the way you'd brief a smart colleague in a hallway: state the problem, say what you want, and be clear about your uncertainties. Hedge on purpose — "I suspect the real issue is X but I might be wrong," "we tried something like this in March and it half-worked" — because your hedges are data. A tidy, confident brief hides exactly the thing Claude most needs to know: where you stop knowing. Dictation keeps the hedges in; typing edits them out.
+Talk, don't type. Turn on dictation in the app's settings — look for dictation or quick entry; on a Mac you then hold Caps Lock — or use your computer's own dictation, and ramble at it the way you'd brief a smart colleague in a hallway: state the problem, say what you want, and be clear about your uncertainties. Hedge on purpose — "I suspect the real issue is X but I might be wrong," "we tried something like this in March and it half-worked" — because your hedges are data. A tidy, confident brief hides exactly the thing Claude most needs to know: where you stop knowing. Dictation keeps the hedges in; typing edits them out.
 
-Then feed it the real material. Drop the actual files into the folder you're working in — the PDFs, the screenshots of the whiteboard, last year's budget. For a Google Doc, use File > Download to get a text copy ⚑ and drop that in; screenshots you can paste straight into the chat ⚑. Anything sitting in the folder, Claude can open and read, PDFs included ⚑. Two habits worth stealing: end your ramble with "ask me lots of questions," and when a file format fights you, export it as text — a CSV, not an XLSX ⚑.
+Then feed it the real material. Drop the actual files into the folder you're working in — the PDFs, the screenshots of the whiteboard, last year's budget. For a Google Doc, use File > Download to get a text copy and drop that in; screenshots you can paste straight into the chat. Anything sitting in the folder, Claude can open and read, PDFs included. Two habits worth stealing: end your ramble with "ask me lots of questions," and when a file format fights you, export it as text — a CSV, not an XLSX.
 
 ## Now do it
 
-Pick the task — five minutes of honest thinking, not another day of deferring. Then, before Claude does anything else, one instruction: "Write your plan as a file in this folder before you start." A plan file is just a document; open it in anything you'd open a document with ⚑, scribble on it, hand it back.
+Pick the task — five minutes of honest thinking, not another day of deferring. Then, before Claude does anything else, one instruction: "Write your plan as a file in this folder before you start." A plan file is just a document; open it in anything you'd open a document with, scribble on it, hand it back.
 
 Then work it. Answer its questions, read the plan, argue with the parts that smell wrong, let it run. The bar for today is one real task from your underneath-list, materially advanced by tonight — or at least started, with the plan saved, so tomorrow you open the folder and pick up mid-stride instead of at zero. One thing you'd decided would never happen is now half-happened, sitting in a file, waiting for you.
 <!--/ai-->

@@ -9,20 +9,20 @@ One expectation before you install: the first day is Linux, not Windows. Cowork 
 
 ## Install it
 
-Install the app, give it access to your computer files, and set up permissions so it's less likely to take unwanted actions: ⚑
+Install the app, give it access to your computer files, and set up permissions so it's less likely to take unwanted actions:
 
 1. Download the [Claude app](https://claude.com/download) if you don't have it. Install the updates it offers if you have the app already.
 2. Sign in with your paid Anthropic account.
-3. Open settings (Cmd + , on Mac [what's the key combo on Windows?]), select Claude Code, then toggle on "Allow auto permissions mode."
-4. Close settings and click the "Code" icon next to "Chat" on the left sidebar.
+3. Open settings (Cmd + , on Mac [what's the key combo on Windows?]), select Claude Code, then toggle on auto mode — the setting is named something close to "Allow auto mode."
+4. Close settings and click the "Code" tab at the top center, third of the three tabs: Chat, Cowork, Code.
 5. Select the following from the dropdowns around the chat input bar:
-   - Local (instead of Cloud or Default)
+   - Local (instead of Remote or SSH)
    - An empty folder on your computer
    - Auto mode
 
-Local means the work happens on your computer, where your files are; Auto mode means Claude stops asking permission for routine actions and interrupts you only for risky ones. ⚑
+Local means the work happens on your computer, where your files are; Auto mode means Claude stops asking permission for routine actions and interrupts you only for risky ones. Auto is still rolling out, so your account may not offer it yet — pick "Accept edits" instead. The lessons work the same; you'll just click approve more often.
 
-(If you'd rather run it in the terminal — the black window programmers type into — it's one command: `curl -fsSL https://claude.ai/install.sh | bash` on Mac, `irm https://claude.ai/install.ps1 | iex` in Windows PowerShell, then type `claude`. ⚑ Everyone else: the app is the same engine with buttons.)
+(If you'd rather run it in the terminal — the black window programmers type into — it's one command: `curl -fsSL https://claude.ai/install.sh | bash` on Mac, `irm https://claude.ai/install.ps1 | iex` in Windows PowerShell, then type `claude`. Everyone else: the app is the same engine with buttons, minus a few powers only hackers miss.)
 
 ## When setup fights you
 
@@ -30,9 +30,9 @@ It will, once or twice, and the move is always the same: ask Claude. The Chat ta
 
 The usual suspects:
 
-- **Sign-in loops.** The browser swears you're signed in; the app disagrees. Quit the app fully and reopen; if that fails, sign out of both and start once more. ⚑
+- **Sign-in loops.** The browser swears you're signed in; the app disagrees. Quit the app fully and reopen; if that fails, sign out of both and start once more — that usually clears it.
 - **Folder-access dialogs.** Your Mac asks whether Claude may see Documents or Downloads. That's the operating system checking with you, not a malfunction — allow it, or Claude works blind.
-- **Windows key combos.** ⚑ Where I write Cmd, try Ctrl first; when that fails, screenshot and ask.
+- **Windows key combos.** Where I write Cmd, try Ctrl first; when that fails, screenshot and ask.
 
 ## Your first ten minutes
 
@@ -44,5 +44,5 @@ Do this today — the point of this lesson is a working session the same day you
 
 Then watch it work. It reads, counts, sorts, and leaves a proposal file you can open like any document. Nothing moved, so nothing to fear — no proposal ever broke a computer. But you just gave a machine a vague managerial instruction about your own mess and got back the judgment call, in writing, ready to argue with.
 
-One housekeeping line while you're in there: Claude Code deletes conversation history after 30 days by default — tell it "keep all my conversation history" and it changes its own setting. ⚑
+One housekeeping line while you're in there: Claude Code deletes conversation history after 30 days by default — ask it to raise its history-retention setting, and it edits its own settings file right there.
 <!--/ai-->

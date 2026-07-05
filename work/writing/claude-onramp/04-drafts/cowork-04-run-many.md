@@ -11,7 +11,7 @@ to haggle with the mind doing your work. The right fix is more Claudes. You buy
 speed with parallelism — a fancy word for several at once — and parallelism costs
 nothing but your habit of watching.
 
-Cowork runs tasks side by side: start one, open a new task, start the next. ⚑
+Cowork runs tasks side by side: start one, open a new task, start the next.
 Each task gets its own Claude with its own attention span; they don't share notes
 and they don't wait for each other. Your part of any task is the two minutes of
 dictating at the start and the five of judging at the end. Everything between
@@ -29,7 +29,7 @@ one rule replaces the whole anxious approval treadmill: reversible actions —
 creating a file, editing a draft, moving things you have a plan for — wave
 through without reading. Irreversible ones — delete, send, publish — that's the
 prompt you actually read. Cowork has a mode that stops asking about the routine
-stuff; turn it on. ⚑ Deletion still waits for your yes either way. ⚑
+stuff; turn it on. Deletion still waits for your yes either way.
 
 ## Name the fear, then fence it
 
@@ -38,15 +38,18 @@ machine. Here's the honest picture: most of what can happen is like lending your
 computer to an over-enthusiastic friend. The friend won't rob you; he might, in
 his eagerness to please, do something crazy with an instruction as broad as
 "reorganize my whole Drive, don't check with me" — so don't give that instruction
-to anyone, human or Claude. And Cowork already works inside its padded room, the
-virtual machine from lesson 1, touching only the folder you picked. ⚑
+to anyone, human or Claude. And the padded room from lesson 1 wraps the code
+Claude runs, not its hands — those still reach the folder you picked and the
+accounts you've connected, which is exactly why the prompts you do read are
+the delete-send-publish ones.
 
 For the one thing you'd genuinely grieve, don't manage the fear — retire it. Ask
 Claude: "How could you damage this, and what passive, zero-maintenance protection
 would make that impossible?" Set it up once and stop paying attention to it. You
 may have read about prompt injection, a malicious webpage hijacking the agent:
-well documented in the research literature, so far rare in practice, and not
-worth organizing your life around. ⚑
+it's real and it's growing, your odds of being the one hit are still low, and
+the defense is the protocol you're already running — read the irreversible
+prompts, test the work.
 
 ## Three tasks, one coffee
 
@@ -59,10 +62,10 @@ become a doc). You'll have three inside a minute. You had them before you opened
 this lesson.
 
 Dispatch all three. Dictate the first the way lesson 2 taught you, with the small
-test lesson 3 taught you, open a new task ⚑, dictate the second, then the third.
+test lesson 3 taught you, open a new task, dictate the second, then the third.
 Five minutes of talking. Leave the app open — tasks stop when the laptop closes
-⚑ — and go make the coffee. If another task occurs to you while the kettle heats,
-you can queue it from your phone. ⚑
+— and go make the coffee. If another task occurs to you while the kettle heats,
+you can queue it from your phone.
 
 Come back and judge three deliverables. That's the shape of the job the front
 door promised you: a manager reads three reports over coffee. Only a typist would

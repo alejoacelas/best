@@ -21,17 +21,21 @@ waiting for your yes.
 1. Download the Claude desktop app at [claude.com/download](https://claude.com/download).
    Already have it? Take whatever update it offers.
 2. Sign in with your paid account.
-3. Click Cowork in the left sidebar and let the first run finish setting up.
+3. Click the Cowork tab at the top of the app — Chat, Cowork, Code sit up
+   there in a row — and let the first run finish setting up.
 
 Three things go wrong often enough to name:
 
 - **No Cowork tab.** Cowork needs a paid plan — Pro or up. The free plan doesn't
-  show it. ⚑
+  show it. What each plan gets drifts, so
+  [claude.com/pricing](https://claude.com/pricing) has the current answer.
 - **Windows mentions "Virtual Machine Platform."** Turn it on: search "Turn
-  Windows features on or off," check the box, restart. ⚑
+  Windows features on or off," check the box, restart.
 - **The first run just sits there.** It's downloading about 2 GB: a virtual
-  machine, which is a computer inside your computer, where Claude works so that a
-  slip of its hand can't reach the rest of your machine. Let it finish. ⚑
+  machine, which is a computer inside your computer, where Claude runs the code
+  it writes so that a slip there can't reach the rest of your machine. The
+  padding is around the code, not the hands — those still touch the folder you
+  hand it. Let it finish.
 
 Something not on that list will go wrong for somebody. The move — for install
 problems, and for everything else in this guide — is to ask Claude first. Stuck
@@ -41,9 +45,11 @@ aren't bad.
 
 ## Hand it over
 
-Open Cowork and point it at the folder. The folder you pick is the whole
-workspace — what's inside is what Claude can see and touch, and nothing else is.
-Then say what you'd say to a competent stranger you'd just hired:
+Open Cowork and point it at the folder. The folder you pick is the fence on
+your files — what's inside is what Claude can see and touch, and nothing else
+on your disk is. The web and any accounts you connect are separate doors, and
+you haven't opened those yet. Then say what you'd say to a competent stranger
+you'd just hired:
 
 > This folder is a mess and I've been avoiding it for months. First give me an
 > inventory I can skim: what's actually in here, grouped however makes sense.

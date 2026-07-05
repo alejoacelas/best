@@ -32,21 +32,22 @@ steer its power:
   on the internet, can create and share.
 
 If your team runs on Slack there's a fourth shape, Tag — Claude hired into your channels.
-One page on it in [the appendix](../appendix-tag.md).
+One page on it in [the appendix](appendix-tag.md).
 
 ## Pick your door
 
 Two of those shapes are doors into this guide. Same Claude behind both, different fences.
 
-Cowork works out of the box. Your Claudes get their own computer, sealed off from yours, so
-the worst they can do is make a mess inside their padded room. You'll be delegating real work
-within fifteen minutes of installing.
+Cowork works out of the box. Your Claudes get their own computer, padded where they run
+code: a crash in there stays in there. Their hands still reach whatever folder and accounts
+you connect, which is why the track drills the permissions habit. You'll be delegating real
+work within fifteen minutes of the install finishing.
 
 Code is what the Anthropic engineers use for their own jobs. Nothing is sealed off: it works
 on your real computer, with your real files. The price is the first day — expect Linux, not
 Windows. You set things up once, sometimes swearing, and after that it works for you.
 
-Either door needs a paid plan — Free opens neither. ⚑ Pro (~$20/month) unlocks both; check
+Either door needs a paid plan — Free opens neither. Pro (~$20/month) unlocks both; check
 [claude.com/pricing](https://claude.com/pricing), this drifts.
 
 Pick one now. Cowork if you want the win today; Code if you'd trade one rough day for no walls.
