@@ -3,8 +3,8 @@
 
 Every claim in this folder tells you what backs it, in one word, before it tells you
 the conclusion — especially the top-level sentences. The thing I keep needing to know
-is not "is there evidence" but: **is this established by trials on the outcome I
-actually care about, or patched together from indirect sources?**
+is not "is there evidence" but: **<!--me-->is this established by trials on the outcome I
+actually care about, or patched together from indirect sources?<!--/me-->**
 
 ## Tiers, strongest to weakest
 
