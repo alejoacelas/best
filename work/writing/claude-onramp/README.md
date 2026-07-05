@@ -3,32 +3,16 @@ How do we write an introduction to delegating work to Claude that people actuall
 
 # Claude on-ramp
 
-The first guide (numbered lessons, decision pages, site, assistant) is deleted as of
-2026-07-04; Alejo wasn't satisfied with the writing. Recover any of it from git
-history. The rebuild runs through numbered stage folders, each holding the
-intermediate outputs of one stage:
+Two attempts so far, both discarded: the first guide (deleted 2026-07-04, in git
+history) and the staged-pipeline rebuild (moved to `archive/` on 2026-07-05). Both
+failed on the writing. This round starts from voice and drafts each lesson by hand:
 
-- `00-voice/` — writing samples Alejo drafted himself, plus the style criteria and
-  guide goals extracted from them. Only files in `samples/` are his own words;
-  every other file in the pipeline is provisional Claude output.
-- `01-inventory/` — everything the guide could plausibly teach: a ~10-word title
-  plus one sentence per lesson, clustered (core AI use, Cowork, Claude Code,
-  Claude Tag). Sources: Alejo's material, Anthropic courses, tutorials, research.
-- `02-core/` — the aggressive cut: which messages are most valuable or the best
-  starting points, each with a nailed short formulation. Alejo gives heavy input
-  at this stage.
-- `03-lessons/` — grouping, ordering, dependency mapping (what must be installed,
-  what tends to fail), and lesson skeletons.
-- `04-drafts/` — full lesson drafts. The most important messages get the most
-  flair; attention drawn should match importance.
-- `05-polish/` — Fable subagents write alternatives to each passage; other
-  subagents compare and accept only alternatives that Pareto-dominate the
-  original across the criteria in `00-voice/style-criteria.md`; alternated with
-  a Paul Graham compression pass.
-- `06-checks/` — every checkable claim flagged, verified online, corrections
-  applied. All flags block publishing until resolved.
-
-`assistant-spec.md` describes the sidebar assistant and feedback-loop app that
-shipped with the old guide. The Vercel project `claude-onramp` still exists in
-the cloud; the local site code is deleted.
+- `voice/` — Alejo's own writing samples, plus qualified patterns from writers he
+  admires, distilled into tweaks agents can propose on his drafts.
+- `lessons/` — one folder per lesson; order undecided.
+  <!--me-->Throughout the lessons people do the same thing: create a personal
+  website. The lesson text walks them through a narrative with examples drawn from
+  the real activity; only at the end are they told "now it's time for you to take
+  action" and given explicit instructions.<!--/me-->
+- `archive/` — the discarded pipeline stages, kept for salvage.
 <!--/ai-->
