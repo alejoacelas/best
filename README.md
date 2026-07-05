@@ -25,9 +25,9 @@ near what in my head; I re-cut it as sharper questions surface.
 
 - What's the way to engage with AI? — `ai`
   - dotfiles — `ai/dotfiles`
-- Who should I become to do the most good? — `consequential-list`
-  - What are the best motives to act from? — `consequential-list/motives`
-  - What are the best lasting character traits to have? — `consequential-list/virtues`
+- Who should I become to do the most good? — `consequentialist`
+  - What are the best motives to act from? — `consequentialist/motives`
+  - What are the best lasting character traits to have? — `consequentialist/virtues`
 - What's the best way to keep what's good in me? — `me`
   - What's the best way to keep this body? — `me/body`
   - What's the best way to keep this mind? — mood, cognition, mental health. — `me/mind`
