@@ -63,13 +63,21 @@ The transcript only labels speakers `Me`/`Other`. Take the other participant's
 name from the meeting title when it's clearly there; if the title is generic
 ("Weekly sync"), ask the user. **Never guess names.**
 
-### Step 4: Tidied transcript
+### Step 4: Garble inventory, then tidied transcript
 
-Clean the raw transcript following
+Before writing the transcript, write a temporary garble inventory to
+`data/garbles/<YYYY-MM-DD>-<person>.md`: one line per span where the
+transcription seems garbled — the raw text, plus the likely reading when one
+is guessable from the call itself.
+
+Then clean the raw transcript following
 [`references/tidying-instructions.md`](references/tidying-instructions.md) —
 remove filler and false starts, fix transcription errors (garbled proper
 nouns, tool names), relabel speakers with real first names, add headings at
-topic shifts, preserve exact wording for the categories listed there.
+topic shifts, preserve exact wording for the categories listed there. Every
+repaired garble keeps a square-bracket note of four words or less saying how
+it was resolved — `[inferred from context]`, `[confirmed in earlier call]` —
+and unresolved ones stay marked `[unclear]` / `[name unclear]`.
 
 Save to the filing path below with the `-trans.md` suffix.
 
@@ -80,7 +88,17 @@ Write a chronological summary following
 
 Save next to the transcript with the `-sum.md` suffix.
 
-### Step 6: Check slug distinctiveness
+### Step 6: Cross-call clarification pass
+
+Reread the finished transcript and summary against the garble inventory and
+try to resolve what the single call couldn't — by reading previous calls with
+the **same person** (their folder, plus git history). These files get shared
+with the other participant, so never import content from calls with other
+people; the wider archive may only confirm the spelling of a name or tool
+already spoken in this call. Update the bracket notes as garbles resolve
+(`[confirmed in earlier call]`), then delete the inventory file.
+
+### Step 7: Check slug distinctiveness
 
 After writing, list every call file in the archive (`ls once/*/ many/*/`). If
 the new slug is generic ("intro-call", "uplift-consulting") or overlaps too
@@ -88,6 +106,21 @@ much with an earlier call's slug — in any folder — rename the new pair to
 something more distinctive of this call's content, and consider renaming the
 earlier colliding pair too (use `git mv` when the old files are committed).
 The test: from the slug alone, could you tell the calls apart?
+
+### Step 8: Google Doc + folder index
+
+Mirror the call into Drive and record it in the folder index (see the archive
+`CLAUDE.md` → **Folder index + Google Doc mirror** for the canonical rule):
+
+1. Create one combined Google Doc via the Google Drive `create_file` tool
+   (`content_mime_type: text/markdown`), titled
+   `<YYYY-MM-DD> Alejo-<Other> <Two Word Slug>` — names capitalized, dash between
+   (e.g. `Alejo-Jørgen`), slug in Title Case. Concatenate the summary, a `# Transcript`
+   heading, then the transcript, under a leading `# Summary`. One doc, two sections —
+   the API can't make true Docs tabs.
+2. Add a bullet to the person's folder `CLAUDE.md` (create it on the first call):
+   `**<date> · <slug>**` + a `[gdoc]` link (`.../document/d/<id>/edit`, by ID so a
+   rename can't break it) + a one-or-two-sentence gist, newest first.
 
 ## Filing rule
 
@@ -113,6 +146,7 @@ people/work/<once|many>/<firstname-org>/<YYYY-MM-DD>-<two-word-slug>-sum.md
 For a batch, dispatch one subagent per call so cleaning stays off the main
 context. Give each: the doc id, the confirmed participant names, the full
 contents of both reference files (subagents can also Read them from this
-skill folder), and the exact output paths. Run Step 6 once at the end, over
-the whole batch — parallel agents can't see each other's slugs.
+skill folder), and the exact output paths. Each agent runs its own Steps 4–6
+(earlier same-person calls are already committed); run Steps 7–8 once at the
+end, over the whole batch — parallel agents can't see each other's slugs.
 <!--/ai-->

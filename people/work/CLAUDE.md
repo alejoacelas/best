@@ -23,4 +23,19 @@ tidy → summarize → file).
   older files if they collide.
 
 See [earlier-calls.md](earlier-calls.md) for the backlog of calls not yet pulled.
+
+## Folder index + Google Doc mirror
+
+Each person folder carries a short `CLAUDE.md`: one bullet per call, newest first —
+`**<date> · <slug>**`, a `[gdoc]` link, and a one-or-two-sentence gist.
+
+Whenever `summarize-call` files a new call, it also:
+
+1. Creates one combined Google Doc titled `<YYYY-MM-DD> Alejo-<Other> <Two Word Slug>`
+   — both names capitalized, dash between (e.g. `Alejo-Jørgen`), slug in Title Case —
+   with a **Summary** section then a **Transcript** section. One doc, two sections, not
+   two Google Docs tabs: the Drive API can create/convert a doc but can't make true tabs.
+2. Adds that call's bullet (with the gdoc link) to the folder `CLAUDE.md`, creating the
+   file on a person's first call. Link by doc ID (`.../document/d/<id>/edit`) so a later
+   rename doesn't break it.
 <!--/ai-->

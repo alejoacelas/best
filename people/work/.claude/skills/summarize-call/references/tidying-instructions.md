@@ -2,6 +2,15 @@
 
 Paste this file's contents verbatim into the tidied-transcript agent prompt.
 
+## Garbled spans
+
+Before tidying, inventory every garbled span in a temporary file (raw text
+plus likely reading, one line each). In the transcript, each repaired garble
+keeps a square-bracket note of four words or less on how it was resolved —
+e.g. "Claude Code [inferred from context]", "[confirmed in earlier call]" —
+and unresolved spans stay marked "[unclear]" or "[name unclear]". Never guess
+names.
+
 ## Tidying guidelines
 
 - Remove filler words (um, uh, you know) and false starts
