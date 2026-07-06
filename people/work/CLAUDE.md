@@ -18,8 +18,9 @@ tidy → summarize → file).
   so far (e.g. Hanna, Peter). When a `once/` person gets a second call, move their
   folder to `many/`.
 - **two-word-slug** — short description of the call (e.g. `agentic-coaching`);
-  `trans` = tidied transcript, `sum` = summary. Two calls with one person on the
-  same day get distinct slugs.
+  `trans` = tidied transcript, `sum` = summary. Slugs stay distinctive across the
+  whole archive — no generic names, no near-duplicates of earlier calls; rename
+  older files if they collide.
 
 See [earlier-calls.md](earlier-calls.md) for the backlog of calls not yet pulled.
 <!--/ai-->

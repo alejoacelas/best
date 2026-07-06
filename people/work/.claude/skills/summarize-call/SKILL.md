@@ -80,6 +80,15 @@ Write a chronological summary following
 
 Save next to the transcript with the `-sum.md` suffix.
 
+### Step 6: Check slug distinctiveness
+
+After writing, list every call file in the archive (`ls once/*/ many/*/`). If
+the new slug is generic ("intro-call", "uplift-consulting") or overlaps too
+much with an earlier call's slug — in any folder — rename the new pair to
+something more distinctive of this call's content, and consider renaming the
+earlier colliding pair too (use `git mv` when the old files are committed).
+The test: from the slug alone, could you tell the calls apart?
+
 ## Filing rule
 
 ```
@@ -104,5 +113,6 @@ people/work/<once|many>/<firstname-org>/<YYYY-MM-DD>-<two-word-slug>-sum.md
 For a batch, dispatch one subagent per call so cleaning stays off the main
 context. Give each: the doc id, the confirmed participant names, the full
 contents of both reference files (subagents can also Read them from this
-skill folder), and the exact output paths.
+skill folder), and the exact output paths. Run Step 6 once at the end, over
+the whole batch — parallel agents can't see each other's slugs.
 <!--/ai-->
