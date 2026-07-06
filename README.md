@@ -63,9 +63,9 @@ These folders are separate Git repos, not tracked here — git can't reach acros
 | `other/advice/` | 🔒 private | [alejoacelas/advice](https://github.com/alejoacelas/advice) |
 | `other/art/meals/` | public | [alejoacelas/meals](https://github.com/alejoacelas/meals) |
 | `other/places/visa/` | 🔒 private | [alejoacelas/visa](https://github.com/alejoacelas/visa) |
+| `people/calls/` | public | [alejoacelas/calls](https://github.com/alejoacelas/calls) |
 | `people/friend/` | 🔒 private | [alejoacelas/people](https://github.com/alejoacelas/people) |
 | `people/partner/` | 🔒 private | [alejoacelas/partner](https://github.com/alejoacelas/partner) |
-| `people/work/` | 🔒 private | [alejoacelas/calls](https://github.com/alejoacelas/calls) |
 | `work/once/` | public | [alejoacelas/one-off](https://github.com/alejoacelas/one-off) |
 | `work/tools/` | 🔒 private | [alejoacelas/tools](https://github.com/alejoacelas/tools) |
 | `work/writing/blog/` | public | [alejoacelas/myea-blog](https://github.com/alejoacelas/myea-blog) |
