@@ -11,33 +11,31 @@ losing meaning) is the floor; a bit of fluff purely for entertainment is allowed
   transcript). The voice reference; not to be edited. better-start moved to
   [`lessons/better-start/draft.md`](../lessons/better-start/draft.md), where it's
   a live draft.
-- `influences/` — qualified patterns from writers he admires: per-writer style
-  guides with a handle table up top (ordered by likelihood of application, verbatim
-  quote each), cross-piece counts, and per-pattern verbatim excerpts, formula, and
-  transfer verdict. Extraction notes per source piece live in its `history/`.
+- `influences/` — per-writer style guides: a handle table up top (patterns ordered
+  by likelihood of application, verbatim quote each), cross-piece counts, and
+  per-pattern excerpts, formula, and transfer verdict. `paul-graham.md` stays live
+  as the compression reference; the Scott Alexander and Dylan Moran guides are
+  stashed in [`influences/archive/`](influences/archive/) — fun and useful, kept for
+  a later flourish pass, not in active use. Extraction notes per source live in
+  `influences/history/`.
 - `references/` — other people's material worth stealing from (JL's
   anti-Claude-tics rules).
 
 ## The draft pipeline
-Alejo writes the draft, leaving `[?: how does X work?]` brackets where he doesn't
-know the facts. Then agents (in `best/.claude/agents/`) run passes:
+Alejo does the thinking and writes the draft himself, leaving `[?: how does X work?]`
+brackets where he doesn't know the facts. Two agents (in `best/.claude/agents/`)
+then run — research, then compression:
 
 1. `fact-filler` — researches each `[?:]` bracket, replaces it with a sourced
    `[fill: … (source, verified date)]` for review. Facts before style.
 2. `pg-cut` — the density cut: word-level tweaks applied in place, sentence-level
-   cuts left as `[drop: …]`/`[swap: … → …]` brackets in the draft. Runs alone.
-3. <!--me-->Parallel passes, one file per writer<!--/me-->: `moran-tweaker`,
-   `scott-tweaker`, `pg-voice`. Each reads its influence doc, picks its own 3–6
-   spots, and writes ~5 bracketed options per spot (same or mixed patterns, each
-   tagged with its pattern handle) to `history/<date>-<draft>--<writer>.md`. They
-   never edit the draft; Alejo picks from each file while rewriting.
+   cuts left as `[drop: …]`/`[swap: … → …]` brackets in the draft. (`pg-compressor`
+   is the older variant that applies every cut in place, silently — use it for
+   non-lesson text; for lessons prefer `pg-cut`.)
 
-The older `pg-compressor` (applies every cut in place, silently) remains for
-non-lesson text; for lessons prefer `pg-cut`.
-
-Before the pipeline, for inspiration while drafting: the `stylist-passes` skill
-(`best/.claude/skills/`) appends one ~300-word pastiche of the draft per
-influence writer below a divider — full voice commitment, hallucinated details,
-nothing meant to survive verbatim. Rerun after editing the draft and it diffs
-against the commit the passes were written from, updating each pass in-voice.
+Voice flourishes — the surprising, funnier tweaks — are Alejo's own by hand for now;
+the focus is the thinking. The Scott/Moran/PG *voice-tweaker* agents and the
+`stylist-passes` pastiche skill were removed on 2026-07-06; the pattern guides they
+drew on live on in `influences/` (PG) and `influences/archive/` (Scott, Moran) if
+that work resumes.
 <!--/ai-->
