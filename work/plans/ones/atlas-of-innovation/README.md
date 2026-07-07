@@ -1,5 +1,5 @@
 <!--ai-->
-Which innovation-funding models are worth copying for growing AI enablement at 80k?
+Which innovation-funding models are worth copying for EA-wide AI uplift?
 
 The [Atlas of Innovation](https://atlasofinnovation.org/) — by the
 [Institute for Progress](https://ifp.org) and the
@@ -7,8 +7,9 @@ The [Atlas of Innovation](https://atlasofinnovation.org/) — by the
 [NBER 2026](https://www.nber.org/books-and-chapters/entrepreneurship-and-innovation-policy-and-economy-volume-6/policymaker-centric-guide-selecting-innovation-funding-mechanisms)
 — catalogs [13 funding mechanisms](https://atlasofinnovation.org/library), each with
 when-it-works, failure modes, and real cases. I read all 13 and picked the cases most
-useful for [what I read as your goal: growing AI adoption and capacity at 80,000 Hours
-— an org and a field, not a product]. Ranked by how directly each transfers.
+useful for the central plan, [Palantir for EA](../../palantir-for-ea.md): VIP coaching
+maps to the Manne judges program; productization to Fast Grants, prizes, and meetups;
+deployment to the ARPA/COTS portfolio models. Ranked by how directly each transfers.
 
 ## Top picks
 
