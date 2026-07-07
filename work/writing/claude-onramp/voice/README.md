@@ -1,16 +1,26 @@
 <!--ai-->
 What should this guide sound like, and where do the tweaks come from?
 
+The core of this folder is Alejo's own writing on the topic, at top level:
+
+- [rant-tips-claude-code.txt](rant-tips-claude-code.txt) — the *DIY Claude Code
+  Starter Pack*: an improvised coaching call, the closest thing to a session
+  already run. Opinionated tips (dictate everything, worry less about security,
+  be curious when it fails, the starter pack of tools) — the seed for the
+  practice track in `lessons/practice/`.
+- [alejo-blog.txt](alejo-blog.txt) — the blog.
+- [love-agents.txt](love-agents.txt) — the love-agents piece.
+
+These are the voice reference; not to be edited. (better-start lives at
+[`lessons/better-start/draft.md`](../lessons/better-start/draft.md), where it's a
+live draft.)
+
 <!--me-->Alejo drafts the lessons himself, mostly in his own writing, and always
 looks for tweaks: ways to make things shorter, sentences more surprising, the text
 funnier and more engaging — engaging with meaning, not cheaply — ways of delighting
 the reader.<!--/me--> The Paul Graham cut (no sentence or word removable without
 losing meaning) is the floor; a bit of fluff purely for entertainment is allowed.
 
-- `samples/` — Alejo's own writing (the blog, love-agents, the rant-tips call
-  transcript). The voice reference; not to be edited. better-start moved to
-  [`lessons/better-start/draft.md`](../lessons/better-start/draft.md), where it's
-  a live draft.
 - `influences/` — per-writer style guides: a handle table up top (patterns ordered
   by likelihood of application, verbatim quote each), cross-piece counts, and
   per-pattern excerpts, formula, and transfer verdict. `paul-graham.md` stays live
