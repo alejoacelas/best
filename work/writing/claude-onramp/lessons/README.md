@@ -17,7 +17,7 @@ Each folder holds two files: `notes.md`, a pull-only mirror of the doc tab
 organized to read top to bottom — connectors added, tensions flagged but not
 resolved, wording untouched beyond what fitting sentences together requires.
 
-- [better-start/](better-start/) — the existing draft; the introduction for now.
+- [start/](start/) — the existing draft; the introduction for now.
   (No doc tab yet.)
 - [think/](think/) — dump your thinking into Claude; talk vs write.
 - [understand/](understand/) — if you're not getting what you want, understand
@@ -28,6 +28,7 @@ resolved, wording untouched beyond what fitting sentences together requires.
 - [ground/](ground/) — ground your AI in reality; verification.
 - [context/](context/) — what context to give, what to withhold.
 - [ending/](ending/) — the closing image: minds from the future.
-- [practice/](practice/) — the hands-on track: per-session exercises building the
-  personal website, split by tool (Cowork / Claude Code / Tag).
+- [../practice/](../practice/) — the hands-on track: per-session exercises building
+  the personal website, split by tool (Cowork / Claude Code / Tag). Now a top-level
+  sibling of `lessons/`.
 <!--/ai-->
