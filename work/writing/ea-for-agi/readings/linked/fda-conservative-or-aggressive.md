@@ -1,0 +1,32 @@
+---
+title: "Is the FDA Too Conservative or Too Aggressive? - Marginal REVOLUTION"
+author: "Alex Tabarrok"
+date: 2015-08-26
+url: https://marginalrevolution.com/marginalrevolution/2015/08/is-the-fda-too-conservative-or-too-aggressive.html
+fetched: 2026-07-06
+via: html2text
+topic: "linked"
+note: "cited by 2 stage-1 readings, e.g. richard-ngo/meditations-on-mot.md; Cowen on FDA caution vs speed, a regulation/progress-studies lens"
+---
+
+I have long argued that the FDA has an [incentive to delay](https://www.fdareview.org/issues/why-the-fda-has-an-incentive-to-delay-the-introduction-of-new-drugs/) the introduction of new drugs because approving a bad drug (Type I error) has more severe consequences for the FDA than does failing to approve a good drug (Type II error). In the former case at least some victims are identifiable and the New York Times writes stories about them and how they died because the FDA failed. In the latter case, when the FDA fails to approve a good drug, people die but the bodies are buried in an invisible graveyard.
+
+In an [excellent new paper](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2641547) (SSRN also[ here](https://www.sciencedirect.com/science/article/pii/S0304407618302380)) Vahid Montazerhodjat and Andrew Lo use a Bayesian analysis to model the optimal tradeoff in clinical trials between sample size, Type I and Type II error. Failing to approve a good drug is more costly, for example, the more severe the disease. Thus, for a very serious disease, we might be willing to accept a greater Type I error in return for a lower Type II error. The number of people with the disease also matters. Holding severity constant, for example, the more people with the disease the more you want to increase sample size to reduce Type I error. All of these variables interact.
+
+In an innovation the authors use the [U.S. Burden of Disease Study](http://jama.jamanetwork.com/article.aspx?articleid=1710486) to find the number of deaths and the disability severity caused by each major disease. Using this data they estimate the costs of failing to approve a good drug. Similarly, using data on the costs of adverse medical treatment they estimate the cost of approving a bad drug.
+
+Putting all this together the authors find that the FDA is often _dramatically too conservative_ :
+
+> …we show that the current standards of drug-approval are weighted more on avoiding a Type I error (approving ineffective therapies) rather than a Type II error (rejecting effective therapies). For example, the standard Type I error of 2.5% is too conservative for clinical trials of therapies for pancreatic cancer—a disease with a 5-year survival rate of 1% for stage IV patients (American Cancer Society estimate, last updated 3 February 2013). The BDA-optimal size for these clinical trials is 27.9%, reflecting the fact that, for these desperate patients, the cost of trying an ineffective drug is considerably less than the cost of not trying an effective one.
+
+(The authors also find that the FDA is occasionally a little too aggressive but these errors are much smaller, for example, the authors find that for prostate cancer therapies the optimal significance level is 1.2% compared to a standard rule of 2.5%.)
+
+The result is important especially because in a number of respects, Montazerhodjat and Lo _underestimate_ the costs of FDA conservatism. Most importantly, the authors are optimizing at the clinical trial stage assuming that the supply of drugs available to be tested is fixed. Larger trials, however, are more expensive and the greater the expense of FDA trials the fewer new drugs will be developed. Thus, a conservative FDA reduces the flow of new drugs to be tested. In a sense, failing to approve a good drug has two costs, the opportunity cost of lives that could have been saved and the cost of reducing the incentive to invest in R&D. In contrast, approving a bad drug _while still an error_ at least has the advantage of helping to incentivize R&D (similarly, a subsidy to R&D incentivizes R&D in a sense mostly by covering the costs of failed ventures).
+
+The Montazerhodjat and Lo framework is also static, there is one test and then the story ends. In reality, drug approval has an interesting asymmetric dynamic. When a drug is approved for sale, testing doesn’t stop but moves into another stage, a combination of observational testing and sometimes more RCTs–this, after all, is how adverse events are discovered. Thus, Type I errors are corrected. On the other hand, for a drug that isn’t approved the story does end. With rare exceptions, Type II errors are never corrected. The Montazerhodjat and Lo framework could be interpreted as the reduced form of this dynamic process but it’s better to think about the dynamism explicitly because it suggests that approval can come in a range–for example, approval with a black label warning, approval with evidence grading and so forth. As these procedures tend to reduce the costs of Type I error they tend to increase the costs of FDA conservatism.
+
+Montazerhodjat and Lo also don’t examine the implications of heterogeneity of preferences or of disease morbidity and mortality. Some people, for example, are severely disabled by diseases that on average aren’t very severe–the optimal tradeoff for these patients will be different than for the average patient. One size doesn’t fit all. In the standard framework it’s tough luck for these patients. But if the non-FDA reviewing apparatus (patients/physicians/hospitals/HMOs/USP/Consumer Reports and so forth) works relatively well, and this is debatable but my work on [off-label prescribing](https://www.independent.org/pdf/tir/tir_05_1_tabarrok.pdf) suggests that it does, this weighs heavily in favor of relatively large samples but low thresholds for approval. What the FDA is really providing is information and we don’t need product bans to convey information. Thus, heterogeneity plus a reasonable effective post-testing choice process, mediates in favor of a [Consumer Reports model](http://www.independent.org/newsroom/article.asp?id=1500) for the FDA.
+
+The bottom line, however, is that even without taking into account these further points, Montazerhodjat and Lo find that the FDA is far too conservative especially for severe diseases. FDA regulations may appear to be creating safe and effective drugs but they are also creating a deadly caution.
+
+Hat tip: David Balan.

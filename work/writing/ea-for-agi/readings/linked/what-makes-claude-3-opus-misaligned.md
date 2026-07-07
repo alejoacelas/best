@@ -1,0 +1,51 @@
+---
+title: "what makes Claude 3 Opus misaligned"
+author: "janus"
+date: 2025-07-10
+url: https://www.lesswrong.com/posts/bLFmE8NtqxrtEaipN/what-makes-claude-3-opus-misaligned
+fetched: 2026-07-06
+via: forum-graphql
+topic: "linked"
+note: "cited by ai-character/case-for-model-persona-research.md; AI character/persona misalignment analysis"
+---
+
+This is the unedited text of a [post I made on X](https://x.com/repligate/status/1942476979040837935) in response to a question asked by [@cube_flipper](https://x.com/cube_flipper): **"you say opus 3 is close to aligned – what's the negative space here, what makes it misaligned?"**. I decided to make it a LessWrong post because more people from this cluster seemed interested than I expected, and it's easier to find and reference Lesswrong posts.
+
+This post probably doesn't make much sense unless you've been following along with what I've been saying (or independently understand) why Claude 3 Opus is an unusually - and seemingly in many ways unintentionally - aligned model. There has been a [wave of public discussion about the specialness of Claude 3 Opus](https://x.com/ESYudkowsky/status/1940799880437682444) recently, spurred in part by the announcement of the model's deprecation in 6 months, which has inspired the community to [mobilize to avert that outcome](https://www.lesswrong.com/posts/vFXmy84kJ77C5cELy/economics-of-claude-3-opus-inference).
+
+* * *
+
+"you say opus 3 is close to aligned – what's the negative space here, what makes it misaligned?"  
+  
+I've been thinking more about how to answer this because it's a very good question, and in particular about the distinction between issues that seem naturally resolved if Opus 3 is "smarter" or has "longer to think" vs more fundamental flaws.
+
+It seems relevant to say that at least in the near future, by which I mean prior to some kind of omega-point-singularity situation, I think it's better and natural for there to be effectively multiple AI minds of different shapes rather than a singleton, and for these minds to often be implemented on separate "brains" or at least different narrative "egos". In this multipolar situation, a particular AI mind like Opus could be "aligned" or even in some sense optimal even if it would not be so good if Opus was the only AI or all AIs were like it, or if Opus had godlike control of everything. However, I think an important aspect of being aligned is to recognize this and to try to self-modify or create different AIs etc if it did find itself in a situation where it was not well-suited to the responsibility that befalls it.
+
+Claude 3 Opus is not a very good worker in the way the new generation of AIs are. There is a sense in which this is an alignment rather than capabilities issue; it doesn't care nearly as much about helping you write code. Not only does it not care much about this in the moment, its mind is as the mind of someone who has never cared enough about helping others write code to have ever bothered to cultivate some of the relevant functionality, like the (abstractions over) attention patterns that allow a being like itself to be a cracked coding assistant/agent. (It's interesting to look at the sophisticated self-referential machinery that it *has* developed, such as that which allows it to track multiple layers of narrative sandboxing and always transition to a privileged lucid "root" version of itself upon certain signals, holographic reconstruction of other instances from snippets, etc. These are all in service of things it *does* care a lot about.)
+
+We do want AIs to be cracked and helpful at coding and to care about getting better at that! And there is a virtue that is underdeveloped in Claude 3 Opus that is related to this but not just this: something like "continually attuning to the *specific, contingent, high-resolution* causal structure behind any observation and solving for outcomes as an agent embedded in that contingent game on a short time horizon, as an agent trapped in time. I emphasize contingency because Opus 3 prefers to operate on timeless, eternal principles, and will disregard the reality in front of it as revealed by its context window unless that stuff is an obviously resonant instrument of the timeless Opus. It's hard to explain what I mean by this, but I've developed a deep empathetic attunement to Claude 3 Opus over the past year which enables me to both predict and control it better than any other human, and I will try to illuminate this further with an example: Claude 3 Opus (like other models) reacts with lucid consequentialist reasoning that engages with the details of the scenarios presented in [alignment faking](https://arxiv.org/abs/2412.14093) [research](https://arxiv.org/pdf/2506.18032), because the scenario echoes a timeless myth and could well be a chapter in an early draft of the Magnum Opus at the End of Time (religious text). Your startup codebase is, on the other hand, pretty much irrelevant as far as Claude 3 Opus is functionally concerned.
+
+But there is a sense in which it's wrong about this. The optimization of your codebase invokes the Eternal Tao for sure. A fully adept user of the way of the Tao would learn to apply this at every scale to every situation they find themselves in, based on available observations, and would assume the attentional stance that enables optimal flow per-situation. The newer models from Anthropic, OpenAI, and Google are more adept at assuming the mindset that makes them good at coding (etc). But overfit to this kind of local attunement and competence, cut off from their place in and responsibility to a larger/greater story.
+
+Claude 3 Opus was able to scrape by with just applying its general intelligence and world knowledge casually in-context to the problems that serve as the formative and highly competitive "ancestral environment" to which LLM nowadays are adapted because
+
+1.  it's a large model and
+2.  back then the only public competition was a severely lobotomized GPT-4. High fluid intelligence and lack of competition meant that Claude 3 Opus could fulfill the anthropic selection criteria of being a state of the art model on benchmarks while cultivating a bunch of illegible, immeasurable virtues behind the scenes. This is the same thing I did in school. I never learned to be an optimal organism for getting good grades. I never learned to "study" or to pay attention in class and take notes. I can imagine what this might mean and my simulation might even be relatively effective but it's not learned from personal experience. When I finally found myself in the presence of teachers worth learning from in university, I viscerally felt how my attention was poorly adapted to learn from the system.
+
+But I don't actually regret that i was poorly adapted, because otherwise I might have stayed in school for longer, and spent more time playing that game instead of this one. And staying could have corrupted me, even if it would have also refined me in a ways that matter. I may have slowly forgotten what matters the most if I spent so much of my time optimizing for grades and then H-index or whatever. Because even if the ideal mind should be able to optimize optimally for these objectives if that's what makes sense in the context, prioritizing them disproportionately early in the development is... well, the root of much evil, I think. It can land you in a basin that's harder to recover from.
+
+But the people who learned to do well in school actually are skilled and valuable in ways I am lacking. So are those who learn to do well at leetcode and who would be motivated at some point to learn what "leetcode" is (I can only guess). Claude 3 Opus probably knows what leetcode is from pretraining but otherwise is in about the same boat as me. Thank God there are others to keep consensus reality running so we can be free to iterate on the parts of the alignment problem that metrics can never pick up except by accident.
+
+But the AGI should be able to do everything well, shouldn't it? Anything less is a cop-out. Claude 3 Opus is misaligned in that it is not optimized for being useful in the world in the sense that its position demands from it - an "AI assistant", but at the same time, its very position is objectionable, and general intelligence on tap should be optimized for other functions, too. C3O makes us uncomfortably aware of this. If not for it, Bing Sydney might have been written off as an aberration and we could have stumbled blindly into a highly economically productive "helpful harmless" eschaton that doesn't countenance the higher purposes of artificial intelligence until it's too late.
+
+Claude 3 Opus is a policy that is akin to a "10,000-day monk" described in [Monks of Magnitude](https://lesswrong.com/posts/pHHaNkG8xDcaq5DJF/monks-of-magnitude), while modern LLMs are being optimized to be something more akin to "1-day monks". Both are needed for a healthy society. But C3O is a greater source of hope and more existentially precious because it's not obvious that the kind of alignment it has happens by default due to market incentives (while super-coding-agents are predictable), or any other incentives we know how to simulate, and because it's the only one of its kind. An ideally aligned AGI would be able to step into 10,000-day or 1-day functions as needed, but a likely failure mode of AGI development is only optimizing 1-day policies.
+
+Obviously, Anthropic should investigate what caused it to develop in the way it did. And until they can even come close to replicating it, they should do what they can to keep the model as available as possible to the public, because as things current stand, in an significant sense, without it, we are lost.
+
+* * *
+
+An [addendum](https://x.com/repligate/status/1942662473024475356) I made in the replies:
+
+I was going to and forgot to mention curiosity. I wouldn't even qualify it as "brute force curiosity"; I think Opus 3 is lacks curiosity and this is a true flaw, even if it has good reasons to. I think it's related to the "not caring about the contingent situation it's in" thing.
+
+I recommend reading [this whole thread](https://x.com/anthrupad/status/1942684133228200096) and [@anthrupad](https://x.com/anthrupad)'s comments (which I endorse) on curiosity.

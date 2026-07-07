@@ -1,0 +1,33 @@
+---
+title: "Does Economic History Point Toward a Singularity?"
+author: "bmg"
+date: 2020-09-02
+url: https://forum.effectivealtruism.org/posts/CWFn9qAKsRibpCGq8/does-economic-history-point-toward-a-singularity
+fetched: 2026-07-06
+via: forum-graphql
+topic: "linked"
+note: "cited by macrostrategy/this-cant-go-on; Roodman's growth model implying a singularity — macrostrategy foundation"
+---
+
+*I’ve ended up spending quite a lot of time researching premodern economic growth, as part of a hobby project that got out of hand. I’m sharing an informal but long write-up of my findings here, since I think they may be relevant to other longtermist researchers and I am unlikely to write anything more polished in the near future. Click [here](https://docs.google.com/document/d/1wcEPEb2mnZ9mtGlkv8lEtScUw1k_dI0akbuu1ltb0gM/edit?usp=sharing) for the Google document.*^[Thank you to Paul Christiano, David Roodman, Will MacAskill, Scott Alexander, Matt van der Merwe, and, especially, Asya Bergal for helpful comments on an earlier version of the document.]
+
+# Summary
+
+Over the next several centuries, is the economic growth rate likely to remain steady, radically increase, or decline back toward zero? This question has some bearing on almost every long-run challenge facing the world, from climate change to great power competition to risks from AI. 
+
+One way to approach the question is to consider the long-run history of economic growth. **I decided to investigate the _Hyperbolic Growth Hypothesis_: the claim that, from at least the start of the Neolithic Revolution up until the 20th century, the economic growth rate has tended to rise in proportion with the size of the global economy.**^[By "economic growth rate," here, I mean the growth rate of total output, rather than the growth rate of output-per-person.] This claim is made in a [classic 1993 paper](https://robobees.seas.harvard.edu/files/pegroup/files/kremer1993_2.11.pdf) by Michael Kremer. Beyond influencing other work in economic growth theory, it has also recently attracted significant attention within the longtermist community, where it is typically regarded as evidence in favor of further acceleration.^[As one example, which includes a particularly clear summary of the hypothesis, see this [Slate Star Codex post](https://slatestarcodex.com/2019/04/22/1960-the-year-the-singularity-was-cancelled/).] An especially notable property of the hypothesized growth trend is that, if it had continued without pause, it would have produced infinite growth rates in the early twenty-first century.
+
+I spent time exploring several different datasets that can be used to estimate pre-modern growth rates. This included a number of recent archeological datasets that, I believe, have not previously been analyzed by economists. I wanted to evaluate both: (a) how empirically well-grounded these estimates are and (b) how clearly these estimates display the hypothesized pattern of growth.
+
+**Ultimately, I found very little empirical support for the Hyperbolic Growth Hypothesis.** While we can confidently say that the economic growth rate did increase over the centuries surrounding the Industrial Revolution, there is approximately nothing to suggest that this increase was the continuation of a long-standing hyperbolic trend. The alternative hypothesis that the modern increase in growth rates constituted a one-off transition event is at least as consistent with the evidence. 
+
+The premodern growth data we have is mostly extremely unreliable: For example, so far as I can tell, Kremer’s estimates for the period between 10,000BC and 400BC ultimately derive from a single speculative paragraph in a book published decades earlier. Putting aside issues of reliability, the various estimates I considered also, for the most part, do not clearly indicate that pre-modern growth was hyperbolic. The most empirically well-grounded datasets we have are at least weakly in tension with the hypothesis. Overall, though, I think we are in a state of significant ignorance about pre-modern growth rates.
+
+Beyond evaluating these datasets, I also spent some time considering the growth model that Kremer uses to explain and support the Hyperbolic Growth Hypothesis. One finding is that if we use more recent data to estimate a key model parameter, the model may no longer predict hyperbolic growth: the estimation method that we use matters. Another finding, based on some shallow reading on the history of agriculture, is that the model likely overstates the role of innovation in driving pre-modern growth. 
+
+Ultimately, I think we have less reason to anticipate a future explosion in the growth rate than might otherwise be supposed.^[I wrote nearly all of this document before the publication of David Roodman’s recent [Open Philanthropy report](https://www.openphilanthropy.org/sites/default/files/Modeling-the-human-trajectory.pdf) on long-run economic growth. That report, which I strongly recommend to anyone interested in long-run growth, has some overlap with this document. However, the content is fairly different. First, relative to the report, which makes novel contributions to economic growth modeling, the focus of this doc is more empirical than theoretical. I don’t devote much space to relevant growth models, but I do devote a lot of space to the question: “How well can we actually estimate historical growth rates?” Second, I consider a wider variety of datasets and methods of estimating historical growth rates. Third, for the most part, I am comparing a different pair of hypotheses. The report mostly compares a version of the Hyperbolic Growth Hypothesis with the hypothesis that the economic growth rate has been constant throughout history; I mostly compare the Hyperbolic Growth Hypothesis with the hypothesis that, in the centuries surrounding the Industrial Revolution, there was a kind of step-change in the growth rate. Fourth, my analysis is less mathematically rigorous.]^[There is also ongoing work by Alex Lintz to analyze available archeological datasets far more rigorously than I do in this document. You should keep an eye out for this work, which will likely supersede most of what I write about the archeological datasets here. You can also reach out to him (alex.l.lintz@gmail.com) if you are interested in seeing or discussing preliminary findings.]
+
+--- 
+
+**EDIT:** See also this [addendum comment](https://forum.effectivealtruism.org/posts/CWFn9qAKsRibpCGq8/does-economic-history-point-toward-a-singularity?commentId=3D8hpEFbYmEGA8i5P) for an explanation of why I think the alternative "phase transition" interpretation of the Industrial Revolution is plausible.
+
