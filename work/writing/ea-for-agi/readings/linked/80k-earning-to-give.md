@@ -1,10 +1,10 @@
 ---
 title: "Earning to give | 80,000 Hours"
-url: https://80000hours.org/articles/earning-to-give
-fetched: 2026-07-06
+url: https://80000hours.org/earning-to-give/
+fetched: 2026-07-07
 via: html2text
 topic: "linked"
-note: "cited by 3 stage-1 readings, e.g. ea-meta-movement/structural-flaws-ea-movement.md; EA principles — earning to give"
+note: "80k concept page on earning to give — core EA career strategy"
 ---
 
 ## On this page:
@@ -398,7 +398,7 @@ Join our newsletter and we’ll send you a free copy of a book focused on how to
   * [Like (opens in new window)](https://www.facebook.com/sharer/sharer.php?u=https://80000hours.org/articles/earning-to-give/ "Share on Facebook")
   * [Post (opens in new window)](https://twitter.com/intent/tweet?text=https://80000hours.org/articles/earning-to-give/ "Share on Twitter")
   * [Share (opens in new window)](https://www.linkedin.com/shareArticle?mini=true&url=https://80000hours.org/articles/earning-to-give/&source=80000Hours "Share on LinkedIn")
-  * [Email](/cdn-cgi/l/email-protection#49763a3c2b232c2a3d740f3b26246271796c7b0a7979796201263c3b3a6c7a08620c283b2720272e623d266c7b7f272b3a396c7a0b2e203f2c6f282439722b262d3074213d3d393a736666717979797921263c3b3a67263b2e66283b3d202a252c3a662c283b2720272e643d26642e203f2c66 "Share by email")
+  * [Email](/cdn-cgi/l/email-protection#4e713d3b2c242b2d3a73083c212365767e6b7c0d7e7e7e6506213b3c3d6b7d0f650b2f3c20272029653a216b7c78202c3d3e6b7d0c2927382b682f233e752c212a3773263a3a3e3d746161767e7e7e7e26213b3c3d60213c29612f3c3a272d222b3d612b2f3c20272029633a21632927382b61 "Share by email")
   * Print
 
 

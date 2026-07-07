@@ -1,0 +1,54 @@
+---
+title: "Reflections on Wytham Abbey"
+author: "nikos"
+date: 2023-01-10
+url: https://forum.effectivealtruism.org/posts/76dQ6YfBuLzJDdTgz/reflections-on-wytham-abbey
+fetched: 2026-07-07
+via: forum-graphql
+topic: "linked"
+note: "EA optics/community spending reflection"
+---
+
+In April 2022, CEA ([now](https://forum.effectivealtruism.org/posts/xof7iFB3uh8Kc53bG/why-did-cea-buy-wytham-abbey?commentId=6nJiypLW56MCEwYhd) [EVF](https://forum.effectivealtruism.org/posts/9gHTYC5qbSH9E37vx/cea-ops-is-now-ev-ops)) bought [Wytham Abbey](https://twitter.com/PaulMainwood/status/1600433194691502081?s=20&t=_tXspZWpAVDvyAxR9l4Hxw) (a 1480 manor near Oxford) as a conference venue. The purchase was [mostly funded](https://forum.effectivealtruism.org/posts/xof7iFB3uh8Kc53bG/why-did-cea-buy-wytham-abbey?commentId=3cLRAk98q8jMwhrEc) by Open Philanthropy. To many, Wytham Abbey looked somewhat more luxurious and expensive than strictly necessary for an event location, which sparked some discussions. 
+
+![Bild](https://pbs.twimg.com/media/FjKa4fxX0AEL9Jr?format=jpg&name=medium)
+
+At least on Twitter, [public](https://twitter.com/PaulMainwood/status/1600433194691502081?s=20&t=_tXspZWpAVDvyAxR9l4Hxw) [perception](https://twitter.com/sharpblue/status/1599519770193190912?s=20&t=7PpMedGaox3Juh-xv8I_yg) [isn't](https://twitter.com/dmf0/status/1599520754353115136?s=20&t=7PpMedGaox3Juh-xv8I_yg) [quite](https://twitter.com/as_per_ushe/status/1599561736578686977?s=20&t=7PpMedGaox3Juh-xv8I_yg) [what](https://twitter.com/EmergentWake/status/1599575274219180033?s=20&t=7PpMedGaox3Juh-xv8I_yg) [one](https://twitter.com/HikeMix/status/1599554566735134720?s=20&t=7PpMedGaox3Juh-xv8I_yg) [might](https://twitter.com/DvdHam/status/1599570104593027072?s=20&t=7PpMedGaox3Juh-xv8I_yg) have [hoped](https://twitter.com/RomeoStevens76/status/1601012962570866688?s=20&t=_tXspZWpAVDvyAxR9l4Hxw) for:
+
+![](https://39669.cdn.cke-cs.com/cgyAlfpLFBBiEjoXacnz/images/5b6d284c8911fe02079152521714c083f46f4dfa340a798b.png)
+
+Even among EAs, the purchase seems to have left some (many?) with [mixed feelings](https://forum.effectivealtruism.org/posts/xof7iFB3uh8Kc53bG/why-did-cea-buy-wytham-abbey). In this post I'm sharing some loosely connected thoughts and reflections about the purchase. 
+
+**Context**
+
+I think it's important to understand the Wytham Abbey purchase in a larger context. In recent years EA has attracted [vastly more funding](https://forum.effectivealtruism.org/posts/cfdnJ3sDbCSkShiSZ/ea-and-the-current-funding-situation) than before. This likely affected the way decisions were made. It probably led to less due diligence on (some) individual decisions, a greater willingness to spend money on more risky bets and changed trade-offs between money on the one hand and time and convenience on the other hand. The until recently very comfortable funding environment also [influenced the decision](https://forum.effectivealtruism.org/posts/xof7iFB3uh8Kc53bG/why-did-cea-buy-wytham-abbey?commentId=3cLRAk98q8jMwhrEc) to buy Wytham Abbey. 
+
+All of this may be good or bad or both at the same time. But it definitely changed EA. People have raised concerns about a perception of lavish spending and potentially [grift](https://forum.effectivealtruism.org/posts/nqt3kasPieQEKihCp/the-biggest-risk-of-free-spending-ea-is-not-optics-or), [lack of transparency](https://forum.effectivealtruism.org/posts/RPTPo8eHTnruoFyRH/some-important-questions-for-the-ea-leadership) or questionable [epistemics and motivated reasoning](https://forum.effectivealtruism.org/posts/HWaH8tNdsgEwNZu8B/free-spending-ea-might-be-a-big-problem-for-optics-and). Some argued that EA was not living up to its own standards. The EA movement as a whole was criticised in the past for making self-serving trade-offs, arguing that luxury/convenience = productivity. Wytham Abbey seemed to reinforce existing sentiments (If you look at the comments on the [Wytham Abbey discussion post](https://forum.effectivealtruism.org/posts/xof7iFB3uh8Kc53bG/why-did-cea-buy-wytham-abbey) I can see why you could walk away with an impression that some of the commentators engaged in motivated reasoning). 
+
+EA relies on trust and a positive perception both from outside and on the inside to be a healthy community that can operate effectively. Sure, things that look bad can still be good overall. But even leaving aside the obvious point that things often look bad because they actually are bad, decisions that alienate people inside and outside the movement can cause long-lasting damage. There is only a limited time that EA can say "we know decision XY may look bad on the surface, but we thought a lot about it and think it's the right call and we need you to trust us on this". Whether or not you agree with the criticism outlined above, it is important to take it into account. 
+
+**Communicating to the outside**
+
+I feel EVF's communication (or lack thereof) made the Wytham Abbey purchase look unnecessarily bad. 
+
+The first issue is the lack of any formal announcement (even though money for this project [was committed in November 2021 and the purchase went through in April 2022](https://forum.effectivealtruism.org/posts/xof7iFB3uh8Kc53bG/why-did-cea-buy-wytham-abbey?commentId=3cLRAk98q8jMwhrEc)). I've only heard about this recently through a tweet from [Émile Torres](https://twitter.com/xriskology/status/1600156432879407106), an article in the [New Yorker from August 2022](https://www.newyorker.com/magazine/2022/08/15/the-reluctant-prophet-of-effective-altruism#:~:text=Last%20year%2C%20the%20Centre%20for%20Effective%20Altruism%20bought%20Wytham%20Abbey%2C%20a%20palatial%20estate%20near%20Oxford%2C%20built%20in%201480.%20Money%2C%20which%20no%20longer%20seemed%20an%20object%2C%20was%20increasingly%20being%20reinvested%20in%20the%20community%20itself), and a [discussion post on the EA Forum](https://forum.effectivealtruism.org/posts/xof7iFB3uh8Kc53bG/why-did-cea-buy-wytham-abbey). My impression is that Émile's tweet surprised many EAs and put CEA/EV in a difficult spot where they found themselves having to defend against criticism and attacks. An open and upfront announcement and explanation of the reasoning could have saved them a lot of trouble. 
+
+Grants not being announced immediately is not exceptionally unusual. There often is a certain delay and in addition there seems to be a backlog of old grants that also need to be published. This is understandable. Owen Cotton-Barratt [adds](https://forum.effectivealtruism.org/posts/xof7iFB3uh8Kc53bG/why-did-cea-buy-wytham-abbey?commentId=u3yJfbm2pes8TFpYX) that they didn't want to create hype and felt a natural time to make the purchase public was when they would be ready to start applications for events. I'm not convinced by that argument and with hindsight knowledge I think it's fair to call this a mistake. 
+
+The second issue is the lack of transparency on the reasoning behind the purchase. I think it's bad that the public cannot see the full picture. In the absence of any further information, people are left with little else than their preconceptions of EA. The question of whether you interpret Whytham Abbey as a sign of lavish spending and motivated reasoning or as a a very reasonable investment largely depends on your view of EA and whether you trust EA/CEA/EVF they made the right call. By not providing context and explanations, CEA/EVF missed an important opportunity to shape the perception of the Wytham Abbey purchase. 
+
+The EA movement itself in the past has created very high standards and expectations of transparency, accountability and efficiency. For years it has been part of the central messaging of EA that it is on average possible to save a life for around $5000. As a consequence, people are now understandably asking why EA bought a lavish mansion rather than funding malaria bed nets. Not addressing these questions seems like a mistake. Wytham Abbey was purchased with money entrusted to EA and in the name of EA and with that comes some obligation to explain why it was used in a certain way. 
+
+**Reflecting on the inside**
+
+I also feel some aspects of the Wytham Abbey purchase look bad from an inside perspective. 
+
+Firstly, I'm concerned that the lack of a carefully crafted messaging ultimately seems to imply a lack of awareness that this could have been a sensitive purchase at all. I'm confused why no one seemed to realise that this grant decision might be (or at least *feel*) different to other grant decisions and that people might care about it or want to know about it. It feels out of touch with the world in a way that is not good. 
+
+Secondly, I'm concerned about transparency as a value in and of itself. So far CEA/EVF hasn't come out explaining their rationale in detail (albeit [some](https://forum.effectivealtruism.org/posts/xof7iFB3uh8Kc53bG/why-did-cea-buy-wytham-abbey?commentId=u3yJfbm2pes8TFpYX) of those [involved](https://forum.effectivealtruism.org/posts/xof7iFB3uh8Kc53bG/why-did-cea-buy-wytham-abbey?commentId=3cLRAk98q8jMwhrEc) in the decision have commented under an [EA Forum Post asking about the decision](https://forum.effectivealtruism.org/posts/xof7iFB3uh8Kc53bG/why-did-cea-buy-wytham-abbey?commentId=rihLCJsSXL6cotCDv) and shared their perspectives). Maybe a more detailed overview of the purchase will be made public eventually. But the fact that this hasn't happened yet more than 9 months after the purchase leaves me with an impression that transparency isn't very high on CEA/EVF's priority list. 
+
+This lack of transparency makes EA open to unnecessary attacks. And also makes necessary scrutiny impossible. If the math checks out, then publishing the calculations could have easily ended long and futile discussions and help respond to criticism from outside and inside. If it does not, then it is important to know and to scrutinise the decision-making process. 
+
+I acknowledge that there are trade-offs surrounding transparency. Not every good decision can be easily explained and not everything has to be public. But in general, EAs should strive to be the kind of people who highly value transparency and openness as intrinsic values. EA should be careful not to cultivate a mindset of "we know what's right, and transparency will only cost us time". In the specific instance of the Wytham Abbey purchase, a stricter norm for openness and transparency might have helped avoid many of the issues outlined above surrounding the lack of communication. Transparency is epistemically healthy and fosters trust, dialogue and shared learning. A movement which is grounded in empiricism and praises itself for its good epistemics should not treat transparency as something optional. 
+
+My hope is that we can take Wytham Abbey as an opportunity to discuss and further reflect on the community norms and values. I'm interested in hearing your thoughts.

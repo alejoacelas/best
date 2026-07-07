@@ -1,0 +1,121 @@
+---
+title: "The EA Community and Long-Term Future Funds Lack Transparency and Accountability"
+author: "Evan_Gaensbauer"
+date: 2018-07-23
+url: https://forum.effectivealtruism.org/posts/wkLjwiGQ8fRdTDqou/the-ea-community-and-long-term-future-funds-lack
+fetched: 2026-07-07
+via: forum-graphql
+topic: "linked"
+note: "EA Community and Long-Term Future Funds lack transparency and accountability; early EA governance critique"
+---
+
+The Effective Altruism Funds publicly launched [February 2017](/ea/174/introducing_the_ea_funds/). During the first year of their operation, Henry Stanley has noted [multiple](/ea/1k9/ea_funds_hands_out_money_very_infrequently_should/)  [times](/ea/1mr/how_to_improve_ea_funds/) on the Effective Altruism Forum that the EA Funds granted money and updates on the EA Funds website very infrequently. Since then, the Global Health & Development and Animal Welfare Funds have made large grants which should inspire confidence they are being attentively managed. Elie Hassenfeld paid out [$1.5 million to the Schistosomiasis Control Initiative in April 2018](https://app.effectivealtruism.org/funds/global-development/payouts/6os9pZr9kcMaCgmMiUwMcU). Over the course of March and April of this year, Lewis Bollard paid out [$750k to various animal advocacy and welfare organizations](https://app.effectivealtruism.org/funds/animal-welfare/payouts/2ENqwtVsfWAw22eogwS4cG). 
+
+Having been following the EA Funds myself, and checking up with the Centre for Effective Altruism on the status of the EA Funds, I sent an email and received a response from JP Addison, as [I commented](/ea/1mr/how_to_improve_ea_funds/dvc) on Henry's post a few months ago. It was as follows:  
+  
+
+> Hello. In the last few months I've noticed some EA community members have expressed concern with a relative lack of activity since the EA Funds started. Ben West posted about it here in the 'Effective Altruism' Facebook group.   
+> [https://www.facebook.com/groups/effective.altruists/permalink/1606722932717391/](https://www.facebook.com/groups/effective.altruists/permalink/1606722932717391/)
+> 
+> At the time, Peter Hurford estimated the amount which had been allocated from each of the EA Funds in this comment ([https://www.facebook.com/groups/effective.altruists/permalink/1606722932717391/?comment_id=1607047222684962&comment_tracking=%7B%22tn%22%3A%22R9%22%7D](https://www.facebook.com/groups/effective.altruists/permalink/1606722932717391/?comment_id=1607047222684962&comment_tracking=%7B%22tn%22%3A%22R9%22%7D)). Of course Marek Duda and Sam Deere let everyone know the EA Funds website had been updated with the amounts donated to the fund, and how they have been allocated up to the most recent date.
+> 
+> But later at the end of January Henry Stanley posted about how much money remain unallocated from the EA Funds. Henry pointed out the Animal Welfare Fund frequently makes many small grants ([http://effective-altruism.com/ea/1k9/ea\_funds\_hands\_out\_money\_very\_infrequently_should/](/ea/1k9/ea_funds_hands_out_money_very_infrequently_should/)). This is corroborated by this comment from Lewis Bollard on Ben's post from September.   
+> Elie Hassenfeld, grant manager for the Global Development Fund, also provided a public update on his current plans for allocation, and request for feedback from donors on the EA Forum as well ([http://effective-altruism.com/ea/1k9/ea\_funds\_hands\_out\_money\_very\_infrequently_should/d8o](/ea/1k9/ea_funds_hands_out_money_very_infrequently_should/d8o)), on Henry's EA Forum post.
+> 
+> In neither of these posts has there been any updates from Nick Beckstead, grant manager for both the Long-Term Future and EA CommunityFunds. From the EA Funds website, the latest update from each of these funds as of December 15, 2017 is they've each only made one grant.   
+> [https://app.effectivealtruism.org/funds/far-future](https://app.effectivealtruism.org/funds/far-future)   
+> [https://app.effectivealtruism.org/funds/ea-community](https://app.effectivealtruism.org/funds/ea-community)
+> 
+> While I'm not a donor to either of these or any of the EA Funds at present, as an EA community member I'm curious if:   
+> 1) There have been grants from either the Long-Term Future or EA Community Funds since December?   
+> 2) Can the EA community expect a public update about allocations from or future plans for either of these Funds, from Nick Beckstead, in the near future?
+> 
+> Thanks for your time,   
+> Evan
+
+At the time, JP responded no grants from either of these funds had been made since the Community Fund grant was completed in January. He also stated the CEA was working on plans for increased grants, updates and transparency, which he expected to be out sometime before July. That was in April. As of me writing this, it is 22 July 2018.  
+  
+On Henry's last post from April regarding how to [improve the EA Funds](/ea/1k9/ea_funds_hands_out_money_very_infrequently_should/), Marek Duda commented with the following response:
+
+> Hello, speaking in my capacity as the person responsible for EA Funds at CEA:
+> 
+> Many of the things Henry points out seem valid, and we are working on addressing these and improving the Funds in a number ways. We are building a Funds ‘dashboard’ to show balances in near real time, looking into the best ways of not holding the balances in cash, and thinking about other ways to get more value out of the platform.
+> 
+> We expect to publish a post with more detail on our approach in the next couple of weeks. Feel free to reach out to me personally if you wish to discuss or provide input on the process
+
+No such updates have been made. Whether it's been privately or on the Effective Altruism Forum, ranging from a couple weeks to a few months, estimates from the CEA regarding updates from the EA Funds cannot be relied upon. According to data publicly available on the EA Funds website, each of the Long-Term Future and EA Community Funds have made a single grant: [~$14k to the Berkeley Existential Risk Initiative](https://app.effectivealtruism.org/funds/far-future/payouts/OzIQqsVacUKw0kEuaUGgI), and [~$83k to EA Sweden](https://app.effectivealtruism.org/funds/ea-community/payouts/1EjFHdfk3GmIeIaqquWgQI), respectively. As of April 2018, over $1 million total is available for grants from the [Long-Term Future Fund](https://app.effectivealtruism.org/funds/far-future), and almost $600k from the [EA Community Fund](https://app.effectivealtruism.org/funds/ea-community). Here is the most recent update from both these funds from Nick Beckstead, grant manager for both funds, and a Program Officer for Global Catastrophic Risks at the Open Philanthropy Project (Open Phil).
+
+> I am giving an update on my grantmaking with the EA Funds. I'm giving it now because the size of funds available has increased and some people have expressed concern about infrequent grantmaking and updates.
+> 
+> I am currently a few months behind the (not publicly stated) schedule that I originally intended for disbursing most of the funds. However, I am planning to recommend grants that use up all available funds at my disposal under EA Funds by July 1st 2018 at the latest, and probably in the next month. The grants I plan to make are currently under consideration, but I will wait to announce them publicly. I plan for these grants to go to organizations with which I am familiar and have supported in the past.
+> 
+> Here are some updates regarding my plans for making grants with these funds and giving updates in the future:
+
+*   > I am not reviewing unsolicited proposals to fund new, small projects (e.g. with 1-2 people working for 1-2 years) with these funds because, regrettably, I lack the time necessary to adequately vet them due to other responsibilities I have. I believe a reasonable degree of vetting is important for the EA ecosystem. The concern is less that the funds will be wasted without such vetting, and more that not-properly-vetted new projects could undermine success by (i) being suboptimal representatives of important ideas, (ii) after being unsuccessful, sticking around too long and preventing better projects from taking their places, and/or (iii) causing other forms of harm. Given these constraints and the fact that I think grants to existing organizations have good expected returns, I rarely give substantial consideration to unsolicited proposals that come without a strong recommendation from a trusted source.
+    
+*   > I am encouraging those seeking funding for small projects to seek support via EA Grants, rather than through Open Phil or EA Funds. EA Grants will have more time to vet such projects. I believe this is the most natural division of labor given the funding, relationships, and other priorities that each of us has.
+    
+*   > I largely expect to use these funds to support organizations with which I am familiar and have supported in the past, though I may also fund new initiatives that I have determined to be valuable but are not a good fit for Open Phil.
+    
+*   > I expect that I will use the EA Funds about once per year to make grants and update supporters, and that I will either (a) use a substantial majority of the available funds when I do so, or (b) write an update saying that I have explicitly decided to hold the funds at the time. I plan to do this, rather than on a more frequent schedule, because Open Phil funds most other types of grants that I recommend, Open Phil grantmaking constitutes the vast majority of my overall grantmaking, and this grantmaking via EA Funds also requires significant attention each time grants are made. I am not yet sure at what time I expect to do this in 2019 (after granting out funds this year).  
+    
+
+Visiting the [EA Grants website](https://www.effectivealtruism.org/grants/), it states applications are currently closed, and there is no indication of when another application or funding round will begin. Thus, it is not clear how those seeking funding for small projects should seek support from the EA Grants or the CEA. Much of the rationale on the EA Funds webpage is based on Nick's long track record of making grants to EA organizations from before the EA Funds existed. This is not itself a track record for either the Long-Term Future or EA Community Funds. On the webpage for the Long-Term Future Fund, under the heading "why might you choose not to donate to this fund?", it states:
+
+> First, _donors who prefer to support established organizations_. The fund manager has a track record of funding newer organizations and this trend is likely to continue, provided that promising opportunities continue to exist.
+> 
+> Second, _donors who are pessimistic about the room for more funding available in the area_. The Open Philanthropy Project has [made global catastrophic risk reduction a major focus area](http://www.openphilanthropy.org/focus/global-catastrophic-risks) and may fund many of the opportunities that the fund manager would find promising. The fund manager has [noted](http://blog.givewell.org/2016/12/09/staff-members-personal-donations-giving-season-2016/) that “with Open Phil as a funder in this space it has been harder to find opportunities that are as promising and neglected as we were able to find previously.”
+
+ From the webpage for the EA Community Fund, under the heading "Why donate to this fund?", it states:
+
+> This fund supports building and strengthening the capabilities of people and organizations trying to do good in a cause-neutral, outcome-oriented way — that is, the effective altruism community (broadly construed). When successful, such investments yield a flexible multiplier on the next most high-priority cause and allow us to build up resources which will hopefully be flexible enough to support the causes and opportunities that are later found to be the most promising. Donors should keep in mind that the multiplier can be somewhat delayed and that funding successes in object-level areas can also yield multipliers of their own.
+> 
+> Building the community of people working on effective causes is especially important for those who expect their opinions about the highest-priority areas to change a great deal. If the effective altruism community grows, that growth builds up general capabilities to take the best opportunities as they are discovered. It seems uncrowded, because it’s a new cause and there appear to be good opportunities available. It seems tractable because there are definite advocacy opportunities which have worked in the past and whose success can be measured. Examples include: encouraging people to join [Giving What We Can](https://www.givingwhatwecan.org/) or take the [Founders Pledge](https://founderspledge.com/). More direct evidence for effectiveness comes from the strong success to date of many of the projects in the area, like [GiveWell](http://www.givewell.org/).
+> 
+> Moreover, in the recent past, investing in promoting effective altruism has resulted in significantly more resources being invested in the highest-priority areas than would have occurred through direct donations. For instance, for every US $1 invested in [Giving What We Can](https://www.givingwhatwecan.org/impact/), at least $6 have been moved to high-priority interventions. Donors should note that the marginal return on funds is less clear for many of these opportunities, with some factors pointing to a higher number and some factors pointing to a lower number. Additionally, the area may be important because it’s a brand new area where there is much to learn, and we expect further work to have high value of information.
+
+Further down the page, under the heading "Why might you choose not to donate to this fund?", it states two of the same reasons why someone would opt not to donate to the Long-Term Future Fund:  
+  
+
+> First, if donors prefer donations to established organizations over donations to emerging organizations, then this fund might not meet these preferences. The fund manager has a track record of funding newer organizations, and this trend is likely to continue as long as promising opportunities continue to exist.
+> 
+> Second, supporters of movement building might choose not to donate through the EA Community Building Fund if they are pessimistic about the room for more funding available in the movement building space. The Open Philanthropy Project [recently announced](http://www.openphilanthropy.org/focus/other-areas) that it would start considering grants in effective altruism and that this effort would be lead by Nick Beckstead, the EA Community Building Fund manager. Nick has noted that following Open Philanthropy's involvement in this area, there are now fewer promising but neglected donation opportunities here. ([Source](http://blog.givewell.org/2016/12/09/staff-members-personal-donations-giving-season-2016/))
+
+So, the considerations the CEA gives for why one might donate to the Long-Term Future and EA Community Funds, to support emerging organizations over existing ones; and because they expect there is much more room for funding in these focus areas, are contradicted by the fund manager. Nick is seeking to primarily make grants to existing organizations over emerging ones, and isn't taking much time to research grant opportunities in these focus areas through the EA Funds. Because Nick's grant recommendations are usually filled by the Open Philanthropy Project, and investigating further grants would take significant amounts of time from that work, grantmaking through the EA Funds at present is not as much a priority. No reason is given for the different management styles of the Long-Term Future and EA Community Funds by Nick Beckstead as an Open Phil program officer; and the respective management of the Global Health & Development, and Animal Welfare Funds by Elie Hassenfeld and Lewis Bollard, also program officers at Open Phil. Both Elie and Lewis have been directly responsive to the community regarding transparency for each of the funds they manage here on the EA Forum. They have also followed through on making grants and updating donors to their respective funds at least every few months. Having started in 2017, with Nick ambiguously stating grants may be made in 2019, the vast majority of the Long-Term Future and EA Community Funds will have been held for almost two years without clear reasons as to why this should be the case.
+
+When making suggestions for how to improve the EA Funds, Henry Stanley listed the following concerns:
+
+*   > **The funds hand out money very infrequently**, and hold onto money for long periods of time. This erodes the value of the fund through time discounting. EA orgs have stated that they value donations in a year's time at a 12% discount to receiving them now\[1\], so this represents a substantial cost.
+    
+*   > **The funds hold their money as cash**, forgoing any potential interest the money could earn.
+    
+*   > **There is no schedule as to when the money will be handed out**. This lack of transparency is troubling, and prevents donors making informed choices (e.g. to give directly to charities instead of waiting).
+    
+*   > (a weaker objection) As the funds hold onto donations for so long, **the chances of the fund manager's and donors’ intentions drifting apart is high**.
+    
+
+The email I received from the CEA regarding updates to the grants and transparency of the Long-Term Future and EA Community Funds is only accurate insofar as the update has been that will be no schedule for grantmaking, and for the indefinite future there will not be an increase in transparency. The updates from Nick regarding these funds is they will continue to hand out money infrequently, and no schedule will be provided for when grants will be made. It appears through no fault of their own, other staff at the CEA cannot to concerned community members updates regarding these two funds, because internally within the organization no updates have been provided to them. Nonetheless, whether it's from the CEA or Nick Beckstead, to address concerns regarding transparency and accountability of fiscal management in effective altruism by indicating those funds will not be managed with transparency or accountability is unacceptable. That is no transparency or accountability at all. All the while, the EA Funds have been taking in more donations from effective altruists who very likely would have counterfactually donated to nascent EA projects in need of funding to get off the ground. At the time of Henry's post in April, these were the amounts in these two funds remaining unallocated.  
+  
+
+*   Long-Term Future: $348,167 \[95%\]
+*   EA Community: $206,271 \[71%\]
+
+As stated above, the Long-Term Future Fund now has over $1 million unallocated, and the EA Community Fund $600k. Whether its viewed as hundreds of thousands of dollars more, or an increase in nearly 200% in the size of funds, in the last several months, these funds have ballooned in size while quietly going back on the impression effective altruists were given on what the funds would be used for. On Henry's first post concerning the infrequent grants from (at the time, all) the EA Funds, I commented the following:
+
+> I've received feedback from multiple points in the community the EA Funds haven't been as responsive in as timely or as professional a manner as some would prefer. It appears a factor for this is that the fund managers are all program officers at the Open Philanthropy Project, which is a job which from the fund managers' perspective is most of the time more crucial than anything that can be done with the EA Funds. Thus, doing a more than full-time work-equivalent(?... I don't know how much Open Phil staff work each week) may mean management of the EA Funds gets overlooked. Ben West also made a recent post in the 'Effective Altruism' Facebook group asking about the EA Funds, and the response from the Centre for Effective Altruism (CEA) was they hadn't had a chance to update the EA Funds webpage with data on what grants had been made in recent months.
+> 
+> Given that at the current level of funding, the EA Funds aren't being mismanaged, but rather are being more neglected than donors and effective altruists would like, I'd say it might already be time to assign more managers to the fund. Picking Open Phil program officers to run the funds was the best bet for the community to begin with, as they had the best reputation for acumen going in, but if in practice in turns out Nick, Elie and Lewis only have enough time to manage grants at Open Phil (most of the time), it's only fair to donors CEA assign more fund managers to the fund. What's more, I wouldn't want the attention of Open Phil program officers to be any more divided than it need be, as I consider their work more important than the management of the EA Funds as is.
+> 
+> If the apparent lack of community engagement regarding the EA Funds is on the part of the CEA team responsible to keep the webpage updated, as their time may also be divided and dedicated to more important CEA projects than the EA Funds at any given point in time, that needs to be addressed. I understand the pressures of affording enough money to project management it gets done very effectively, while as an effective non-profit not wanting to let overhead expand too much and result in inefficient uses of donor money. I think if that's the case for CEA staff dividing their time between EA Funds and more active projects, it'd be appropriate for the CEA to hire a dedicated communications manager for the the EA Funds overall, and/or someone who will update the webpage with greater frequency. This could probably be done at 1 full-time equivalent additional staff hire or less. If it's not a single new position at the CEA, a part-time equivalent CEA staffer could have their responsibilities extended to ensuring there's a direct channel between the EA Funds and the EA community.
+> 
+> In the scope of things, such as the money moved through EA overall, EA Funds management may seem a minor issue. Given it's impact on values integral to EA, like transparency and accountability, as well as ensuring high-trust engagement between EA donors and EA organizations, options like I've listed out above seem important to implement. If not, overall, I'd think there's greater need for adding external oversight to ensure anything is being done with the EA Funds.
+
+It's clear compared to how the Global Health & Development and Animal Welfare Funds are being manged, the Long-Term and EA Community Funds are being seriously neglected. On top of this, the CEA has made clear for a long time now their cause selection within EA is movement-building; the long-term future; and existential risk reduction. So it should be especially concerning to effective altruists who share this cause selection and have donated to these funds that they'are apparently undermining the integrity of the CEA's own goals. The juxtaposition of the stagnancy of the Long-Term and EA Community Funds, and the CEA's stated goals, create a false impression in and around the movement the CEA can be trusted to effectively identify promising projects from within the community within these focus areas. Thus, to rectify this problem, I make the following suggestions:
+
+*   Nick Beckstead or a member of the CEA's executive team make clear a new plan and intentions for how the Long-Term and EA Community Funds will be more effectively managed in the future, posted to the Effective Altruism Forum.  
+    
+*   The CEA consider hiring additional managers for each of these funds, given it's clear Nick alone doesn't have the bandwidth to manage both of them, or even one of them alone.  
+    
+*   Past and current donors to these funds inform the CEA how they would prefer the funds be allocated, and what kind of projects they'd like to see funded, so the CEA, Nick and fund managers know what kind of new movement-building and long-term future projects in the community to search for.  
+    
+*   Until one or more of the above suggestions comes about, effective altruists refrain from donating more to the Long-Term and EA Community Funds.

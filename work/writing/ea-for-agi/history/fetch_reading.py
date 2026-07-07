@@ -31,7 +31,7 @@ FORUM_HOSTS = {
 
 def curl(url, *extra):
     return subprocess.run(
-        ["curl", "-sL", "--max-time", "60", "-A", UA, url, *extra],
+        ["curl", "-sL", "--compressed", "--max-time", "60", "-A", UA, url, *extra],
         capture_output=True,
     ).stdout
 
