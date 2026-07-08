@@ -21,9 +21,10 @@ but with the step-by-step detail he skips.
   text and the fix inline (or a link that matches that error). The canonical
   example: after installing Claude Code, `command not found: claude` means close
   the terminal and open a new one.
-- **Fork by platform, once.** Where Mac and Windows differ, give both under
-  **Mac:** / **Windows:** labels inside the same step. Don't fork whole sections;
-  the flow is shared, the keystrokes differ.
+- **Split by platform where steps diverge.** When several consecutive steps
+  differ between Mac and Windows, give each its own subsection so a reader
+  follows one clean path with no labels to skip. A single divergent detail can
+  stay inline. Sessions themselves stay platform-neutral.
 - **Prerequisites before they're needed**, never mid-flow. Plan requirements,
   accounts to create, and admin dependencies go at the top of Setup, with a time
   estimate ("~30 minutes").
@@ -36,8 +37,13 @@ but with the step-by-step detail he skips.
 - **The lesson's idea shows up as a "why" clause, once.** Each session exercises
   one idea from its lesson (e.g. *ground*: "it will lie to you"). State it in one
   line where it changes what the reader does; don't re-teach the lesson.
-- **Steps are numbered; sub-bullets are for forks and failure notes only.** No
-  paragraphs between steps.
+- **Steps are numbered; sub-bullets are for failure notes only.** No paragraphs
+  between steps.
+- **Invite challenge; never require it.** Each session ends with one italic
+  *Stretch:* line that deepens the thinking — articulate a vague word ("what
+  makes a site *pretty*?"), predict before you look, try to break your own rule.
+  A rushed reader skips every Stretch and still completes the course. See
+  [inviting-challenge.md](inviting-challenge.md) for the design.
 
 ## Structure per file
 

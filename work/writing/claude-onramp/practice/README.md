@@ -13,7 +13,8 @@ lesson to it. One file per tool, because the steps differ:
   plan and an admin).
 
 How the lessons are written — the walk-them-through rules — lives in
-[CLAUDE.md](CLAUDE.md). Every factual claim in them is grounded in
+[CLAUDE.md](CLAUDE.md); the optional *Stretch* lines that invite deeper thinking
+are designed in [inviting-challenge.md](inviting-challenge.md). Every factual claim in them is grounded in
 [docs/](docs/), a local mirror of the official Claude Code / Cowork / Tag docs
 (fetched 2026-07-07; refresh instructions in its README). Facts an agent couldn't
 verify are left as `[?: …]` brackets for the fact-filler pass. Opinionated tips

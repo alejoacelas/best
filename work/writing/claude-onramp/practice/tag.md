@@ -9,8 +9,8 @@ is the memory and the classroom.
 If your org doesn't meet the prerequisites below, read this track as a preview and
 do the course on Cowork or Claude Code instead.
 
-Every prompt below in quotes is one you can send (or dictate) verbatim — but
-they're examples; your own words work.
+Every quoted prompt below can be sent (or dictated) verbatim, but they're examples;
+your own words work.
 
 ## Setup
 
@@ -34,12 +34,12 @@ Steps:
    Slack** and approve. If your workspace requires app approval, the Slack admin
    approves it first.
 2. **Slack workspace admin:** in any channel, send `@Claude connect` as a new
-   top-level message (as a thread reply it's treated as a normal request and no
-   code comes). Claude replies with a pairing code. Codes expire in 15 minutes —
+   top-level message — as a thread reply it's treated as a normal request and no
+   code comes. Claude replies with a pairing code. Codes expire in 15 minutes;
    send `@Claude connect` again if yours did.
 3. **Owner, back in the dialog:** paste the code, choose **Whole workspace
    (Recommended)**, then walk the remaining steps: name the Access bundle (the
-   default is fine; connecting tools can wait), set a spending limit, and click
+   default is fine; connecting tools can wait), set a spending limit, click
    **Launch Claude**. Errors at any step: match yours at
    [troubleshoot setup](https://claude.com/docs/claude-tag/admins/troubleshooting).
 4. **Admin smoke test:** in a channel, run `/invite @Claude`, then send `@Claude
@@ -56,8 +56,8 @@ Steps:
    answer is your actual toolbox — links it can read, tools your admin connected.
    Save it; you'll refer back.
 8. Two mechanics before you start: each task lives in one thread, and once Claude
-   is in a thread you don't need to @-mention it again — it reads every reply. And
-   the work runs on Anthropic's servers, so it continues after you close Slack.
+   is in a thread it reads every reply — no re-mentioning. The work runs on
+   Anthropic's servers, so it continues after you close Slack.
 
 ## think
 
@@ -69,10 +69,14 @@ Dump your whole head into Claude before it builds; don't pre-organize.
    you're delegating.
 2. End the same message with: "@Claude ask me questions about anything unclear,
    then build a first version and post it in this thread."
-3. While it works, everything you forgot goes into the thread as new replies —
-   never edit the original message; Claude keeps the version it already read.
+3. Everything you forgot goes into the thread as new replies — never edit the
+   original message; Claude keeps the version it already read.
 4. Look at the first version and lower your standards: a mediocre site that exists
    beats the perfect one you'd never start. Fixing comes next session.
+
+*Stretch: you'll want to say "make it pretty." What's a pretty website? Try to
+answer in three specific words and one example site — then say that instead, and
+compare what comes back.*
 
 ## understand
 
@@ -83,11 +87,14 @@ delegate your thinking, not your understanding.
 2. Reply in the thread: "Walk me through what you did, step by step — and what
    could you not access?"
 3. Check the answer against what you saw. In Tag the second question matters
-   doubly: half of "it did a bad job" is really "it couldn't reach the thing" —
-   a link your admin hasn't allowed, a tool nobody connected.
+   doubly: half of "it did a bad job" is really "it couldn't reach the thing" — a
+   link your admin hasn't allowed, a tool nobody connected.
 4. Then: "What are some ways of fixing it?" Pick one, let it try, look again.
 5. If the blocker was access, that's a one-line ask to your admin, not a prompt
    problem. Send it.
+
+*Stretch: before step 2, predict its explanation in one sentence. Being wrong
+about why it failed teaches you more than the fix does.*
 
 ## ease
 
@@ -107,6 +114,10 @@ Remove every trivial barrier — here, by letting the channel become the memory.
 5. Never take a website task to a DM. DMs run on your own account with separate
    memory — a DM ask is a lesson you withheld from the channel.
 
+*Stretch: notice the next time you feel the pull to DM instead of posting in the
+channel. What makes the channel feel costly? That cost is information — about the
+task, or about you.*
+
 ## mingle
 
 The channel *is* the sharing. Steal in the open.
@@ -116,9 +127,11 @@ The channel *is* the sharing. Steal in the open.
 2. Steal one move and use it in your channel, saying where it came from.
 3. Post one thing you figured out as a top-level message in your channel, so it
    can be stolen back.
-4. Bonus: ask "@Claude look at how [teammate] structured their site in
-   #website-them and tell me what's worth copying" — it can search public
-   channels too.
+4. Bonus: "@Claude look at how [teammate] structured their site in #website-them
+   and tell me what's worth copying" — it searches public channels too.
+
+*Stretch: articulate why the move you stole works — three specific words, not
+"clean." What you can't name, you can't ask for.*
 
 ## stop
 
@@ -134,8 +147,12 @@ keep the list short — every constraint costs you.
    reach at all is set in the Access bundle, not in your prompts. Ask "@Claude
    what can you access from this channel?" again and check the list against your
    fears — anything scary on it is a conversation with your admin.
-4. Also audit standing work: "@Claude what routines do you have set up in this
+4. Audit standing work too: "@Claude what routines do you have set up in this
    channel?" Disable what you didn't mean to keep.
+
+*Stretch: add a harmless never-rule to channel memory ("never call me
+'passionate'"), then try to talk Claude into breaking it. Memory is judgment, not
+enforcement — feel the difference, and notice enforcement lives with your admin.*
 
 ## ground
 
@@ -149,6 +166,10 @@ It will lie to you, confidently. Never accept a report; demand the small test.
    into a new thread: "Here's what a real person said. Fix the fair points, tell
    me which points you think are unfair."
 
+*Stretch: before step 1, write down which item you think fails. If you and Claude
+both said "pass" and your friend still found something, what test were you both
+missing?*
+
 ## context
 
 Claude builds from whatever it can see — and in Tag, what it can see is the whole
@@ -158,13 +179,17 @@ game. Choose the diet.
    tools right now?"
 2. Compare its answer to what you assumed. Most "it ignored my data" complaints
    are data nobody wired up: it reads this thread, attached images, and public
-   channels by search; a pasted link only works if your admin allowed that site;
+   channels by search; a pasted link works only if your admin allowed that site;
    Slack canvases not at all.
 3. Give it one thing it said it couldn't see — paste the text straight into the
    thread — and watch the output change.
 4. Watch the other direction too: old channel messages are context it may latch
    onto. If something in the channel is stale ("I hate blue" from week one),
    correct it in a reply and have it update memory.
+
+*Stretch: before step 1, write your own list of what you assume it can see. The
+items you got wrong are where your future "it ignored my data" complaints would
+have come from.*
 
 ## ending
 
@@ -185,4 +210,7 @@ Ship it. Tag builds in Slack; hosting takes one hop out.
    dictate one? Set up the one routine you'd recommend." Standing work is the
    point of hiring Claude into Slack; audit it with "what routines do you have set
    up?"
+
+*Stretch: ask your three people what the site says about you, in one word each.
+Compare with the word you were going for.*
 <!--/ai-->

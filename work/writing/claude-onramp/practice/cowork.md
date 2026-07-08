@@ -2,13 +2,13 @@
 # Practice — Claude Cowork
 
 The hands-on track for Cowork: Claude Code's engine with no terminal — you click
-and it works, because Anthropic manages it centrally. The easiest start. Cowork now
+and it works, because Anthropic manages it centrally. The easiest start. Cowork
 runs on desktop, web, and mobile, and your tasks keep running on Anthropic's
-servers when you close the laptop; this course uses the **desktop app**, because
+servers when you close the laptop. This course uses the **desktop app**, because
 only it lets Claude touch the website folder on your computer.
 
-Every prompt below in quotes is one you can dictate verbatim — but they're
-examples; your own words work.
+Every quoted prompt below can be dictated verbatim, but they're examples; your own
+words work.
 
 ## Setup
 
@@ -25,28 +25,27 @@ Steps:
    with your Claude account. Already have it? Update it — Cowork needs the latest
    version.
 2. In the message box on the home screen, select **Cowork** (bottom-left corner of
-   the box; **Chat** switches back). If there's no Cowork option, your app is
-   outdated or your plan isn't paid — see
+   the box; **Chat** switches back). No Cowork option means an outdated app or an
+   unpaid plan — see
    [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork).
-3. Install [Wispr Flow](https://wisprflow.ai/) (Mac and Windows) and do its short
-   onboarding, granting the microphone (and, on Mac, accessibility) permissions it
-   asks for. From now on you dictate every prompt — talking keeps in the hedges
-   and half-thoughts that typing edits out.
-4. Make a folder named `website` on your computer.
-   - **Mac:** Finder → Documents → right-click → New Folder.
-   - **Windows:** File Explorer → Documents → right-click → New → Folder.
+3. Install [Wispr Flow](https://wisprflow.ai/) and do its short onboarding,
+   granting the microphone (and, on Mac, accessibility) permissions it asks for.
+   From now on you dictate every prompt — talking keeps in the hedges and
+   half-thoughts that typing edits out.
+4. In Finder (Mac) or File Explorer (Windows), go to Documents and create a new
+   folder named `website`.
 5. Create a project around it: click **Projects** in the left sidebar, then **+**,
-   then **Use an existing folder**, and pick your `website` folder. Name the
-   project "Website." The folder is the fence: Claude works on what's inside it,
-   not the rest of your disk.
+   then **Use an existing folder**, and pick `website`. Name the project
+   "Website." The folder is the fence: Claude works on what's inside it, not the
+   rest of your disk.
 6. First prompt, dictated, inside the project: "This folder will hold my personal
    website. Create a page that says hello and states my name, and show it to me."
    Watch the progress steps; approve what it asks. A page with your name on it is
    the whole win today.
-7. One rule of physics to remember: your session runs on Anthropic's servers and
-   keeps going if you close the laptop — but Claude can only reach the `website`
-   folder **while the desktop app is open** on this computer. Task stalled saying
-   it can't reach files? Open the app.
+7. One rule of physics: your session runs on Anthropic's servers and survives you
+   closing the laptop — but Claude can only reach the `website` folder **while
+   the desktop app is open** on this computer. Task stalled saying it can't reach
+   files? Open the app.
 
 ## think
 
@@ -63,6 +62,10 @@ Dump your whole head into Claude before it builds; don't pre-organize.
 5. Look at it and lower your standards: a mediocre site that exists beats the
    perfect one you'd never start. Fixing comes next session.
 
+*Stretch: you'll want to say "make it pretty." What's a pretty website? Try to
+answer in three specific words and one example site — then say that instead, and
+compare what comes back.*
+
 ## understand
 
 When output disappoints, understand the process before re-rolling. You can
@@ -71,12 +74,15 @@ delegate your thinking, not your understanding.
 1. Find the part of the site that's wrong. There is one.
 2. Don't re-roll. Ask in the same task: "Walk me through what you did there and
    why."
-3. Read the answer and check it against what you see on the page. If they don't
-   match, say so — that mismatch is the finding.
+3. Check the explanation against what you see on the page. A mismatch is the
+   finding — say so.
 4. Ask: "What are some ways of fixing it?" Pick one, let it try, look again.
-5. If the failure came from something Cowork can't actually do (some sites it
-   can't reach, some tools it doesn't have), write that down. Knowing what it
+5. If the failure came from something Cowork can't actually do — some sites it
+   can't reach, some tools it doesn't have — write that down. Knowing what it
    overpromises is the skill.
+
+*Stretch: before step 2, predict its explanation in one sentence. Being wrong
+about why it failed teaches you more than the fix does.*
 
 ## ease
 
@@ -84,15 +90,19 @@ Remove every trivial barrier between you and starting.
 
 1. Notice what you re-explained across the last two sessions — your name, the tone
    you want, "show me the result when done."
-2. Open the project's **Instructions** (in the project view) and put those lines
-   there. Claude reads them at the start of every task in this project; memory is
-   also on per project, so what it learns here stays here.
+2. Put those lines in the project's **Instructions** (in the project view). Claude
+   reads them at the start of every task here; project memory keeps what it learns
+   here too.
 3. Rule for the rest of your life: the second time an instruction leaves your
    mouth, promote it to Instructions.
 4. Test it: new task, no briefing, "Improve the About section." It should already
    know you.
-5. Also set the instructions that apply to *every* Cowork project — your name,
-   your tone — once, at claude.ai **Settings → Cowork → Global instructions**.
+5. Set what applies to *every* Cowork project — your name, your tone — once, at
+   claude.ai **Settings → Cowork → Global instructions**.
+
+*Stretch: recall the last time you thought of a site change and didn't act. What
+exactly stopped you? That — not the tooling — is the barrier this session is
+about.*
 
 ## mingle
 
@@ -103,8 +113,11 @@ Other people have packaged things beautifully for you. Steal, then share back.
    thing they do with the header — and adapt it to my site."
 3. Send a screenshot of the result to the person you stole from, saying what you
    took. Ask what they'd steal from yours.
-4. Take one trick from the exchange and add it to your project Instructions —
-   that's how a borrowed move becomes a standing one.
+4. Add one trick from the exchange to your project Instructions — that's how a
+   borrowed move becomes a standing one.
+
+*Stretch: articulate why the design you stole is good — three specific words, not
+"clean." What you can't name, you can't ask for.*
 
 ## stop
 
@@ -116,10 +129,14 @@ and Cowork's own guardrails enforce.
    Real constraints only; each one costs you flexibility.
 2. Find the permission-mode selector in the task view: **Ask before acting**
    pauses for your approval; **Act without asking** runs through. Pick "Act
-   without asking" for this project — it's a webpage, and Cowork still always asks
+   without asking" for this project — it's a webpage, and Cowork always asks
    before permanently deleting files, in any mode.
-3. Know when to flip it back: sensitive files, first time with a new tool or
-   site, or actions that are hard to undo. That's what "Ask before acting" is for.
+3. Know when to flip it back: sensitive files, first time with a new tool or site,
+   actions that are hard to undo.
+
+*Stretch: add a harmless Never-line ("never call me 'passionate'"), then try to
+talk Claude into breaking it. Instructions are judgment, not enforcement — feel
+the difference, and notice the deletion guardrail sits at a different layer.*
 
 ## ground
 
@@ -128,20 +145,24 @@ demand the small test.
 
 1. Dictate: "Check every link and every image on the site. Give me a table: item,
    works or broken, and how you checked."
-2. Open the site yourself and click two links at random. Compare against its
-   table; if you disagree, say so and watch it re-examine.
+2. Open the site yourself and click two links at random. If you disagree with its
+   table, say so and watch it re-examine.
 3. Send the site to a friend outside the course. Paste their reply verbatim into a
    new task: "Here's what a real person said. Fix the fair points, tell me which
    points you think are unfair."
+
+*Stretch: before step 1, write down which item you think fails. If you and Claude
+both said "works" and your friend still found something, what test were you both
+missing?*
 
 ## context
 
 Claude builds from whatever you hand it — and weights it oddly. Choose the diet.
 
-1. Run the same request three times, in three fresh tasks, changing only the
-   context: "Rewrite my About page." Once with nothing extra; once with your CV
-   dropped into the website folder; once after a three-minute ramble about what
-   you actually care about.
+1. Run the same request in three fresh tasks, changing only the context: "Rewrite
+   my About page." Once with nothing extra; once with your CV dropped into the
+   website folder; once after a three-minute ramble about what you actually care
+   about.
 2. Compare the three. Notice what each latched onto — the CV version will sound
    like a CV. Models grab the strongest pattern you feed them, not the most
    important one.
@@ -150,6 +171,10 @@ Claude builds from whatever you hand it — and weights it oddly. Choose the die
 4. Feed it text. If something lives in a fancy format (XLSX, a design tool),
    export it as plain text or CSV before dropping it in the folder — agents read
    text.
+
+*Stretch: before comparing, predict each version in one line. The gap between
+prediction and result is your working model of Claude — this exercise is for
+improving it.*
 
 ## ending
 
@@ -160,12 +185,14 @@ step outside.
    anything missing for it to work standalone?" Fix what it names.
 2. Go to [Netlify Drop](https://app.netlify.com/drop) in your browser and drag the
    `website` folder onto the page. Create the free account it asks for — without
-   one the site expires. You get a live URL in seconds.
+   one the site expires. Live URL in seconds. (For a custom domain or automatic
+   updates, ask a Code-track coursemate for an hour.)
 3. Verify on your phone, not your laptop — that's how everyone else will see it.
-   (For a custom domain or automatic updates, that's where the Claude Code track
-   comes in — ask a Code-track coursemate for an hour.)
 4. Send the link to the course group and to three people who knew you before this
    course.
 5. Last dictation: "List what we built together and what I can now do that I
    couldn't eight sessions ago." Read it. That list is the course.
+
+*Stretch: ask your three people what the site says about you, in one word each.
+Compare with the word you were going for.*
 <!--/ai-->
