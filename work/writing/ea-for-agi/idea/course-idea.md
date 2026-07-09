@@ -1,49 +1,63 @@
 <!--ai-->
-# Course brief
+# Course brief (v2 — topic-centered)
 
-A version of the EA intro fellowship built around Will MacAskill's [Effective altruism
-in the age of AGI](https://forum.effectivealtruism.org/posts/R8AAG4QBZi5puvogR/effective-altruism-in-the-age-of-agi) —
+A fellowship built around Will MacAskill's [Effective altruism in the age of
+AGI](https://forum.effectivealtruism.org/posts/R8AAG4QBZi5puvogR/effective-altruism-in-the-age-of-agi) —
 the course Chris Leong said someone really needs to create, which Alejo offered to
 first-pass in [the forum thread](forum-post-and-comments.md).
 
-MacAskill's target for such a curriculum: "maybe 30% or more should be on cause areas
-beyond AI safety, biorisk, animal welfare, or global health … and a lot of content
-should be on the values and epistemic habits we'll need to navigate in a very rapidly
-changing world."
-
-His illustrative cause menu: global health & development, factory farming, AI safety,
-AI character, AI welfare / digital minds, economic and political rights of AIs,
-AI-driven persuasion and epistemic disruption, AI for better reasoning and
-coordination, risk of (AI-enabled) human coups, democracy preservation, gradual
-disempowerment, biorisk, space governance, s-risks, macrostrategy, meta.
-
-## Collection philosophy
-
+v1 of this brief framed the course as a successor to the EA Introductory Program
+(archived, with the first-pass curriculum built on it, in
+[../history/pre-pivot/](../history/pre-pivot/)). v2 changes the unit of design:
 <!--/ai-->
-<!--me-->The first pass should be absolutely comprehensive — a really wide first
-pass, ideally sampling from different traditions. For example: Richard Ngo has some
-way of looking at the world which might be pretty interesting for this. Will MacAskill
-and Forethought have another. Maybe organizations in the global health space have
-written about how they plan to adapt to AI. There might be something in the Open
-Philanthropy RFPs on how to use AI for these things. Maybe Astera or other grantmakers
-have written things here. Maybe some people have written personal reflections
-grappling with how to deal with AGI. AI character is an area we want readings for.
-Make the collection as broad as possible.<!--/me-->
+
+<!--me-->The fellowship assumes you're already on board with EA ideas. It doesn't need
+to introduce them; it takes you to "okay — and what will AI do to the future?" Take
+each bullet point in the cause menu from MacAskill's post and make that one of the
+clusters of the curriculum — think of each as one possible week.<!--/me-->
 
 <!--ai-->
-## Curriculum philosophy
+## The topics
+
+MacAskill's illustrative menu, every item carried across (his post, "Reason #1"):
+global health & development · factory farming · AI safety · AI character · AI welfare
+/ digital minds · the economic and political rights of AIs · AI-driven persuasion and
+epistemic disruption · AI for better reasoning, decision-making and coordination · the
+risk of (AI-enabled) human coups · democracy preservation · gradual disempowerment ·
+biorisk · space governance · s-risks · macrostrategy · meta.
+
+Plus one additional week that opens the course:
 <!--/ai-->
-<!--me-->There's no infinite space to cover in the curriculum, so select some possible
-thematic axes along which to group things. They can be overlapping: make a long list of
-axes, then suggest one or two core readings for each. Also think the other way around:
-what are the best readings we have, and what can we place around them that gives
-context and meaning? Each axis lists its relevant readings with a direct path to the
-file, so the document can be walked reading by reading.
 
-Another part of the pilot: look at the virtues of the current EA fellowship curriculum
-— the EA Handbook selection of readings — and understand what that handbook does
-great. Use some of those principles for the first pass of the final curriculum:
-thematic axes, questions for discussion, and exercises.
+<!--me-->the main Forethought articles that introduce the transition — the "century in
+a decade" intelligence-explosion articles should be in that week — and other things
+introducing the idea that AI will have lots of effects in the world, with a lens or
+some narrative to prepare for those.<!--/me-->
 
-This is a first draft, meant to make it clear how we move from one stage to the other
-and allow intervention at any point in the big workflow.<!--/me-->
+<!--ai-->
+## What each topic gets
+
+For each topic, find the best readings, in the same format as the stage-3 cluster
+maps: what the topic covers, the voices and where they disagree, and an annotated list
+of standout readings — each with its canonical URL, its local path in `readings/`, why
+it stands out, and its pedagogical role.
+
+Keep-or-scratch rule for the existing cluster maps:
+<!--/ai-->
+
+<!--me-->If a cluster already has the thing we want, keep it as is. If it doesn't —
+if the topic it covers is just not the approach we wanted — scratch the full thing
+and get the readings from scratch. Doing it from zero is the better approach
+there.<!--/me-->
+
+<!--ai-->
+Not topics: introducing EA itself (the `ea-intro-program` material), and the
+source-based clusters (joe-carlsmith, richard-ngo, macaskill-worldview,
+personal-reflections, funder-signals, adjacent-curricula, ea-principles-epistemics).
+Those stay in `readings/` and `analysis/clusters/` as raw material to mine.
+
+## Deliverable
+
+A Google Doc: one tab per topic with its reading options, plus an index tab that
+lists all the items — the intro week and the sixteen menu items — linking to each tab.
+<!--/ai-->
