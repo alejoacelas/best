@@ -24,8 +24,31 @@ def canonical_url(md_path: Path):
     return m.group(1) if m else None
 
 
+ITEM_START = re.compile(r"^\s*(?:[-*+]|\d+\.)\s")
+
+
+def unwrap(text: str) -> str:
+    """Join hard-wrapped lines within paragraphs and list items (the Docs
+    markdown converter drops inline formatting that spans a line break)."""
+    out = []
+    for block in text.split("\n\n"):
+        lines = block.split("\n")
+        if any(l.startswith("#") for l in lines):
+            out.append(block)
+            continue
+        joined = []
+        for line in lines:
+            if not joined or ITEM_START.match(line) or not line.strip():
+                joined.append(line)
+            else:
+                joined[-1] = joined[-1].rstrip() + " " + line.strip()
+        out.append("\n".join(joined))
+    return "\n\n".join(out)
+
+
 def convert(text: str, base: Path) -> str:
     text = re.sub(r"<!--/?(ai|me)-->\n?", "", text)
+    text = unwrap(text)
     # drop ([local](...)) / ([local copy](...)) parentheticals
     text = re.sub(r"\s*\(\[local(?: copy)?\]\([^)]*\)\)", "", text)
 
