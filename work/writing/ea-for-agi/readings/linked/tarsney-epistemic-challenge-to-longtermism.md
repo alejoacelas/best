@@ -1,5 +1,6 @@
 ---
-title: "Christian_Tarsney_epistemic_challenge.pdf"
+title: "The Epistemic Challenge to Longtermism"
+author: "Christian Tarsney"
 url: https://globalprioritiesinstitute.org/wp-content/uploads/2020/Christian_Tarsney_epistemic_challenge.pdf
 fetched: 2026-07-06
 via: pdf
