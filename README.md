@@ -23,6 +23,7 @@ near what in my head; I re-cut it as sharper questions surface.
 
 ## Questions
 
+- What's the best way to do my work at 80,000 Hours? — `80k`
 - What's the way to engage with AI? — `ai`
   - dotfiles — `ai/dotfiles`
 - Who should I become to do the most good? — `consequentialist`
@@ -59,6 +60,7 @@ These folders are separate Git repos, not tracked here — git can't reach acros
 
 | Folder | Visibility | Repository |
 |---|---|---|
+| `80k/` | 🔒 private | [alejoacelas/80k](https://github.com/alejoacelas/80k) |
 | `ai/dotfiles/` | public | [alejoacelas/dotfiles](https://github.com/alejoacelas/dotfiles) |
 | `other/advice/` | 🔒 private | [alejoacelas/advice](https://github.com/alejoacelas/advice) |
 | `other/art/meals/` | public | [alejoacelas/meals](https://github.com/alejoacelas/meals) |
