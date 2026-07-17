@@ -230,10 +230,18 @@ A remote `gdoc` connector would normally have two authorization relationships:
 Claude user ── OAuth ──> our MCP service ── Google OAuth ──> Google Workspace
 ```
 
-Our service would act as an OAuth broker: authenticate the Claude connection, redirect
-the user to Google, associate Google's refresh token with the correct user, and issue
-Claude a credential for the MCP service. The user experience can match the native
-connector, but we become responsible for a public service and high-value refresh tokens.
+Our service acts as an OAuth broker: it authenticates the Claude connection, redirects
+the user to Google, associates Google's refresh token with the correct user, and issues
+Claude a separate credential for the MCP service. Google tokens are encrypted at rest
+and never passed through to Claude. The user experience can match the native connector,
+but we become responsible for a public service and high-value refresh tokens.
+
+The personal test endpoint is deployed at
+`https://gdoc-mcp-alejo.fly.dev/mcp`. Its MCP discovery, authorization challenge, health
+check, encrypted persistent store, and containerized `gdoc` CLI are live. Google login
+still needs a **Web application** OAuth client whose authorized redirect URI is
+`https://gdoc-mcp-alejo.fly.dev/oauth/google/callback`; a Desktop OAuth client cannot
+receive a hosted callback.
 
 ## What an 80,000 Hours administrator can centralize
 
@@ -261,19 +269,12 @@ For Claude's native Drive connector, the centralized actions already available a
 Each person still clicks **Connect** because access follows their identity and existing
 Drive permissions.
 
-## Recommendation
+## Decision
 
-Choose based on the desired outcome:
-
-- **Only Alejo or a few technical users need the richer `gdoc` tools:** keep MCPB local,
-  add a `connect_google` tool that opens the browser flow, and publish builds for each
-  required platform. This avoids hosting credentials and removes the terminal.
-- **Several 80,000 Hours staff should get the same one-click experience as native
-  Drive:** operate `gdoc` as a remote MCP connector using an organization-owned internal
-  Google OAuth app. The Claude owner adds it once; users click **Connect**.
-- **The native connector already covers the workflow:** use it. It has the smallest
-  operating burden, but it currently lacks comments, suggestions, and some of `gdoc`'s
-  editing and revision tools.
+Operate `gdoc` as a remote MCP connector using an organization-owned internal Google
+OAuth app. The Claude owner adds it once; users click **Connect**. Keep the personal test
+deployment separate from the eventual 80,000 Hours deployment so their OAuth clients,
+allowed audiences, encrypted token stores, and operational ownership cannot mix.
 
 Do not distribute a domain-wide service-account key inside an MCPB. Google says client
 applications should use user OAuth and warns against embedding or distributing service
