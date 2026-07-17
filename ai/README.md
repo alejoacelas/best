@@ -29,7 +29,7 @@ The test for what belongs: it's meta. Not a thing I make, a person I know, or wh
 <!--ai-->
 ## Neighbors
 - `work/tools` — the private, credentialed CLI tooling this meta-work maintains; "make it better" ideas for it usually start here before landing there.
-- `questions/now/technical/agent-cli-dive` — the empirical map of what Claude Code / Codex can actually do; the deep backing for the naive-model claims in `infrastructure.md`.
+- `questions/technical/agent-cli-dive` — the empirical map of what Claude Code / Codex can actually do; the deep backing for the naive-model claims in `infrastructure.md`.
 - `ai/dotfiles` — the nested source-of-truth repo this folder documents; editing there edits the live config, so keep `infrastructure.md` honest to it.
 <!--/ai-->
 

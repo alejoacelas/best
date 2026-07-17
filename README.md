@@ -42,8 +42,8 @@ near what in my head; I re-cut it as sharper questions surface.
   - Who do I learn from, and what do I take? — `people/admire`
   - What other ways could I relate to people? — beyond friend and admired. — `people/other`
 - What are the best questions to ask? — `questions`
-  - What questions do I most want to resolve now? — `questions/now`
-  - What are the best open questions to explore? — `questions/open`
+  - What life questions do I most want to resolve now? — `questions/life`
+  - What technical questions do I most want to resolve now? — `questions/technical`
 - What's the best work to do? — for me, for others, for the world. — `work`
   - What's worth spinning up as a quick one-off? — dated, disposable projects. — `work/once`
   - What's the best thing to focus on now? — `work/plans`
