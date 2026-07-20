@@ -48,12 +48,12 @@ working rules). The framing worth carrying into any mind-level work:
 ## Neighbors
 - `me/body` — the explicit companion folder; the physical half of the same "look after myself" question, where sleep and light tie back to mood.
 - `questions/life/base-rates/bipolar-ii` — the reference-class and base-rate work that should feed the medication decision-support here.
-- `me/mind/Light/` — the seasonal-light notes (winter light, Lumenate); the applied, day-to-day side of the same mind question.
+- `me/mind/light/` — the seasonal-light notes (winter light, Lumenate); the applied, day-to-day side of the same mind question.
 <!--/ai-->
 
 <!--ai-->
 ## Live questions
 - Pull the conclusions from `questions/life/base-rates/bipolar-ii` back into the psychiatrist-prep brief — the base-rate work isn't linked here yet. *(gap)*
 - Distill `bipolar-medication` (separate clone) into a one-screen current-best summary readable at a glance without opening the repo. *(gap)*
-- Turn the `Light/` notes into a concrete seasonal protocol I actually follow, not just research. *(continuation)*
+- Turn the `light/` notes into a concrete seasonal protocol I actually follow, not just research. *(continuation)*
 <!--/ai-->
