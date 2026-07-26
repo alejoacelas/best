@@ -41,12 +41,14 @@ near what in my head; I re-cut it as sharper questions surface.
 - What are all the best ways to relate to the people in my life — and the ones still to come? — `people`
   - Who do I learn from, and what do I take? — `people/admire`
   - What other ways could I relate to people? — beyond friend and admired. — `people/other`
+  - Mexico AI Enablement Fellowship — `people/residency`
 - What are the best questions to ask? — `questions`
   - What life questions do I most want to resolve now? — `questions/life`
   - What technical questions do I most want to resolve now? — `questions/technical`
 - What's the best work to do? — for me, for others, for the world. — `work`
   - What's worth spinning up as a quick one-off? — dated, disposable projects. — `work/once`
   - What's the best thing to focus on now? — `work/plans`
+  - Roughdraft — `work/roughdraft`
   - What are the best tools? — `work/tools`
   - What's the best writing? — `work/writing`
 <!-- END managed question map -->
@@ -68,7 +70,9 @@ These folders are separate Git repos, not tracked here — git can't reach acros
 | `people/calls/` | public | [alejoacelas/calls](https://github.com/alejoacelas/calls) |
 | `people/friend/` | 🔒 private | [alejoacelas/people](https://github.com/alejoacelas/people) |
 | `people/partner/` | 🔒 private | [alejoacelas/partner](https://github.com/alejoacelas/partner) |
+| `people/residency/` | public | people/residency |
 | `work/once/` | public | [alejoacelas/one-off](https://github.com/alejoacelas/one-off) |
+| `work/roughdraft/` | public | [peterhartree/roughdraft](https://github.com/peterhartree/roughdraft) |
 | `work/tools/` | 🔒 private | [alejoacelas/tools](https://github.com/alejoacelas/tools) |
 | `work/writing/blog/` | public | [alejoacelas/myea-blog](https://github.com/alejoacelas/myea-blog) |
 <!-- END managed repo map -->
