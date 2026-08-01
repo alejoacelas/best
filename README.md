@@ -40,6 +40,7 @@ near what in my head; I re-cut it as sharper questions surface.
   - Where do I go? — places I travel and the visas to get there. — `other/places`
 - What are all the best ways to relate to the people in my life — and the ones still to come? — `people`
   - Who do I learn from, and what do I take? — `people/admire`
+  - Who are the people I have not met whom I want to discover? — `people/discover`
   - What other ways could I relate to people? — beyond friend and admired. — `people/other`
   - Mexico AI Enablement Fellowship — `people/residency`
 - What are the best questions to ask? — `questions`
