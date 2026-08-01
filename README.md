@@ -33,6 +33,7 @@ near what in my head; I re-cut it as sharper questions surface.
   - What's the best way to keep this body? — `me/body`
   - What's the best way to keep this mind? — mood, cognition, mental health. — `me/mind`
   - What are the most relevant parts of my past? — `me/past`
+  - How do I want to care for my closest relationships? — `me/relationships`
   - What are the best things to own? — `me/stuff`
   - What is my best style — and how do I cultivate it? — `me/style`
 - What else is there? — `other`
@@ -41,8 +42,8 @@ near what in my head; I re-cut it as sharper questions surface.
 - What are all the best ways to relate to the people in my life — and the ones still to come? — `people`
   - Who do I learn from, and what do I take? — `people/admire`
   - Who are the people I have not met whom I want to discover? — `people/discover`
-  - What other ways could I relate to people? — beyond friend and admired. — `people/other`
-  - Mexico AI Enablement Fellowship — `people/residency`
+  - What other ways could I relate to people? — beyond discovered and admired. — `people/other`
+  - Who are the people I want to know in each place? — `people/places`
 - What are the best questions to ask? — `questions`
   - What life questions do I most want to resolve now? — `questions/life`
   - What technical questions do I most want to resolve now? — `questions/technical`
@@ -65,14 +66,13 @@ These folders are separate Git repos, not tracked here — git can't reach acros
 |---|---|---|
 | `80k/` | 🔒 private | [alejoacelas/80k](https://github.com/alejoacelas/80k) |
 | `ai/dotfiles/` | public | [alejoacelas/dotfiles](https://github.com/alejoacelas/dotfiles) |
+| `me/relationships/friend/` | 🔒 private | [alejoacelas/people](https://github.com/alejoacelas/people) |
+| `me/relationships/partner/` | 🔒 private | [alejoacelas/partner](https://github.com/alejoacelas/partner) |
 | `other/advice/` | 🔒 private | [alejoacelas/advice](https://github.com/alejoacelas/advice) |
 | `other/art/meals/` | public | [alejoacelas/meals](https://github.com/alejoacelas/meals) |
 | `other/places/visa/` | 🔒 private | [alejoacelas/visa](https://github.com/alejoacelas/visa) |
-| `people/calls/` | public | [alejoacelas/calls](https://github.com/alejoacelas/calls) |
-| `people/friend/` | 🔒 private | [alejoacelas/people](https://github.com/alejoacelas/people) |
-| `people/partner/` | 🔒 private | [alejoacelas/partner](https://github.com/alejoacelas/partner) |
-| `people/residency/` | public | people/residency |
-| `work/once/` | public | [alejoacelas/one-off](https://github.com/alejoacelas/one-off) |
+| `work/calls/` | 🔒 private | [alejoacelas/calls](https://github.com/alejoacelas/calls) |
+| `work/once/` | 🔒 private | [alejoacelas/one-off](https://github.com/alejoacelas/one-off) |
 | `work/roughdraft/` | public | [peterhartree/roughdraft](https://github.com/peterhartree/roughdraft) |
 | `work/tools/` | 🔒 private | [alejoacelas/tools](https://github.com/alejoacelas/tools) |
 | `work/writing/blog/` | public | [alejoacelas/myea-blog](https://github.com/alejoacelas/myea-blog) |

@@ -4,6 +4,8 @@ How was the people-discovery list built and checked?
 ## Inputs
 
 - The user supplied the [Generator Residency fellows Google Doc](https://docs.google.com/document/d/1SFJpBgmQiX4nQLaOfFX38HTzBB4vxgfgh21uX46nNtw/edit?tab=t.0#heading=h.undt9fpbyb11) and [Alexey Guzey’s list](https://guzey.com/people/) on 2026-08-01.
+- The user supplied Luis Cosio via Leo McKee-Reid, Lucy Moglia’s site, and three Boston
+  seeds on 2026-08-01.
 - Google Drive’s document structure supplied the Generator names and embedded links.
 - Guzey’s rendered list and source HTML supplied its names and personal-site links.
 
@@ -17,6 +19,6 @@ How was the people-discovery list built and checked?
 ## Checks
 
 - The two inboxes contain 70 source entries: 20 Generator and 50 Guzey.
-- The initial five rows each have a place, place provenance, date, learning link, and discovery source.
+- The seven researched rows each have a place, place provenance, date, learning link, and discovery source.
 - No empty placeholder was deleted. The seven `admire/` placeholders remain documented in `admire/README.md`.
 <!--/ai-->

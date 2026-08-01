@@ -1,7 +1,9 @@
 <!--ai-->
-What other ways could I relate to people? — beyond friend and admired.
+What other ways could I relate to people? — beyond discovered and admired.
 <!--/ai-->
 
 <!--ai-->
-The `other/` move: keep the category bigger than its current answers. Points at `../friend/` and `../admire/`.
+Keep the category bigger than its current answers. Friendship and partnership now live in
+[`me/relationships/`](../../me/relationships/); people studied as examples live in
+[`../admire/`](../admire/).
 <!--/ai-->

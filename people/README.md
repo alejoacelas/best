@@ -4,5 +4,6 @@ What are all the best ways to relate to the people in my life — and the ones s
 
 <!--ai-->
 Current answers: study people in [`admire/`](admire/), find people I have not met in
-[`discover/`](discover/), and leave unresolved kinds of relationship in [`other/`](other/).
+[`discover/`](discover/), find people near a trip in [`places/`](places/), and leave
+unresolved kinds of relationship in [`other/`](other/).
 <!--/ai-->

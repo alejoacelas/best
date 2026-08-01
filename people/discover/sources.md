@@ -4,6 +4,13 @@
 These are candidates, not the roster. Meeting status and location remain unverified unless
 the person appears in `README.md`.
 
+## Place-specific leads
+
+- Mexico City: Leo McKee-Reid mentioned [Luis Cosio](https://www.luiscos.io/) to Alejo.
+- Mexico City: Alejo found [Lucy Moglia](https://eigenlucy.com/) while browsing.
+- Boston: ask JP Addison, Jeff Kaufman, and Julia Wise whom in their close circles Alejo
+  should meet. Do not infer closeness from online mentions.
+
 ## Generator Residency fellows
 
 Source: [Generator Residency fellows](https://docs.google.com/document/d/1SFJpBgmQiX4nQLaOfFX38HTzBB4vxgfgh21uX46nNtw/edit?tab=t.0#heading=h.undt9fpbyb11), fetched 2026-08-01. The source mixes people Alejo met with people found later, so every name requires a meeting-status check.

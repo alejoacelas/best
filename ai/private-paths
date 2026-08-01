@@ -5,8 +5,10 @@
 # lives here by hand rather than being auto-discovered.
 80k
 other/advice
-people/partner
-people/friend
+me/relationships/partner
+me/relationships/friend
 other/places/visa
 work/tools
 people/work
+work/calls
+work/once

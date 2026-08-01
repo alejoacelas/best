@@ -54,6 +54,7 @@ runs `--check` on commit and blocks if anything drifted.
 The rule: **everything about me is public; things about others are private.** Making
 something private is a deliberate call that it's really about someone else, holds their
 confided content, or carries credentials. Private so far: `work/tools` (credentials),
-`people/friend`, `people/partner`, `other/advice`, and `other/places/visa` (identity
-documents). `me/mind` is public — it's about me.
+`work/calls` (transcripts), `me/relationships/friend`, `me/relationships/partner`,
+`other/advice`, and `other/places/visa` (identity documents). `me/mind` is public — it's
+about me.
 <!--/ai-->
