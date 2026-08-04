@@ -17,5 +17,5 @@ promoting a candidate into the roster.
 | [Luis Cosio](https://www.luiscos.io/) | Mexico City, Mexico | [AI-safety and security work](https://www.luiscos.io/) · [Institute for Security and Technology](https://securityandtechnology.org/person/luis-cosio/) | Leo McKee-Reid mentioned him to Alejo | [personal site](https://www.luiscos.io/), 2026-08-01 |
 | [Lucy Moglia](https://eigenlucy.com/) | Mexico City and San Francisco | [hardware and research projects](https://eigenlucy.com/#projects) · [blog](https://eigenlucy.com/#blog) | Alejo found her site | [personal site](https://eigenlucy.com/), 2026-08-01 |
 
-The two imported inboxes and place-specific leads are in [`sources.md`](sources.md).
+The imported cohorts, lists, and place-specific leads are in [`sources.md`](sources.md).
 <!--/ai-->
