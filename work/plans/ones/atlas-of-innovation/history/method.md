@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # How this one-pager was made (2026-07-06)
 
 Claude Code session, prompted by Alejo: "investigate atlasofinnovation.org, select
@@ -23,4 +27,3 @@ Notes:
   https://drive.google.com/file/d/1sJEtgKy-1DCI19hACYqU2zjVdFbgmDYL/view
 - Site credits: Institute for Progress + Market Shaping Accelerator; led by Matthew
   Esche and Caleb Watney; NBER EIPE vol. 6 chapter is the academic backbone.
-<!--/ai-->

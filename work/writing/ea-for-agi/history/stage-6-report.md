@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Stage 6 report: topic pivot
 
 2026-07-09. Pivot from the v1 intro-fellowship framing (archived in
@@ -44,4 +48,3 @@ Totals: 9 kept, 8 rebuilt; ~50 readings downloaded in scour + more during revise
 (collection now 2,402); every map link-verified (0 broken local paths).
 Full per-agent record: the workflow journal under the session's
 `subagents/workflows/wf_bfe813e5-536/`.
-<!--/ai-->

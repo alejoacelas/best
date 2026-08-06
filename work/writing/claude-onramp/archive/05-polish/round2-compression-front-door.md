@@ -1,6 +1,10 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Round 2 compression log — front-door.md
 
-<!--ai-->
 Pass: PG deletion test (C9), deletion only. No cuts.
 
 Verified against `00-voice/samples/better-start.txt`: the intro and "New tools"
@@ -24,4 +28,3 @@ Considered and spared:
   the closing win; "graduation" is an exact-word echo that adds new information.
 
 Removed: 0 sentences.
-<!--/ai-->

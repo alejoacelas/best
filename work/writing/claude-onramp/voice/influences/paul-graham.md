@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Paul Graham — 20 essays
 
 Corpus: 20 essays from [paulgraham.com](https://www.paulgraham.com/articles.html), mixing his
@@ -461,4 +465,3 @@ for rhythm read instantly as mannerism. Third, the derivations are genuine — t
 read as thinking because they are the thinking, drafts reread fifty times until the
 reasoning and the prose are the same object. You can steal the moves; what made them
 necessary was writing to find out, not to perform.
-<!--/ai-->

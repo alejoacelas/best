@@ -1,6 +1,10 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 What would the intro EA fellowship look like if it took "EA in the age of AGI" seriously?
 
-<!--ai-->
 The curriculum hinted at in the comments of [Maybe do the thing you wish CEA would
 do](https://forum.effectivealtruism.org/posts/ovSoLXJHNu2LbcsDb/maybe-do-the-thing-you-wish-cea-would-do):
 Chris Leong — "Someone really needs to create a course based on Will's [EA in the Age of
@@ -39,4 +43,3 @@ Stages, each inspectable before the next runs, output committed per stage:
 - [`analysis/topics/`](analysis/topics/) — the deliverable: one best-readings map per
   curriculum topic; mirrored to the tabbed Google Doc (link in `curriculum/doc-url.md`).
 - [`readings/INDEX.md`](readings/INDEX.md) — the whole collection, by cluster.
-<!--/ai-->

@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Discover people
 
 See [README.md](README.md).
@@ -14,4 +18,3 @@ When adding someone:
    or search result.
 5. Preserve the README’s outer AI-origin tags and update `reproduce/README.md` when the
    roster or source inbox changes.
-<!--/ai-->

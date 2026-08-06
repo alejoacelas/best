@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # The philosophy of trying
 
 Analytic philosophy of action, on the disposition to actually try to solve one's problems
@@ -135,4 +139,3 @@ did Y," but "I never planted the flag." The scaffolding for *why that is a defic
 quirk* is the grades-of-agency literature — full-blown/self-governed agency (Bratman), the *wanton*
 (Frankfurt), self-constitution (Korsgaard). One caution to carry: whether that is a true continuum or
 "an implausible dichotomy" is live (Schlosser).
-<!--/ai-->

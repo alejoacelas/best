@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Landscape: the shape of the collection
 
 The high-level view across all 22 cluster maps — the fault lines, where the collection
@@ -136,4 +140,3 @@ The remaining ~45 targets, grouped for download agents, are returned as structur
 Priority tiers embedded in the `why` field: **[P1]** = serves 3+ clusters or is central
 to the distinctive cause menu; **[P2]** = high-value single-cluster anchor; **[P3]** =
 re-fetch / data-quality fix.
-<!--/ai-->

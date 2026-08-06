@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Cluster map: ai-safety-core
 
 ## What this cluster covers
@@ -115,4 +119,3 @@ From the linked pile (promote these):
 - **Broken fetch to fix:** [superintelligence-faq.md](../../readings/ai-safety-core/superintelligence-faq.md)
   is a 404 husk — Scott Alexander's *Superintelligence FAQ* needs re-fetching (try the
   Wayback Machine).
-<!--/ai-->

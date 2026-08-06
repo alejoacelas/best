@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Cluster map: ea-intro-program
 
 ## What this cluster is
@@ -153,4 +157,3 @@ linked [xrisk-attention-hasnt-distracted-from-current-harms.md](../../readings/l
 rebuts one side but the other side's strongest statement, e.g. Gebru/Torres on
 "TESCREAL," is absent), and a critic of longtermism's practical grip in a fast-takeoff
 world.
-<!--/ai-->

@@ -1,7 +1,11 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Desktop application stacks: macOS and Windows
 
-This is a field guide to <!--me-->actual examples<!--/me--> of desktop stacks, what each makes unusually easy, what becomes expensive, and which alternatives are closest. The macOS examples start with applications installed on this computer on 2026-07-26.
+This is a field guide to actual examples of desktop stacks, what each makes unusually easy, what becomes expensive, and which alternatives are closest. The macOS examples start with applications installed on this computer on 2026-07-26.
 
 ## The short answer
 
@@ -298,4 +302,3 @@ Assuming solid TypeScript/React experience:
 5. **Qt, Flutter, Avalonia, or IntelliJ Platform:** invest only when the product conditions in the table point there.
 
 The decision should follow the product's hardest boundary, not a general framework ranking. Roughdraft is web-shaped, IINA is Mac-and-media-shaped, OBS is cross-platform-C++-and-media-shaped, and Hammerspoon is macOS-automation-shaped. Their stacks follow from those facts.
-<!--/ai-->

@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 How do you teach people to say what they actually want?
 
 **Think** (was *verbalize-what-you-want*) — dump as much thinking as you can into
@@ -9,4 +13,3 @@ Claude; talking vs writing; what thinking to keep for yourself.
 - [auto-draft.md](auto-draft.md) — the notes reorganized to read top to bottom;
   tensions flagged, not resolved.
 - `history/` — the earlier dictation draft after the pg-compressor pass.
-<!--/ai-->

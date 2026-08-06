@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # 2026-07-08 red-team — cowork.md, solo non-technical reader
 
 Simulated a smart, non-technical person going through cowork.md alone, session by
@@ -125,4 +129,3 @@ Global instructions; "Ask before acting"/"Act without asking" names; deletion
 guardrail in any mode; remote sessions surviving laptop close while local folders
 need the app open — all match the doc mirror (organize-tasks-with-projects.md,
 guide-projects.md, get-started-with-claude-cowork.md, use-claude-cowork-safely.md).
-<!--/ai-->

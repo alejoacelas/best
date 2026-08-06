@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Topic: AI safety
 
 *MacAskill menu item: AI safety.*
@@ -118,4 +122,3 @@ empirical demonstration to #9.
 - **Broken fetch to fix:** [superintelligence-faq.md](../../readings/ai-safety-core/superintelligence-faq.md)
   is a 404 husk — Scott Alexander's *Superintelligence FAQ* needs re-fetching (try the
   Wayback Machine).
-<!--/ai-->

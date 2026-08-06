@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Teach it once, then choose
 
 *Cowork track, lesson 5.*
@@ -70,4 +74,3 @@ knows you. That moment is the whole lesson: teach it once, and every session
 for the rest of your life starts where this one did instead of at zero.
 Anything you'll do five or more times, ask whether Claude can — and now you
 know where the answer goes.
-<!--/ai-->

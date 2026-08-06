@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Practice — Claude Tag
 
 The hands-on track for Claude Tag: Claude hired into your team's Slack, working in
@@ -213,4 +217,3 @@ Ship it. Tag builds in Slack; hosting takes one hop out.
 
 *Stretch: ask your three people what the site says about you, in one word each.
 Compare with the word you were going for.*
-<!--/ai-->

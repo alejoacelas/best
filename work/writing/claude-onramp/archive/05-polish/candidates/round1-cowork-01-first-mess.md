@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Hand it your first mess
 
 *Cowork track, lesson 1.*
@@ -74,4 +78,3 @@ you nothing but the minute you spent reading it. When the plan is right, say
 And that's the win: a folder you dreaded for months, mapped and reorganized in
 the time it took your coffee to cool. You didn't clean a folder — you got a
 folder cleaned. Every lesson after this one is that sentence, scaled up.
-<!--/ai-->

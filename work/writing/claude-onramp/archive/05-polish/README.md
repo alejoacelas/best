@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 Can any passage be rewritten to Pareto-dominate the original?
 
 Two kinds of pass, run until neither changes anything:
@@ -16,4 +20,3 @@ Two kinds of pass, run until neither changes anything:
 
 Store rounds here: per file, the alternatives, the judge verdicts, and what
 the compression pass removed.
-<!--/ai-->

@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # How Roughdraft was developed
 
 The fork records product boundaries in short ADRs and operational rules in `AGENTS.md`; the original repository uses a fuller chain from brainstorms through implementation plans, executable format specifications, tests, and reusable solution notes.
@@ -66,4 +70,3 @@ The recurring loop is:
 8. Convert surprising failures into tagged solution notes and update the UI-state inventory.
 
 The strongest reusable idea is that planning artifacts are contracts between agents: ADRs constrain scope, plans expose decisions and dependencies, test plans define evidence, schemas define interchange, and solution notes prevent repeated mistakes. Code is the implementation of that chain, not its primary explanation.
-<!--/ai-->

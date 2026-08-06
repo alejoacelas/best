@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Hypotheses
 
 Competing and complementary explanations of the question, each stated with enough precision to
@@ -137,4 +141,3 @@ raises the return to agency and makes its absence starker.
 - **The two best-evidenced, load-bearing claims:** H8 (the Maier–Seligman inversion — agency is learned control, passivity the default) and H5 (social-cost mispricing — the ~48% underestimate). Build on these first; they rest on behavioral data, not self-report.
 - **The most decision-relevant if true:** H3 (option-generation, not willpower, is the usual bottleneck) — because it says the entire motivational framing of self-improvement aims at the wrong stage.
 - **The one to hold loosely:** H10 (AI constraint-shift) — plausible and consequential, but forward-looking.
-<!--/ai-->

@@ -1,8 +1,12 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Delegate something you'd never do
 
 *Code track, lesson 2.*
 
-<!--ai-->
 Yesterday you installed it. Today you find out what it's for — and it's not your to-do list. Most of the value I get from coding agents is from delegating tasks I wouldn't do myself, because they are:
 
 - Too technical, requiring expertise I lack
@@ -32,4 +36,3 @@ Then feed it the real material. Drop the actual files into the folder you're wor
 Pick the task — five minutes of honest thinking, not another day of deferring. Then, before Claude does anything else, one instruction: "Write your plan as a file in this folder before you start." A plan file is just a document; open it in anything you'd open a document with, scribble on it, hand it back.
 
 Then work it. Answer its questions, read the plan, argue with the parts that smell wrong, let it run. The bar for today is one real task from your underneath-list, moved by tonight — or at least started, with the plan saved, so tomorrow you open the folder and pick up mid-stride instead of at zero. One thing you'd decided would never happen is now half-happened, sitting in a file, waiting for you.
-<!--/ai-->

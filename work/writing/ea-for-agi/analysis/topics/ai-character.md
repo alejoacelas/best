@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Topic: AI character
 
 *MacAskill menu item: **AI character** — what should be in the model spec? Pure
@@ -131,4 +135,3 @@ Also strong, in supporting roles: **[Teaching Claude why](https://www.anthropic.
 - **A democratic-legitimacy / political-theory critique** of who writes the
   constitution — Collective Constitutional AI raises the question but no political
   theorist answers it.
-<!--/ai-->

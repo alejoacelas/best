@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Topic: Macrostrategy
 
 *MacAskill menu item: macrostrategy.*
@@ -133,4 +137,3 @@ and [Existential Risk Pessimism and the Time of Perils](https://www.globalpriori
   the Anglo-American EA frame writes here about what a good post-AGI future means.
 - **Hanson's *Age of Em* / whole-brain-emulation macrostrategy** as a primary — a
   fundamentally different transition scenario, present only as a review.
-<!--/ai-->

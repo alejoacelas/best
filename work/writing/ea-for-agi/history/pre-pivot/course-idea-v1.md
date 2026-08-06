@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Course brief
 
 A version of the EA intro fellowship built around Will MacAskill's [Effective altruism
@@ -18,9 +22,7 @@ coordination, risk of (AI-enabled) human coups, democracy preservation, gradual
 disempowerment, biorisk, space governance, s-risks, macrostrategy, meta.
 
 ## Collection philosophy
-
-<!--/ai-->
-<!--me-->The first pass should be absolutely comprehensive — a really wide first
+The first pass should be absolutely comprehensive — a really wide first
 pass, ideally sampling from different traditions. For example: Richard Ngo has some
 way of looking at the world which might be pretty interesting for this. Will MacAskill
 and Forethought have another. Maybe organizations in the global health space have
@@ -28,12 +30,10 @@ written about how they plan to adapt to AI. There might be something in the Open
 Philanthropy RFPs on how to use AI for these things. Maybe Astera or other grantmakers
 have written things here. Maybe some people have written personal reflections
 grappling with how to deal with AGI. AI character is an area we want readings for.
-Make the collection as broad as possible.<!--/me-->
+Make the collection as broad as possible.
 
-<!--ai-->
 ## Curriculum philosophy
-<!--/ai-->
-<!--me-->There's no infinite space to cover in the curriculum, so select some possible
+There's no infinite space to cover in the curriculum, so select some possible
 thematic axes along which to group things. They can be overlapping: make a long list of
 axes, then suggest one or two core readings for each. Also think the other way around:
 what are the best readings we have, and what can we place around them that gives
@@ -46,4 +46,4 @@ great. Use some of those principles for the first pass of the final curriculum:
 thematic axes, questions for discussion, and exercises.
 
 This is a first draft, meant to make it clear how we move from one stage to the other
-and allow intervention at any point in the big workflow.<!--/me-->
+and allow intervention at any point in the big workflow.

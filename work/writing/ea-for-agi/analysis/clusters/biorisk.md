@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Cluster map: biorisk
 
 ## What this cluster covers
@@ -159,4 +163,3 @@ for natural outbreaks are blind to deliberate, surveillance-evading design.
   and Biosafety Initiative for Science) and the NTI common-mechanism work — the concrete
   institution behind "screen DNA synthesis." `securing-benchtop-dna-synthesizers` and
   `asimov-dna-screening` are linked but the governing body itself is missing.
-<!--/ai-->

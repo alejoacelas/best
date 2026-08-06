@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Thematic axes: a walkable menu
 
 A deliberately overlapping menu of axes the curriculum could be organized around. Each
@@ -371,4 +375,3 @@ sudden vs gradual [8, 9] → **(5)** map-then-choose across the beyond-safety me
 [15–25, pick one] → **(6)** the moral-circle frontier: character, welfare, rights
 [16, 17, 18] → **(7)** criticism week, inside and hostile [7, 11, 30] → **(8)** living with
 it + what to do [31, 28]. Every other axis becomes that session's optional layer.
-<!--/ai-->

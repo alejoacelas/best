@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Scott Alexander — 20 Slate Star Codex posts
 
 Corpus: 20 posts spanning his registers — the four "most popular" (Meditations on
@@ -462,4 +466,3 @@ ethics; and the sheer stamina of commitment, sustaining a deadpan or a refrain l
 past the point a cautious writer would break it, which is what turns a trick into a
 world. Steal the moves at tweak scale; the trust he's spending was earned essay by
 essay.
-<!--/ai-->

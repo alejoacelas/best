@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # People by place
 
 Start with [README.md](README.md).
@@ -20,4 +24,3 @@ create or refresh its page here. Before the visit:
    who divide time across cities as intermittent.
 6. End with at most five priority contacts and a concrete next action for each.
 7. Update [`reproduce/README.md`](reproduce/README.md) when a city map changes.
-<!--/ai-->

@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Topic: Gradual disempowerment
 
 *MacAskill menu item: gradual disempowerment.*
@@ -128,4 +132,3 @@ Also strong: **[BlueDot's GD summary](https://blog.bluedot.org/p/gradual-disempo
   professional economist — Beren gestures at property rights, but nobody rigorously
   argues *why* property claims of economically useless humans would keep being honored,
   or engages Davidson's principal-agent optimism at model-level depth.
-<!--/ai-->

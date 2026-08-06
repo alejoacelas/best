@@ -1,6 +1,10 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Round 1 compression log — front-door.md
 
-<!--ai-->
 Pass: PG deletion test (C9), deletion only. Verified against
 `00-voice/samples/better-start.txt`: the intro and "New tools" sections are Alejo
 verbatim — protected, untouched, as are all `[bracketed alternatives]`.
@@ -30,4 +34,3 @@ Kept, considered and spared:
   the concrete win, protected.
 
 Removed: 2 sentences (the first an independent clause set off by an em-dash).
-<!--/ai-->

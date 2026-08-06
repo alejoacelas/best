@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Topic: Factory farming
 
 *MacAskill menu item: factory farming — the animal-welfare cause area in the age of AGI.*
@@ -128,4 +132,3 @@ Also strong, in supporting roles: **[Why I Prioritize Moral Circle Expansion Ove
 - **Suffering-focused / s-risk deep anchor (CLR, Tobias Baumann, Brian Tomasik).** The
   s-risk tradition is gestured at through Anthis but has no dedicated curated piece on
   animals-specific astronomical suffering or spreading wild-animal suffering to space.
-<!--/ai-->

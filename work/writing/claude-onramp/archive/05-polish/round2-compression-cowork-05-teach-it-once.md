@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Round 2 PG-compression log — cowork-05-teach-it-once.md
 
 no cuts
@@ -12,4 +16,3 @@ Every sentence passed the deletion test. Candidates examined and retained:
 - "a real one" — the accusatory beat (don't invent one) that "something you've said to Claude twice this week" then evidences (C2).
 - "probably", "most of them" — calibrated hedges, protected (C7).
 - "for their own jobs" — adds that Anthropic engineers use Code for daily work, not just to build Claude.
-<!--/ai-->

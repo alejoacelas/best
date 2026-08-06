@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # How this note was built
 
 2026-07-13. Built from three parallel research agents, one per angle, then synthesized into
@@ -19,4 +23,3 @@ links preserved, lightly edited for flow); only the hypotheses file adds argumen
 Re-run any brief as a follow-up agent, or add a new angle file and a bullet in the README map. The
 obvious next angles: economics of search/experimentation (why optimal stopping ≠ observed stopping),
 and a direct test of H8 (does one experience of control bootstrap a frozen domain).
-<!--/ai-->

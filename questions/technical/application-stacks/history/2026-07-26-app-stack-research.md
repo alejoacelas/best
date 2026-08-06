@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Desktop and mobile stack research record
 
 ## Scope
@@ -68,4 +72,3 @@ The reusable command is [inventory-macos-app-stacks.sh](inventory-macos-app-stac
 
 - [Desktop application stacks](../desktop.md)
 - [Mobile application stacks](../mobile.md)
-<!--/ai-->

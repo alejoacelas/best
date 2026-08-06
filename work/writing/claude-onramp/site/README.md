@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 How should the finished lessons look and feel to read?
 
 # site
@@ -16,4 +20,3 @@ What's in:
 - Google Docs-style comments: select text → Comment → highlight plus margin card.
   Session-only (`sessionStorage`), no backend — to be replaced when Alejo shares the
   reference implementation repo.
-<!--/ai-->

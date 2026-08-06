@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Cluster map: global health adapts to AI
 
 ## What this cluster covers
@@ -134,4 +138,3 @@ meta-fight over whether EA's **measurement discipline** is its great strength or
 - **An awe / long-run-health-progress opener** — Charles Kenny's *Getting Better*, Our World in
   Data on child-mortality collapse, or a smallpox-style epic. Per the handbook virtues, the
   cluster lacks its emotional on-ramp; everything here opens in argument or funder-memo register.
-<!--/ai-->

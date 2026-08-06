@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Run many at once
 
 *Cowork track, lesson 4.*
@@ -69,4 +73,3 @@ you can queue it from your phone.
 Come back and judge three deliverables. That's the shape of the job the front
 door promised you: a manager reads three reports over coffee. Only a typist would
 have watched them being written.
-<!--/ai-->
