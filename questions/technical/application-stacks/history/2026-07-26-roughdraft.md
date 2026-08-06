@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Roughdraft install and research record
 
 ## Scope
@@ -63,4 +67,3 @@ The first installed bundle was signed with hardened runtime and crashed because 
 ## Sources
 
 The source-linked findings are in [development-patterns.md](../roughdraft/development-patterns.md). The usage and installation handoff is in [README.md](../roughdraft/README.md).
-<!--/ai-->

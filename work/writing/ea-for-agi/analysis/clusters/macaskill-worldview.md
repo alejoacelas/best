@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Cluster map: MacAskill worldview
 
 ## What this cluster covers
@@ -155,4 +159,3 @@ don't assign whole. [macaskill-shortform.md](../../readings/macaskill-worldview/
   beings and animals.
 - **Parfit primary.** The whole axiology thread rests on *Reasons and Persons* Part IV;
   only the SEP summary stands in for it.
-<!--/ai-->

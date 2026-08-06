@@ -1,6 +1,10 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Round 2 compression log — code-05-compound.md
 
-<!--ai-->
 2 cuts (both independent clauses; no full-sentence padding found — draft was already dense).
 
 1. Intro: cut "You climb by noticing repetition: " — "Promote what repeats" two sentences earlier already states the mechanism, and the two triggers that follow ("typed twice", "keep explaining to colleagues") instantiate it; the clause was a reworded restatement (C9 / elegant variation).
@@ -12,4 +16,3 @@ Considered and kept:
 - "sharing it is sending a folder" — exact-word repetition of "folder", incantation rhythm, kept.
 - The win section — protected in full, including its recap of "Claude writes the folder".
 - All hedge-free rules stand unhedged per C7; no vague hedges present to cut.
-<!--/ai-->

@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Camps and community retreats
 
 The list mixes confirmed events with annual series whose next dates need discovery.
@@ -11,10 +15,9 @@ The list mixes confirmed events with annual series whose next dates need discove
 | EA France national retreat | [2026 date not found] | France [city varies or unknown] | Annual; watch | [EA France’s 2025 retrospective](https://forum.effectivealtruism.org/posts/aHzcXNnL3gQYxRbH2/ea-summit-2025-paris-retrospective) confirms yearly retreats of 60+ people |
 | Burning Man / EA-adjacent burn | [which event?] | [which location?] | Clarify | [Burning Man](https://burningman.org/black-rock-city/) |
 
-<!--me-->There may be Burning Man versions that are more popular among EAs. Look for yearly
-retreats from other well-sized EA communities, not only Estonia and France.<!--/me-->
+There may be Burning Man versions that are more popular among EAs. Look for yearly
+retreats from other well-sized EA communities, not only Estonia and France.
 
 Do not turn the last instruction into a guessed list. Search official local-group sites,
 the EA Forum event index, and organizer announcements; record evidence that an event
 recurs and is large enough to justify travel.
-<!--/ai-->

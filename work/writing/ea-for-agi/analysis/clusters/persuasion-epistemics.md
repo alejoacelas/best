@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Cluster map: AI persuasion & epistemics
 
 *Cartographer's map of the `persuasion-epistemics` cluster for the "EA in the age of AGI"
@@ -210,4 +214,3 @@ and [linked/misinforeview-misinformation-reloaded-genai-overblown.md](../../read
 - **A digital-minds / persuadee-consent angle.** If persuasion tools can hijack values, and
   if some AIs are moral patients, the ethics of AI-on-human and human-on-AI persuasion is a
   live gap connecting to the AI-welfare cluster — currently untouched.
-<!--/ai-->

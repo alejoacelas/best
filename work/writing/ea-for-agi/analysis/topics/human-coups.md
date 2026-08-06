@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Topic: The risk of (AI-enabled) human coups
 
 *MacAskill menu item: "the risk of (AI-enabled) human coups".*
@@ -114,4 +118,3 @@ Also strong: **[Secretly Loyal AIs: Threat Vectors and Mitigation Strategies](ht
   mitigations lean heavily on whether employees can detect and report a leader's
   power grab; there is no reading on insider-threat programs or whistleblower
   protection as they exist in practice.
-<!--/ai-->

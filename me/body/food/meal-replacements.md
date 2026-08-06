@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Meal replacements: what fraction of my diet?
 
 > Claims are tagged by evidence tier: **gold** (≥2 RCTs on the outcome) › **RCT (surrogate)** › **cohort** › **patchwork**. See [how to read the evidence](evidence.md).
@@ -84,4 +88,3 @@ Standing caveats:
 - [Huel Powder formula explained](https://huel.com/pages/the-huel-powder-formula-explained) — fiber 8-10 g from oats+flax.
 - [EFSA nutrition regulations (EU 609/2013)](https://www.efsa.europa.eu/en/applications/nutrition/regulationsandguidance) — EU "complete" TDR definition; no US equivalent.
 - [WebMD — meal replacement shakes](https://www.webmd.com/diet/what-to-know-about-meal-replacement-shakes) — adjunct/kick-start framing.
-<!--/ai-->

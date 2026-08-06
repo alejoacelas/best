@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 What do people actually do in each session, on each tool?
 
 The hands-on track. Throughout the course everyone builds the same thing — a
@@ -29,4 +33,3 @@ Google Doc mirrors (first tab = exercises, one tab per doc-mirror page):
 Rebuild script: `history/2026-07-08-gdocs-build.sh` (docs → tabs via gog; strip
 `<!--ai-->` markers from exercise files; `\|` in tables crashes gog's converter —
 sanitize first).
-<!--/ai-->

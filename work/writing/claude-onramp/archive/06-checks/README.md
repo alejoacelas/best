@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 Is every checkable claim in the guide verified, and which flags belong in the text?
 
 Same diverge-then-select pipeline as the inventory, applied to factual risk.
@@ -13,4 +17,3 @@ All flags are blocking: the guide doesn't publish while any stands unresolved.
    rewritten to not depend on the fact or downgraded to a hedged aside; of the
    confirmed ones, only the most relevant keep an in-text caveat — the rest are
    verified silently and recorded here.
-<!--/ai-->

@@ -1,8 +1,10 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 Which books and sources sharpen my understanding of style and charisma?
-<!--/ai-->
 
-<!--ai-->
 A short, honest shelf: how presence and charisma actually work, and one long look
 at Paul McCartney — the concert that made me want to understand what "endearing"
 is built from. Each line says what the thing gives, whether it's worth it, and how
@@ -92,5 +94,3 @@ Free/legal material pulled into [`sources/`](sources/) for study (fetched 2026-0
 - [`antonakis-learning-charisma.md`](sources/antonakis-learning-charisma.md) — abstract + citation only (article paywalled; buy/borrow).
 - [`weber-charismatic-authority.md`](sources/weber-charismatic-authority.md) — short excerpt + link (translation under copyright).
 - [`mccartney-got-back-reviews.md`](sources/mccartney-got-back-reviews.md) — Rolling Stone concert-review excerpts + links.
-
-<!--/ai-->

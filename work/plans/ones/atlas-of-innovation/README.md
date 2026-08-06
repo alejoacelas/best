@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 Which innovation-funding models are worth copying for EA-wide AI uplift?
 
 The [Atlas of Innovation](https://atlasofinnovation.org/) — by the
@@ -91,4 +95,3 @@ commitment, pay on demos, screen weak bets early.
   [Nesta's history](https://www.nesta.org.uk/feature/guide-historical-challenge-prizes/british-longitude-prize/)
 
 See [history/](history/) for how this page was made.
-<!--/ai-->

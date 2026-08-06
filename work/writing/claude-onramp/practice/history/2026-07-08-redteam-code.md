@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # 2026-07-08 red-team — code.md (Claude Code track)
 
 Reviewer simulation: smart, non-technical, alone, one session at a time. Line numbers refer to code.md as of this date.
@@ -51,4 +55,3 @@ Reviewer simulation: smart, non-technical, alone, one session at a time. Line nu
 - ground step 1 says "Dictate a launch checklist" but not to whom/where — it's a message to Claude like any other; "Dictate a launch checklist to Claude:" removes a beat of doubt.
 - Consider bolding the one-line win at the end of each session's goal line ("Done when: …") — Setup does this well ("A browser page with your name on it is the whole win today"); the other sessions leave the reader guessing whether they finished.
 - Heading capitalization: `## Setup` vs `## think` — deliberate (session names mirror the course), but visually the lowercase headings read like broken formatting; numbering them (high-priority fix above) also resolves this.
-<!--/ai-->

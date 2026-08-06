@@ -1,8 +1,10 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 Why are people so helpless at solving their own problems?
-<!--/ai-->
 
-<!--ai-->
 The provocative framing for a real puzzle: capable people leave *solvable* problems unsolved —
 they under-attempt, quit at the first "no," never send the cold email, never even list the options.
 And the puzzle is sharper now, because AI collapses the cost of the first attempt toward zero, so
@@ -12,9 +14,7 @@ to argue with.
 
 Read it in two layers: skim the hypotheses for the argument, click into an angle file for the raw
 sourced material behind any claim.
-<!--/ai-->
 
-<!--ai-->
 ## The hypotheses ([full file](hypotheses.md))
 The candidate explanations, located by *where in the chain* — perceive → generate → evaluate →
 form intention → execute → persist — each one puts the break:

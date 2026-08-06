@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Topic: Biorisk
 
 *MacAskill cause-menu item: biorisk.*
@@ -115,4 +119,3 @@ The top of the list is assignable in ~2h; deep-dives are marked.
   no scenario is collected in a form a cohort could actually run.
 - **DNA-synthesis-screening governance primary source.** IBBIS and the NTI
   common-mechanism work — the concrete institution behind "screen DNA synthesis."
-<!--/ai-->

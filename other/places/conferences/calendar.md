@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Calendar synchronization
 
 Live synchronization is not yet available. On 2026-08-03, listing calendars through the
@@ -22,4 +26,3 @@ After access is restored:
 Last successful sync: never
 
 Calendar: [unknown until access is restored]
-<!--/ai-->

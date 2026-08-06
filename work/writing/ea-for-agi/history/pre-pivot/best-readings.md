@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Best readings, and what gives them context
 
 The inverse construction from the [brief](../idea/course-idea.md): not "pick an axis, find a
@@ -388,4 +392,3 @@ movement's deliberate turn — and to license disagreeing with that turn.
   reveals the course needs a dedicated alignment session, promote `joe-carlsmith/existential-risk-from-power-seeking-ai-short.md`
   or `ai-safety-core/why-ai-alignment-could-be-hard.md` to keystone and demote one of the
   economics packets to its critic layer.
-<!--/ai-->

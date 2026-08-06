@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Cluster map: s-risks
 
 ## What this cluster covers
@@ -139,4 +143,3 @@ Specific enough to go search for:
 10. **A 2024–25 piece connecting s-risks to concrete frontier developments** (agentic
     AI deployments, AI-welfare policy at labs). The newest collected framing pieces
     are mostly pre-2024 except the multi-agent report.
-<!--/ai-->

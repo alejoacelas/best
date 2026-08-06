@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 What technical questions do I most want to resolve now?
 
 - [Agent CLI capabilities](agent-cli-dive/)
@@ -7,4 +11,3 @@ What technical questions do I most want to resolve now?
 - [Cowork learning](cowork-learn/)
 - [Google Docs connectors](google-docs-connector/)
 - [Tag](tag/)
-<!--/ai-->

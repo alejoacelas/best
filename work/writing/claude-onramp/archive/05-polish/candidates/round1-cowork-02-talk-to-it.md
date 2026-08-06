@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Talk to it
 
 *Cowork track, lesson 2.*
@@ -62,4 +66,3 @@ someone finally asked.
 
 From here on, the keyboard is for editing what Claude wrote. Briefing happens
 out loud.
-<!--/ai-->

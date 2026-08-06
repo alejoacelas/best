@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Cluster map: space governance
 
 ## What this cluster covers
@@ -183,4 +187,3 @@ anything durable.
   extraterrestrial contact.
 - **Planetary protection / contamination governance (COSPAR).** The one existing
   near-term, technical governance regime with real teeth — absent entirely.
-<!--/ai-->

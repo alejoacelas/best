@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Round 1 compression — appendix-tag.md
 
 One cut (a phrase, no full sentences):
@@ -12,4 +16,3 @@ Everything else survived the deletion test:
 - "still in beta" — calibrated confidence (C7), protected.
 - "(that switch is called ambient mode)" — jargon gloss, load-bearing.
 - Closing win paragraph — protected.
-<!--/ai-->

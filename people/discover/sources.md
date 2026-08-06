@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Source inbox
 
 These are candidates, not the roster. Meeting status and location remain unverified unless
@@ -164,4 +168,3 @@ Source: Alexey Guzey’s [People who are going to change the world](https://guze
 - [Yoyo](https://adiabatic.garden/)
 - [Yudhister](https://www.yudhister.me/)
 - [Zhengdong Wang](https://zhengdongwang.com/)
-<!--/ai-->

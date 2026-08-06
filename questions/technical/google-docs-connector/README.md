@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # How should a Google Docs connector authenticate and ship?
 
 The native Claude Google Drive connector, `gog`, and our `gdoc` MCP all use Google
@@ -285,4 +289,3 @@ with narrowly authorized scopes and keyless workload credentials. Source:
 For 80,000 Hours, the recommendation changes at roughly five recurring users: below
 that, improving and cross-building the local bundle is cheaper; above that, a remote
 connector's uniform onboarding and updates likely justify its hosting and security work.
-<!--/ai-->

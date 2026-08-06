@@ -1,6 +1,10 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Style criteria — Alejo's voice for the Claude onramp guide
 
-<!--ai-->
 Extracted from `samples/alejo-blog.txt` (his blog), `samples/better-start.txt` (his
 hand-drafted opening for this guide — the target register),
 `samples/rant-tips-claude-code.txt` (his spoken coaching on this exact subject), and
@@ -197,4 +201,3 @@ feeling regret"), "not only… but also", bold bullet leads, pre-counting lists
   one homely line ("Tokens are just a fancy term for words") rather than avoiding the
   concept. OK to treat "no unglossed jargon" as the operational rule instead of
   "no technical language"?
-<!--/ai-->

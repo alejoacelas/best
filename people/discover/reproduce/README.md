@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 How was the people-discovery list built and checked?
 
 ## Inputs
@@ -28,4 +32,3 @@ How was the people-discovery list built and checked?
   Lizé Masclef appears in both programs, so these represent 57 distinct listed names.
 - The seven researched rows each have a place, place provenance, date, learning link, and discovery source.
 - No empty placeholder was deleted. The seven `admire/` placeholders remain documented in `admire/README.md`.
-<!--/ai-->

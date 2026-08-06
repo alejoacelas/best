@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Cluster map: power concentration & democracy
 
 ## What this cluster covers
@@ -181,4 +185,3 @@ Provocations and the defensive agenda:
   frames concentration as eroded checks and balances, but no reading proposes concrete
   constitutional or oversight architecture (AI in the separation of powers, on-chip
   governance of state AI) to rebuild them.
-<!--/ai-->

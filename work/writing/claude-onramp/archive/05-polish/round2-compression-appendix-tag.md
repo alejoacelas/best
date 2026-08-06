@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Round 2 compression log — appendix-tag.md
 
 1 cut.
@@ -10,4 +14,3 @@ Considered and kept:
 - Move 2's "the correction sticks for the channel's future work" vs. para 3's "teaches everyone at once" — distinct claims (persistence vs. teaching people now).
 - "where everyone can see it, and where everyone can see you asking" — exact-repetition incantation of the public-channel headline; protected.
 - "It launched in June 2026, still in beta; if you pay for Claude alone..." — factual context + reader-facing caveat; protected.
-<!--/ai-->

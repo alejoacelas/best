@@ -1,8 +1,12 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # The trust protocol
 
 *Code track, lesson 3.*
 
-<!--ai-->
 For every piece of work, you must verify it, trust the AI to do it well, or don't care if the output is wrong. That's the whole protocol — memorize the sentence and you can stop reading. You can't review everything Claude produces; you'd be slower than doing the work yourself. You can't wave everything through; that's how you hand your boss confident bullshit with your name on it. So every piece of work goes in one of three bins — verify, trust, don't care — and a piece that fits no bin gets broken into smaller pieces until it does.
 
 ## It will lie to you
@@ -26,4 +30,3 @@ Auto mode already waves routine actions through and stops you only for the risky
 ## The win
 
 Take a real task — the one from last lesson works — and run it in auto mode with save-points on. Design one small test before you start; make Claude pass it at the end. That's the whole exercise. Yesterday you clicked "approve" on everything, half-reading, vaguely guilty, a treadmill. Today you wave through everything reversible without a flicker and stop, fully awake, on the one prompt that says "delete." That's not less careful. That's careful where careful pays.
-<!--/ai-->

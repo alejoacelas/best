@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 See [README.md](README.md) for what this folder is. This file is how to write the
 lesson files in it.
 
@@ -56,4 +60,3 @@ Title, two-line framing (what this tool is, who should pick it), then:
 
 Everyone builds the same personal website all course; every session's exercise
 applies that session's lesson to it.
-<!--/ai-->

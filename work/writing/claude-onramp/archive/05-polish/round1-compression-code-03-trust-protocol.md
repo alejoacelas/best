@@ -1,6 +1,10 @@
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Round 1 compression log — code-03-trust-protocol.md
 
-<!--ai-->
 Cuts (deletion only):
 
 1. Cut sentence: "You set the protection once and stop spending attention on it forever." — reworded restatement of the section header ("Set one protection, once") and of "passive, zero-maintenance protections" two sentences up (C9 / elegant variation).
@@ -11,4 +15,3 @@ Considered and kept:
 - "So every piece of work goes in one of three bins…" — half restates the protocol, but it introduces the bin vocabulary that "the trust bin" depends on, and adds the decompose-until-it-fits rule.
 - "Permissions gate consequences, not competence: Claude isn't asking because…" — the colon-clause unpacks an aphorism too compressed for the lay reader; not variation.
 - All verbatim Alejo lines, the C7 prompt-injection hedge, the accept-edits caveat, and the closing win left untouched per protection list.
-<!--/ai-->
