@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Flags — divergent pass (all checkable claims)
 
 Every claim in the 04-drafts/ files that could be wrong or could drift. IDs run in
@@ -149,3 +145,4 @@ command-url 6, internal 6, pricing 4.
 - **F048** — Unresolved bracket placeholders remain: front-door "[alts: expert in everything / workforce of geniuses / polymath on retainer]" and "[alts: floods / torrents / truckloads]"; code-01 "[what's the key combo on Windows?]". — `04-drafts/front-door.md`, `04-drafts/code-01-install.md` — Draft scaffolding shipping to readers.
 - **F089** — Code-05 says "Save outputs as files — you've done that since lesson 4," but the save-as-files habit is introduced in code-02 ("Write your plan as a file in this folder") and lesson 4's title is "Run many, save everything." — `04-drafts/code-05-compound.md`, `04-drafts/code-02-delegate.md`, `04-drafts/code-04-run-many.md` — Minor, but an attentive reader notices the arc misremembering itself.
 - **F116** — Cross-lesson references audit: cowork-04 cites "the virtual machine from lesson 1," "the way lesson 2 taught you," "the small test lesson 3 taught you"; cowork-05 cites "since lesson 1" and "the front door quoted"; code-02 opens "Yesterday you installed it"; code-06 cites "the run-many lesson" and "the first lesson"; appendix cites "the one from the front door." Every pointer must name the lesson that actually teaches the thing, in the final numbering. — `04-drafts/cowork-04-run-many.md`, `04-drafts/cowork-05-teach-it-once.md`, `04-drafts/code-02-delegate.md`, `04-drafts/code-06-power-ups.md`, `04-drafts/appendix-tag.md` — Any renumbering or lesson merge silently breaks these.
+<!--/ai-->

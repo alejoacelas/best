@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: Richard Ngo
 
 ## What this cluster covers
@@ -142,3 +138,4 @@ efficiency, and virtue-as-glue recur whether the "agent" is a psyche, a lab, or 
   efficiency-vs-autonomy debate has a strong opposing anchor, not just Ngo's framing of it.
 - **Any woman or non-Western voice.** The entire cluster is Ngo plus male co-travelers
   (Steinhardt, Byrnes, Drexler, Burja, Yarvin). No one from outside that milieu engages his ideas.
+<!--/ai-->

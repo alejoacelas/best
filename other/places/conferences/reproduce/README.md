@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 How was the conference and camp tracker built and checked?
 
 ## Inputs
@@ -32,3 +28,4 @@ How was the conference and camp tracker built and checked?
 - EAGxIndia and EAGxAustralasia retain unknown cities because the official index does not
   state them.
 - Google Calendar returned `ACCESS_TOKEN_SCOPE_INSUFFICIENT`; no calendar write occurred.
+<!--/ai-->

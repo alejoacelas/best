@@ -1,6 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 What's the best way to keep this body?
+<!--/ai-->

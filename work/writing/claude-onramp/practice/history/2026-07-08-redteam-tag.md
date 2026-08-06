@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # 2026-07-08 red-team — tag.md, simulated solo non-technical reader
 
 Read as a smart, non-technical person going through the track alone, session by
@@ -150,3 +146,4 @@ this date.
 - **Framing (line 4)**: "public beta" deserves its consequence — "button names
   may have drifted; when they do, the nearest equivalent is the right guess" —
   since UI drift is caveat 5 and this track has the most admin UI of the three.
+<!--/ai-->

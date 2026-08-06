@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # The trust protocol
 
 *Cowork track, lesson 3.*
@@ -73,3 +69,4 @@ trust door. Or it doesn't match, and you caught the error for the price of one
 glance, before it reached anything that matters, with a log that shows exactly
 where it slipped. Both outcomes are the win. The protocol never promised Claude
 would be right; it promised you'd find out.
+<!--/ai-->

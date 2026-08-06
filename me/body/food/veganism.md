@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Veganism: long-term longevity, energy, and productivity
 
 > Claims are tagged by evidence tier: **gold** (≥2 RCTs on the outcome) › **RCT (surrogate)** › **cohort** › **patchwork**. See [how to read the evidence](evidence.md).
@@ -136,3 +132,4 @@ B12 and iodine are the two that matter from day one, for different reasons: B12 
 - [Hunt & Roughead 1999 — iron absorption over 8 weeks](https://pubmed.ncbi.nlm.nih.gov/10232635/)
 - [Brytek-Matera et al. — Veganuary nutrient-intake study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10708059/)
 - [Academy of Nutrition and Dietetics 2016 position](https://www.jandonline.org/article/S2212-2672(16)31192-3/abstract)
+<!--/ai-->

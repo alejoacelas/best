@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 Which moves from writers Alejo admires codify into tweaks for his drafts?
 
 One style guide per writer — never whole-style imitation. Each opens with a handle
@@ -26,3 +22,4 @@ under-reaction (build, then land one register down), the coinage hammered verbat
 and self-implication before mockery (turn the gun around / weapon on himself /
 unflattering anecdote). Where all three agree, the pattern is probably load-bearing
 for any voice.
+<!--/ai-->

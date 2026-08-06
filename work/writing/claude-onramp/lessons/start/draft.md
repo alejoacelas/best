@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Your job
 
 I made this guide to help you hand over your computer (and some of your brain) to Claude,
@@ -36,6 +31,7 @@ on the internet, can create and share.
 
 ---
 
+<!--ai-->
 *Three stylist passes. Same lesson, hallucinated details — inspiration to steal
 from, not drafts to keep.*
 
@@ -146,3 +142,4 @@ with a short memory and a two-paragraph brief on you. Cowork: many Claudes, with
 small computer of their own. Code: all the Claudes on yours, able to do whatever
 you can do there. The shapes matter less than the habit: the people who get the
 most out of Claude aren't better at using tools. They're better at being bosses.
+<!--/ai-->

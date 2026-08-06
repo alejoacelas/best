@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # How should I choose an application stack?
 
 Choose by the product's hardest boundary:
@@ -14,3 +10,4 @@ Choose by the product's hardest boundary:
 - [Roughdraft](roughdraft/) as the case study that prompted the research.
 
 The [research record](history/2026-07-26-app-stack-research.md) preserves the classification method, evidence limits, and local inventory script.
+<!--/ai-->

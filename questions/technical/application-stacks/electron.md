@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Electron from a web-app mental model
 
 Electron is a desktop runtime that bundles Chromium, Node.js, and APIs for native application behavior. The interface can be an ordinary HTML/CSS/JavaScript app, but a separate privileged process can create windows and use operating-system features.
@@ -99,3 +95,4 @@ This is the main security difference from the web. In a browser, an XSS bug is u
 - Cross-platform source reuse is high, but packaging, signing, permissions, and some integrations remain platform-specific.
 
 The short version: Electron supplies a private Chromium browser plus a privileged Node-powered application process. Roughdraft uses the browser and native-window parts, rejects a renderer-to-Node bridge, and leaves file access in its existing localhost server. That makes it closer to a locked-down dedicated browser than to VS Code.
+<!--/ai-->

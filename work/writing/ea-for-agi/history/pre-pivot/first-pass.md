@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # First-pass curriculum: EA in the age of AGI
 
 An 8-session intro fellowship built on Will MacAskill's [*Effective altruism in the age
@@ -491,3 +487,4 @@ red-team, the tradeoffs I deliberately kept.
 - **Facilitator guide.** Every session names its disagreement and hands its critic, but the
   [high-energy reading-group mechanics](../readings/adjacent-curricula/ea-syllabi-and-teaching-materials.md)
   aren't written yet. That's the next deliverable after this spine is approved.
+<!--/ai-->

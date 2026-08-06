@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Conferences
 
 See [README.md](README.md) and [calendar.md](calendar.md).
@@ -24,3 +20,4 @@ as the canonical index. Track each event separately; do not create one recurring
 
 Keep unresolved names and likely annual retreats in `camps.md` with brackets around the
 missing fact. Update `reproduce/README.md` whenever the source list or sync method changes.
+<!--/ai-->

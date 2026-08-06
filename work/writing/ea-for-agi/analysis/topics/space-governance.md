@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Topic: Space governance
 
 *MacAskill menu item: **space governance** — who claims the cosmos after an
@@ -146,3 +142,4 @@ Also strong, in supporting roles: **[AGI and Lock-in](../../readings/forethought
   extraterrestrial contact.
 - **Planetary protection / contamination governance (COSPAR).** The one existing
   near-term, technical governance regime with real teeth — absent entirely.
+<!--/ai-->

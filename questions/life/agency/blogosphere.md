@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # The rationalist / tech blogosphere on agency
 
 Self-published essays, fiction, newsletters, and tweets — blog opinion, not peer-reviewed
@@ -78,3 +74,4 @@ Where analytic philosophy fixes on akrasia (judged X best, did Y), the blogosphe
 the detail" (Salvatier), "I hoarded optionality" (Hobart), "I treated the domain as inaccessible"
 (Salamon). Their shared prescription is the folk theorem behind Cate Hall's title — *you can just do
 things* — and their shared diagnosis is that the binding constraint is disposition, not capability.
+<!--/ai-->

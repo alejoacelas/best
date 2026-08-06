@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # When should I use Electron, Tauri, or a custom WebView host?
 
 Think of them as points on a spectrum:
@@ -205,3 +201,4 @@ The default rule:
 - **Tauri:** choose smaller distribution and a narrow native backend.
 - **Custom WebView host:** choose explicit platform ownership.
 - **Native UI with an occasional WebView:** choose this when the product is fundamentally a Mac or Windows tool, not a website in a window.
+<!--/ai-->

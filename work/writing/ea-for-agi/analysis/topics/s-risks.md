@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Topic: S-risks
 
 *MacAskill menu item: s-risks.*
@@ -134,3 +130,4 @@ Specific enough to go search for:
 9. **A 2024–25 piece connecting s-risks to concrete frontier developments** (agentic
    AI deployments, AI-welfare policy at labs). The newest collected framing pieces
    are mostly pre-2024 except the multi-agent report.
+<!--/ai-->

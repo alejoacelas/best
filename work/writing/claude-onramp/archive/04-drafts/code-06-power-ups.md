@@ -1,12 +1,8 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Power-ups
 
 *Code track, power-ups. Optional — each section stands alone.*
 
+<!--ai-->
 You don't need these tips at all. If you finished the track, you have the whole machine — you delegate, you verify, you run many, you compound — and the mere belief that you can hand Claude harder tasks should be enough to change how you work. These four are the upgrades that changed mine. Each is a one-sitting setup with its own immediate win. Do the one that solves a problem you already feel; skip the rest.
 
 ## Google Docs and Sheets as your own hands
@@ -38,3 +34,4 @@ This is the install everyone else skipped in the first lesson. A terminal is a c
 One command. Mac, in the Terminal app: `curl -fsSL https://claude.ai/install.sh | bash`. Windows, in PowerShell: `irm https://claude.ai/install.ps1 | iex`. Then type `claude`, press enter, and sign in when the browser asks.
 
 The win: `claude` running in a black window, answering you. Same engine as the app; the buttons are gone and nothing else is.
+<!--/ai-->

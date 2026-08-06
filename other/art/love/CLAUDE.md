@@ -1,7 +1,7 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # love
+<!--/ai-->
+
+<!--ai-->
 Seeded 2026-06-28 — a placeholder inside art. What goes here is still to be defined.
+<!--/ai-->

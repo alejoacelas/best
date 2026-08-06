@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 How were the place-based people maps built and checked?
 
 ## Inputs
@@ -28,3 +24,4 @@ How were the place-based people maps built and checked?
 - Luis Cosio and Lucy Moglia have current first-party location evidence dated 2026-08-01.
 - Jeff and Julia's 2021 evidence is explicitly marked for refresh.
 - No call-derived third-party location was copied into the public place maps.
+<!--/ai-->

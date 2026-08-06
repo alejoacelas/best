@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Mexico City
 
 ## Candidates
@@ -23,3 +19,4 @@ Montevideo and San Francisco. Do not assume she will be in Mexico City for a tri
 - Follow Lucy's collaborators and local salons only when they lead to a person's own
   inspectable work; keep unverified names in [`../discover/sources.md`](../discover/sources.md).
 - A week before travel, verify dates and choose at most five contacts.
+<!--/ai-->

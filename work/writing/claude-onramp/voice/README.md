@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 What should this guide sound like, and where do the tweaks come from?
 
 The core of this folder is Alejo's own writing on the topic, at top level:
@@ -19,10 +15,10 @@ These are the voice reference; not to be edited. (better-start lives at
 [`lessons/better-start/draft.md`](../lessons/better-start/draft.md), where it's a
 live draft.)
 
-Alejo drafts the lessons himself, mostly in his own writing, and always
+<!--me-->Alejo drafts the lessons himself, mostly in his own writing, and always
 looks for tweaks: ways to make things shorter, sentences more surprising, the text
 funnier and more engaging — engaging with meaning, not cheaply — ways of delighting
-the reader. The Paul Graham cut (no sentence or word removable without
+the reader.<!--/me--> The Paul Graham cut (no sentence or word removable without
 losing meaning) is the floor; a bit of fluff purely for entertainment is allowed.
 
 - `influences/` — per-writer style guides: a handle table up top (patterns ordered
@@ -52,3 +48,4 @@ the focus is the thinking. The Scott/Moran/PG *voice-tweaker* agents and the
 `stylist-passes` pastiche skill were removed on 2026-07-06; the pattern guides they
 drew on live on in `influences/` (PG) and `influences/archive/` (Scott, Moran) if
 that work resumes.
+<!--/ai-->

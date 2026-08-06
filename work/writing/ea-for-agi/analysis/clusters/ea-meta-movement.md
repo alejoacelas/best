@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: EA as a movement (meta)
 
 ## What this cluster covers
@@ -158,3 +154,4 @@ give it context, opposition, and texture.
 - **A movement-studies / historian's outside lens** on EA (beyond journalism) — situating
   it against the Quaker/abolition analogies MacAskill and West both invoke, or a
   sociologist on why moral movements ossify.
+<!--/ai-->

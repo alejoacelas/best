@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Topic: Global health & development
 
 *MacAskill menu item: global health & development — the existing cause area in the age of AGI, including how the transition can be structured to benefit the global poor as much as feasible.*
@@ -114,3 +110,4 @@ meta-fight over whether EA's **measurement discipline** is its great strength or
 - **An awe / long-run-health-progress opener** — Charles Kenny's *Getting Better*, Our World in
   Data on child-mortality collapse, or a smallpox-style epic. Everything here opens in argument
   or funder-memo register; the emotional on-ramp is missing.
+<!--/ai-->

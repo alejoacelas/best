@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Topic: AI welfare / digital minds
 
 *MacAskill menu item: AI welfare / digital minds.*
@@ -145,3 +141,4 @@ Also strong: **[An AI welfare reading list](https://experiencemachines.substack.
 
 (Legal personhood — Solum, the EU electronic-personhood debate, "against willing
 servitude" — is deliberately left to the *economic and political rights of AIs* topic.)
+<!--/ai-->

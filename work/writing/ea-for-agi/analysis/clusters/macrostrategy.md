@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: Macrostrategy
 
 ## What this cluster covers
@@ -149,3 +145,4 @@ and [Existential Risk Pessimism and the Time of Perils](../../readings/linked/th
   the Anglo-American EA frame writes here about what a good post-AGI future means.
 - **Hanson's *Age of Em* / whole-brain-emulation macrostrategy** as a primary — a
   fundamentally different transition scenario, present only as a review.
+<!--/ai-->

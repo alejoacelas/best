@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Markdown viewer alternatives
 
 This records the decision on 2026-07-12, when the original README was committed. MarkText seemed like the best option then; its main annoyance was the lack of a simple CLI command for opening files. [Peter Hartree's Roughdraft fork](https://github.com/peterhartree/roughdraft) replaced that choice on 2026-07-26.
@@ -68,3 +64,4 @@ The strongest fit is [MarkText](https://github.com/marktext/marktext) if open so
 4. **VS Code** — choose it if Markdown is usually next to code or Git review matters.
 
 Commenting is the outlier requirement. Local Markdown files have no standard representation for anchored comments. GitHub pull-request comments solve it without modifying the document; otherwise the editor would need to embed conventions such as HTML comments or CriticMarkup into the file.
+<!--/ai-->

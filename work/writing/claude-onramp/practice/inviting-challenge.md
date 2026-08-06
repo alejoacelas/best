@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Inviting challenge
 
 How the practice sessions engage people beyond following instructions — a design
@@ -81,3 +77,4 @@ write more or swap mine out:
 - No second difficulty tier ("advanced track") — it splits the cohort and doubles
   maintenance.
 - No stretch on Setup — day one is for the win, not for thinking about the win.
+<!--/ai-->

@@ -1,17 +1,19 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 What is my best style — and how do I cultivate it?
+<!--/ai-->
+
 Style is showing your personality, or conveying it. Each expression should come
 naturally, yet it's something you can cultivate. It's about how you relate to other
 people — how you inspire or change them — and how they relate to you.
 
+<!--ai-->
 So this folder studies presence, not taste in clothes. I picked four people whose
 presence is unmistakable and pulled apart *how* it works, then wrote a concept note on
 the thing underneath — personal charisma. The bet: style reads as innate but is mostly
 built, so watching how these four build theirs should transfer.
+<!--/ai-->
+
+<!--ai-->
 ## What's here
 - [`charisma.md`](charisma.md) — what personal charisma might be. Starts from my theory
   above and sharpens it against the research (Weber, Antonakis, Cabane, Fiske). The
@@ -32,6 +34,9 @@ built, so watching how these four build theirs should transfer.
     Included because the style is distinctive even where I'm unsure I like it.
 - [`reading/`](reading) — books and free sources to study further, with fragments
   downloaded for offline reading. Heaviest on McCartney.
+<!--/ai-->
+
+<!--ai-->
 ## Neighbors
 - `people/admire/pg`, `people/admire/tyler` — the same two people under a different lens:
   what to learn from them, not how they carry themselves. Cross-feed the two.
@@ -40,6 +45,9 @@ built, so watching how these four build theirs should transfer.
 - `other/art` — McCartney sits on the seam between style and craft; the melody *is* the
   warmth.
 - `utilitarian/virtues` — is a cultivated style a virtue, a tool, or a vanity? Open.
+<!--/ai-->
+
+<!--ai-->
 ## Live questions
 - Which of these moves are actually mine to take? My material is closer to Graham and
   Cowen (text, ideas) than to a stadium — but the McCartney warmth is the part I most
@@ -47,3 +55,4 @@ built, so watching how these four build theirs should transfer.
 - Turn the "how to cultivate it" list in `charisma.md` into one small practice I run,
   not just a note. *(continuation)*
 - Watch myself: where does my style already show, and where am I suppressing it? *(gap)*
+<!--/ai-->

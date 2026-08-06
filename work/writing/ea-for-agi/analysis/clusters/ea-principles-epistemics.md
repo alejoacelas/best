@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: EA principles & epistemics
 
 ## What this cluster covers
@@ -173,3 +169,4 @@ the internal red-team [critique-of-effective-altruism.md](../../readings/ea-prin
   steelman of *not* running the naive EV calculation (Karnofsky's cluster thinking, GiveWell's
   "why we can't take EV estimates literally," the Optimizer's Curse) lives only in the linked
   pile despite being central to the naive-vs-sophisticated thread.
+<!--/ai-->

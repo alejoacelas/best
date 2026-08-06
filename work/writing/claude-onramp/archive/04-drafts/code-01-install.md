@@ -1,12 +1,8 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Install what the engineers use
 
 *Code track, lesson 1.*
 
+<!--ai-->
 You don't need to learn how to code. The name is what keeps people out — "Claude Code," surely that means learning at least a little code. It doesn't. You speak to it in natural language and it does stuff. The name actually means Claude on your computer: every file you can open, it can open; every program you can run, it can run.
 
 And the deeper reason everyone should use Claude Code: this is what the Anthropic engineers use. They're trying to automate themselves into creating God, and so you should basically use the tools that they use to create God, because it's the thing they put the most effort into.
@@ -49,3 +45,4 @@ Then the real assignment. Say something like:
 (Your computer may now ask whether Claude can see Downloads — that's the folder-access dialog from the list above. Allow it.)
 
 Then watch it work. It reads, counts, sorts, and leaves a proposal file you can open like any document. Nothing moved — no proposal ever broke a computer. But you just gave a machine a vague managerial instruction about your own mess and got back the judgment call, in writing, ready to argue with.
+<!--/ai-->

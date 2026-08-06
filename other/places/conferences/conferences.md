@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Conferences
 
 Checked against official sources on 2026-08-03. “Watch” means the series matters but its
@@ -44,3 +40,4 @@ These are the editions still upcoming on the official index as of 2026-08-03.
 | EA Summit: Istanbul | October 24, 2026 | Istanbul |
 | EAGxBerlin | November 13–15, 2026 | Berlin |
 | EAGxAustralasia | November 27–29, 2026 | [city not stated on index] |
+<!--/ai-->

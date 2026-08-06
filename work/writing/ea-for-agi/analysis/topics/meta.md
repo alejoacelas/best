@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Topic: Meta
 
 *MacAskill menu item: meta.*
@@ -121,3 +117,4 @@ Also strong: **[Rowing, Steering, Anchoring, Equity, Mutiny](https://www.cold-ta
   side made the collection.
 - **A non-Anglophone or Global South movement-building perspective** — the whole
   conversation happens between Oxford, London, and the Bay.
+<!--/ai-->

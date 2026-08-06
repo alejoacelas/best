@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Topic: The transition — a century in a decade
 
 *Opening week of the fellowship. Corresponds to the extra week MacAskill's cause menu implies: "the main Forethought articles that introduce the transition — the 'century in a decade' intelligence-explosion articles — and other things introducing the idea that AI will have lots of effects in the world, with a lens or narrative to prepare for those."*
@@ -67,3 +63,4 @@ Also strong, in supporting roles: **[Carl Shulman (Pt 1) on the economy after AG
 - **The mainstream-normie voice.** Everything here is EA/rationalist/lab-insider. No Ezra Klein, no economist-columnist, no "here's how a smart outsider first encounters this claim" piece to check the in-group framing.
 - **A hard capabilities-skeptic** who argues LLMs are near a plateau and the whole extrapolation is a category error (a Gary Marcus / Marcus-style deep-learning-wall voice). The critics here doubt *speed and timing*; none doubt the *trajectory* itself.
 - **The "so what do I do Monday" bridge.** The week conveys scale and hands over a lens, but there's no short piece translating "century in a decade" into how a participant should actually reorient — the emotional/practical on-ramp before the cause-area weeks begin.
+<!--/ai-->

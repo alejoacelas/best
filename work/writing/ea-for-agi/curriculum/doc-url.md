@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # The curriculum Google Doc
 
 **[EA in the Age of AGI — curriculum readings](https://docs.google.com/document/d/11E7FOKyCIo0ijKI-9ddCErMQhL8GeMbgFGJ7NEZKtTE/edit)**
@@ -32,3 +28,4 @@ To rebuild after editing a topic map: run `history/build_doc_tabs.py analysis/to
 | 14 · S-risks | s-risks | t.2z23dgln6z8w |
 | 15 · Macrostrategy | macrostrategy | t.hfy85gc0uw7i |
 | 16 · Meta | meta | t.6k3trj4yyz06 |
+<!--/ai-->

@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: adjacent curricula
 
 Meta-documents, not object-level readings: the syllabi, reading lists, and
@@ -201,3 +197,4 @@ and most x-risk syllabi bet the opposite way.
 - **A facilitator discussion-guide / exercise bank.** The CEA facilitator guide
   (Notion) and the Handbook's exercise designs aren't captured as reusable artifacts;
   only Tessa's energy-focused post stands in.
+<!--/ai-->

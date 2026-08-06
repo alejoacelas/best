@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: animals adapt to AI
 
 ## What this cluster covers
@@ -162,3 +158,4 @@ alignment builders' confidence); **farmed vs. wild** as the long-run locus of su
 - **A concrete forecast of farmed-animal numbers under AI.** RP's "forecasting farmed
   animal numbers 2033" is linked; the cluster asserts factory farming may or may not
   persist but has no curated quantitative projection to ground the trajectory debate.
+<!--/ai-->

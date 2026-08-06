@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: personal reflections
 
 ## What this cluster covers
@@ -151,3 +147,4 @@ Data-quality flag:
 [changed-my-mind-speculative-causes.md](../../readings/linked/changed-my-mind-speculative-causes.md)
 is a corrupted scrape (gambling spam, not the essay). Re-fetch Rob Wiblin's actual
 *Where I've changed my mind on my approach to speculative causes*.
+<!--/ai-->

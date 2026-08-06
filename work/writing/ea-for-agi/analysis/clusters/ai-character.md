@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: AI character
 
 ## What this cluster covers
@@ -134,3 +130,4 @@ Also strong, in supporting roles: **[A Case for Model Persona Research](../../re
 - **A democratic-legitimacy / political-theory critique** of who writes the
   constitution — Collective Constitutional AI raises the question but no political
   theorist answers it.
+<!--/ai-->

@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Roughdraft
 
 [Peter Hartree's Roughdraft fork](https://github.com/peterhartree/roughdraft) is my default Markdown review tool. It opens local files in a native macOS window, saves directly to disk, and keeps comments and suggestions in the file as CriticMarkup.
@@ -43,3 +39,4 @@ Inside the app:
 Installed 2026-07-26 from fork commit [`d4c6c30`](https://github.com/peterhartree/roughdraft/commit/d4c6c306e64c4588cedb1c19e52f59c8e6ddf391). The source checkout is `/Users/alejo/best/work/roughdraft`, the app is `/Users/alejo/Applications/Roughdraft.app`, and the global `roughdraft` CLI was packaged from that checkout.
 
 See [how Electron works in Roughdraft](../electron.md), [Electron versus Tauri](../electron-vs-tauri.md), the [desktop](../desktop.md) and [mobile](../mobile.md) application-stack guides, [how the fork and original repository were developed](development-patterns.md), the [previous viewer comparison](markdown-viewer-alternatives-2026-07-12.md), and the [install and research record](../history/2026-07-26-roughdraft.md).
+<!--/ai-->

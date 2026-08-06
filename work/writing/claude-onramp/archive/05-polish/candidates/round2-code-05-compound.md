@@ -1,12 +1,8 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Compound
 
 *Code track, lesson 5.*
 
+<!--ai-->
 Everything you taught Claude this month you will teach it again next month, and the month after, forever — unless you write it down. That's the difference between using AI and getting better at it every week: not talent, a filing habit. The habit is a ladder with three rungs. Save outputs as files — you've done that since lesson 2's plan file, and as a rule since lesson 4. Promote what repeats into standing instructions. Package what others could use as skills. You climb by noticing repetition: a preference you've typed twice wants to be an instruction; an instruction you keep explaining to colleagues wants to be a skill.
 
 ## Standing instructions
@@ -34,3 +30,4 @@ Build one today. Pick a task you do at least monthly, always the same way — th
 Then the test. Open a fresh session, one that knows nothing of the conversation where you built it, type / and your skill's name, and watch Claude already know how you like it. Then send the folder to the colleague who does the same task worse than you.
 
 From here you carry one trigger. Anything you'll do five times? Ask Claude to do it.
+<!--/ai-->

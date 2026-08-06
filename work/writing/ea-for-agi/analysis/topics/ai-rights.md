@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Topic: The economic and political rights of AIs
 
 *MacAskill cause-menu item: "the economic and political rights of AIs."*
@@ -131,3 +127,4 @@ Also strong: **[Against willing servitude](http://web.archive.org/web/2025071222
 - **Non-Western legal traditions on personhood** — the whole debate is Anglo-American
   common-law framed (corporations, tort, contract); no civil-law, Islamic-law, or other
   tradition on the standing of non-human agents.
+<!--/ai-->

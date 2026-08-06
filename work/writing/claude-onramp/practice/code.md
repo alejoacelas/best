@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Practice — Claude Code
 
 The hands-on track for Claude Code, the terminal agent — the version of Claude that
@@ -262,3 +258,4 @@ Ship it.
 
 *Stretch: ask your three people what the site says about you, in one word each.
 Compare with the word you were going for.*
+<!--/ai-->

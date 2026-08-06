@@ -1,14 +1,10 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # How to read the evidence here
 
 Every claim in this folder tells you what backs it, in one word, before it tells you
 the conclusion — especially the top-level sentences. The thing I keep needing to know
-is not "is there evidence" but: **is this established by trials on the outcome I
-actually care about, or patched together from indirect sources?**
+is not "is there evidence" but: **<!--me-->is this established by trials on the outcome I
+actually care about, or patched together from indirect sources?<!--/me-->**
 
 ## Tiers, strongest to weakest
 
@@ -28,3 +24,4 @@ actually care about, or patched together from indirect sources?**
 - Never let strong evidence on the wrong outcome — weight-loss RCTs, LDL RCTs — stand
   in for weak evidence on the right one: do I live longer, do I feel better.
 - The tier summarizes the uncertainty; it doesn't replace the caveats. Keep both.
+<!--/ai-->

@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Topic: Democracy preservation
 
 *MacAskill cause-menu item: "democracy preservation."*
@@ -128,3 +124,4 @@ Also strong: **[Misinformation Reloaded?](https://misinforeview.hks.harvard.edu/
 - **A legitimacy / political-theory treatment of who governs the model.** Collective
   Constitutional AI and CIP run the experiments, but no political theorist asks by what
   right ~1,000 sampled citizens (or a lab) get to set values for everyone.
+<!--/ai-->

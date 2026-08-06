@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cate Hall on agency
 
 The writer this question started from. Former #1-ranked female poker player, ex–Supreme
@@ -142,3 +138,4 @@ for actually trying, (c) they accept the first "no" instead of treating it as a 
 they won't pay the social costs — rejection, low status, looking cringe — that constitute the real
 edges. Her prescriptions are behavioral and uncomfortable by design: court rejection, aim past what
 you'll get, tolerate being visibly bad, and ask whether you'd accept this level of effort from a friend.
+<!--/ai-->

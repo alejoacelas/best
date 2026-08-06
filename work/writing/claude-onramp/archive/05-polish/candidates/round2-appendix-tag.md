@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # If your team has Tag
 
 *Appendix. For teams on Slack with a Team or Enterprise plan.*
@@ -51,3 +47,4 @@ The win, today: pick one task your team actually repeats — the report someone
 rewrites every Friday, the question answered weekly in three separate DMs — and
 tag @Claude with it in a public channel. The work comes back in the thread, where
 everyone can see it, and where everyone can see you asking.
+<!--/ai-->

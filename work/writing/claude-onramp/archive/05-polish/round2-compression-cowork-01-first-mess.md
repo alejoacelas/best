@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Round 2 compression — cowork-01-first-mess.md
 
 no cuts
@@ -18,3 +14,4 @@ Closest calls, all kept:
 - "A bad answer costs you thirty seconds, and most answers aren't bad." — cost and probability are the two distinct halves of one argument.
 - "Say so. ... Say so." — exact-repetition incantation, protected.
 - "Then go make coffee." — pays off in the protected win ("the time it took your coffee to cool").
+<!--/ai-->

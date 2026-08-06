@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 What should I eat — and how much of it can a machine decide for me?
 
 The food pillar of `body/`. Two diet decisions, each with a short verdict here and a
@@ -39,3 +35,4 @@ or inference, and the docs now say so up front.
 
 - `me/body` — the parent; food is one pillar beside exercise and ergonomics.
 - `me/mind` — energy and cognition tie diet back to mood and focus.
+<!--/ai-->

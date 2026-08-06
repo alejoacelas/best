@@ -1,10 +1,6 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Round 1 compression log — code-02-delegate.md
 
+<!--ai-->
 Deletion-only pass against C9 (claim density) and the elegant-variation anti-criterion.
 
 1. Cut clause ", and be clear about your uncertainties" (Brief it out loud, first
@@ -21,3 +17,4 @@ with the plan saved" (reader-facing fallback caveat); the closing win sentence;
 "Anything sitting in the folder, Claude can open and read" (new capability fact,
 not a repeat of the drop-files instruction). No exact-repetition incantations were
 present to protect.
+<!--/ai-->

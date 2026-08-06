@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # The psychology of not-trying
 
 What the research literature says about why people leave *solvable* problems unsolved —
@@ -185,3 +181,4 @@ attempts — the interpersonal analogue of the intrapersonal under-attempt in §
 - **Reframe to lead with:** the flagship account of not-trying — learned helplessness — was reversed by its own authors: passivity is the wired-in default, and *agency is the thing that must be learned and can be taught*.
 - **Don't lean on:** ego depletion / willpower-as-fuel (failed replication); and treat the *causal* efficacy of self-efficacy and hope as unproven even though their predictive correlations hold.
 - **Construct overlap:** self-efficacy, locus of control, hope-agency, and optimistic explanatory style are highly intercorrelated and partly collapse into "core self-evaluations" — facets of one dimension, not independent evidence.
+<!--/ai-->

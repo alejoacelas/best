@@ -1,12 +1,8 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Run many, save everything
 
 *Code track, lesson 4.*
 
+<!--ai-->
 Agents are slow, and you are not idle. That's the whole lesson; the rest is how.
 
 You give Claude a real task and it vanishes for ten minutes, and you'll be tempted to buy the minutes back by cheapening the work — a faster model, a smaller ask. Buy speed with parallelism instead: same best model, more of it, running side by side while you do something that actually needs you. If several sessions push you into rate limits — the cap on how much Claude your plan buys per stretch of hours — the answer is the bigger plan, not the worse model. You're already paying Claude less than the living wage; haggling now, when it's about to triple its output for you, is bad manners twice over.
@@ -30,3 +26,4 @@ Two tasks and a handoff, all on real work.
 First, the two tasks. Pick two unrelated things from your list. Start one; the moment Claude gets going, Cmd/Ctrl + N and start the other. Then leave both alone. Come back in twenty minutes and collect files, not promises.
 
 Second, the handoff. Open your longest-running session — the one you've been rambling at for days — and click the usage ring next to the model picker; it shows how full the context window is, something like 300k of 1M. (Tokens are just a fancy term for words, or similarly-sized chunks of text.) Past around 200,000 — my rule of thumb, not anyone's official number — long conversations go soft, for structural, machine-learning reasons: nothing you did wrong, and nothing more tokens will fix. The fix is a handoff, and it's about performance, not cost. Say: "write down what we've agreed so far as a file, and give me a prompt to feed to a fresh agent." Open a new session, paste the prompt, and watch it pick up sharp where the old one had gone soft.
+<!--/ai-->

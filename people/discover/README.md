@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 Who are the people I have not met whom I want to discover?
 
 This is a place-filterable path from a trusted person or list to someone’s own work. A
@@ -22,3 +18,4 @@ promoting a candidate into the roster.
 | [Lucy Moglia](https://eigenlucy.com/) | Mexico City and San Francisco | [hardware and research projects](https://eigenlucy.com/#projects) · [blog](https://eigenlucy.com/#blog) | Alejo found her site | [personal site](https://eigenlucy.com/), 2026-08-01 |
 
 The imported cohorts, lists, and place-specific leads are in [`sources.md`](sources.md).
+<!--/ai-->

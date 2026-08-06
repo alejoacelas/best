@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 Who are the people I want to know in each place?
 
 Use a city page before a trip to turn trusted people, public work, and the private call
@@ -11,3 +7,4 @@ archive into a short list of people to meet. The first maps are [Boston](boston.
 
 The canonical trip dates live in [`other/places/travel-log.md`](../../other/places/travel-log.md).
 City pages answer who; the travel log answers when.
+<!--/ai-->

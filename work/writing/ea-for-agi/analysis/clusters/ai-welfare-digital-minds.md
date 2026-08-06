@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: AI welfare & digital minds
 
 ## What this cluster covers
@@ -181,3 +177,4 @@ under-attribution (industrial-scale suffering). (e) *Should we build it at all?*
 - **Digital suffering / s-risk crossover.** Tomasik's "Risks of Astronomical Future
   Suffering" and Saad & Bradley's digital-suffering work are links; a curated anchor
   connecting AI welfare to s-risks (the astronomical-downside case) is missing from core.
+<!--/ai-->

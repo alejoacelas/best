@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Practice — Claude Cowork
 
 The hands-on track for Cowork: Claude Code's engine with no terminal — you click
@@ -199,3 +195,4 @@ step outside.
 
 *Stretch: ask your three people what the site says about you, in one word each.
 Compare with the word you were going for.*
+<!--/ai-->

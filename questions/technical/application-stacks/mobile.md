@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Mobile application stacks: iOS and Android
 
 This guide compares the common iOS and Android stacks through specific production applications, the capabilities each makes unusually easy, and the nearest alternatives.
@@ -296,3 +292,4 @@ For someone already comfortable with web applications:
 5. **Flutter, Capacitor, MAUI, or Unity** only when the product condition in the table matches.
 
 The main conceptual lesson is the same as desktop: “cross-platform” is not one point. Capacitor shares the actual web UI; React Native shares React logic while mounting native views; Flutter shares a custom renderer; Kotlin Multiplatform can share only logic; Rust/C++ can share only the engine. Choose how much should be identical before choosing the framework.
+<!--/ai-->

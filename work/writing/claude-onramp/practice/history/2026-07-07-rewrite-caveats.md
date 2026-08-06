@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # 2026-07-07 rewrite — what was done, what's still open
 
 Full rewrite of code.md / cowork.md / tag.md into step-by-step walkthroughs, plus
@@ -57,3 +53,4 @@ posts, with more per-step detail.
    intro + his other posts; worth re-mirroring the post.
 9. **site/ not touched:** if the site embeds lesson text, it still carries the
    old bare versions.
+<!--/ai-->

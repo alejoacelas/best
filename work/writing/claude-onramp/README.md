@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 How do we write an introduction to delegating work to Claude that people actually feel?
 
 # Claude on-ramp
@@ -19,8 +15,9 @@ failed on the writing. This round starts from voice and drafts each lesson by ha
   each holds the tab's raw `notes.md` (pull-only mirror) and an organized
   `auto-draft.md`. `practice/` is the hands-on track, split by tool
   (Cowork / Claude Code / Tag).
-  Throughout the lessons people do the same thing: create a personal
+  <!--me-->Throughout the lessons people do the same thing: create a personal
   website. The lesson text walks them through a narrative with examples drawn from
   the real activity; only at the end are they told "now it's time for you to take
-  action" and given explicit instructions.
+  action" and given explicit instructions.<!--/me-->
 - `archive/` — the discarded pipeline stages, kept for salvage.
+<!--/ai-->

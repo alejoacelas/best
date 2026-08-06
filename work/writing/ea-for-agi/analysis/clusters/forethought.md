@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: forethought
 
 ## What this cluster covers
@@ -132,3 +128,4 @@ defining limitation — see Gaps.
   beyond passing mentions.
 - **Global-health/development-org adaptation to AI.** The brief explicitly wanted how
   GiveWell/OP-style global-health actors plan to adapt; nothing here speaks from that world.
+<!--/ai-->

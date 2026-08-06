@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: AI rights & the post-AGI economy
 
 *Cartographer's map of the `ai-rights-economics` cluster for the "EA in the age of AGI"
@@ -92,3 +88,4 @@ Perspectives & scope:
 - **China / state-capitalist model** of managing mass labor displacement — a non-liberal-democratic political economy of the transition.
 - **s-risk from cheap copyable minds** — the economics of mass-produced digital labor implies astronomical digital suffering (Sentience Institute, Center on Long-Term Risk); touched by Age of Em but no dedicated treatment.
 - **Humanistic "post-work / meaning" reading** — Keynes's "Economic Possibilities for our Grandchildren" or John Danaher's *Automation and Utopia*; the values/meaning question of a world without human work, which the brief flags as central ("values and epistemic habits we'll need").
+<!--/ai-->

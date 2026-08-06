@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Cluster map: funder-signals
 
 ## What this cluster covers
@@ -164,3 +160,4 @@ S-process vs. trust-based.
   door; missing is Focused Research Organizations / Convergent Research or metascience
   applied to AI safety funding structure. Search: Focused Research Organizations model;
   ARPA-style funding for AI safety.
+<!--/ai-->
