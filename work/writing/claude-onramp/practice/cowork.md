@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Practice — Claude Cowork
 
 The hands-on track for Cowork: Claude Code's engine with no terminal — you click

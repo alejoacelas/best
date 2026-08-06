@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Cluster map: global health adapts to AI
 
 ## What this cluster covers

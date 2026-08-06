@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Context — auto-draft
 
 *The notes of the "context?" tab organized for readability; tensions flagged, not

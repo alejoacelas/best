@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Cluster map: ai-safety-core
 
 ## What this cluster covers

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Practice — Claude Code
 
 The hands-on track for Claude Code, the terminal agent — the version of Claude that

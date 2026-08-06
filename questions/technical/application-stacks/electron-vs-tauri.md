@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # When should I use Electron, Tauri, or a custom WebView host?
 
 Think of them as points on a spectrum:

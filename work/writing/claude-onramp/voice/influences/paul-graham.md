@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Paul Graham — 20 essays
 
 Corpus: 20 essays from [paulgraham.com](https://www.paulgraham.com/articles.html), mixing his

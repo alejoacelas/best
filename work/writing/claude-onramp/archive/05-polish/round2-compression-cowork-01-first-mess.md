@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Round 2 compression — cowork-01-first-mess.md
 
 no cuts

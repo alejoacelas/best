@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Round 2 compression log — code-05-compound.md
 
 2 cuts (both independent clauses; no full-sentence padding found — draft was already dense).

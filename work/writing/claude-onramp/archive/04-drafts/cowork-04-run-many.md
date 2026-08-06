@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Run many at once
 
 *Cowork track, lesson 4.*

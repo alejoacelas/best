@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Ease — auto-draft
 
 *The notes organized for readability; tensions flagged, not resolved.*

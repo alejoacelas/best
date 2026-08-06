@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # First-pass curriculum: EA in the age of AGI
 
 An 8-session intro fellowship built on Will MacAskill's [*Effective altruism in the age

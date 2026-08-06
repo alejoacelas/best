@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Cate Hall on agency
 
 The writer this question started from. Former #1-ranked female poker player, ex–Supreme

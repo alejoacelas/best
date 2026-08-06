@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Conferences
 
 Checked against official sources on 2026-08-03. “Watch” means the series matters but its

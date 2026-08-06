@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Flags — divergent pass (all checkable claims)
 
 Every claim in the 04-drafts/ files that could be wrong or could drift. IDs run in

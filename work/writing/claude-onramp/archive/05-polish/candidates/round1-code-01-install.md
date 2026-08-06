@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # K1 — Install what the engineers use
 
 You don't need to learn how to code. The name is what keeps people out — "Claude Code," surely that means learning at least a little code. It doesn't. You speak to it in natural language and it does stuff. The name actually means Claude on your computer: every file you can open, it can open; every program you can run, it can run.

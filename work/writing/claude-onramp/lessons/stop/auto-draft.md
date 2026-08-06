@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Stop — auto-draft
 
 *The notes of the "stop" tab organized for readability; tensions flagged, not

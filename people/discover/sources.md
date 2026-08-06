@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Source inbox
 
 These are candidates, not the roster. Meeting status and location remain unverified unless

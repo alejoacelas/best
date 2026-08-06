@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Style criteria — Alejo's voice for the Claude onramp guide
 
 Extracted from `samples/alejo-blog.txt` (his blog), `samples/better-start.txt` (his

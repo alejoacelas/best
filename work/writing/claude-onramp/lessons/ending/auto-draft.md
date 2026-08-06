@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Ending — auto-draft
 
 *The notes of the "ending" tab organized for readability; tensions flagged, not

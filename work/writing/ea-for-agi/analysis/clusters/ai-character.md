@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Cluster map: AI character
 
 ## What this cluster covers

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: Global health & development
 
 *MacAskill menu item: global health & development — the existing cause area in the age of AGI, including how the transition can be structured to benefit the global poor as much as feasible.*

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Round 2 compression log — appendix-tag.md
 
 1 cut.

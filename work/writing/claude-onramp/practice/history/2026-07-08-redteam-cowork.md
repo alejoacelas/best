@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # 2026-07-08 red-team — cowork.md, solo non-technical reader
 
 Simulated a smart, non-technical person going through cowork.md alone, session by

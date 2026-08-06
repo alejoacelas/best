@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Mingle — auto-draft
 
 *The notes of the "mingle" tab organized for readability; tensions flagged, not

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Cluster map: animals adapt to AI
 
 ## What this cluster covers

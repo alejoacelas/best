@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # How this one-pager was made (2026-07-06)
 
 Claude Code session, prompted by Alejo: "investigate atlasofinnovation.org, select

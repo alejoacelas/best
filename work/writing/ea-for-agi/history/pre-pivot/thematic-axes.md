@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Thematic axes: a walkable menu
 
 A deliberately overlapping menu of axes the curriculum could be organized around. Each

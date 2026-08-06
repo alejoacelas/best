@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: AI character
 
 *MacAskill menu item: **AI character** — what should be in the model spec? Pure

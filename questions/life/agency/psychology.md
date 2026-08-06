@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # The psychology of not-trying
 
 What the research literature says about why people leave *solvable* problems unsolved —

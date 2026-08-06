@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: S-risks
 
 *MacAskill menu item: s-risks.*

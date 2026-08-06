@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: Factory farming
 
 *MacAskill menu item: factory farming — the animal-welfare cause area in the age of AGI.*

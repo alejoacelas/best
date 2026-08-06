@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Ground — auto-draft
 
 *The notes of the "ground" tab organized for readability; tensions flagged, not

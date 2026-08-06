@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # The rationalist / tech blogosphere on agency
 
 Self-published essays, fiction, newsletters, and tweets — blog opinion, not peer-reviewed

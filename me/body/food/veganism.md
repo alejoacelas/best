@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Veganism: long-term longevity, energy, and productivity
 
 > Claims are tagged by evidence tier: **gold** (≥2 RCTs on the outcome) › **RCT (surrogate)** › **cohort** › **patchwork**. See [how to read the evidence](evidence.md).

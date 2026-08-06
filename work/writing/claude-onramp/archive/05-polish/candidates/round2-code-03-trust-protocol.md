@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # The trust protocol
 
 *Code track, lesson 3.*

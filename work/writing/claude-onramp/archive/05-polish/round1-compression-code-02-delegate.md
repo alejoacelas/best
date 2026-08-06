@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Round 1 compression log — code-02-delegate.md
 
 Deletion-only pass against C9 (claim density) and the elegant-variation anti-criterion.

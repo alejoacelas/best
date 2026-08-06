@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Electron from a web-app mental model
 
 Electron is a desktop runtime that bundles Chromium, Node.js, and APIs for native application behavior. The interface can be an ordinary HTML/CSS/JavaScript app, but a separate privileged process can create windows and use operating-system features.

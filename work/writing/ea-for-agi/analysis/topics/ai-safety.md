@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: AI safety
 
 *MacAskill menu item: AI safety.*

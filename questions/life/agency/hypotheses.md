@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Hypotheses
 
 Competing and complementary explanations of the question, each stated with enough precision to

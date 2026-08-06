@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # The curriculum Google Doc
 
 **[EA in the Age of AGI — curriculum readings](https://docs.google.com/document/d/11E7FOKyCIo0ijKI-9ddCErMQhL8GeMbgFGJ7NEZKtTE/edit)**

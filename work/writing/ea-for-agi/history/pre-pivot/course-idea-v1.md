@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Course brief
 
 A version of the EA intro fellowship built around Will MacAskill's [Effective altruism

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Round 1 compression — appendix-tag.md
 
 One cut (a phrase, no full sentences):

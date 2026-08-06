@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # 2026-07-08 red-team — code.md (Claude Code track)
 
 Reviewer simulation: smart, non-technical, alone, one session at a time. Line numbers refer to code.md as of this date.

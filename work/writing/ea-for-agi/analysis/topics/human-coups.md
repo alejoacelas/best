@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: The risk of (AI-enabled) human coups
 
 *MacAskill menu item: "the risk of (AI-enabled) human coups".*

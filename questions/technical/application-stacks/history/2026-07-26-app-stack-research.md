@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Desktop and mobile stack research record
 
 ## Scope

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: Macrostrategy
 
 *MacAskill menu item: macrostrategy.*

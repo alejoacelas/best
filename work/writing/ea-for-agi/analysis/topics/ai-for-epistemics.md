@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: AI for better reasoning, decision-making and coordination
 
 *MacAskill cause menu — "AI for better reasoning, decision-making and coordination"

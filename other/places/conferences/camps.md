@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Camps and community retreats
 
 The list mixes confirmed events with annual series whose next dates need discovery.

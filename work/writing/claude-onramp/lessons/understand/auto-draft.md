@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Understand — auto-draft
 
 *The notes organized for readability — fragments regrouped and lightly stitched, nothing reworked; tensions flagged inline, not resolved.*

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: The transition — a century in a decade
 
 *Opening week of the fellowship. Corresponds to the extra week MacAskill's cause menu implies: "the main Forethought articles that introduce the transition — the 'century in a decade' intelligence-explosion articles — and other things introducing the idea that AI will have lots of effects in the world, with a lens or narrative to prepare for those."*

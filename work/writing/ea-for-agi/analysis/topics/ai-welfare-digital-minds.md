@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: AI welfare / digital minds
 
 *MacAskill menu item: AI welfare / digital minds.*

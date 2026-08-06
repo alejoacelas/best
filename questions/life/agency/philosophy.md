@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # The philosophy of trying
 
 Analytic philosophy of action, on the disposition to actually try to solve one's problems

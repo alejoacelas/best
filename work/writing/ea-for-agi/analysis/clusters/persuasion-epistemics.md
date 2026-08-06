@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Cluster map: AI persuasion & epistemics
 
 *Cartographer's map of the `persuasion-epistemics` cluster for the "EA in the age of AGI"

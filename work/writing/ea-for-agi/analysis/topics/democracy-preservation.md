@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: Democracy preservation
 
 *MacAskill cause-menu item: "democracy preservation."*

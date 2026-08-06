@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Polish rounds — 2026-07-05
 
 - **front-door.md** — r1 accepted=true cuts=2 (Decisive passage: "The padding stops at their hands, though — they reach every folder and account you connect" extends the original's padding analogy ("padded where they run code: a crash in there stays in there") so the image itself explains the security boundary, which is the C8 rubric (analogy runs long enough to explain a mechanism); the original's "Their hands still reach" left padding and hands unconnected. Secondary gain on C6: "Fifteen minutes after the install finishes, you'll be delegating real work" replaces the awkward gerund "of the install finishing" and ends on the payoff, and "though" adds a spoken artifact. The one candidate loss — "Cowork and Code are the two doors" drops the "Two of those shapes" bridge — is offset within C8 by the padding fix and costs nothing elsewhere. All other criteria tie (diffs confined to three sentences in "Pick your door"); zero anti-criteria hits; factual content, verbatim Alejo lines, both [alts:] brackets, and all caveats preserved exactly.); r2 accepted=false cuts=0 (Sole edit: "which is why the track drills the permissions habit." became "so the track drills the permissions habit until it's reflex." The "so" reads slightly more spoken (C6 gain), but "until it's reflex" fails the deletion test — drilling a habit already means making it reflexive, so the tail rewords what the verb just claimed. That's the little-flourish sentence ending Alejo's voice-check explicitly rejects, a C9 regression (original 5, candidate 4). Acceptance requires no criterion to worsen; ties and mixed trades favor the original.)

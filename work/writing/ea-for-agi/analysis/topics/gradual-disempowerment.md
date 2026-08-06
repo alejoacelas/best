@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: Gradual disempowerment
 
 *MacAskill menu item: gradual disempowerment.*

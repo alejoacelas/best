@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Scott Alexander — 20 Slate Star Codex posts
 
 Corpus: 20 posts spanning his registers — the four "most popular" (Meditations on

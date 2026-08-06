@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # How to read the evidence here
 
 Every claim in this folder tells you what backs it, in one word, before it tells you

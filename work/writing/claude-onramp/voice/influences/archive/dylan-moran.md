@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Dylan Moran — *Like, Totally* (2006)
 
 Source: the full show transcript in [`sources/dylan-moran-like-totally-2006.txt`](sources/dylan-moran-like-totally-2006.txt)

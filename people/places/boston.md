@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Boston
 
 My favorite people there are the anchors. Start with them and ask for

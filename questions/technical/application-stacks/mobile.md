@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Mobile application stacks: iOS and Android
 
 This guide compares the common iOS and Android stacks through specific production applications, the capabilities each makes unusually easy, and the nearest alternatives.

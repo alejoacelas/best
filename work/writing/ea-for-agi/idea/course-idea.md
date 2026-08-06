@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Course brief (v2 — topic-centered)
 
 A fellowship built around Will MacAskill's [Effective altruism in the age of

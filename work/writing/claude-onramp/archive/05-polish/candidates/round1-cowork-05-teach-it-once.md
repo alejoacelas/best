@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Teach it once, then choose
 
 *Cowork track, lesson 5.*

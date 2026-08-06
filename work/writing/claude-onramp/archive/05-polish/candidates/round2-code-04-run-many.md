@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Run many, save everything
 
 *Code track, lesson 4.*

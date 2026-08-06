@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Power-ups
 
 *Code track, power-ups. Optional — each section stands alone.*

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Cluster map: adjacent curricula
 
 Meta-documents, not object-level readings: the syllabi, reading lists, and

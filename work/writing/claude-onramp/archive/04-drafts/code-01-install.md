@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Install what the engineers use
 
 *Code track, lesson 1.*

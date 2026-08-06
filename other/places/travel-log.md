@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Travel log
 
 This is the canonical place and timing list. A people map becomes active when a city gets

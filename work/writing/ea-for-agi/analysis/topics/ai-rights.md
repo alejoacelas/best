@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: The economic and political rights of AIs
 
 *MacAskill cause-menu item: "the economic and political rights of AIs."*

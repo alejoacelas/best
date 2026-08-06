@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Desktop application stacks: macOS and Windows
 
 This is a field guide to actual examples of desktop stacks, what each makes unusually easy, what becomes expensive, and which alternatives are closest. The macOS examples start with applications installed on this computer on 2026-07-26.

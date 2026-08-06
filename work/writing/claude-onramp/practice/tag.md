@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Practice — Claude Tag
 
 The hands-on track for Claude Tag: Claude hired into your team's Slack, working in

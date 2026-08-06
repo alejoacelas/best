@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Markdown viewer alternatives
 
 This records the decision on 2026-07-12, when the original README was committed. MarkText seemed like the best option then; its main annoyance was the lack of a simple CLI command for opening files. [Peter Hartree's Roughdraft fork](https://github.com/peterhartree/roughdraft) replaced that choice on 2026-07-26.

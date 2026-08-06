@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Your job
 
 I made this guide to help you hand over your computer (and some of your brain) to Claude,

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Round 2 PG-compression log — cowork-05-teach-it-once.md
 
 no cuts

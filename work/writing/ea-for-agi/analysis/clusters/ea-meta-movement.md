@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Cluster map: EA as a movement (meta)
 
 ## What this cluster covers

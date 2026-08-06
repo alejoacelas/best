@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: Space governance
 
 *MacAskill menu item: **space governance** — who claims the cosmos after an

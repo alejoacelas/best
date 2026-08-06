@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # How Roughdraft was developed
 
 The fork records product boundaries in short ADRs and operational rules in `AGENTS.md`; the original repository uses a fuller chain from brainstorms through implementation plans, executable format specifications, tests, and reusable solution notes.

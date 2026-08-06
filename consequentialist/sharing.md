@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Share by default — the goods that compound are non-rival
 
 Sharing is about non-rival goods: an idea costs me nothing and can

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Cluster map: AI welfare & digital minds
 
 ## What this cluster covers

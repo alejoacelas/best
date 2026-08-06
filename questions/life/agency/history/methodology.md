@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # How this note was built
 
 2026-07-13. Built from three parallel research agents, one per angle, then synthesized into

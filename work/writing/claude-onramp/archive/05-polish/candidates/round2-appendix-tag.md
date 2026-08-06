@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # If your team has Tag
 
 *Appendix. For teams on Slack with a Team or Enterprise plan.*

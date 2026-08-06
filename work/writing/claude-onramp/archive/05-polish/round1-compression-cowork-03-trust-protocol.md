@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Round 1 compression log — cowork-03-trust-protocol
 
 - Cut "Earned, never granted." (Trust bullet): reworded restatement of the protected verbatim Q&A that immediately follows ("When can you trust Claude? When you've seen it do well..."); C9 allows only verbatim repetition.

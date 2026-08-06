@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Calendar synchronization
 
 Live synchronization is not yet available. On 2026-08-03, listing calendars through the

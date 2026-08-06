@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Inviting challenge
 
 How the practice sessions engage people beyond following instructions — a design

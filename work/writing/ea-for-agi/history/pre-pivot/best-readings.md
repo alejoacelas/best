@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Best readings, and what gives them context
 
 The inverse construction from the [brief](../idea/course-idea.md): not "pick an axis, find a

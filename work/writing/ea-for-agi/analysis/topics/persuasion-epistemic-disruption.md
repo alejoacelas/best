@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Topic: AI-driven persuasion and epistemic disruption
 
 *MacAskill cause-menu item: "AI-driven persuasion and epistemic disruption" — the threat side of AI's effect on how humanity figures out what's true.*

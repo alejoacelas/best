@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Talk to it
 
 *Cowork track, lesson 2.*

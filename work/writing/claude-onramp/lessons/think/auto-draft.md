@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Think — auto-draft
 
 *The notes for this lesson, reorganized so they read top to bottom; tensions flagged inline, not resolved.*

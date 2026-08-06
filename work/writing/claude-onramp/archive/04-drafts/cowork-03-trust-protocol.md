@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # The trust protocol
 
 *Cowork track, lesson 3.*

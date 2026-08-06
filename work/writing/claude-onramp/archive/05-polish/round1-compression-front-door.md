@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Round 1 compression log — front-door.md
 
 Pass: PG deletion test (C9), deletion only. Verified against

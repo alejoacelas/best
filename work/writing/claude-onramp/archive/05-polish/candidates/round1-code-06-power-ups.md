@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # K6 — Power-ups
 
 *Code track, power-ups. Optional — each section stands alone.*

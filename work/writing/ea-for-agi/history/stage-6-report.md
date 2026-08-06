@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Stage 6 report: topic pivot
 
 2026-07-09. Pivot from the v1 intro-fellowship framing (archived in

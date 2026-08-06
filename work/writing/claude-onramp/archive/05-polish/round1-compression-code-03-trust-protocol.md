@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Round 1 compression log — code-03-trust-protocol.md
 
 Cuts (deletion only):

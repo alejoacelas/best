@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Landscape: the shape of the collection
 
 The high-level view across all 22 cluster maps — the fault lines, where the collection

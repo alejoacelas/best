@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Cluster map: AI rights & the post-AGI economy
 
 *Cartographer's map of the `ai-rights-economics` cluster for the "EA in the age of AGI"
