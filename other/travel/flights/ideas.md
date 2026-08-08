@@ -22,7 +22,8 @@ is useful for discovering and distance-ranking hotels, but not as the price sour
   transit-document requirements; email only changes that alter what Alejo must do.
 - Fill recurring passenger, visa, accommodation, and arrival-card fields from the private
   profile, with a review step before submission.
-- Find missing loyalty credit and attach the right account number to future bookings.
+- Claim missing loyalty credit from past receipts and boarding passes, then attach the right
+  account number to future bookings.
 - Keep baggage allowances, receipts, boarding passes, delay evidence, and claim deadlines
   together per journey.
 - Compare airport hotel, lounge, sleeping-pod, and ground-transport options for long or
