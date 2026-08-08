@@ -72,7 +72,7 @@ hand input. Delete `repos.yaml` and its "do not edit by hand" ceremony. Regenera
 Your principle: nesting is only for things genuinely separate — **private** repos and
 **third-party installed** projects; your own content is just plain folders in the one big
 `best`. Current nested repos, sorted by that rule:
-- **Keep nested (private):** `other/advice`, `other/places/visa`, `people/friend`,
+- **Keep nested (private):** `other/advice`, `other/travel/visa`, `people/friend`,
   `people/partner`, `work/tools`.
 - **Keep nested (third-party installed):** `work/tools/gdoc/gdoc` (LucaDeLeo),
   `work/tools/gws/gogcli` (openclaw).

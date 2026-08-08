@@ -15,7 +15,7 @@ How were the place-based people maps built and checked?
 
 ## Method
 
-1. Separate trip timing (`other/places/travel-log.md`) from people maps (`people/places/`).
+1. Separate trip timing (`other/travel/travel-log.md`) from people maps (`people/places/`).
 2. Keep known people and unmet candidates together on city pages, while keeping the
    global discovery roster limited to people Alejo has not met.
 3. Cite self-authored or institutional sources for current location. Label stale and

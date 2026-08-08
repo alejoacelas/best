@@ -17,7 +17,7 @@ How was the conference and camp tracker built and checked?
 
 ## Method
 
-1. Put the tracker under `other/places/` because attendance entails travel and place.
+1. Put the tracker under `other/travel/` because attendance entails travel and place.
 2. Separate dated conferences from less formal camps and community retreats.
 3. Preserve unclear dictation in brackets instead of guessing which Burning Man variant,
    retreat date, or city was intended.

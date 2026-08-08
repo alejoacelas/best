@@ -13,7 +13,7 @@ After access is restored:
    cancelled events before writing.
 4. Use all-day events when the source gives dates but no daily schedule. Use the official
    local time zone when exact times exist.
-5. Put the official source URL and `other/places/conferences/` in the description. Never
+5. Put the official source URL and `other/travel/conferences/` in the description. Never
    add watch-list or bracketed events.
 6. Read back every created or updated event, then record the sync date and calendar name
    below.

@@ -7,7 +7,7 @@ human_edit_tracking:
 
 Start with [README.md](README.md).
 
-When a city is added to [`other/places/travel-log.md`](../../other/places/travel-log.md),
+When a city is added to [`other/travel/travel-log.md`](../../other/travel/travel-log.md),
 create or refresh its page here. Before the visit:
 
 1. Preserve Alejo's known people as anchors, whether or not they belong in

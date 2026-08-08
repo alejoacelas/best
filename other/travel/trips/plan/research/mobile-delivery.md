@@ -4,7 +4,7 @@
 
 ## Summary
 
-The trips tool is a CLI-origin travel planner/ticket-buyer (per friends/places/trips/README.md, still planning-stage) that wants a phone frontend and to stay drivable by Claude Code. The decisive architectural move is to keep a small self-hosted HTTP API wrapping the CLI as the single backend spine; every phone option then becomes a thin, swappable frontend, and Claude Code keeps driving the same CLI/API regardless. Among the six paths, a Telegram bot is the lowest day-to-day friction "in my pocket" surface: the client is already installed, push is free and arrives on the lock screen via Telegram's own infrastructure (no APNs, no Apple Developer account, no PWA install ritual), auth is a one-line user-ID allowlist, and with long-polling the home server needs no public endpoint, port-forward, or TLS cert at all. The real weakness is that chat is a poor surface for the visual route-comparison and maps that are the product's actual promise ("Google Maps but better"), so Telegram should own commands + notifications while a thin PWA is added later for visual planning. The genuine project-killer is unrelated to phone delivery: it is the ticket-buying integrations (Trainline et al.), which the README itself flags as the hard half.
+The trips tool is a CLI-origin travel planner/ticket-buyer (per other/travel/trips/README.md, still planning-stage) that wants a phone frontend and to stay drivable by Claude Code. The decisive architectural move is to keep a small self-hosted HTTP API wrapping the CLI as the single backend spine; every phone option then becomes a thin, swappable frontend, and Claude Code keeps driving the same CLI/API regardless. Among the six paths, a Telegram bot is the lowest day-to-day friction "in my pocket" surface: the client is already installed, push is free and arrives on the lock screen via Telegram's own infrastructure (no APNs, no Apple Developer account, no PWA install ritual), auth is a one-line user-ID allowlist, and with long-polling the home server needs no public endpoint, port-forward, or TLS cert at all. The real weakness is that chat is a poor surface for the visual route-comparison and maps that are the product's actual promise ("Google Maps but better"), so Telegram should own commands + notifications while a thin PWA is added later for visual planning. The genuine project-killer is unrelated to phone delivery: it is the ticket-buying integrations (Trainline et al.), which the README itself flags as the hard half.
 
 ## Options
 
@@ -144,7 +144,7 @@ It is the lowest-friction way to put trips in your pocket today: nothing to inst
 ### Telegram as the primary UI surface
 
 - **Risk:** Chat cannot render maps or side-by-side multimodal route comparison — the core 'Google Maps but better' value is lost if you stop at the bot
-- **Evidence:** friends/places/trips/README.md frames the product as visual route comparison + ticket buying
+- **Evidence:** other/travel/trips/README.md frames the product as visual route comparison + ticket buying
 - **Mitigation:** Scope Telegram to commands + notifications (departures, delays, 'buy it'); design the shared API so a PWA map view can be added with no backend change; have the bot deep-link into the PWA for visual results
 - **Fallback:** Promote the PWA to the primary planning surface and keep Telegram only for push/quick actions
 
@@ -212,7 +212,7 @@ Claude Code runs the same CLI locally OR curls the trips API; for proactive mess
 ## Citations
 
 - trips is a CLI-origin travel planner + ticket-buyer, planning-stage, with ticket-buying flagged as the hard half
-  — /Users/alejo/best/friends/places/trips/README.md
+  — /Users/alejo/best/other/travel/trips/README.md
 - iOS web push works only for PWAs installed via Add to Home Screen (since iOS 16.4), with no silent/background push; Safari 18.4 added Declarative Web Push and iOS 26 opens home-screen sites as web apps by default
   — https://developer.apple.com/documentation/usernotifications/sending-web-push-notifications-in-web-apps-and-browsers
 - PWA iOS push requires home-screen install + permission and reaches a far smaller audience than native; WebKit limits apply to all iOS browsers

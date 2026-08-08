@@ -35,7 +35,7 @@ near what in my head; I re-cut it as sharper questions surface.
   - What is my best style — and how do I cultivate it? — `me/style`
 - What else is there? — `other`
   - What's the best art to engage with — and to make? — `other/art`
-  - Where do I go? — places I travel and the visas to get there. — `other/places`
+  - Where do I go? — travel, its paperwork, and the visas to get there. — `other/travel`
 - What are all the best ways to relate to the people in my life — and the ones still to come? — `people`
   - Who do I learn from, and what do I take? — `people/admire`
   - Who are the people I have not met whom I want to discover? — `people/discover`
@@ -67,7 +67,7 @@ These folders are separate Git repos, not tracked here — git can't reach acros
 | `me/relationships/partner/` | 🔒 private | [alejoacelas/partner](https://github.com/alejoacelas/partner) |
 | `other/advice/` | 🔒 private | [alejoacelas/advice](https://github.com/alejoacelas/advice) |
 | `other/art/meals/` | public | [alejoacelas/meals](https://github.com/alejoacelas/meals) |
-| `other/places/visa/` | 🔒 private | [alejoacelas/visa](https://github.com/alejoacelas/visa) |
+| `other/travel/visa/` | 🔒 private | [alejoacelas/visa](https://github.com/alejoacelas/visa) |
 | `work/calls/` | 🔒 private | [alejoacelas/calls](https://github.com/alejoacelas/calls) |
 | `work/once/` | 🔒 private | [alejoacelas/one-off](https://github.com/alejoacelas/one-off) |
 | `work/roughdraft/` | public | [peterhartree/roughdraft](https://github.com/peterhartree/roughdraft) |
