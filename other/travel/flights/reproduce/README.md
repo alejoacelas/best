@@ -25,3 +25,8 @@ Method:
 Checks: inspect `git status --ignored`, run the repository sync script after the folder
 rename, verify Markdown links, and confirm no exact passport or booking identifier enters
 tracked files.
+
+Alejo supplied the standing seat, baggage, bump, schedule-change, declaration,
+notification, destination-arrival, and airport-hotel choices later that day. They were
+recorded in `private/preferences.md`; the public automation contract was updated to match
+without publishing the private profile.

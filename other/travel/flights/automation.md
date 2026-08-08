@@ -17,13 +17,15 @@ the passenger to complete airline-specific declarations.
 4. Open the airline's manage-booking page in an authenticated browser profile. Fill only
    fields supported by `private/profile.md` and choices allowed by
    `private/preferences.md`.
-5. Stop and email `ACTION REQUIRED` for CAPTCHA, identity or visa mismatch, dangerous-goods
-   declarations that require present-tense confirmation, involuntary itinerary changes,
-   payments, seat upgrades, or any missing required fact. Never convert an error into a
-   silent skip.
-6. Download PDF and wallet passes, verify that each file is nonempty and names the right
+5. Apply the standing choices in `private/preferences.md`: accept any free assigned seat,
+   add no bags, decline paid seats and voluntary bumps, and answer no to dangerous-goods
+   and health declarations. Email every schedule change and recalculate its check-in time.
+6. Stop and email `ACTION REQUIRED` for CAPTCHA, identity or visa mismatch, payments,
+   proposed itinerary alternatives, or any missing required fact. Never convert an error
+   into a silent skip.
+7. Download PDF and wallet passes, verify that each file is nonempty and names the right
    passenger and flight, then email the files to `alejoacelas@gmail.com`.
-7. Record attempts, outcome, boarding-pass hashes, and the sent-message ID. A rerun must
+8. Record attempts, outcome, boarding-pass hashes, and the sent-message ID. A rerun must
    be idempotent.
 
 ## First implementation
