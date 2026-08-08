@@ -32,3 +32,5 @@ recorded in `private/preferences.md`; the public automation contract was updated
 without publishing the private profile.
 Alejo confirmed that the airport-hotel threshold means a guest rating above 4/5, not hotel
 star class.
+
+Added `missing-miles.md` after recovering credit from historical flight receipts in email.
