@@ -30,3 +30,5 @@ Alejo supplied the standing seat, baggage, bump, schedule-change, declaration,
 notification, destination-arrival, and airport-hotel choices later that day. They were
 recorded in `private/preferences.md`; the public automation contract was updated to match
 without publishing the private profile.
+Alejo confirmed that the airport-hotel threshold means a guest rating above 4/5, not hotel
+star class.
