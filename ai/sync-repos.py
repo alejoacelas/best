@@ -176,6 +176,8 @@ def replace_managed_block(existing: str, patterns: list[str]) -> str:
         re.DOTALL,
     )
     base = block_re.sub("\n", existing).strip("\n")
+    if not patterns:
+        return f"{base}\n" if base else ""
     block = "\n".join([MANAGED_BEGIN, MANAGED_NOTE, *patterns, MANAGED_END])
     if base:
         return f"{base}\n\n{block}\n"
@@ -184,7 +186,18 @@ def replace_managed_block(existing: str, patterns: list[str]) -> str:
 
 def desired_ignores(entries: list[dict[str, str | None]]) -> dict[Path, str]:
     desired: dict[Path, str] = {}
-    for parent, patterns in parent_patterns(entries).items():
+    grouped = parent_patterns(entries)
+    parents = set(grouped)
+    for entry in entries:
+        raw_path = entry.get("path")
+        if not raw_path:
+            continue
+        parent = ROOT / raw_path
+        ignore = parent / ".gitignore"
+        if ignore.exists() and MANAGED_BEGIN in ignore.read_text():
+            parents.add(parent)
+    for parent in parents:
+        patterns = grouped.get(parent, [])
         ignore = parent / ".gitignore"
         existing = ignore.read_text() if ignore.exists() else ""
         desired[ignore] = replace_managed_block(existing, patterns)
@@ -309,9 +322,23 @@ def desired_readmes(entries: list[dict[str, str | None]]) -> dict[Path, str]:
         rf"\n?{re.escape(QMAP_BEGIN)}\n.*?{re.escape(QMAP_END)}\n?",
         re.DOTALL,
     )
+    parents = set(by_parent)
+    for entry in entries:
+        raw_path = entry.get("path")
+        if not raw_path:
+            continue
+        readme = ROOT / raw_path / "README.md"
+        if readme.exists() and MAP_BEGIN in readme.read_text():
+            parents.add(raw_path)
+
     desired: dict[Path, str] = {}
-    for parent, children in by_parent.items():
+    for parent in parents:
+        children = by_parent.get(parent, [])
         readme = readme_path(parent)
+        existing = readme.read_text() if readme.exists() else ""
+        base = qmap_re.sub("\n", block_re.sub("\n", existing)).strip("\n")
+        if not base:
+            base = ROOT_INTRO.strip("\n") if parent == "." else f"# {Path(parent).name}"
         block = "\n".join(
             [
                 MAP_BEGIN,
@@ -325,18 +352,16 @@ def desired_readmes(entries: list[dict[str, str | None]]) -> dict[Path, str]:
                 MAP_END,
             ]
         )
-        existing = readme.read_text() if readme.exists() else ""
-        base = qmap_re.sub("\n", block_re.sub("\n", existing)).strip("\n")
-        if not base:
-            base = ROOT_INTRO.strip("\n") if parent == "." else f"# {Path(parent).name}"
         # The root README also carries the question map, above the sub-repo table.
         if parent == ".":
             qmap_block = "\n".join(
                 [QMAP_BEGIN, QMAP_NOTE, "", "## Questions", "", build_question_map(), QMAP_END]
             )
             desired[readme] = f"{base}\n\n{qmap_block}\n\n{block}\n"
-        else:
+        elif children:
             desired[readme] = f"{base}\n\n{block}\n"
+        else:
+            desired[readme] = f"{base}\n"
     return desired
 
 
