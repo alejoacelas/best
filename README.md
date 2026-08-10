@@ -73,4 +73,5 @@ These folders are separate Git repos, not tracked here — git can't reach acros
 | `work/roughdraft/` | public | [peterhartree/roughdraft](https://github.com/peterhartree/roughdraft) |
 | `work/tools/` | 🔒 private | [alejoacelas/tools](https://github.com/alejoacelas/tools) |
 | `work/writing/blog/` | public | [alejoacelas/myea-blog](https://github.com/alejoacelas/myea-blog) |
+| `work/writing/website/` | public | [alejoacelas/personal-webpage](https://github.com/alejoacelas/personal-webpage) |
 <!-- END managed repo map -->
