@@ -10,6 +10,17 @@ the person appears in `README.md`.
 - Boston: ask JP Addison, Jeff Kaufman, and Julia Wise whom in their close circles Alejo
   should meet. Do not infer closeness from online mentions.
 
+## Safe AI Germany
+
+Source: [Safe AI Germany core team](https://safeaigermany.org/team), fetched 2026-08-11.
+These are the five people listed under “Our Core team,” not the board advisors.
+
+- [Jessica P. Wang](https://jessicawang.framer.ai/) — Founder & Executive Director
+- [Johannes Koch](https://www.linkedin.com/in/joh-koch/) — Fellowship Manager
+- [Manon Kempermann](https://manonkempermann.eu/) — Incubator Program Director
+- [Poppy Nevin-Adley](https://www.linkedin.com/in/poppy-nevin-adley/) — EFAIS2026 Events Lead
+- [Alexander Haase](https://www.linkedin.com/in/herrhaase/) — Comms Strategy Lead
+
 ## Foresight Institute
 
 Fetched 2026-08-03. Each entry names the exact Foresight program that led to it. These are
