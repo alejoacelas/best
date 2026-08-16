@@ -19,7 +19,7 @@ Live symlinks (all point back into `ai/dotfiles`):
 |---|---|
 | `~/.claude/CLAUDE.md`, `~/.codex/AGENTS.md` | `agents/AGENTS.md` |
 | `~/.claude/settings.json` | `claude/settings.json` |
-| `~/.claude/skills` | `claude/skills/` |
+| `~/.claude/skills/<skill>` | `claude/skills/<skill>` or an external installer |
 | `~/.zprofile` | `shell/zprofile` |
 | `~/.gitconfig` | `git/gitconfig` |
 | `~/.codex/hooks.json` | `codex/hooks.json` |
@@ -42,9 +42,10 @@ migrates it into the repo; tracked file in the way → backs it up as
   on writes, and human-edit tracking on prompts. Orca also injects lifecycle hooks and
   the status line through its own installed files; those entries are automatic while
   Orca is installed but are not timers or background jobs.
-- **Skills** (`claude/skills/`) — nine tracked sources: Granola transcripts, human-edit
-  tracking, machine checkups, Orca, Slack, Stripe Projects, Drive sync, project tidying,
-  and Vercel/Namecheap deployment. Codex links only the shared subset it can use.
+- **Skills** — `~/.claude/skills` is a real directory containing per-skill links from
+  dotfiles and standard installers. Codex reads universal installs from
+  `~/.agents/skills` plus Codex-specific entries under `~/.codex/skills`. Orca's normal
+  installer targets Claude, Codex and the universal registry together.
 
 ## Shell, git, tools
 
