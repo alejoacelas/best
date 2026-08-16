@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Which moves from writers Alejo admires codify into tweaks for his drafts?
 
 One style guide per writer — never whole-style imitation. Each opens with a handle

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How does the course close — what image do readers leave with?
 
 **Ending** — AIs as minds from the future, the calculus-textbook-from-the-future

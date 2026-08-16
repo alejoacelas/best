@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Who should I become to do the most good?
 
 Renamed from `utilitarian` to **consequentialist** and scope-sensitive: I hold the

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Claude Tag, explained — a modular wiki
 
 A short, click-through explainer built from `../claude-tag-readings.md`. Anthropic

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How do you teach people to say what they actually want?
 
 **Think** (was *verbalize-what-you-want*) — dump as much thinking as you can into

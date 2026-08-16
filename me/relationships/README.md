@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How do I want to care for my closest relationships?
 
 The private [`friend/`](friend/) and [`partner/`](partner/) repositories live here because

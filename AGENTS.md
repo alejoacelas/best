@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # best
 
 See [README.md](README.md) for what this workspace is — the identity and the live

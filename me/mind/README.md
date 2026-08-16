@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What's the best way to keep this mind? — mood, cognition, mental health.
 
 Context for the mind — mood, cognition, mental health. Companion to `body/`.

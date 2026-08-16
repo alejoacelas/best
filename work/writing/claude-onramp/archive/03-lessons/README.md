@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How do the core messages group, order, and depend on each other?
 
 Map clusters into lessons: what order makes absorbing them easiest, what each

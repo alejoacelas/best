@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What technical questions do I most want to resolve now?
 
 - [Agent CLI capabilities](agent-cli-dive/)

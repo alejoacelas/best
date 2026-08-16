@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What can be salvaged from the discarded attempts at this guide?
 
 Stages `01`–`06` of the 2026-07-04 pipeline rebuild (inventory → core messages →

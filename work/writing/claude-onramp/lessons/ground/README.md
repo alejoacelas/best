@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How do you give your AI ways to verify its own work?
 
 **Ground** (was *verify*) — about testing and feedback, verification: your

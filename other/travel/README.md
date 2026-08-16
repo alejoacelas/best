@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Where do I go? — travel, its paperwork, and the visas to get there.
 
 ## Layout

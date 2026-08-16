@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Is every checkable claim in the guide verified, and which flags belong in the text?
 
 Same diverge-then-select pipeline as the inventory, applied to factual risk.

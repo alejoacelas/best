@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Which messages are worth broadcasting, and in exactly what words?
 
 Cut the inventory down to the messages that are most valuable or the best

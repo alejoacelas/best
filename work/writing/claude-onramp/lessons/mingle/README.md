@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How do you teach stealing, reusing, sharing, and recombining?
 
 **Mingle** (was *steal-reuse-share*) — about using skills, using GitHub

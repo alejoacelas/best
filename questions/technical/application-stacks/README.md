@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # How should I choose an application stack?
 
 Choose by the product's hardest boundary:

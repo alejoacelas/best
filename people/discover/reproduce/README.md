@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How was the people-discovery list built and checked?
 
 ## Inputs

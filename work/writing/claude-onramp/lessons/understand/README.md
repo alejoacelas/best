@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 When the output is wrong, how do you teach looking at the process instead?
 
 **Understand** (was *understand-the-process*) — subtitle: "If you're not

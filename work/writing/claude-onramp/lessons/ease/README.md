@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What makes the work easy — for you and for your AI?
 
 **Ease** (was *make-it-easy*) — make it easy, both for you and for your AI: remove

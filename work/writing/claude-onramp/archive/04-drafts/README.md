@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Does each draft spend its flair on the messages that matter most?
 
 Write full lessons from the `03-lessons/` skeletons. Within a lesson, re-rank

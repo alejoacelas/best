@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Conferences
 
 See [README.md](README.md) and [calendar.md](calendar.md).

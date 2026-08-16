@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Who are the people I have not met whom I want to discover?
 
 This is a place-filterable path from a trusted person or list to someone’s own work. A

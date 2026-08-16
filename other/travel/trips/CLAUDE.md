@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # trips
 
 Optimizing the way to get from one place to another.

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # How should a Google Docs connector authenticate and ship?
 
 The native Claude Google Drive connector, `gog`, and our `gdoc` MCP all use Google

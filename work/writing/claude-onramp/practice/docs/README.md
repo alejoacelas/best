@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Local mirror of the official docs the practice lessons are written against.
 
 All files fetched 2026-07-07. When a lesson step looks stale, re-check here first,

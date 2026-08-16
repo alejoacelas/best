@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What should this guide sound like, and where do the tweaks come from?
 
 The core of this folder is Alejo's own writing on the topic, at top level:

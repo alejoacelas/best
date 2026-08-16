@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Why are people so helpless at solving their own problems?
 
 The provocative framing for a real puzzle: capable people leave *solvable* problems unsolved —

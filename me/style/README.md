@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What is my best style — and how do I cultivate it?
 
 Style is showing your personality, or conveying it. Each expression should come

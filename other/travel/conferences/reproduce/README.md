@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How was the conference and camp tracker built and checked?
 
 ## Inputs

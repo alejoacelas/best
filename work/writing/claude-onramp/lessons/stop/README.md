@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What should you not let your AI do?
 
 **Stop** — all constraints get really painful with AI; if you constrain yourself

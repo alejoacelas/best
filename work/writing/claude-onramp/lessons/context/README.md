@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What context do you give your AI, and what do you withhold?
 
 **Context** (tab is titled "context?" — still a question) — why LLMs latch on the

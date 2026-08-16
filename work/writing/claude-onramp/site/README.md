@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How should the finished lessons look and feel to read?
 
 # site

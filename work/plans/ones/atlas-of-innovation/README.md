@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Which innovation-funding models are worth copying for EA-wide AI uplift?
 
 The [Atlas of Innovation](https://atlasofinnovation.org/) — by the

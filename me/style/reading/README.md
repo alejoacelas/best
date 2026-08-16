@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Which books and sources sharpen my understanding of style and charisma?
 
 A short, honest shelf: how presence and charisma actually work, and one long look

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Roughdraft
 
 [Peter Hartree's Roughdraft fork](https://github.com/peterhartree/roughdraft) is my default Markdown review tool. It opens local files in a native macOS window, saves directly to disk, and keeps comments and suggestions in the file as CriticMarkup.

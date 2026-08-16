@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What do people actually do in each session, on each tool?
 
 The hands-on track. Throughout the course everyone builds the same thing — a

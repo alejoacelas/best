@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What would the intro EA fellowship look like if it took "EA in the age of AGI" seriously?
 
 The curriculum hinted at in the comments of [Maybe do the thing you wish CEA would

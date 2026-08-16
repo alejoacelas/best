@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Which lessons, in what order, teach someone to delegate work to Claude?
 
 One folder per lesson, named after its tab in the [*Use AI* doc](https://docs.google.com/document/d/1_RoXpQGHCfwvdCxfl0fldI8lp_FnplDVYkLcqONpXOI/edit);

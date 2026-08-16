@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Can any passage be rewritten to Pareto-dominate the original?
 
 Two kinds of pass, run until neither changes anything:

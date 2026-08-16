@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What are all the best ways to relate to the people in my life — and the ones still to come?
 
 Current answers: study people in [`admire/`](admire/), find people I have not met in

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What life questions do I most want to resolve now?
 
 - [Agency](agency/)

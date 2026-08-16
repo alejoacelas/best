@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How were the place-based people maps built and checked?
 
 ## Inputs

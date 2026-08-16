@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Who are the people I want to know in each place?
 
 Use a city page before a trip to turn trusted people, public work, and the private call

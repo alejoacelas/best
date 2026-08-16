@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What could we plausibly teach someone about delegating work to Claude?
 
 Be comprehensive: every candidate lesson gets a ~10-word title and one sentence,

@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # base-rates
 
 For many important decisions the honest question isn't "what's my clever

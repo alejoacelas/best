@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How do we write an introduction to delegating work to Claude that people actually feel?
 
 # Claude on-ramp

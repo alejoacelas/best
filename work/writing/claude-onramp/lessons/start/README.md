@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 How does one opening lesson introduce the course's main concepts?
 
 **Better Start.** Current draft: [`draft.md`](draft.md), moved here from

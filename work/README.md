@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 What's the best work to do? — for me, for others, for the world.
 
 Recurring call records live in the private [`calls/`](calls/) repo. Dated, temporary work

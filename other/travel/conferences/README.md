@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 Which conferences, camps, and retreats are worth traveling for?
 
 Track recurring series here before deciding whether to attend. Confirmed dates belong in
