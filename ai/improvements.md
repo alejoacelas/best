@@ -21,16 +21,24 @@ done, move it to the Done log with a note on what changed and why.
 - **Fresh-Mac dry run.** The clone→`install.sh`→`brew bundle` path is now
   reproducible on paper; actually test it in a throwaway VM/container before trusting
   it for a real migration. Codex config won't carry over (by design) — seed it from
-  `~/.dotfiles/codex/config.reference.toml`.
+  `ai/dotfiles/codex/config.reference.toml`.
 - **Brewfile audit.** Added `doppler`; sweep the rest of `brew leaves` for other
   installed-but-undeclared tools.
 
+### From the 2026-08-16 instruction audit
+- **Reconcile seven likely instruction duplicates.** `meals`, `conferences`, `calls`,
+  `work/once`, `eag-london-action`, `tyler-cowen-map`, and `blog` have two real,
+  differing instruction files. Inspect each history before choosing the canonical text.
+- **Teach `check-agent-config` about import shims.** Six reported divergences are
+  intentional: Claude's short file imports or points to canonical `AGENTS.md`. Decide
+  whether the checker should print the effective instruction chain before changing it.
+- **Archive superseded setup records.** `reorg-2026-07-04.md` is useful lineage but not
+  current documentation; move it to a dated archive package in a later cleanup.
+
 ## Linked meta-work (lives elsewhere, belongs to this domain)
-- `../make/learn/breadth/agent-cli-dive/` — mapping what Claude Code / Codex CLI can
+- `../questions/technical/agent-cli-dive/` — mapping what Claude Code / Codex CLI can
   actually do vs. the naive "LLM with shell access" model. The deep version of
   `infrastructure.md`.
-- `../make/tools/.codex/skills/tidy-up/` — the folder-age auditor that flags stale
-  projects. A setup-flavored utility worth running periodically.
 - `prompt-setup.md` (now in this folder) — the reasoning behind distilling the
   instruction files to generating principles.
 
@@ -48,14 +56,14 @@ done, move it to the Done log with a note on what changed and why.
   settings, and the previously-untracked `vercel-deploy-domain` skill. Secret-scan
   hook passed; nothing private in-tree.
 - **Dead submodule-era git hook → removed.** Deleted `git/best-hooks/`,
-  `git/best.gitconfig`, and the `includeIf` that pointed at them. `.workspace/hooks`
+  `git/best.gitconfig`, and the `includeIf` that pointed at them. `ai/githooks`
   is the real (and only) guard now.
 - **Codex `config.toml` churn → stopped.** Codex now owns `~/.codex/config.toml`
   directly (no longer symlinked/tracked); `codex/config.reference.toml` is the
   snapshot for seeding a new machine. No more perpetually-dirty tree.
 - **`AGENTS.md` duplicate → unified.** `~/.codex/AGENTS.md` now symlinks to the one
-  `claude/CLAUDE.md` (retitled "Global agent instructions"); deleted the hand-kept
-  copy. One source of truth for both tools.
+  shared source, now `agents/AGENTS.md` (retitled "Global agent instructions");
+  deleted the hand-kept copy. One source of truth for both tools.
 - **Brewfile drift → fixed.** Declared `doppler` (was installed, undeclared).
 - **`prompt-setup.md` → moved here** off the root (its ask is largely delivered in
   the distilled global `CLAUDE.md`).

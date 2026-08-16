@@ -17,35 +17,34 @@ Live symlinks (all point back into `ai/dotfiles`):
 
 | Live path | Source in ai/dotfiles/ |
 |---|---|
-| `~/.claude/CLAUDE.md` | `claude/CLAUDE.md` |
+| `~/.claude/CLAUDE.md`, `~/.codex/AGENTS.md` | `agents/AGENTS.md` |
 | `~/.claude/settings.json` | `claude/settings.json` |
 | `~/.claude/skills` | `claude/skills/` |
 | `~/.zprofile` | `shell/zprofile` |
 | `~/.gitconfig` | `git/gitconfig` |
-| `~/.codex/AGENTS.md`, `config.toml`, `rules` | `codex/` |
+| `~/.codex/hooks.json` | `codex/hooks.json` |
+| `~/.codex/rules` | `codex/rules/` |
 
 `install.sh` is idempotent: correct link → no-op; untracked real file in the way →
 migrates it into the repo; tracked file in the way → backs it up as
 `.pre-symlink.<timestamp>` then links.
 
-## Claude Code config
+## Agent configuration
 
 - **settings.json** — model `claude-fable-5[1m]`, `effortLevel: high`,
   `skipDangerousModePermissionPrompt: true`, `theme: dark`,
   `cleanupPeriodDays: 36500` (~100 years — transcripts effectively never purged).
   Broad dev allowlist (brew, uv, node, npm/npx, pnpm, yarn, cargo, rustup, python3,
   pip, gh). No deny list. Plugin: `vercel@claude-plugins-official`.
-- **CLAUDE.md** — global agent instructions, principle + tips per section: Write
-  things I want to read · Show finished work · Finish don't ask · Default to public
-  · Keep the root small · Gather what I learn.
-- **One hook** — `PreToolUse` on `Read`, scoped to the private `~/people` repo:
-  runs `claude/hooks/sync_gate.py`, which nudges (never blocks) to re-check a Drive
-  mirror's freshness before trusting a file. Non-blocking, throttled once/day.
-- **Skills** (`claude/skills/`):
-  - `granola-transcript` — pull + clean + file Granola call transcripts.
-  - `sync-drive` — pull-only mirror of Google Doc tabs into local markdown.
-  - `vercel-deploy-domain` — deploy a folder to Vercel prod + point a Namecheap
-    domain at it.
+- **AGENTS.md** — shared global instructions: writing · instruction files · finishing
+  work · irreversible actions · public defaults · conventions and tools.
+- **Local hooks** — the Drive freshness nudge on reads, the considered-judgment guard
+  on writes, and human-edit tracking on prompts. Orca also injects lifecycle hooks and
+  the status line through its own installed files; those entries are automatic while
+  Orca is installed but are not timers or background jobs.
+- **Skills** (`claude/skills/`) — nine tracked sources: Granola transcripts, human-edit
+  tracking, machine checkups, Orca, Slack, Stripe Projects, Drive sync, project tidying,
+  and Vercel/Namecheap deployment. Codex links only the shared subset it can use.
 
 ## Shell, git, tools
 
