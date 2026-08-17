@@ -18,6 +18,7 @@ near what in my head; I re-cut it as sharper questions surface.
 - What's the best way to do my work at 80,000 Hours? — `80k`
 - What's the way to engage with AI? — `ai`
   - dotfiles — `ai/dotfiles`
+- Amazing Marvin — `amazing-marvin-mcp`
 - Who should I become to do the most good? — `consequentialist`
   - What are the best motives to act from? — `consequentialist/motives`
   - What are the best lasting character traits to have? — `consequentialist/virtues`
@@ -58,6 +59,7 @@ These folders are separate Git repos, not tracked here — git can't reach acros
 |---|---|---|
 | `80k/` | 🔒 private | [alejoacelas/80k](https://github.com/alejoacelas/80k) |
 | `ai/dotfiles/` | public | [alejoacelas/dotfiles](https://github.com/alejoacelas/dotfiles) |
+| `amazing-marvin-mcp/` | public | [alejoacelas/amazing-marvin-mcp](https://github.com/alejoacelas/amazing-marvin-mcp) |
 | `me/relationships/friend/` | 🔒 private | [alejoacelas/people](https://github.com/alejoacelas/people) |
 | `me/relationships/partner/` | 🔒 private | [alejoacelas/partner](https://github.com/alejoacelas/partner) |
 | `other/advice/` | 🔒 private | [alejoacelas/advice](https://github.com/alejoacelas/advice) |
